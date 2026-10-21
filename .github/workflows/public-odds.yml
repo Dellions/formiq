@@ -3,7 +3,6 @@ on:
   push:
     branches: ['main']
     paths:
-      - '.github/workflows/public-odds.yml'
       - 'scripts/collect-public-odds.py'
       - 'scripts/public_odds_parser.py'
       - 'scripts/archive-public-odds.py'
@@ -19,7 +18,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: edgeform-public-odds
+  group: formiq-data-writer
   cancel-in-progress: false
 jobs:
   collect:
@@ -29,6 +28,8 @@ jobs:
       SE_AVOID_STATS: 'true'
     steps:
       - uses: actions/checkout@v4
+      - name: Load latest committed state after writer queue
+        run: git pull --ff-only origin "$GITHUB_REF_NAME"
       - uses: actions/setup-node@v4
         with:
           node-version: '22'

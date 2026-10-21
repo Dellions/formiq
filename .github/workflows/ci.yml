@@ -27,6 +27,6 @@ jobs:
       - run: node tests/research-supplements.test.mjs
       - run: node tests/missing-data.test.mjs && python tests/recovery_sources_test.py
       - run: node tests/recovery-history.test.mjs && node tests/recovery-conflicts.test.mjs
-      - run: node tests/missing-data-api.test.mjs
+      - run: node tests/missing-data-api.test.mjs && node tests/workflow-queue.test.mjs
       - run: python tests/public_odds_test.py
       - run: bash scripts/build.sh && node scripts/validate-artifact.mjs

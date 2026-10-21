@@ -1,0 +1,3 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+for(const name of ['research','recovery','public-odds']){const s=fs.readFileSync('.github/workflows/'+name+'.yml','utf8');assert(s.includes('group: formiq-data-writer'));assert(s.includes('cancel-in-progress: false'));const checkout=s.indexOf('uses: actions/checkout@v4'),pull=s.indexOf('git pull --ff-only origin'),setup=s.indexOf('uses: actions/setup-node@v4');assert(checkout>=0&&checkout<pull&&pull<setup);assert(s.includes('git pull --rebase origin'));}
+console.log('All data writers share a noncancelling queue and load current main before processing');

@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: edgeform-public-odds
+  group: formiq-data-writer
   cancel-in-progress: false
 jobs:
   recover:
@@ -17,6 +17,8 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+      - name: Load latest committed state after writer queue
+        run: git pull --ff-only origin "$GITHUB_REF_NAME"
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
