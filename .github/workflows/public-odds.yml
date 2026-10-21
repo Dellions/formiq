@@ -46,9 +46,10 @@ jobs:
           python scripts/archive-public-odds.py .edgeform-state/public-odds/observations.json
           node scripts/link-public-odds.mjs
           node scripts/export-sync-batches.mjs
+          node scripts/archive-forward-validation.mjs
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add research/snapshot/bookmaker-observations.json research/snapshot/market-observations.json research/snapshot/sync research/odds-history
+          git add research/snapshot/bookmaker-observations.json research/snapshot/market-observations.json research/snapshot/sync research/snapshot/forward-validation.json research/snapshot/forward-ledger research/odds-history
           if ! git diff --cached --quiet; then
             git commit -m 'Archive timestamped public bookmaker observations'
             git pull --rebase origin "$GITHUB_REF_NAME"

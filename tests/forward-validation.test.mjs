@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';import {freezeForecast,scoreFrozen,forwardMetrics} from '../scripts/forward-validation.mjs';
+const now=Date.parse('2026-10-21T12:00:00Z'),start='2026-10-21T14:00:00Z';
+const r={eventId:'tsdb-1',sport:'Basketball',home:{id:'a'},away:{id:'b'},start,homeSample:10,awaySample:10,sources:[{url:'https://example.test'}],forecast:{probability:.8,type:'total',side:'over',line:160.5,period:'source_final',settlement:'unverified',modelVersion:'v1'}};
+const f=freezeForecast(r,now);assert(f);assert.equal(f.odds,null);assert.equal(freezeForecast(r,now+86400000),null);
+const result={sport:'Basketball',home:{id:'a'},away:{id:'c'},history:{home:[{id:'tsdb-1',date:start,gf:90,ga:80,opponentId:'b',url:'https://example.test/result'}]}};
+assert.equal(scoreFrozen(f,[result],now+86400000).outcome,1);assert.equal(scoreFrozen(f,[result],now),null);
+assert.equal(scoreFrozen({...f,period:'full_match'},[result],now+86400000),null);
+assert.equal(scoreFrozen(f,[result,{...result,history:{home:[{...result.history.home[0],gf:60}]}}],now+86400000),null);
+assert.equal(forwardMetrics([f],[]).groups[0].brier,null);const m=forwardMetrics([f],[{eventId:f.id,outcome:1}]);assert.ok(Math.abs(m.groups[0].brier-.04)<1e-9);assert.equal(m.calibrated,false);
+console.log('Forward validation: pre-match capture, identity/conflict/period gates, pending metrics and proper scoring passed');

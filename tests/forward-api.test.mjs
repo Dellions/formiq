@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';import worker from '../worker/index.js';
+const data=new Map(),env={BUCKET:{get:async k=>data.has(k)?{json:async()=>JSON.parse(data.get(k))}:null,put:async(k,v,o)=>{if(o?.onlyIf&&data.has(k))return null;data.set(k,v);return {etag:'test'}},list:async({prefix})=>({objects:[...data.keys()].filter(k=>k.startsWith(prefix)).map(key=>({key})),truncated:false})}};
+const f={id:'test',eventId:'test',start:new Date(Date.now()+86400000).toISOString(),sport:'Basketball',league:'Test',home:{id:'a'},away:{id:'b'},homeSample:10,awaySample:10,sources:[{url:'https://example.test'}],forecast:{type:'total',side:'over',line:160.5,period:'source_final',settlement:'unverified',probability:.8,modelVersion:'v1'}};
+const key='research/records/test.json';data.set(key,JSON.stringify(f));
+const call=async method=>await(await worker.fetch(new Request('https://formiq.test/api/forward-validation',{method}),env,{})).json();
+assert.equal((await call('GET')).recorded,0);assert.equal((await call('POST')).captured,1);
+data.set(key,JSON.stringify({...f,forecast:{...f.forecast,probability:.9}}));assert.equal((await call('POST')).captured,0);
+const r=await call('GET');assert.equal(r.forecasts[0].probability,.8);assert.equal(r.resolved,0);assert.equal(r.groups[0].brier,null);assert.equal(r.calibrated,false);
+assert.equal([...data.keys()].filter(k=>k.startsWith('research/predictions/')).length,0);
+console.log('Forward API: explicit pre-match writes, immutable first forecast and betting-ledger isolation passed');
