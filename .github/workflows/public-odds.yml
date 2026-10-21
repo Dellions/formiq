@@ -1,5 +1,12 @@
 name: Test public bookmaker odds collection
 on:
+  push:
+    branches: ['main']
+    paths:
+      - '.github/workflows/public-odds.yml'
+      - 'scripts/collect-public-odds.py'
+      - 'scripts/public_odds_parser.py'
+      - 'requirements-collector.txt'
   workflow_dispatch:
     inputs:
       limit:
@@ -26,7 +33,7 @@ jobs:
       - run: python tests/public_odds_test.py
       - name: Collect a bounded public odds sample
         env:
-          MATCH_LIMIT: ${{ inputs.limit }}
+          MATCH_LIMIT: ${{ inputs.limit || '3' }}
         run: python scripts/collect-public-odds.py --limit "$MATCH_LIMIT" --out .edgeform-state/public-odds/observations.json
       - name: Preserve observations or failure receipt
         if: always()
