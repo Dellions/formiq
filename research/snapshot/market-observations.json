@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T12:47:13.849Z",
+  "generatedAt": "2026-10-21T12:57:00.456Z",
   "observedAt": "2026-10-21T12:28:43.039489Z",
   "status": "research_only",
   "publicationEligible": false,
@@ -2224,6 +2224,13 @@
             "retrievedAt": "2026-10-20T22:39:06.581Z",
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 5760
+          },
+          {
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "retrievedAt": "2026-10-20T22:38:31.449Z",
+            "cached": true,
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
           },
           {
             "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
