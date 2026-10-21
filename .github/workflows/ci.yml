@@ -18,5 +18,7 @@ jobs:
       - run: node tests/forecast.test.mjs
       - run: node tests/ticket-audit.test.mjs
       - run: node tests/pipeline.test.mjs
+      - run: node tests/fixture-odds-linker.test.mjs
+      - run: node tests/market-observations.test.mjs
       - run: python tests/public_odds_test.py
       - run: bash scripts/build.sh && node scripts/validate-artifact.mjs

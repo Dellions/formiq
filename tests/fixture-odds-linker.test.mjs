@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {linkObservations} from '../scripts/fixture-odds-linker.mjs';
+const now=Date.parse('2026-10-21T12:00:00Z');
+const f={eventId:'1',sport:'Football',league:'League',home:{name:'Home'},away:{name:'Away'},start:'2026-10-21T14:00:00Z'};
+const o={sportPath:'football',home:'Home',away:'Away',competitionSourceLabel:'League',start:f.start,observedAt:'2026-10-21T11:50:00Z',quotes:[{type:'win',side:'home',odds:2,period:'full_match',settlement:'unverified'}]};
+const link=(obs=o,fs=[f])=>linkObservations({observations:[obs]},fs,now).rows[0];
+assert.equal(link().eventId,'1');assert.equal(link().mappingVerified,false);assert.equal(link().quotes[0].usableForBetting,false);
+for(const change of [{home:'Away',away:'Home'},{competitionSourceLabel:'Other'},{start:'2026-10-21T15:00:00Z'},{sportPath:'basketball'}])assert.equal(link({...o,...change}).eventId,null);
+assert.equal(link(o,[f,{...f,eventId:'2'}]).eventId,null);
+assert.ok(link({...o,observedAt:'2026-10-21T10:00:00Z'}).reasons.some(x=>x.includes('Stale')));
+assert.ok(link({...o,quotes:[{...o.quotes[0],side:'draw'}]}).quotes[0].gaps.includes('Unsupported market or line'));
+assert.equal(linkObservations(null,[],now).fixtureCount,0);
+console.log('Fixture linking: identity, ambiguity, freshness and publication isolation passed');
