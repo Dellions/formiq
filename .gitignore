@@ -1,0 +1,8 @@
+dist/
+site.tar.gz
+
+.edgeform-state/
+github-pages/
+research/imports/
+__pycache__/
+*.pyc

@@ -1,0 +1,4 @@
+import http from 'node:http';
+import worker from '../worker/index.js';
+const objects=new Map();const env={BUCKET:{async get(k){const s=objects.get(k);return s?{json:async()=>JSON.parse(s)}:null},async put(k,s,opts){if(opts?.onlyIf&&objects.has(k))return null;objects.set(k,s);return {etag:'local'}},async list({prefix}){return {objects:[...objects.keys()].filter(k=>k.startsWith(prefix)).map(key=>({key})),truncated:false}}}};
+http.createServer(async(req,res)=>{try{const chunks=[];for await(const c of req)chunks.push(c);const body=Buffer.concat(chunks);const r=await worker.fetch(new Request('http://terminal.local:4173'+req.url,{method:req.method,headers:req.headers,...(body.length?{body}:{})}),env,{waitUntil:p=>p.catch(console.error)});res.writeHead(r.status,Object.fromEntries(r.headers));res.end(await r.text())}catch(e){res.writeHead(500);res.end(e.message)}}).listen(4173,'0.0.0.0');

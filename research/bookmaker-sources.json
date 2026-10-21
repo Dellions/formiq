@@ -1,0 +1,9 @@
+{
+  "preferenceOrder": ["sportybet-ng", "bet9ja-ng"],
+  "sources": [
+    {"id":"sportybet-ng","name":"SportyBet Nigeria","role":"primary","publicPageObserved":true,"collector":"scripts/collect-public-odds.py","collectorStatus":"prototype_not_live_verified","scheduled":false,"automaticPublication":false},
+    {"id":"bet9ja-ng","name":"Bet9ja","role":"backup","publicPageObserved":false,"collector":null,"collectorStatus":"not_implemented","scheduled":false,"automaticPublication":false}
+  ],
+  "limits":{"matchPagesPerRun":6,"maximumMatchPages":10,"minimumSecondsBetweenNavigations":10,"horizonDays":3},
+  "access":"Public logged-out pages only; stop on login requirements, challenges and access restrictions. No account credentials, bet placement or access-control bypasses."
+}

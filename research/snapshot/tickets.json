@@ -1,0 +1,19 @@
+{
+  "rows": [],
+  "weekly": [],
+  "goals": [
+    {
+      "odds": 5,
+      "targetHitRate": 0.8
+    },
+    {
+      "odds": 10,
+      "targetHitRate": 0.75
+    },
+    {
+      "odds": 20,
+      "targetHitRate": 0.7
+    }
+  ],
+  "note": "Goals are user research targets, not demonstrated performance. Flat one-unit tickets. Only pre-match immutable recorded tickets count; pending and void excluded from hit-rate denominator."
+}

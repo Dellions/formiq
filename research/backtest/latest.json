@@ -1,0 +1,450 @@
+{
+  "generatedAt": "2026-10-20T22:30:19.488Z",
+  "type": "RETROSPECTIVE_WALK_FORWARD_BASELINE",
+  "strategy": "Highest-probability non-KILL market from a fixed score-history baseline, at least 6 strictly earlier same-league scores per team. No future results used in inputs.",
+  "n": 37,
+  "hitRate": 0.7837837837837838,
+  "brier": 0.16664425887868195,
+  "coverage": [
+    {
+      "competition": "bl1",
+      "replayed": 0,
+      "url": "https://api.openligadb.de/getmatchdata/bl1/2026"
+    },
+    {
+      "competition": "bl2",
+      "replayed": 18,
+      "url": "https://api.openligadb.de/getmatchdata/bl2/2026"
+    },
+    {
+      "competition": "la1",
+      "replayed": 19,
+      "url": "https://api.openligadb.de/getmatchdata/la1/2026"
+    },
+    {
+      "competition": "pl",
+      "replayed": 0,
+      "url": "https://api.openligadb.de/getmatchdata/pl/2026"
+    },
+    {
+      "competition": "ucl",
+      "replayed": 0,
+      "url": "https://api.openligadb.de/getmatchdata/ucl/2026"
+    }
+  ],
+  "limitations": [
+    "Retrospective evaluation; not untouched forward validation or proof of calibration",
+    "Current model was chosen before this replay, but no independent holdout tuning comparison",
+    "No historic offered odds or bookmaker settlement archive; no accumulator win rate, ROI or value claim",
+    "Coverage limited to source-reported same-competition results; missing seasons and promoted teams reduce sample"
+  ],
+  "rows": [
+    {
+      "eventId": "ol-83609",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-09T16:30:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8330971927555351,
+      "outcome": 0,
+      "brier": 0.6940509325771531
+    },
+    {
+      "eventId": "ol-83620",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-09T16:30:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8578165260454783,
+      "outcome": 0,
+      "brier": 0.7358491923567327
+    },
+    {
+      "eventId": "ol-83611",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-10T11:00:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8856907741850432,
+      "outcome": 1,
+      "brier": 0.013066599106414795
+    },
+    {
+      "eventId": "ol-83617",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-10T11:00:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8176127111806724,
+      "outcome": 1,
+      "brier": 0.03326512312286484
+    },
+    {
+      "eventId": "ol-83622",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-10T11:00:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8964513889085041,
+      "outcome": 1,
+      "brier": 0.010722314858977875
+    },
+    {
+      "eventId": "ol-83615",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-10T18:30:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8747201164247999,
+      "outcome": 1,
+      "brier": 0.015695049228615702
+    },
+    {
+      "eventId": "ol-83608",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-11T11:30:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.7543480193310912,
+      "outcome": 1,
+      "brier": 0.060344895606557945
+    },
+    {
+      "eventId": "ol-83613",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-11T11:30:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8860656004832903,
+      "outcome": 1,
+      "brier": 0.012981047393233218
+    },
+    {
+      "eventId": "ol-83616",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-11T11:30:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.7444543013530251,
+      "outcome": 0,
+      "brier": 0.5542122068030207
+    },
+    {
+      "eventId": "ol-83632",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-16T16:30:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8500205349068924,
+      "outcome": 0,
+      "brier": 0.7225349097633995
+    },
+    {
+      "eventId": "ol-83641",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-16T16:30:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.9240227965928883,
+      "outcome": 1,
+      "brier": 0.005772535437565621
+    },
+    {
+      "eventId": "ol-83626",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-17T11:00:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.9117646667028068,
+      "outcome": 1,
+      "brier": 0.007785474042066779
+    },
+    {
+      "eventId": "ol-83628",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-17T11:00:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Under 3.5 goals",
+      "probability": 0.9122525947493945,
+      "outcome": 1,
+      "brier": 0.0076996071282139965
+    },
+    {
+      "eventId": "ol-83639",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-17T11:00:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8641117745995668,
+      "outcome": 1,
+      "brier": 0.018465609802478942
+    },
+    {
+      "eventId": "ol-83627",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-17T18:30:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.7633920436419288,
+      "outcome": 1,
+      "brier": 0.05598332501194292
+    },
+    {
+      "eventId": "ol-83629",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-18T11:30:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8216004389848617,
+      "outcome": 1,
+      "brier": 0.03182640337039406
+    },
+    {
+      "eventId": "ol-83630",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-18T11:30:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8092256305531753,
+      "outcome": 1,
+      "brier": 0.03639486003783356
+    },
+    {
+      "eventId": "ol-83635",
+      "competition": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-10-18T11:30:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8486376147132327,
+      "outcome": 1,
+      "brier": 0.02291057167969978
+    },
+    {
+      "eventId": "ol-85399",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-09-18T19:00:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8232853475535161,
+      "outcome": 1,
+      "brier": 0.03122806838928159
+    },
+    {
+      "eventId": "ol-85401",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-09-19T12:00:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8444188563914168,
+      "outcome": 1,
+      "brier": 0.024205492246554595
+    },
+    {
+      "eventId": "ol-85397",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-09-19T16:30:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8330971927555351,
+      "outcome": 1,
+      "brier": 0.027856547066083016
+    },
+    {
+      "eventId": "ol-85402",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-09-19T19:00:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.9123105498035042,
+      "outcome": 1,
+      "brier": 0.007689439675763712
+    },
+    {
+      "eventId": "ol-85400",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-09-20T12:00:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Under 3.5 goals",
+      "probability": 0.8464468831991967,
+      "outcome": 1,
+      "brier": 0.02357855967924114
+    },
+    {
+      "eventId": "ol-85396",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-09-20T14:15:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8573567962369875,
+      "outcome": 1,
+      "brier": 0.020347083579776316
+    },
+    {
+      "eventId": "ol-85398",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-09-20T16:30:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Over 1.5 goals",
+      "probability": 0.7467674056496151,
+      "outcome": 1,
+      "brier": 0.06412674684142661
+    },
+    {
+      "eventId": "ol-85403",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-09-20T19:00:00Z",
+      "homeSample": 6,
+      "awaySample": 6,
+      "selection": "Under 3.5 goals",
+      "probability": 0.7441362556724429,
+      "outcome": 0,
+      "brier": 0.5537387670062033
+    },
+    {
+      "eventId": "ol-85410",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-09T19:00:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Under 3.5 goals",
+      "probability": 0.7699697818572275,
+      "outcome": 1,
+      "brier": 0.052913901258811485
+    },
+    {
+      "eventId": "ol-85405",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-10T14:15:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.7956355264289596,
+      "outcome": 1,
+      "brier": 0.04176483805796846
+    },
+    {
+      "eventId": "ol-85408",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-10T16:30:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Double chance 1X",
+      "probability": 0.9314719822118578,
+      "outcome": 1,
+      "brier": 0.004696089221971936
+    },
+    {
+      "eventId": "ol-85413",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-10T19:00:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.888579083169547,
+      "outcome": 0,
+      "brier": 0.7895727870464327
+    },
+    {
+      "eventId": "ol-85407",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-11T12:00:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.7919679284362934,
+      "outcome": 0,
+      "brier": 0.6272131996716739
+    },
+    {
+      "eventId": "ol-85414",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-11T14:15:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.7571133234135106,
+      "outcome": 1,
+      "brier": 0.05899393766322992
+    },
+    {
+      "eventId": "ol-85406",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-11T16:30:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Double chance 1X",
+      "probability": 0.8270387692545046,
+      "outcome": 1,
+      "brier": 0.029915587340996506
+    },
+    {
+      "eventId": "ol-85411",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-11T19:00:00Z",
+      "homeSample": 7,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.8444188563914168,
+      "outcome": 1,
+      "brier": 0.024205492246554595
+    },
+    {
+      "eventId": "ol-85409",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-12T19:00:00Z",
+      "homeSample": 6,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.7943584332660653,
+      "outcome": 1,
+      "brier": 0.04228845396878734
+    },
+    {
+      "eventId": "ol-85417",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-16T19:00:00Z",
+      "homeSample": 8,
+      "awaySample": 7,
+      "selection": "Over 1.5 goals",
+      "probability": 0.7758971752400288,
+      "outcome": 1,
+      "brier": 0.05022207606539837
+    },
+    {
+      "eventId": "ol-85418",
+      "competition": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-17T12:00:00Z",
+      "homeSample": 8,
+      "awaySample": 8,
+      "selection": "Over 1.5 goals",
+      "probability": 0.807291678489201,
+      "outcome": 0,
+      "brier": 0.6517198541579116
+    }
+  ]
+}

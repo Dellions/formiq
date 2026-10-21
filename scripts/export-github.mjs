@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';import worker from '../worker/index.js';
+const out='github-pages';await fs.mkdir(out+'/data',{recursive:true});
+let html=await(await worker.fetch(new Request('https://edgeform.local/'),{},{})).text();
+html=html.replace("fetch('/api/tickets')","fetch('./data/tickets.json')").replace("fetch('/api/validation')","fetch('./data/validation.json')").replace("fetch('/api/picks?date='+$('#date').value)","fetch('./data/picks.json')").replace("fetch('/api/performance')","fetch('./data/performance.json')").replace('href="/api/framework"','href="./data/framework.json"').replace('href="/api/instructions"','href="./data/framework.json"');
+const start=html.indexOf("$('#scan').onclick=async()=>"),end=html.indexOf('async function loadPerformance()',start);html=html.slice(0,start)+"$('#scan').onclick=load;$('#scan').textContent='↻ Reload Snapshot';\n"+html.slice(end);
+const settle=html.indexOf("$('#settle').onclick=async()=>"),next=html.indexOf("$('#modal').addEventListener",settle);html=html.slice(0,settle)+"$('#settle').disabled=true;$('#settle').textContent='Results updated by workflow';\n"+html.slice(next);
+html=html.replaceAll('↻ Refresh 3 Days','↻ Reload Snapshot').replace('Private · Personal research','Generated research snapshot');
+await fs.writeFile(out+'/index.html',html);await fs.writeFile(out+'/.nojekyll','');
+for(const name of ['picks','performance','framework','tickets','validation'])await fs.copyFile('research/snapshot/'+name+'.json',out+'/data/'+name+'.json');
+console.log('Static snapshot exported to '+out+'. No backend, credentials, or write endpoints embedded.');

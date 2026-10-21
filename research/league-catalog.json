@@ -1,0 +1,327 @@
+{
+  "retrievedAt": "2026-10-20T22:31:42.541Z",
+  "leagues": [
+    {
+      "id": "4380",
+      "name": "NHL",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/league/4380-nhl"
+    },
+    {
+      "id": "4546",
+      "name": "EuroLeague Basketball",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/season/4546-euroleague-basketball/2025-2026"
+    },
+    {
+      "id": "4387",
+      "name": "NBA",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=United%20States"
+    },
+    {
+      "id": "4408",
+      "name": "Spanish Liga ACB",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Spain"
+    },
+    {
+      "id": "5134",
+      "name": "Spanish Primera FEB",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Spain"
+    },
+    {
+      "id": "4441",
+      "name": "German BBL",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Germany"
+    },
+    {
+      "id": "5132",
+      "name": "German ProA",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Germany"
+    },
+    {
+      "id": "4423",
+      "name": "French LNB",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=France"
+    },
+    {
+      "id": "4577",
+      "name": "French LNB Pro B",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=France"
+    },
+    {
+      "id": "5694",
+      "name": "French Nationale Masculine 1",
+      "sport": "Basketball",
+      "season": "2025-2026",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=France"
+    },
+    {
+      "id": "4452",
+      "name": "Greek Basket League",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Greece"
+    },
+    {
+      "id": "5507",
+      "name": "Turkish Basketball Cup",
+      "sport": "Basketball",
+      "season": "2025-2026",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Turkey"
+    },
+    {
+      "id": "5693",
+      "name": "Turkish Basketball First League",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Turkey"
+    },
+    {
+      "id": "4475",
+      "name": "Turkish Basketbol Super Ligi",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Turkey"
+    },
+    {
+      "id": "4478",
+      "name": "Lithuanian LKL",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Lithuania"
+    },
+    {
+      "id": "5133",
+      "name": "Lithuanian NKL",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Lithuania"
+    },
+    {
+      "id": "4578",
+      "name": "Polish Basketball League",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Poland"
+    },
+    {
+      "id": "5116",
+      "name": "Finnish Korisliiga",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Finland"
+    },
+    {
+      "id": "4477",
+      "name": "Adriatic ABA League",
+      "sport": "Basketball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Europe"
+    },
+    {
+      "id": "5706",
+      "name": "Adriatic ABA League 2",
+      "sport": "Basketball",
+      "season": "2026",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Europe"
+    },
+    {
+      "id": "4548",
+      "name": "Basketball Champions League",
+      "sport": "Basketball",
+      "season": "2026",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Europe"
+    },
+    {
+      "id": "4547",
+      "name": "EuroCup Basketball",
+      "sport": "Basketball",
+      "season": "2026",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Basketball&c=Europe"
+    },
+    {
+      "id": "4980",
+      "name": "EHF Champions League",
+      "sport": "Handball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Handball&c=Europe"
+    },
+    {
+      "id": "5275",
+      "name": "EHF European League",
+      "sport": "Handball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Handball&c=Europe"
+    },
+    {
+      "id": "4894",
+      "name": "European Mens Handball Championship",
+      "sport": "Handball",
+      "season": "2028",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Handball&c=Europe"
+    },
+    {
+      "id": "4533",
+      "name": "German Handball-Bundesliga",
+      "sport": "Handball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Handball&c=Germany"
+    },
+    {
+      "id": "5135",
+      "name": "Danish Mens Handball League",
+      "sport": "Handball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Handball&c=Denmark"
+    },
+    {
+      "id": "4536",
+      "name": "French LNH Division 1",
+      "sport": "Handball",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Handball&c=France"
+    },
+    {
+      "id": "4534",
+      "name": "Spanish Liga ASOBAL",
+      "sport": "Handball",
+      "season": "2025-2026",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Handball&c=Spain"
+    },
+    {
+      "id": "4738",
+      "name": "American AHL",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=United%20States"
+    },
+    {
+      "id": "4916",
+      "name": "American ECHL",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=United%20States"
+    },
+    {
+      "id": "4918",
+      "name": "American FPHL",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=United%20States"
+    },
+    {
+      "id": "5164",
+      "name": "American SPHL",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=United%20States"
+    },
+    {
+      "id": "4920",
+      "name": "Russian KHL",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=Russia"
+    },
+    {
+      "id": "4919",
+      "name": "Russian VHL",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=Russia"
+    },
+    {
+      "id": "5162",
+      "name": "Swedish Hockey Allsvenskan",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=Sweden"
+    },
+    {
+      "id": "4419",
+      "name": "Swedish Hockey League",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=Sweden"
+    },
+    {
+      "id": "4931",
+      "name": "Finnish Liiga",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=Finland"
+    },
+    {
+      "id": "4935",
+      "name": "Finnish Mestis",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=Finland"
+    },
+    {
+      "id": "5163",
+      "name": "Swiss League",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=Switzerland"
+    },
+    {
+      "id": "4934",
+      "name": "Swiss National League",
+      "sport": "Ice hockey",
+      "season": "2026-2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=Ice%20Hockey&c=Switzerland"
+    },
+    {
+      "id": "4552",
+      "name": "AAF",
+      "sport": "American football",
+      "season": "2022",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=American%20Football&c=United%20States"
+    },
+    {
+      "id": "5154",
+      "name": "American Football All-Star Games",
+      "sport": "American football",
+      "season": "2022",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=American%20Football&c=United%20States"
+    },
+    {
+      "id": "5482",
+      "name": "American Football League",
+      "sport": "American football",
+      "season": "1970",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=American%20Football&c=United%20States"
+    },
+    {
+      "id": "4470",
+      "name": "Arena Football League",
+      "sport": "American football",
+      "season": "2024",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=American%20Football&c=United%20States"
+    },
+    {
+      "id": "5950",
+      "name": "Arena Football One",
+      "sport": "American football",
+      "season": "2027",
+      "catalogURL": "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?s=American%20Football&c=United%20States"
+    }
+  ]
+}

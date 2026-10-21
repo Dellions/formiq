@@ -1,0 +1,65 @@
+name: Refresh FormIQ research
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6,12,18 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: edgeform-research
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/cache/restore@v4
+        with:
+          path: .edgeform-state
+          key: edgeform-source-cache-${{ github.run_id }}
+          restore-keys: edgeform-source-cache-
+      - name: Validate models and gates
+        run: node tests/research.test.mjs && node tests/forecast.test.mjs && node tests/ticket-audit.test.mjs && node tests/pipeline.test.mjs
+      - name: Collect today and two days ahead
+        id: collect
+        continue-on-error: true
+        run: node scripts/refresh-research.mjs
+      - name: Export static snapshot
+        run: node scripts/export-github.mjs
+      - name: Preserve resumable source state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .edgeform-state
+          key: edgeform-source-cache-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Preserve collection receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: formiq-run-receipt
+          path: |
+            research/snapshot/run-receipt.json
+            research/snapshot/collection-progress.json
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Commit research archive
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/snapshot
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh timestamped FormIQ research snapshot'
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: formiq-static-snapshot
+          path: github-pages
+          retention-days: 30
+      - name: Report incomplete collection
+        if: steps.collect.outcome == 'failure'
+        run: echo 'Collection stopped on a source limit; retained partial snapshot. Review job logs.' && exit 1

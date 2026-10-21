@@ -1,0 +1,17 @@
+{
+  "rows": [],
+  "metrics": {
+    "published": 0,
+    "pending": 0,
+    "settled": 0,
+    "wins": 0,
+    "losses": 0,
+    "voids": 0,
+    "hitRate": null,
+    "profit": 0,
+    "roi": null,
+    "staking": "Flat 1 unit per published single selection; void returns stake; no hypothetical accumulator returns.",
+    "calibration": null,
+    "calibrationNote": "At least 100 resolved non-void selections required before descriptive calibration bins."
+  }
+}

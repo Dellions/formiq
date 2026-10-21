@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-20T22:30:19.488Z",
+  "type": "RETROSPECTIVE_WALK_FORWARD_BASELINE",
+  "strategy": "Highest-probability non-KILL market from a fixed score-history baseline, at least 6 strictly earlier same-league scores per team. No future results used in inputs.",
+  "n": 37,
+  "hitRate": 0.7837837837837838,
+  "brier": 0.16664425887868195,
+  "coverage": [
+    {
+      "competition": "bl1",
+      "replayed": 0,
+      "url": "https://api.openligadb.de/getmatchdata/bl1/2026"
+    },
+    {
+      "competition": "bl2",
+      "replayed": 18,
+      "url": "https://api.openligadb.de/getmatchdata/bl2/2026"
+    },
+    {
+      "competition": "la1",
+      "replayed": 19,
+      "url": "https://api.openligadb.de/getmatchdata/la1/2026"
+    },
+    {
+      "competition": "pl",
+      "replayed": 0,
+      "url": "https://api.openligadb.de/getmatchdata/pl/2026"
+    },
+    {
+      "competition": "ucl",
+      "replayed": 0,
+      "url": "https://api.openligadb.de/getmatchdata/ucl/2026"
+    }
+  ],
+  "limitations": [
+    "Retrospective evaluation; not untouched forward validation or proof of calibration",
+    "Current model was chosen before this replay, but no independent holdout tuning comparison",
+    "No historic offered odds or bookmaker settlement archive; no accumulator win rate, ROI or value claim",
+    "Coverage limited to source-reported same-competition results; missing seasons and promoted teams reduce sample"
+  ]
+}
