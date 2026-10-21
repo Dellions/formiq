@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T18:47:26.309Z",
+  "generatedAt": "2026-10-21T18:47:46.628Z",
   "observedAt": "2026-10-21T18:47:21.749407Z",
   "status": "research_only",
   "publicationEligible": false,
@@ -240,6 +240,13 @@
           {
             "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
             "retrievedAt": "2026-10-21T11:03:21.482Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
+          },
+          {
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "retrievedAt": "2026-10-20T22:38:31.449Z",
+            "cached": true,
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 1440
           }
