@@ -56,6 +56,7 @@ def collect(driver,urls,limit=6,spacing=10):
                                 quotes=[];seen=set()
                                 for header in driver.find_elements(By.CSS_SELECTOR,'.m-table-header-title'):
                                     label=header.text.strip();node=header
+                                    if not re.fullmatch(r'Winner \(incl\. overtime(?: and penalties)?\)|Over/Under(?: \(incl\. overtime\)(?: \d+\.5)?)?|Total \(incl\. overtime and penalties\)|1X2',label):continue
                                     for level in range(5):
                                         node=node.find_element(By.XPATH,'..')
                                         if len(node.find_elements(By.CSS_SELECTOR,'.m-table-header-title'))>1:break
