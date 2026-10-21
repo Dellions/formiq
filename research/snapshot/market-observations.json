@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T12:26:59.577Z",
-  "observedAt": "2026-10-21T12:25:34.891982Z",
+  "generatedAt": "2026-10-21T12:29:26.130Z",
+  "observedAt": "2026-10-21T12:28:43.039489Z",
   "status": "research_only",
   "publicationEligible": false,
   "fixtureCount": 6,
@@ -11,7 +11,7 @@
     {
       "bookmakerEventId": "display:24152",
       "sourceURL": "https://www.sportybet.com/ng/sport/basketball/International/Euroleague/Hapoel_Tel-Aviv_vs_Virtus_Bologna/sr:match:73263058",
-      "observedAt": "2026-10-21T12:26:31.776546Z",
+      "observedAt": "2026-10-21T12:28:59.064975Z",
       "home": "Hapoel Tel-Aviv",
       "away": "Virtus Bologna",
       "start": "2026-10-21T16:00:00Z",
@@ -1309,6 +1309,30 @@
             "retrievedAt": "2026-10-21T11:03:32.036Z",
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 1440
+          },
+          {
+            "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+            "retrievedAt": "2026-10-21T12:20:48.734Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
+          },
+          {
+            "url": "https://www.virtus.it/stagione/eurolegue/",
+            "retrievedAt": "2026-10-21T12:20:48.734Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
+          },
+          {
+            "url": "https://hapoelbc.com/tickets/",
+            "retrievedAt": "2026-10-21T12:20:48.734Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 60
+          },
+          {
+            "url": "https://hapoelbc.com/meettherivalvirtus-bologna/",
+            "retrievedAt": "2026-10-21T12:21:31.885Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
           }
         ]
       },
@@ -1318,7 +1342,7 @@
     {
       "bookmakerEventId": "display:46056",
       "sourceURL": "https://www.sportybet.com/ng/sport/basketball/",
-      "observedAt": "2026-10-21T12:25:39.689254Z",
+      "observedAt": "2026-10-21T12:28:46.895845Z",
       "home": "Orlando Magic",
       "away": "Atlanta Hawks",
       "start": "2026-10-21T23:00:00Z",
@@ -1421,7 +1445,7 @@
     {
       "bookmakerEventId": "display:51125",
       "sourceURL": "https://www.sportybet.com/ng/sport/iceHockey/USA/NHL/Buffalo_Sabres_vs_Philadelphia_Flyers/sr:match:72909146",
-      "observedAt": "2026-10-21T12:26:55.794212Z",
+      "observedAt": "2026-10-21T12:29:16.005307Z",
       "home": "Buffalo Sabres",
       "away": "Philadelphia Flyers",
       "start": "2026-10-21T23:30:00Z",
@@ -1840,7 +1864,7 @@
     {
       "bookmakerEventId": "display:36284",
       "sourceURL": "https://www.sportybet.com/ng/sport/iceHockey/",
-      "observedAt": "2026-10-21T12:26:35.513885Z",
+      "observedAt": "2026-10-21T12:29:05.490326Z",
       "home": "Metallurg Magnitogorsk",
       "away": "Salavat Yulaev UFA",
       "start": "2026-10-21T14:00:00Z",
@@ -1963,7 +1987,7 @@
     {
       "bookmakerEventId": "display:29733",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T12:26:59.297080Z",
+      "observedAt": "2026-10-21T12:29:25.861578Z",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "start": "2026-10-23T19:00:00Z",
@@ -2099,7 +2123,7 @@
     {
       "bookmakerEventId": "display:52354",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T12:26:59.297080Z",
+      "observedAt": "2026-10-21T12:29:25.861578Z",
       "home": "Como 1907",
       "away": "Man Utd",
       "start": "2026-10-21T16:45:00Z",

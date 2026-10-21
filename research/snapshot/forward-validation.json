@@ -1,6 +1,6 @@
 {
   "type": "PROSPECTIVE_EXPERIMENTAL_AUDIT",
-  "recorded": 35,
+  "recorded": 36,
   "resolved": 0,
   "calibrated": false,
   "publicationEligible": false,
@@ -874,6 +874,64 @@
       ],
       "reviewThresholdReached": false,
       "calibrated": false
+    },
+    {
+      "key": "Basketball|EuroLeague Basketball|research-v5-horizon-neutral-v1|total|under|source_final|unverified",
+      "recorded": 1,
+      "resolved": 0,
+      "pending": 1,
+      "hitRate": null,
+      "brier": null,
+      "logLoss": null,
+      "bins": [
+        {
+          "range": [
+            0,
+            0.2
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.2,
+            0.4
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.4,
+            0.6000000000000001
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.6000000000000001,
+            0.8
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.8,
+            1
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "reviewThresholdReached": false,
+      "calibrated": false
     }
   ],
   "limitations": [
@@ -882,7 +940,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-10-21T12:26:59.791Z",
+  "generatedAt": "2026-10-21T12:29:26.266Z",
   "forecasts": [
     {
       "id": "ol-83212",
@@ -2629,6 +2687,82 @@
           "retrievedAt": "2026-10-20T22:39:52.530Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "tsdb-2565506",
+      "eventId": "tsdb-2565506",
+      "match": "Hapoel Tel Aviv BC — Virtus Pallacanestro Bologna",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "start": "2026-10-21T16:00:00Z",
+      "home": {
+        "id": "136059",
+        "name": "Hapoel Tel Aviv BC"
+      },
+      "away": {
+        "id": "135386",
+        "name": "Virtus Pallacanestro Bologna"
+      },
+      "recordedAt": "2026-10-21T12:29:26.265Z",
+      "modelVersion": "research-v5-horizon-neutral-v1",
+      "type": "total",
+      "side": "under",
+      "line": 182.5,
+      "probability": 0.6896798846878552,
+      "period": "source_final",
+      "settlement": "unverified",
+      "homeSample": 6,
+      "awaySample": 6,
+      "sources": [
+        {
+          "url": "https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-20&l=4546",
+          "retrievedAt": "2026-10-21T11:03:27.440Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 30
+        },
+        {
+          "url": "https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-21&l=4546",
+          "retrievedAt": "2026-10-21T11:03:29.737Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 30
+        },
+        {
+          "url": "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4546&s=2026-2027",
+          "retrievedAt": "2026-10-21T11:03:32.036Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+          "retrievedAt": "2026-10-21T12:20:48.734Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.virtus.it/stagione/eurolegue/",
+          "retrievedAt": "2026-10-21T12:20:48.734Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://hapoelbc.com/tickets/",
+          "retrievedAt": "2026-10-21T12:20:48.734Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 60
+        },
+        {
+          "url": "https://hapoelbc.com/meettherivalvirtus-bologna/",
+          "retrievedAt": "2026-10-21T12:21:31.885Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
         }
       ],
       "classification": "FORWARD_EXPERIMENTAL_FORECAST",

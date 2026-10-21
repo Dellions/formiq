@@ -1,10 +1,10 @@
 {
   "snapshotUpdated": "2026-10-21T11:16:22.143Z",
-  "generatedAt": "2026-10-21T12:26:59.736Z",
+  "generatedAt": "2026-10-21T12:29:26.214Z",
   "files": [
     {
       "path": "research/snapshot/sync/batch-0.json",
-      "bytes": 107774,
+      "bytes": 124614,
       "recordIds": [
         "tsdb-2591625",
         "tsdb-2591626",

@@ -68469,45 +68469,186 @@
       "history": {
         "home": [
           {
-            "id": "tsdb-2565460",
-            "date": "2026-09-29T18:00:00Z",
+            "id": "supplement-home-2026-10-16",
+            "date": "2026-10-16",
+            "datePrecision": "day",
+            "kickoffTime": null,
+            "gf": 91,
+            "ga": 81,
+            "total": 172,
+            "venue": "away",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Panathinaikos AKTOR Athens",
+            "result": "W",
+            "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+            "scoreScope": "Source final; overtime not independently verified"
+          },
+          {
+            "id": "supplement-home-2026-10-14",
+            "date": "2026-10-14",
+            "datePrecision": "day",
+            "kickoffTime": null,
+            "gf": 100,
+            "ga": 82,
+            "total": 182,
+            "venue": "home",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Besiktas Istanbul",
+            "result": "W",
+            "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+            "scoreScope": "Source final; overtime not independently verified"
+          },
+          {
+            "id": "supplement-home-2026-10-08",
+            "date": "2026-10-08",
+            "datePrecision": "day",
+            "kickoffTime": null,
+            "gf": 82,
+            "ga": 93,
+            "total": 175,
+            "venue": "away",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Valencia Basket",
+            "result": "L",
+            "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+            "scoreScope": "Source final; overtime not independently verified"
+          },
+          {
+            "id": "supplement-home-2026-10-01",
+            "date": "2026-10-01",
+            "datePrecision": "day",
+            "kickoffTime": null,
+            "gf": 102,
+            "ga": 98,
+            "total": 200,
+            "venue": "home",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Real Madrid",
+            "result": "W",
+            "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+            "scoreScope": "Source final; overtime not independently verified"
+          },
+          {
+            "id": "supplement-home-2026-09-29",
+            "date": "2026-09-29",
+            "datePrecision": "day",
+            "kickoffTime": null,
             "gf": 81,
             "ga": 80,
             "total": 161,
             "venue": "away",
-            "opponent": "KK Crvena zvezda",
-            "opponentId": "136096",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Crvena Zvezda Meridianbet Belgrade",
             "result": "W",
-            "url": "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4546&s=2026-2027",
-            "scoreScope": "Source final score; regulation / overtime not independently confirmed"
+            "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+            "scoreScope": "Source final; overtime not independently verified"
           },
           {
-            "id": "tsdb-2565447",
-            "date": "2026-09-24T16:00:00Z",
+            "id": "supplement-home-2026-09-24",
+            "date": "2026-09-24",
+            "datePrecision": "day",
+            "kickoffTime": null,
             "gf": 84,
             "ga": 86,
             "total": 170,
             "venue": "home",
-            "opponent": "Bayern München Basketball",
-            "opponentId": "135424",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "FC Bayern Munich",
             "result": "L",
-            "url": "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4546&s=2026-2027",
-            "scoreScope": "Source final score; regulation / overtime not independently confirmed"
+            "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+            "scoreScope": "Source final; overtime not independently verified"
           }
         ],
         "away": [
           {
-            "id": "tsdb-2565454",
-            "date": "2026-09-25T17:45:00Z",
+            "id": "supplement-away-2026-10-16",
+            "date": "2026-10-16",
+            "datePrecision": "day",
+            "kickoffTime": null,
+            "gf": 86,
+            "ga": 78,
+            "total": 164,
+            "venue": "home",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Kosner Baskonia Vitoria-gasteiz",
+            "result": "W",
+            "url": "https://www.virtus.it/stagione/eurolegue/",
+            "scoreScope": "Source final; overtime not independently verified"
+          },
+          {
+            "id": "supplement-away-2026-10-14",
+            "date": "2026-10-14",
+            "datePrecision": "day",
+            "kickoffTime": null,
+            "gf": 96,
+            "ga": 94,
+            "total": 190,
+            "venue": "away",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Paris Basketball",
+            "result": "W",
+            "url": "https://www.virtus.it/stagione/eurolegue/",
+            "scoreScope": "Source final; overtime not independently verified"
+          },
+          {
+            "id": "supplement-away-2026-10-08",
+            "date": "2026-10-08",
+            "datePrecision": "day",
+            "kickoffTime": null,
+            "gf": 94,
+            "ga": 87,
+            "total": 181,
+            "venue": "away",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "FC Bayern Munich",
+            "result": "W",
+            "url": "https://www.virtus.it/stagione/eurolegue/",
+            "scoreScope": "Source final; overtime not independently verified"
+          },
+          {
+            "id": "supplement-away-2026-10-01",
+            "date": "2026-10-01",
+            "datePrecision": "day",
+            "kickoffTime": null,
+            "gf": 96,
+            "ga": 94,
+            "total": 190,
+            "venue": "home",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Olympiacos Piraeus",
+            "result": "W",
+            "url": "https://www.virtus.it/stagione/eurolegue/",
+            "scoreScope": "Source final; overtime not independently verified"
+          },
+          {
+            "id": "supplement-away-2026-09-29",
+            "date": "2026-09-29",
+            "datePrecision": "day",
+            "kickoffTime": null,
+            "gf": 85,
+            "ga": 87,
+            "total": 172,
+            "venue": "away",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Armani Olimpia Milan",
+            "result": "L",
+            "url": "https://www.virtus.it/stagione/eurolegue/",
+            "scoreScope": "Source final; overtime not independently verified"
+          },
+          {
+            "id": "supplement-away-2026-09-25",
+            "date": "2026-09-25",
+            "datePrecision": "day",
+            "kickoffTime": null,
             "gf": 68,
             "ga": 78,
             "total": 146,
             "venue": "away",
-            "opponent": "Fenerbahçe Basketbol",
-            "opponentId": "136071",
+            "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+            "opponent": "Fenerbahce Tarfin Istanbul",
             "result": "L",
-            "url": "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4546&s=2026-2027",
-            "scoreScope": "Source final score; regulation / overtime not independently confirmed"
+            "url": "https://www.virtus.it/stagione/eurolegue/",
+            "scoreScope": "Source final; overtime not independently verified"
           }
         ]
       },
@@ -68529,13 +68670,37 @@
           "retrievedAt": "2026-10-21T11:03:32.036Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+          "retrievedAt": "2026-10-21T12:20:48.734Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.virtus.it/stagione/eurolegue/",
+          "retrievedAt": "2026-10-21T12:20:48.734Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://hapoelbc.com/tickets/",
+          "retrievedAt": "2026-10-21T12:20:48.734Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 60
+        },
+        {
+          "url": "https://hapoelbc.com/meettherivalvirtus-bologna/",
+          "retrievedAt": "2026-10-21T12:21:31.885Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
         }
       ],
-      "scope": "TheSportsDB league-filtered fixtures plus available season scores and accumulated score archive. Free daily responses cap at 3 per league per UTC day; season responses cap at 15. Incomplete sample; final-score settlement unverified.",
+      "scope": "Six reconstructed current-season EuroLeague results per team. Hapoel results from BasketNews, Virtus results from its official club table; score sums independently agree with club-published standings. Preferred last-ten sample remains incomplete. Date-only history; rest intervals approximate. Designated home does not establish physical home-court advantage; Hapoel hosts this game in Sofia.",
       "id": "tsdb-2565506",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-10-21T11:03:32.038Z",
+      "completedAt": "2026-10-21T12:21:31.884Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -68554,24 +68719,132 @@
             "kickoff": "2026-10-21T16:00:00Z",
             "status": "pre",
             "home": "Hapoel Tel Aviv BC",
-            "away": "Virtus Pallacanestro Bologna"
+            "away": "Virtus Pallacanestro Bologna",
+            "venue": "ARENA 8888 SOFIA"
           },
           "missing": [
-            "Independent schedule confirmation",
-            "Venue location"
+            "Independent fixture confirmation across all sources; club pages disagree on display times"
           ]
         },
         {
           "step": 2,
           "title": "Core numbers",
-          "status": "insufficient",
+          "status": "partial",
           "classification": "CALCULATED",
           "home": {
-            "sample": 2,
-            "gf": 82.5,
-            "ga": 83,
-            "total": 165.5,
-            "form": "WL",
+            "sample": 6,
+            "gf": 90,
+            "ga": 86.66666666666667,
+            "total": 176.66666666666666,
+            "form": "WWLWW",
+            "wins": 0.6666666666666666,
+            "over15": 1,
+            "over25": 1,
+            "btts": 1,
+            "availableMetrics": {
+              "shots": {
+                "mean": null,
+                "sample": 0
+              },
+              "shotsOnTarget": {
+                "mean": null,
+                "sample": 0
+              },
+              "yellowCards": {
+                "mean": null,
+                "sample": 0
+              },
+              "redCards": {
+                "mean": null,
+                "sample": 0
+              }
+            },
+            "draws": 0,
+            "losses": 0.3333333333333333,
+            "from": "2026-09-24",
+            "to": "2026-10-16"
+          },
+          "away": {
+            "sample": 6,
+            "gf": 87.5,
+            "ga": 86.33333333333333,
+            "total": 173.83333333333334,
+            "form": "WWWWL",
+            "wins": 0.6666666666666666,
+            "over15": 1,
+            "over25": 1,
+            "btts": 1,
+            "availableMetrics": {
+              "shots": {
+                "mean": null,
+                "sample": 0
+              },
+              "shotsOnTarget": {
+                "mean": null,
+                "sample": 0
+              },
+              "yellowCards": {
+                "mean": null,
+                "sample": 0
+              },
+              "redCards": {
+                "mean": null,
+                "sample": 0
+              }
+            },
+            "draws": 0,
+            "losses": 0.3333333333333333,
+            "from": "2026-09-25",
+            "to": "2026-10-16"
+          },
+          "missing": [
+            "Advanced metrics",
+            "League-adjusted efficiency"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Home / away and form",
+          "status": "calculated",
+          "home": {
+            "sample": 3,
+            "gf": 95.33333333333333,
+            "ga": 88.66666666666667,
+            "total": 184,
+            "form": "WWL",
+            "wins": 0.6666666666666666,
+            "over15": 1,
+            "over25": 1,
+            "btts": 1,
+            "availableMetrics": {
+              "shots": {
+                "mean": null,
+                "sample": 0
+              },
+              "shotsOnTarget": {
+                "mean": null,
+                "sample": 0
+              },
+              "yellowCards": {
+                "mean": null,
+                "sample": 0
+              },
+              "redCards": {
+                "mean": null,
+                "sample": 0
+              }
+            },
+            "draws": 0,
+            "losses": 0.3333333333333333,
+            "from": "2026-09-24",
+            "to": "2026-10-14"
+          },
+          "away": {
+            "sample": 4,
+            "gf": 85.75,
+            "ga": 86.5,
+            "total": 172.25,
+            "form": "WWLL",
             "wins": 0.5,
             "over15": 1,
             "over25": 1,
@@ -68596,183 +68869,327 @@
             },
             "draws": 0,
             "losses": 0.5,
-            "from": "2026-09-24T16:00:00Z",
-            "to": "2026-09-29T18:00:00Z"
+            "from": "2026-09-25",
+            "to": "2026-10-14"
           },
-          "away": {
-            "sample": 1,
-            "gf": 68,
-            "ga": 78,
-            "total": 146,
-            "form": "L",
-            "wins": 0,
-            "over15": 1,
-            "over25": 1,
-            "btts": 1,
-            "availableMetrics": {
-              "shots": {
-                "mean": null,
-                "sample": 0
-              },
-              "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
-              },
-              "yellowCards": {
-                "mean": null,
-                "sample": 0
-              },
-              "redCards": {
-                "mean": null,
-                "sample": 0
-              }
-            },
-            "draws": 0,
-            "losses": 1,
-            "from": "2026-09-25T17:45:00Z",
-            "to": "2026-09-25T17:45:00Z"
-          },
-          "missing": [
-            "Advanced metrics",
-            "League-adjusted efficiency"
-          ]
-        },
-        {
-          "step": 3,
-          "title": "Home / away and form",
-          "status": "insufficient",
-          "home": {
-            "sample": 1,
-            "gf": 84,
-            "ga": 86,
-            "total": 170,
-            "form": "L",
-            "wins": 0,
-            "over15": 1,
-            "over25": 1,
-            "btts": 1,
-            "availableMetrics": {
-              "shots": {
-                "mean": null,
-                "sample": 0
-              },
-              "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
-              },
-              "yellowCards": {
-                "mean": null,
-                "sample": 0
-              },
-              "redCards": {
-                "mean": null,
-                "sample": 0
-              }
-            },
-            "draws": 0,
-            "losses": 1,
-            "from": "2026-09-24T16:00:00Z",
-            "to": "2026-09-24T16:00:00Z"
-          },
-          "away": {
-            "sample": 1,
-            "gf": 68,
-            "ga": 78,
-            "total": 146,
-            "form": "L",
-            "wins": 0,
-            "over15": 1,
-            "over25": 1,
-            "btts": 1,
-            "availableMetrics": {
-              "shots": {
-                "mean": null,
-                "sample": 0
-              },
-              "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
-              },
-              "yellowCards": {
-                "mean": null,
-                "sample": 0
-              },
-              "redCards": {
-                "mean": null,
-                "sample": 0
-              }
-            },
-            "draws": 0,
-            "losses": 1,
-            "from": "2026-09-25T17:45:00Z",
-            "to": "2026-09-25T17:45:00Z"
-          },
-          "scope": "TheSportsDB league-filtered fixtures plus available season scores and accumulated score archive. Free daily responses cap at 3 per league per UTC day; season responses cap at 15. Incomplete sample; final-score settlement unverified."
+          "scope": "Nominal home/away splits only; physical venue advantage unverified."
         },
         {
           "step": 4,
           "title": "Recent results",
-          "status": "insufficient",
+          "status": "calculated",
           "home": [
             {
-              "id": "tsdb-2565460",
-              "date": "2026-09-29T18:00:00Z",
+              "id": "supplement-home-2026-10-16",
+              "date": "2026-10-16",
+              "datePrecision": "day",
+              "kickoffTime": null,
+              "gf": 91,
+              "ga": 81,
+              "total": 172,
+              "venue": "away",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Panathinaikos AKTOR Athens",
+              "result": "W",
+              "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+              "scoreScope": "Source final; overtime not independently verified"
+            },
+            {
+              "id": "supplement-home-2026-10-14",
+              "date": "2026-10-14",
+              "datePrecision": "day",
+              "kickoffTime": null,
+              "gf": 100,
+              "ga": 82,
+              "total": 182,
+              "venue": "home",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Besiktas Istanbul",
+              "result": "W",
+              "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+              "scoreScope": "Source final; overtime not independently verified"
+            },
+            {
+              "id": "supplement-home-2026-10-08",
+              "date": "2026-10-08",
+              "datePrecision": "day",
+              "kickoffTime": null,
+              "gf": 82,
+              "ga": 93,
+              "total": 175,
+              "venue": "away",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Valencia Basket",
+              "result": "L",
+              "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+              "scoreScope": "Source final; overtime not independently verified"
+            },
+            {
+              "id": "supplement-home-2026-10-01",
+              "date": "2026-10-01",
+              "datePrecision": "day",
+              "kickoffTime": null,
+              "gf": 102,
+              "ga": 98,
+              "total": 200,
+              "venue": "home",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Real Madrid",
+              "result": "W",
+              "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+              "scoreScope": "Source final; overtime not independently verified"
+            },
+            {
+              "id": "supplement-home-2026-09-29",
+              "date": "2026-09-29",
+              "datePrecision": "day",
+              "kickoffTime": null,
               "gf": 81,
               "ga": 80,
               "total": 161,
               "venue": "away",
-              "opponent": "KK Crvena zvezda",
-              "opponentId": "136096",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Crvena Zvezda Meridianbet Belgrade",
               "result": "W",
-              "url": "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4546&s=2026-2027",
-              "scoreScope": "Source final score; regulation / overtime not independently confirmed"
+              "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+              "scoreScope": "Source final; overtime not independently verified"
             },
             {
-              "id": "tsdb-2565447",
-              "date": "2026-09-24T16:00:00Z",
+              "id": "supplement-home-2026-09-24",
+              "date": "2026-09-24",
+              "datePrecision": "day",
+              "kickoffTime": null,
               "gf": 84,
               "ga": 86,
               "total": 170,
               "venue": "home",
-              "opponent": "Bayern München Basketball",
-              "opponentId": "135424",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "FC Bayern Munich",
               "result": "L",
-              "url": "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4546&s=2026-2027",
-              "scoreScope": "Source final score; regulation / overtime not independently confirmed"
+              "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+              "scoreScope": "Source final; overtime not independently verified"
             }
           ],
           "away": [
             {
-              "id": "tsdb-2565454",
-              "date": "2026-09-25T17:45:00Z",
+              "id": "supplement-away-2026-10-16",
+              "date": "2026-10-16",
+              "datePrecision": "day",
+              "kickoffTime": null,
+              "gf": 86,
+              "ga": 78,
+              "total": 164,
+              "venue": "home",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Kosner Baskonia Vitoria-gasteiz",
+              "result": "W",
+              "url": "https://www.virtus.it/stagione/eurolegue/",
+              "scoreScope": "Source final; overtime not independently verified"
+            },
+            {
+              "id": "supplement-away-2026-10-14",
+              "date": "2026-10-14",
+              "datePrecision": "day",
+              "kickoffTime": null,
+              "gf": 96,
+              "ga": 94,
+              "total": 190,
+              "venue": "away",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Paris Basketball",
+              "result": "W",
+              "url": "https://www.virtus.it/stagione/eurolegue/",
+              "scoreScope": "Source final; overtime not independently verified"
+            },
+            {
+              "id": "supplement-away-2026-10-08",
+              "date": "2026-10-08",
+              "datePrecision": "day",
+              "kickoffTime": null,
+              "gf": 94,
+              "ga": 87,
+              "total": 181,
+              "venue": "away",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "FC Bayern Munich",
+              "result": "W",
+              "url": "https://www.virtus.it/stagione/eurolegue/",
+              "scoreScope": "Source final; overtime not independently verified"
+            },
+            {
+              "id": "supplement-away-2026-10-01",
+              "date": "2026-10-01",
+              "datePrecision": "day",
+              "kickoffTime": null,
+              "gf": 96,
+              "ga": 94,
+              "total": 190,
+              "venue": "home",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Olympiacos Piraeus",
+              "result": "W",
+              "url": "https://www.virtus.it/stagione/eurolegue/",
+              "scoreScope": "Source final; overtime not independently verified"
+            },
+            {
+              "id": "supplement-away-2026-09-29",
+              "date": "2026-09-29",
+              "datePrecision": "day",
+              "kickoffTime": null,
+              "gf": 85,
+              "ga": 87,
+              "total": 172,
+              "venue": "away",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Armani Olimpia Milan",
+              "result": "L",
+              "url": "https://www.virtus.it/stagione/eurolegue/",
+              "scoreScope": "Source final; overtime not independently verified"
+            },
+            {
+              "id": "supplement-away-2026-09-25",
+              "date": "2026-09-25",
+              "datePrecision": "day",
+              "kickoffTime": null,
               "gf": 68,
               "ga": 78,
               "total": 146,
               "venue": "away",
-              "opponent": "Fenerbahçe Basketbol",
-              "opponentId": "136071",
+              "venueScope": "Designated home/away; nominal home games may use neutral arenas",
+              "opponent": "Fenerbahce Tarfin Istanbul",
               "result": "L",
-              "url": "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4546&s=2026-2027",
-              "scoreScope": "Source final score; regulation / overtime not independently confirmed"
+              "url": "https://www.virtus.it/stagione/eurolegue/",
+              "scoreScope": "Source final; overtime not independently verified"
             }
           ],
           "samples": {
-            "home": 2,
-            "away": 1
+            "home": 6,
+            "away": 6
           },
           "fallback": true,
-          "scope": "TheSportsDB league-filtered fixtures plus available season scores and accumulated score archive. Free daily responses cap at 3 per league per UTC day; season responses cap at 15. Incomplete sample; final-score settlement unverified.",
+          "scope": "Six reconstructed current-season EuroLeague results per team. Hapoel results from BasketNews, Virtus results from its official club table; score sums independently agree with club-published standings. Preferred last-ten sample remains incomplete. Date-only history; rest intervals approximate. Designated home does not establish physical home-court advantage; Hapoel hosts this game in Sofia.",
           "missing": [
-            "Opponent-strength adjustment"
+            "Last-ten sample incomplete; only six current-season EuroLeague results verified"
           ]
         },
         {
           "step": 5,
           "title": "Scoring environment and independent screens",
-          "status": "insufficient",
-          "homeAVGSC": 165.5,
-          "awayAVGSC": 146,
-          "markets": [],
+          "status": "exploratory",
+          "homeAVGSC": 176.66666666666666,
+          "awayAVGSC": 173.83333333333334,
+          "markets": [
+            {
+              "type": "total",
+              "side": "over",
+              "line": 168.5,
+              "period": "source_final",
+              "settlement": "unverified",
+              "probability": 0.6775322190081204,
+              "fairOdds": 1.4759445705238332,
+              "odds": null,
+              "estimatedEV": null,
+              "calibrated": false,
+              "verdict": "RESEARCH ONLY",
+              "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+            },
+            {
+              "type": "total",
+              "side": "under",
+              "line": 168.5,
+              "period": "source_final",
+              "settlement": "unverified",
+              "probability": 0.32246778099187956,
+              "fairOdds": 3.1010850042881715,
+              "odds": null,
+              "estimatedEV": null,
+              "calibrated": false,
+              "verdict": "RESEARCH ONLY",
+              "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+            },
+            {
+              "type": "total",
+              "side": "over",
+              "line": 175.5,
+              "period": "source_final",
+              "settlement": "unverified",
+              "probability": 0.49319154427487844,
+              "fairOdds": 2.0276097828689736,
+              "odds": null,
+              "estimatedEV": null,
+              "calibrated": false,
+              "verdict": "RESEARCH ONLY",
+              "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+            },
+            {
+              "type": "total",
+              "side": "under",
+              "line": 175.5,
+              "period": "source_final",
+              "settlement": "unverified",
+              "probability": 0.5068084557251216,
+              "fairOdds": 1.973132035789023,
+              "odds": null,
+              "estimatedEV": null,
+              "calibrated": false,
+              "verdict": "RESEARCH ONLY",
+              "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+            },
+            {
+              "type": "total",
+              "side": "over",
+              "line": 182.5,
+              "period": "source_final",
+              "settlement": "unverified",
+              "probability": 0.31032011531214476,
+              "fairOdds": 3.2224788231794776,
+              "odds": null,
+              "estimatedEV": null,
+              "calibrated": false,
+              "verdict": "RESEARCH ONLY",
+              "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+            },
+            {
+              "type": "total",
+              "side": "under",
+              "line": 182.5,
+              "period": "source_final",
+              "settlement": "unverified",
+              "probability": 0.6896798846878552,
+              "fairOdds": 1.4499480443055022,
+              "odds": null,
+              "estimatedEV": null,
+              "calibrated": false,
+              "verdict": "RESEARCH ONLY",
+              "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+            },
+            {
+              "type": "win",
+              "side": "home",
+              "period": "source_final",
+              "settlement": "unverified",
+              "probability": 0.5308398211021259,
+              "fairOdds": 1.8838074316350402,
+              "odds": null,
+              "estimatedEV": null,
+              "calibrated": false,
+              "verdict": "RESEARCH ONLY",
+              "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+            },
+            {
+              "type": "win",
+              "side": "away",
+              "period": "source_final",
+              "settlement": "unverified",
+              "probability": 0.4691601788978741,
+              "fairOdds": 2.1314681956792376,
+              "odds": null,
+              "estimatedEV": null,
+              "calibrated": false,
+              "verdict": "RESEARCH ONLY",
+              "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+            }
+          ],
           "leagueEnvironment": null,
           "missing": []
         },
@@ -68780,9 +69197,26 @@
           "step": 6,
           "title": "Supporting head to head",
           "status": "partial",
-          "results": [],
+          "results": [
+            {
+              "date": "2026-03-19",
+              "home": "Hapoel Tel Aviv",
+              "away": "Virtus Bologna",
+              "homeScore": 109,
+              "awayScore": 91,
+              "url": "https://hapoelbc.com/meettherivalvirtus-bologna/"
+            },
+            {
+              "date": "2025-12-12",
+              "home": "Virtus Bologna",
+              "away": "Hapoel Tel Aviv",
+              "homeScore": 74,
+              "awayScore": 79,
+              "url": "https://hapoelbc.com/meettherivalvirtus-bologna/"
+            }
+          ],
           "missing": [
-            "Dedicated multi-season H2H search"
+            "Prior meetings downweighted: substantial roster and coaching changes"
           ]
         },
         {
@@ -68790,36 +69224,60 @@
           "title": "Patterns and fatigue",
           "status": "partial",
           "restDays": {
-            "home": 21.916666666666668,
-            "away": 25.927083333333332
+            "home": 5.666666666666667,
+            "away": 5.666666666666667
           },
           "homeLast5": [
-            "81–80",
-            "84–86"
+            "91–81",
+            "100–82",
+            "82–93",
+            "102–98",
+            "81–80"
           ],
           "awayLast5": [
-            "68–78"
+            "86–78",
+            "96–94",
+            "94–87",
+            "96–94",
+            "85–87"
           ],
           "missing": [
             "Travel",
             "Injuries",
-            "Schedule from other competitions"
-          ]
+            "Schedule from other competitions",
+            "Exact kickoff times of historical games; rest-day values are approximate"
+          ],
+          "context": {
+            "awayCurrentEuroLeagueWinStreak": 4,
+            "sourceURL": "https://hapoelbc.com/meettherivalvirtus-bologna/",
+            "rosterContinuity": "Club preview describes a major summer rebuild; no automatic prior-season adjustment"
+          }
         },
         {
           "step": 8,
           "title": "Independent projection and challenge",
-          "status": "unavailable",
-          "projection": null,
+          "status": "exploratory",
+          "projection": {
+            "classification": "MODELLED",
+            "home": 88.16666666666666,
+            "away": 87.08333333333334,
+            "total": 175.25,
+            "sd": 14.648146019827282,
+            "calibrated": false,
+            "range": null,
+            "rangeReason": "No validated predictive interval",
+            "method": "Score-only normal total and margin baseline; empirical variance floor; no possession or efficiency adjustment; verified neutral venue: nominal home/away weighting removed"
+          },
           "contraryEvidence": [
             "Small sample with incomplete competition coverage",
             "No calibration",
             "Source is community-maintained",
-            "Scores do not measure chance quality"
+            "Scores do not measure chance quality",
+            "Preferred last-ten sample incomplete",
+            "Neutral venue: nominal home/away projection weighting removed",
+            "Player availability and possession efficiency unavailable"
           ],
-          "missing": [
-            "Sport-specific inputs and defensible scoring distribution"
-          ]
+          "missing": []
         },
         {
           "step": 9,
@@ -68827,26 +69285,237 @@
           "status": "no_bet",
           "verdict": "NO BET",
           "recommendation": null,
-          "reason": "Fewer than 6 valid results for one or both teams",
-          "alternatives": []
+          "reason": "Unverified prices / settlement rules and uncalibrated model. Research retained; no qualified bet.",
+          "alternatives": [
+            {
+              "type": "total",
+              "side": "over",
+              "line": 168.5,
+              "probability": 0.6775322190081204
+            },
+            {
+              "type": "total",
+              "side": "under",
+              "line": 168.5,
+              "probability": 0.32246778099187956
+            },
+            {
+              "type": "total",
+              "side": "over",
+              "line": 175.5,
+              "probability": 0.49319154427487844
+            },
+            {
+              "type": "total",
+              "side": "under",
+              "line": 175.5,
+              "probability": 0.5068084557251216
+            },
+            {
+              "type": "total",
+              "side": "over",
+              "line": 182.5,
+              "probability": 0.31032011531214476
+            },
+            {
+              "type": "total",
+              "side": "under",
+              "line": 182.5,
+              "probability": 0.6896798846878552
+            },
+            {
+              "type": "win",
+              "side": "home",
+              "line": null,
+              "probability": 0.5308398211021259
+            },
+            {
+              "type": "win",
+              "side": "away",
+              "line": null,
+              "probability": 0.4691601788978741
+            }
+          ]
         }
       ],
-      "projection": null,
-      "markets": [],
+      "projection": {
+        "classification": "MODELLED",
+        "home": 88.16666666666666,
+        "away": 87.08333333333334,
+        "total": 175.25,
+        "sd": 14.648146019827282,
+        "calibrated": false,
+        "range": null,
+        "rangeReason": "No validated predictive interval",
+        "method": "Score-only normal total and margin baseline; empirical variance floor; no possession or efficiency adjustment; verified neutral venue: nominal home/away weighting removed"
+      },
+      "markets": [
+        {
+          "type": "total",
+          "side": "over",
+          "line": 168.5,
+          "period": "source_final",
+          "settlement": "unverified",
+          "probability": 0.6775322190081204,
+          "fairOdds": 1.4759445705238332,
+          "odds": null,
+          "estimatedEV": null,
+          "calibrated": false,
+          "verdict": "RESEARCH ONLY",
+          "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 168.5,
+          "period": "source_final",
+          "settlement": "unverified",
+          "probability": 0.32246778099187956,
+          "fairOdds": 3.1010850042881715,
+          "odds": null,
+          "estimatedEV": null,
+          "calibrated": false,
+          "verdict": "RESEARCH ONLY",
+          "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 175.5,
+          "period": "source_final",
+          "settlement": "unverified",
+          "probability": 0.49319154427487844,
+          "fairOdds": 2.0276097828689736,
+          "odds": null,
+          "estimatedEV": null,
+          "calibrated": false,
+          "verdict": "RESEARCH ONLY",
+          "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 175.5,
+          "period": "source_final",
+          "settlement": "unverified",
+          "probability": 0.5068084557251216,
+          "fairOdds": 1.973132035789023,
+          "odds": null,
+          "estimatedEV": null,
+          "calibrated": false,
+          "verdict": "RESEARCH ONLY",
+          "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 182.5,
+          "period": "source_final",
+          "settlement": "unverified",
+          "probability": 0.31032011531214476,
+          "fairOdds": 3.2224788231794776,
+          "odds": null,
+          "estimatedEV": null,
+          "calibrated": false,
+          "verdict": "RESEARCH ONLY",
+          "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 182.5,
+          "period": "source_final",
+          "settlement": "unverified",
+          "probability": 0.6896798846878552,
+          "fairOdds": 1.4499480443055022,
+          "odds": null,
+          "estimatedEV": null,
+          "calibrated": false,
+          "verdict": "RESEARCH ONLY",
+          "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+        },
+        {
+          "type": "win",
+          "side": "home",
+          "period": "source_final",
+          "settlement": "unverified",
+          "probability": 0.5308398211021259,
+          "fairOdds": 1.8838074316350402,
+          "odds": null,
+          "estimatedEV": null,
+          "calibrated": false,
+          "verdict": "RESEARCH ONLY",
+          "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "period": "source_final",
+          "settlement": "unverified",
+          "probability": 0.4691601788978741,
+          "fairOdds": 2.1314681956792376,
+          "odds": null,
+          "estimatedEV": null,
+          "calibrated": false,
+          "verdict": "RESEARCH ONLY",
+          "reason": "Score-only exploratory baseline; overtime and offered line unverified"
+        }
+      ],
       "missing": [
         "Injuries and lineups",
         "Advanced efficiency / xG / starting goaltender",
         "Travel and coaching context",
         "Independently corroborated opponent strength",
-        "Verified bookmaker price and settlement rules"
+        "Verified bookmaker price and settlement rules",
+        "Preferred last-ten historical sample not fully verified"
       ],
-      "homeSample": 2,
-      "awaySample": 1,
+      "homeSample": 6,
+      "awaySample": 6,
       "verdict": "NO BET",
       "publicationStatus": "research",
       "settlementStatus": "not_published",
-      "forecast": null,
-      "generatedByScan": true
+      "forecast": {
+        "type": "total",
+        "side": "under",
+        "line": 182.5,
+        "period": "source_final",
+        "settlement": "unverified",
+        "probability": 0.6896798846878552,
+        "fairOdds": 1.4499480443055022,
+        "odds": null,
+        "estimatedEV": null,
+        "calibrated": false,
+        "verdict": "RESEARCH ONLY",
+        "reason": "Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.",
+        "selection": "Under 182.5 points",
+        "modelVersion": "research-v5-horizon-neutral-v1",
+        "classification": "EXPERIMENTAL_FORECAST",
+        "referenceLineOnly": true,
+        "createdAt": "2026-10-21T12:21:31.885Z"
+      },
+      "generatedByScan": false,
+      "historyVerification": {
+        "status": "six_result_fallback",
+        "homeScored": 540,
+        "homeConceded": 520,
+        "awayScored": 525,
+        "awayConceded": 518,
+        "aggregateSource": "https://www.virtus.it/stagione/eurolegue/",
+        "preferredSample": 10,
+        "actualSample": 6,
+        "missing": [
+          "Four additional verified same-competition results per team",
+          "Overtime/period-specific box scores",
+          "Possessions and opponent adjustment",
+          "Injuries and rotations"
+        ]
+      },
+      "venueContext": {
+        "neutral": true,
+        "venue": "ARENA 8888 SOFIA",
+        "sourceURL": "https://hapoelbc.com/tickets/"
+      },
+      "savedAt": "2026-10-21T12:29:26.082Z"
     },
     {
       "eventId": "tsdb-2583915",
