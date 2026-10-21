@@ -1,10 +1,10 @@
 {
-  "startedAt": "2026-10-21T11:15:54.788Z",
+  "startedAt": "2026-10-21T17:12:49.203Z",
   "status": "partial",
   "core": [
     {
       "date": "2026-10-21",
-      "screened": 10,
+      "screened": 8,
       "status": "partial"
     },
     {
@@ -21,25 +21,33 @@
   "batches": [
     {
       "date": "2026-10-21",
-      "cursor": 4,
-      "nextCursor": 6,
-      "records": 0,
-      "rateLimited": false,
-      "sourceFailures": false
-    },
-    {
-      "date": "2026-10-21",
-      "cursor": 6,
-      "nextCursor": 8,
-      "records": 0,
-      "rateLimited": false,
-      "sourceFailures": false
-    },
-    {
-      "date": "2026-10-21",
       "cursor": 8,
       "nextCursor": 10,
       "records": 1,
+      "rateLimited": false,
+      "sourceFailures": false
+    },
+    {
+      "date": "2026-10-21",
+      "cursor": 10,
+      "nextCursor": 12,
+      "records": 0,
+      "rateLimited": false,
+      "sourceFailures": false
+    },
+    {
+      "date": "2026-10-21",
+      "cursor": 12,
+      "nextCursor": 14,
+      "records": 0,
+      "rateLimited": false,
+      "sourceFailures": false
+    },
+    {
+      "date": "2026-10-21",
+      "cursor": 14,
+      "nextCursor": 16,
+      "records": 0,
       "rateLimited": true,
       "sourceFailures": true
     }
@@ -47,7 +55,7 @@
   "unfinished": [
     {
       "date": "2026-10-21",
-      "cursor": 8
+      "cursor": 14
     },
     {
       "date": "2026-10-22",
@@ -59,5 +67,5 @@
     }
   ],
   "stopReason": "HTTP_429",
-  "finishedAt": "2026-10-21T11:16:21.963Z"
+  "finishedAt": "2026-10-21T17:13:19.493Z"
 }
