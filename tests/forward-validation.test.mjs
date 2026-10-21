@@ -8,3 +8,7 @@ assert.equal(scoreFrozen({...f,period:'full_match'},[result],now+86400000),null)
 assert.equal(scoreFrozen(f,[result,{...result,history:{home:[{...result.history.home[0],gf:60}]}}],now+86400000),null);
 assert.equal(forwardMetrics([f],[]).groups[0].brier,null);const m=forwardMetrics([f],[{eventId:f.id,outcome:1}]);assert.ok(Math.abs(m.groups[0].brier-.04)<1e-9);assert.equal(m.calibrated,false);
 console.log('Forward validation: pre-match capture, identity/conflict/period gates, pending metrics and proper scoring passed');
+const ol={...f,eventId:'ol-1',sport:'Football',period:'full_match'};
+const olResult={...result,sport:'Football',history:{home:[{...result.history.home[0],id:'1',url:'https://api.openligadb.de/getmatchdata/test/2026'}]}};
+assert.equal(scoreFrozen(ol,[olResult],now+86400000).outcome,1);
+assert.equal(scoreFrozen(ol,[{...olResult,history:{home:[{...olResult.history.home[0],url:'https://example.test'}]}}],now+86400000),null);

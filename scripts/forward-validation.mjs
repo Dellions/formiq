@@ -19,7 +19,9 @@ export function scoreFrozen(f,records,now=Date.now()){
     for(const side of ['home','away']){
       const owner=r[side];
       for(const h of r.history?.[side]||[]){
-        if(h.id!==f.eventId||Date.parse(h.date)!==Date.parse(f.start)||!Number.isFinite(h.gf)||!Number.isFinite(h.ga)||h.gf<0||h.ga<0)continue;
+        let sameEvent=h.id===f.eventId;
+        if(!sameEvent&&f.eventId.startsWith('ol-')&&String(h.id)===f.eventId.slice(3)){try{sameEvent=new URL(h.url).hostname==='api.openligadb.de'}catch{}}
+        if(!sameEvent||Date.parse(h.date)!==Date.parse(f.start)||!Number.isFinite(h.gf)||!Number.isFinite(h.ga)||h.gf<0||h.ga<0)continue;
         if(!/^https:\/\//.test(h.url||''))continue;
         let home,away;
         if(String(owner.id)===String(f.home.id)&&String(h.opponentId)===String(f.away.id)){home=h.gf;away=h.ga}
