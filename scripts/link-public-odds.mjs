@@ -4,4 +4,4 @@ const sample=JSON.parse(await fs.readFile('research/snapshot/bookmaker-observati
 const fixtures=JSON.parse(await fs.readFile('research/snapshot/picks.json','utf8')).records||[];
 const linked=linkObservations(sample,fixtures);
 await fs.writeFile('research/snapshot/market-observations.json',JSON.stringify(linked,null,2)+'\n');
-console.log(JSON.stringify({fixtures:linked.fixtureCount,exactCandidates:linked.exactCandidates,publicationEligible:false}));
+console.log(JSON.stringify({fixtures:linked.fixtureCount,exactCandidates:linked.exactCandidates,aliasCandidates:linked.aliasCandidates,unmatched:linked.unmatched,publicationEligible:false}));

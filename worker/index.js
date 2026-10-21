@@ -159,15 +159,31 @@ async function recordTickets(env){const candidates=tickets(await predictions(env
 function weekOf(iso){const d=new Date(iso);const local=new Date(day(d)+'T12:00:00+01:00'),n=(local.getUTCDay()+6)%7;local.setUTCDate(local.getUTCDate()-n);return day(local)}
 async function ticketAudit(env){const keys=await entries(env,'research/ticket-ledger/'),records=(await pool(keys,k=>readJSON(env,k.key))).filter(Boolean),ps=new Map((await predictions(env)).map(p=>[p.eventId,p]));const rows=records.map(t=>{const legs=t.legs.map(l=>({...l,result:ps.get(l.eventId)?.result?.status||'pending'}));if(legs.some(l=>l.result==='pending'))return {...t,legs,status:'pending'};const nonvoid=legs.filter(l=>l.result!=='void'),status=!nonvoid.length?'void':legs.some(l=>l.result==='loss')?'loss':'win',settledOdds=nonvoid.reduce((n,l)=>n*l.odds,1);return {...t,legs,status,settledOdds,profit:status==='win'?settledOdds-1:status==='loss'?-1:0}});const bins=new Map();for(const t of rows){const week=weekOf(t.publishedAt),key=week+'-'+t.target;let b=bins.get(key)||{week,target:t.target,published:0,settled:0,wins:0,losses:0,voids:0,pending:0,profit:0};b.published++;if(t.status==='pending')b.pending++;else if(t.status==='void')b.voids++;else{b.settled++;b.wins+=t.status==='win'?1:0;b.losses+=t.status==='loss'?1:0;b.profit+=t.profit}bins.set(key,b)}return {rows,weekly:[...bins.values()].map(b=>({...b,hitRate:b.settled?b.wins/b.settled:null})),goals:[{odds:5,targetHitRate:.8},{odds:10,targetHitRate:.75},{odds:20,targetHitRate:.7}],note:'Goals are user research targets, not demonstrated performance. Flat one-unit tickets. Only pre-match immutable recorded tickets count; pending and void excluded from hit-rate denominator.'}}
 
+// Explicit senior-football aliases only. Never strip gender, age or reserve labels.
+const FOOTBALL_TEAM_GROUPS = [
+  ['Manchester United FC','Manchester United','Man Utd'],
+  ['Lille OSC','Lille'], ['FC Bayern München','Bayern Munich'],
+  ['FC Arsenal','Arsenal'], ['Viking','Viking FK'],
+  ['Real Betis','Betis'], ['Feyenoord Rotterdam','Feyenoord']
+];
+const FOOTBALL_LEAGUE_GROUPS = [
+  ['Champions League','International Clubs UEFA Champions League','UEFA Champions League'],
+  ['England Premier League','English Premier League','Premier League']
+];
 // Conservative cross-source linking. A candidate is never verification or a bet.
 function linkObservations(sample, fixtures, now = Date.now()) {
   const norm = x => String(x || '').normalize('NFKC').trim().toLowerCase().replace(/\s+/g, ' ');
   const sports = {football:'Football', basketball:'Basketball', iceHockey:'Ice Hockey', handball:'Handball'};
+  const aliasKey=(value,groups)=>{const n=norm(value);const i=groups.findIndex(g=>g.some(v=>norm(v)===n));return i<0?'literal:'+n:'group:'+i};
+  const leagueKey=value=>aliasKey(String(value||'').replace(/\s+20\d{2}\/20\d{2}$/,''),FOOTBALL_LEAGUE_GROUPS);
   const rows = (sample?.observations || []).map(o => {
+    const exact=f=>norm(f.home?.name)===norm(o.home)&&norm(f.away?.name)===norm(o.away)&&norm(f.league)===norm(o.competitionSourceLabel);
     const candidates = fixtures.filter(f => f.sport === sports[o.sportPath] &&
-      norm(f.home?.name) === norm(o.home) && norm(f.away?.name) === norm(o.away) &&
       Number.isFinite(Date.parse(o.start)) && Date.parse(f.start) === Date.parse(o.start) &&
-      norm(f.league) === norm(o.competitionSourceLabel));
+      (exact(f)||o.sportPath==='football'&&
+        aliasKey(f.home?.name,FOOTBALL_TEAM_GROUPS)===aliasKey(o.home,FOOTBALL_TEAM_GROUPS)&&
+        aliasKey(f.away?.name,FOOTBALL_TEAM_GROUPS)===aliasKey(o.away,FOOTBALL_TEAM_GROUPS)&&
+        leagueKey(f.league)===leagueKey(o.competitionSourceLabel)));
     const f = candidates.length === 1 ? candidates[0] : null;
     const reasons = [];
     if (!f) reasons.push(candidates.length > 1 ? 'Ambiguous fixture identity' : 'No exact team, competition and kickoff match; review required');
@@ -184,15 +200,20 @@ function linkObservations(sample, fixtures, now = Date.now()) {
       gaps.push('Independent price and identity verification required', 'Calibrated model required');
       return {...q, gaps, usableForBetting:false, probability:null, estimatedEV:null};
     });
-    return {...o, eventId:f?.eventId || null, mappingStatus:f?'exact_candidate':'unmatched', mappingVerified:false, reasons, quotes, publicationEligible:false};
+    return {...o, eventId:f?.eventId || null, mappingStatus:f?(exact(f)?'exact_candidate':'alias_candidate'):'unmatched',
+      candidateCount:candidates.length, aliasRegistryVersion:'senior-football-v1',
+      researchFixture:f?{eventId:f.eventId,home:f.home.name,away:f.away.name,league:f.league,start:f.start,sources:f.sources||[]}:null,
+      mappingVerified:false, reasons, quotes, publicationEligible:false};
   });
   return {generatedAt:new Date(now).toISOString(), observedAt:sample?.observedAt || sample?.startedAt || null,
     status:'research_only', publicationEligible:false, fixtureCount:rows.length,
-    exactCandidates:rows.filter(r=>r.eventId).length, rows,
+    exactCandidates:rows.filter(r=>r.mappingStatus==='exact_candidate').length,
+    aliasCandidates:rows.filter(r=>r.mappingStatus==='alias_candidate').length,
+    unmatched:rows.filter(r=>!r.eventId).length, rows,
     note:'Source-observed prices; exact candidates still require independent verification. No price is a betting recommendation.'};
 }
 async function api(req,env,ctx){const u=new URL(req.url);if(!env.BUCKET)return json({error:'Persistent storage unavailable'},503);if(req.method==='POST'&&req.headers.get('origin')&&req.headers.get('origin')!==u.origin)return json({error:'Cross-origin write rejected'},403);if(req.method==='POST'&&Number(req.headers.get('content-length')||0)>300000)return json({error:'Body too large'},413);
-if(u.pathname==='/api/market-observations'){if(req.method==='POST'){const text=await req.text();if(text.length>100000)return json({error:'Observation batch too large'},413);const d=JSON.parse(text);if(d.status!=='sample_collected'||!Array.isArray(d.observations)||!d.observations.length||d.observations.length>10||d.observations.some(o=>{try{const x=new URL(o.sourceURL);return x.protocol!=='https:'||x.hostname!=='www.sportybet.com'||!x.pathname.startsWith('/ng/')||!o.home||!o.away||!Array.isArray(o.quotes)||o.quotes.length>100}catch{return true}}))return json({error:'Expected bounded public SportyBet observation batch'},422);await env.BUCKET.put('research/market-observations/latest.json',JSON.stringify(d));await env.BUCKET.put('research/market-observations/history/'+crypto.randomUUID()+'.json',JSON.stringify(d));}return json(linkObservations(await readJSON(env,'research/market-observations/latest.json'),await allRecords(env)))}
+if(u.pathname==='/api/market-observations'){if(req.method==='POST'){const text=await req.text();if(text.length>100000)return json({error:'Observation batch too large'},413);const d=JSON.parse(text);if(d.status!=='sample_collected'||!Array.isArray(d.observations)||!d.observations.length||d.observations.length>10||d.observations.some(o=>{try{const x=new URL(o.sourceURL);return x.protocol!=='https:'||x.username||x.password||x.hostname!=='www.sportybet.com'||!x.pathname.startsWith('/ng/')||!o.home||!o.away||!Array.isArray(o.quotes)||o.quotes.length>100}catch{return true}}))return json({error:'Expected bounded public SportyBet observation batch'},422);const stamp=x=>Math.max(...x.observations.map(o=>Date.parse(o.observedAt)));if(d.observations.some(o=>!Number.isFinite(Date.parse(o.observedAt))||Date.parse(o.observedAt)>Date.now()||!Number.isFinite(Date.parse(o.start))))return json({error:'Valid non-future observation and kickoff timestamps required'},422);const previous=await readJSON(env,'research/market-observations/latest.json');if(previous&&stamp(d)<stamp(previous))return json({error:'Older sample rejected; newer stored observations preserved'},409);if(previous&&JSON.stringify(previous)===JSON.stringify(d))return json(linkObservations(previous,await allRecords(env)));await env.BUCKET.put('research/market-observations/latest.json',JSON.stringify(d));await env.BUCKET.put('research/market-observations/history/'+crypto.randomUUID()+'.json',JSON.stringify(d));}return json(linkObservations(await readJSON(env,'research/market-observations/latest.json'),await allRecords(env)))}
  if(u.pathname==='/api/tickets'){if(req.method==='POST')return json(await recordTickets(env));return json(await ticketAudit(env))}
  if(u.pathname==='/api/validation')return json(VALIDATION_REPORT);
  if(u.pathname==='/api/history-cache'&&req.method==='POST'){const body=await req.json(),d=body.data;if(!/^football-history\/\d{4}\/(E0|SP1|D1|I1|F1|N1|P1|B1|SC0|T1|G1)$/.test(body.key)||!d||!finite(d.at)||d.at>Date.now()||!d.url?.startsWith('https://www.football-data.co.uk/mmz4281/')||d.rows&&!Array.isArray(d.rows))return json({error:'Invalid domestic history cache'},422);await env.BUCKET.put(body.key,JSON.stringify(d));return json({saved:true,key:body.key})}
@@ -257,6 +278,6 @@ async function loadPerformance(){try{const res=await fetch('/api/performance');i
 $('#settle').onclick=async()=>{const b=$('#settle');b.disabled=true;try{const r=await fetch('/api/settle',{method:'POST'});if(!r.ok)throw Error('Settlement request failed');await loadPerformance()}catch(e){$('#staking').textContent=e.message}finally{b.disabled=false}};
 $('#modal').addEventListener('click',e=>{if(e.target===$('#modal'))$('#modal').close()});render();load();setInterval(render,60000);
 const pricePanel=document.createElement('details');pricePanel.className='card';pricePanel.style.margin='16px 0';pricePanel.innerHTML='<summary>Bookmaker observations · Research only</summary><div id="price-observations">Loading source observations…</div>';document.querySelector('.notice').after(pricePanel);
-async function loadObservations(){const box=document.querySelector('#price-observations');try{const res=await fetch('/api/market-observations');if(!res.ok)throw Error('Source observations unavailable');const d=await res.json();box.innerHTML='<p>'+d.fixtureCount+' observed fixtures · '+d.exactCandidates+' exact identity candidates. Settlement rules and independent verification remain required. Prices expire after 30 minutes.</p>'+(d.rows.length?d.rows.map(o=>'<details><summary>'+esc(o.home)+' — '+esc(o.away)+' · '+esc(o.mappingStatus)+'</summary><p>'+wat(o.start)+' WAT · '+esc(o.competitionSourceLabel)+'</p><p><a href="'+esc(o.sourceURL)+'" target="_blank" rel="noopener">SportyBet source</a> · Observed '+wat(o.observedAt)+' WAT</p>'+o.quotes.map(q=>'<p>'+esc(q.marketLabel||q.type)+' '+esc(q.side)+' '+esc(q.line??'')+' · <strong>'+num(q.odds)+'</strong><br><small>'+esc(q.gaps.join(' · '))+'</small></p>').join('')+'</details>').join(''):blank('No bookmaker observations imported','Missing prices remain missing.'))}catch(e){box.textContent=e.message}}loadObservations();setInterval(loadObservations,60000);
+async function loadObservations(){const box=document.querySelector('#price-observations');try{const res=await fetch('/api/market-observations');if(!res.ok)throw Error('Source observations unavailable');const d=await res.json();box.innerHTML='<p>'+d.fixtureCount+' observed fixtures · '+d.exactCandidates+' exact candidates · '+(d.aliasCandidates||0)+' alias candidates · '+(d.unmatched??d.fixtureCount)+' unmatched. Settlement rules and independent verification remain required. Prices expire after 30 minutes.</p>'+(d.rows.length?d.rows.map(o=>'<details><summary>'+esc(o.home)+' — '+esc(o.away)+' · '+esc(o.mappingStatus)+'</summary><p>'+wat(o.start)+' WAT · '+esc(o.competitionSourceLabel)+'</p><p><a href="'+esc(o.sourceURL)+'" target="_blank" rel="noopener">SportyBet source</a> · Observed '+wat(o.observedAt)+' WAT</p>'+o.quotes.map(q=>'<p>'+esc(q.marketLabel||q.type)+' '+esc(q.side)+' '+esc(q.line??'')+' · <strong>'+num(q.odds)+'</strong><br><small>'+esc(q.gaps.join(' · '))+'</small></p>').join('')+'</details>').join(''):blank('No bookmaker observations imported','Missing prices remain missing.'))}catch(e){box.textContent=e.message}}loadObservations();setInterval(loadObservations,60000);
 </script></body></html>
 `;

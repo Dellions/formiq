@@ -1,0 +1,11 @@
+{
+  "bookmaker": "SportyBet Nigeria",
+  "checkedAt": "2026-10-21T11:38:00Z",
+  "status": "partial",
+  "rulesVerified": false,
+  "sourceURL": "https://www.sportybet.com/ng/m/help/how-to-play/sports/football",
+  "access": "Official Nigeria search result supports a general regulation-time default. Direct page extraction returned a JavaScript shell; complete market exceptions were not retrieved.",
+  "generalContext": "Ordinary football markets generally use scheduled regulation play with added injury time, subject to stated market exceptions.",
+  "limitations": ["General source context does not confirm exact settlement of any collected quote", "No corresponding basketball or hockey overtime/shootout rules verified", "Individual quote rules remain unverified"],
+  "publicationEligible": false
+}

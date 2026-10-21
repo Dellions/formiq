@@ -1,5 +1,7 @@
 import fs from 'node:fs/promises';import worker from '../worker/index.js';
 import {linkObservations} from './fixture-odds-linker.mjs';
+import {execFileSync} from 'node:child_process';
+execFileSync(process.execPath,['scripts/export-sync-batches.mjs'],{stdio:'inherit'});
 const out='github-pages';await fs.mkdir(out+'/data',{recursive:true});
 let html=await(await worker.fetch(new Request('https://edgeform.local/'),{},{})).text();
 html=html.replace("fetch('/api/market-observations')","fetch('./data/market-observations.json')");

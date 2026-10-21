@@ -1,12 +1,28 @@
+// Explicit senior-football aliases only. Never strip gender, age or reserve labels.
+const FOOTBALL_TEAM_GROUPS = [
+  ['Manchester United FC','Manchester United','Man Utd'],
+  ['Lille OSC','Lille'], ['FC Bayern München','Bayern Munich'],
+  ['FC Arsenal','Arsenal'], ['Viking','Viking FK'],
+  ['Real Betis','Betis'], ['Feyenoord Rotterdam','Feyenoord']
+];
+const FOOTBALL_LEAGUE_GROUPS = [
+  ['Champions League','International Clubs UEFA Champions League','UEFA Champions League'],
+  ['England Premier League','English Premier League','Premier League']
+];
 // Conservative cross-source linking. A candidate is never verification or a bet.
 export function linkObservations(sample, fixtures, now = Date.now()) {
   const norm = x => String(x || '').normalize('NFKC').trim().toLowerCase().replace(/\s+/g, ' ');
   const sports = {football:'Football', basketball:'Basketball', iceHockey:'Ice Hockey', handball:'Handball'};
+  const aliasKey=(value,groups)=>{const n=norm(value);const i=groups.findIndex(g=>g.some(v=>norm(v)===n));return i<0?'literal:'+n:'group:'+i};
+  const leagueKey=value=>aliasKey(String(value||'').replace(/\s+20\d{2}\/20\d{2}$/,''),FOOTBALL_LEAGUE_GROUPS);
   const rows = (sample?.observations || []).map(o => {
+    const exact=f=>norm(f.home?.name)===norm(o.home)&&norm(f.away?.name)===norm(o.away)&&norm(f.league)===norm(o.competitionSourceLabel);
     const candidates = fixtures.filter(f => f.sport === sports[o.sportPath] &&
-      norm(f.home?.name) === norm(o.home) && norm(f.away?.name) === norm(o.away) &&
       Number.isFinite(Date.parse(o.start)) && Date.parse(f.start) === Date.parse(o.start) &&
-      norm(f.league) === norm(o.competitionSourceLabel));
+      (exact(f)||o.sportPath==='football'&&
+        aliasKey(f.home?.name,FOOTBALL_TEAM_GROUPS)===aliasKey(o.home,FOOTBALL_TEAM_GROUPS)&&
+        aliasKey(f.away?.name,FOOTBALL_TEAM_GROUPS)===aliasKey(o.away,FOOTBALL_TEAM_GROUPS)&&
+        leagueKey(f.league)===leagueKey(o.competitionSourceLabel)));
     const f = candidates.length === 1 ? candidates[0] : null;
     const reasons = [];
     if (!f) reasons.push(candidates.length > 1 ? 'Ambiguous fixture identity' : 'No exact team, competition and kickoff match; review required');
@@ -23,10 +39,15 @@ export function linkObservations(sample, fixtures, now = Date.now()) {
       gaps.push('Independent price and identity verification required', 'Calibrated model required');
       return {...q, gaps, usableForBetting:false, probability:null, estimatedEV:null};
     });
-    return {...o, eventId:f?.eventId || null, mappingStatus:f?'exact_candidate':'unmatched', mappingVerified:false, reasons, quotes, publicationEligible:false};
+    return {...o, eventId:f?.eventId || null, mappingStatus:f?(exact(f)?'exact_candidate':'alias_candidate'):'unmatched',
+      candidateCount:candidates.length, aliasRegistryVersion:'senior-football-v1',
+      researchFixture:f?{eventId:f.eventId,home:f.home.name,away:f.away.name,league:f.league,start:f.start,sources:f.sources||[]}:null,
+      mappingVerified:false, reasons, quotes, publicationEligible:false};
   });
   return {generatedAt:new Date(now).toISOString(), observedAt:sample?.observedAt || sample?.startedAt || null,
     status:'research_only', publicationEligible:false, fixtureCount:rows.length,
-    exactCandidates:rows.filter(r=>r.eventId).length, rows,
+    exactCandidates:rows.filter(r=>r.mappingStatus==='exact_candidate').length,
+    aliasCandidates:rows.filter(r=>r.mappingStatus==='alias_candidate').length,
+    unmatched:rows.filter(r=>!r.eventId).length, rows,
     note:'Source-observed prices; exact candidates still require independent verification. No price is a betting recommendation.'};
 }
