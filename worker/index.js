@@ -118,11 +118,13 @@ function forecastFrom(r){
  const markets=(r.markets||[]).filter(m=>m.verdict!=='KILL'&&finite(m.probability)&&m.probability>.5&&m.probability<1);
  markets.sort((a,b)=>b.probability-a.probability);const m=markets[0];if(!m)return null;
  const label=m.type==='total'?(m.side==='over'?'Over ':'Under ')+m.line+(r.sport==='Basketball'?' points':' goals'):m.type==='double_chance'?'Double chance '+m.side:m.type==='btts'?'Both teams to score: '+m.side:(m.side==='home'?r.home.name:r.away.name)+' to win';
- return {...m,selection:label,modelVersion:VERSION,classification:'EXPERIMENTAL_FORECAST',calibrated:false,odds:null,estimatedEV:null,referenceLineOnly:m.type==='total',reason:'Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.',createdAt:nowISO()};
+ return {...m,selection:label,modelVersion:VERSION+(r.venueContext?.neutral===true&&validURL(r.venueContext?.sourceURL)?'-neutral-v1':''),classification:'EXPERIMENTAL_FORECAST',calibrated:false,odds:null,estimatedEV:null,referenceLineOnly:m.type==='total',reason:'Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.',createdAt:nowISO()};
 }
 function baselineOtherSport(f,h,a){
  if(!['Basketball','Handball','Ice hockey'].includes(f.sport)||h.length<6||a.length<6)return null;
- const home=(blended(h,'gf','home')+blended(a,'ga','away'))/2,away=(blended(a,'gf','away')+blended(h,'ga','home'))/2,total=home+away;
+ const neutral=f.venueContext?.neutral===true&&validURL(f.venueContext?.sourceURL);
+ const component=(rows,key,venue)=>neutral?mean(rows.map(r=>r[key])):blended(rows,key,venue);
+ const home=(component(h,'gf','home')+component(a,'ga','away'))/2,away=(component(a,'gf','away')+component(h,'ga','home'))/2,total=home+away;
  const floor=f.sport==='Basketball'?14:f.sport==='Handball'?5:2;
  const sd=Math.max(floor,Math.sqrt(variance([...h,...a].map(x=>x.total))));
  const marginSD=Math.max(floor,Math.sqrt(variance([...h,...a].map(x=>x.gf-x.ga))));

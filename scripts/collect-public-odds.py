@@ -3,7 +3,7 @@ import argparse,json,re,time
 from datetime import datetime,timezone
 from pathlib import Path
 from urllib.parse import urlparse,unquote
-from public_odds_parser import parse_market,start_from_display,displayed_offset,parse_listing,parse_priority_listing
+from public_odds_parser import parse_market,start_from_display,displayed_offset,parse_listing,parse_priority_listing,parse_exact_detail_market
 
 def timestamp():return datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
 
@@ -38,7 +38,36 @@ def collect(driver,urls,limit=6,spacing=10):
                 sport=urlparse(url).path.rstrip('/').split('/')[-1]
                 quota=min(max(1,(limit+len(urls)-1)//len(urls)),limit-len(report['observations']))
                 if sport in ['basketball','iceHockey']:
-                    report['observations'].extend(parse_priority_listing(driver.find_element(By.TAG_NAME,'body').text,driver.current_url,timestamp(),sport,quota))
+                    rows=parse_priority_listing(driver.find_element(By.TAG_NAME,'body').text,driver.current_url,timestamp(),sport,quota)
+                    report['observations'].extend(rows)
+                    if rows:
+                        row=rows[0];name=row['home']
+                        literal='"'+name+'"' if '"' not in name else "'"+name+"'"
+                        choices=driver.find_elements(By.XPATH,'//*[normalize-space(text())='+literal+']')
+                        button=next((e for e in choices if e.is_displayed()),None)
+                        if button is not None:
+                            time.sleep(max(0,spacing-(time.monotonic()-last)));last=time.monotonic();button.click()
+                            try:WebDriverWait(driver,25).until(lambda d:bool(d.find_elements(By.CSS_SELECTOR,'.m-table-header-title')))
+                            except Exception:pass
+                            body=driver.find_element(By.TAG_NAME,'body').text
+                            if re.search(r'captcha|access denied|too many requests|verify you are human|request blocked',body,re.I):raise RuntimeError('Detail-page source restriction; stopped')
+                            offset=displayed_offset(body);start=start_from_display(body,utc_offset_minutes=offset) if offset is not None else None
+                            if row['home'] in body and row['away'] in body and start==row['start'] and urlparse(driver.current_url).netloc=='www.sportybet.com' and 'sr:match:' in driver.current_url:
+                                quotes=[];seen=set()
+                                for header in driver.find_elements(By.CSS_SELECTOR,'.m-table-header-title'):
+                                    label=header.text.strip();node=header
+                                    for level in range(5):
+                                        node=node.find_element(By.XPATH,'..')
+                                        if len(node.find_elements(By.CSS_SELECTOR,'.m-table-header-title'))>1:break
+                                        parsed=parse_exact_detail_market(sport,label,node.text)
+                                        if parsed:
+                                            for q in parsed:
+                                                key=(q['type'],q['side'],q.get('line'),q['observedSettlement'])
+                                                if key not in seen:seen.add(key);quotes.append(q)
+                                            break
+                                if quotes:
+                                    row.update(sourceURL=driver.current_url,detailBookmakerEventId=urlparse(driver.current_url).path.split('/')[-1],observedAt=timestamp(),quotes=quotes[:100],detailMarketLabelsObserved=True)
+                                    report['pages'].append({'url':driver.current_url,'retrievedAt':timestamp(),'scope':'Exact detail market labels; independent rules/price verification pending'})
                 if '/sport/football/' in url:
                     report['observations'].extend(parse_listing(driver.find_element(By.TAG_NAME,'body').text,driver.current_url,timestamp(),quota))
                 if len(report['observations'])>=limit:break

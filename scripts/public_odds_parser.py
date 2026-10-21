@@ -86,6 +86,24 @@ def parse_priority_listing(text,url,observed_at,sport,limit=4,now=None):
             if not groups[league]:del groups[league]
     return out
 
+def parse_exact_detail_market(sport,title,text):
+    """Label evidence only; does not certify independent price/rule verification."""
+    settlement=None;canonical=None;line=None
+    if sport=='basketball':
+        if title=='Winner (incl. overtime)':settlement='including_overtime';canonical='1X2'
+        m=re.fullmatch(r'Over/Under \(incl\. overtime\)(?: (\d+\.5))?',title)
+        if m:settlement='including_overtime';canonical='Over/Under';line=float(m[1]) if m[1] else None
+        if title in ['1X2','Over/Under']:settlement='regulation';canonical=title
+    elif sport=='iceHockey':
+        if title=='Winner (incl. overtime and penalties)':settlement='including_overtime_and_shootout';canonical='1X2'
+        if title=='Total (incl. overtime and penalties)':settlement='including_overtime_and_shootout';canonical='Over/Under'
+        if title in ['1X2','Over/Under']:settlement='regulation';canonical=title
+    if not canonical:return []
+    rows=parse_market(canonical,text)
+    if line is not None:rows=[q for q in rows if q.get('line')==line]
+    for q in rows:q.update(marketLabel=title,period='full_match',settlement='unverified',observedSettlement=settlement,settlementLabelVerified=True,rulesVerified=False,classification='SOURCE_OBSERVED')
+    return rows
+
 def parse_market(title,text):
     # Exact names keep promoted, first-half, team-total and player markets separate.
     types={'1X2':('win',{'Home':'home','Away':'away'}),

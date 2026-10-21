@@ -2,9 +2,19 @@ import sys,unittest
 from pathlib import Path
 from datetime import datetime,timezone
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from public_odds_parser import parse_market,start_from_display,displayed_offset,parse_listing,parse_priority_listing
+from public_odds_parser import parse_market,start_from_display,displayed_offset,parse_listing,parse_priority_listing,parse_exact_detail_market
 
 class PublicOddsTests(unittest.TestCase):
+    def test_exact_settlement_labels(self):
+        t='Over 175.5\n1.90\nUnder 175.5\n1.90'
+        q=parse_exact_detail_market('basketball','Over/Under (incl. overtime) 175.5',t)
+        self.assertEqual(len(q),2);self.assertEqual(q[0]['observedSettlement'],'including_overtime');self.assertFalse(q[0]['rulesVerified']);self.assertEqual(q[0]['settlement'],'unverified')
+        self.assertEqual(parse_exact_detail_market('basketball','Over/Under (incl. overtime) 176.5',t),[])
+        for title in ['1st Half - Over/Under','Player Over/Under (incl. overtime) 175.5','Home Over/Under (incl. overtime) 175.5']:
+            self.assertEqual(parse_exact_detail_market('basketball',title,t),[])
+        h=parse_exact_detail_market('iceHockey','Total (incl. overtime and penalties)','Over 5.5\n1.90\nUnder 5.5\n1.90')
+        self.assertEqual(h[0]['observedSettlement'],'including_overtime_and_shootout')
+        self.assertEqual(parse_exact_detail_market('iceHockey','Over/Under','Over 5.5\n1.90')[0]['observedSettlement'],'regulation')
     def test_priority_sports_layouts(self):
         now=datetime(2026,10,21,10,tzinfo=timezone.utc)
         base='GMT+00:00\n\ue6a3 USA NBA\n2 Way & O/U\n21/10 Wednesday\n1\n2\nPoints\nOver\nUnder\n23:00\nID: 123\nHome\nAway\n1.80\n2.10\n220.5\n1.90\n1.90\n+200'
