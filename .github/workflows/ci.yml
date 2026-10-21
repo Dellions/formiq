@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '22'
       - run: node tests/research.test.mjs
-      - run: node tests/forecast.test.mjs
+      - run: node tests/forecast.test.mjs && node tests/football-focus.test.mjs
       - run: node tests/ticket-audit.test.mjs
       - run: node tests/pipeline.test.mjs
       - run: node tests/fixture-odds-linker.test.mjs

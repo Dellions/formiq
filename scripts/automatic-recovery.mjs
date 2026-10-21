@@ -5,7 +5,7 @@ import {mergeRecoveryHistory} from './recovery-history.mjs';
 const snapshot='research/snapshot/picks.json',p=JSON.parse(await fs.readFile(snapshot,'utf8'));
 const read=async(path,fallback)=>{try{return JSON.parse(await fs.readFile(path,'utf8'))}catch(e){if(e.code==='ENOENT')return fallback;throw e}};
 const previous=await read('research/snapshot/recovery-report.json',{attempts:[]}),observations=await read('research/snapshot/market-observations.json',null);
-const audit=missingDataAudit(p.records,observations,previous.attempts),tasks=audit.records.flatMap(r=>r.gaps.filter(g=>g.adapter).map(g=>({...g,eventId:r.eventId,side:g.field.split('.')[1],teamName:p.records.find(f=>f.eventId===r.eventId)[g.field.split('.')[1]]?.name}))).sort((a,b)=>(a.severity==='blocking'?0:1)-(b.severity==='blocking'?0:1)||String(a.lastAttempt?.attemptedAt||'').localeCompare(String(b.lastAttempt?.attemptedAt||'')));
+const audit=missingDataAudit(p.records.filter(r=>r.sport==='Football'),observations,previous.attempts),tasks=audit.records.flatMap(r=>r.gaps.filter(g=>g.adapter).map(g=>({...g,eventId:r.eventId,side:g.field.split('.')[1],teamName:p.records.find(f=>f.eventId===r.eventId)[g.field.split('.')[1]]?.name}))).sort((a,b)=>(a.severity==='blocking'?0:1)-(b.severity==='blocking'?0:1)||String(a.lastAttempt?.attemptedAt||'').localeCompare(String(b.lastAttempt?.attemptedAt||'')));
 await fs.mkdir('.edgeform-state/recovery',{recursive:true});await fs.writeFile('.edgeform-state/recovery/request.json',JSON.stringify({tasks}));
 execFileSync('python',['scripts/recover-public-history.py'],{stdio:'inherit',timeout:360000});
 const result=await read('.edgeform-state/recovery/results.json',{attempts:[],results:[]}),historyCache=await read('research/snapshot/source-history-cache.json',{});
@@ -21,7 +21,7 @@ for(const t of tasks.filter(t=>t.adapter==='cached-domestic-history')){
  if(rows.length)result.results.push({eventId:t.eventId,side:t.side,history:rows,sources,taskId:t.taskId});
 }
 const changes=new Map(),outcomes=[];
-for(const x of result.results){const original=p.records.find(r=>r.eventId===x.eventId);if(!original||original.publicationStatus==='published'){outcomes.push({taskId:x.taskId,status:'protected_published_record'});continue}
+for(const x of result.results.filter(x=>p.records.some(r=>r.eventId===x.eventId&&r.sport==='Football'))){const original=p.records.find(r=>r.eventId===x.eventId);if(!original||original.publicationStatus==='published'){outcomes.push({taskId:x.taskId,status:'protected_published_record'});continue}
  if(original.savedAt&&!original.generatedByScan){outcomes.push({taskId:x.taskId,status:'protected_reviewed_record',candidateResults:x.history.length});continue}
  const r=changes.get(x.eventId)||structuredClone(original),merged=mergeRecoveryHistory(r.history?.[x.side]||[],x.history,r.sport);
  merged.rows=merged.rows.filter(row=>!(r.dataRecoveryConflicts||[]).includes(row.historyIdentityKey));
@@ -40,5 +40,5 @@ const attempts=[...new Map([...previous.attempts,...result.attempts].map(a=>[a.t
 await fs.mkdir('research/recovery',{recursive:true});await fs.writeFile('research/recovery/history.json',JSON.stringify(result.results));
 const report={...result,results:undefined,attempts,outcomes,completedRecordIds,automaticRun:true,frameworkExecution:'Partial deterministic history recovery; not complete nine-step research',publicationEligible:false};
 await fs.writeFile('research/snapshot/recovery-report.json',JSON.stringify(report,null,2));
-await fs.writeFile('research/snapshot/missing-data.json',JSON.stringify(missingDataAudit(p.records,observations,attempts),null,2));
-console.log(JSON.stringify({recoveredRecords:completedRecordIds,networkRequests:result.networkRequests,stopReason:result.stopReason,remainingHistoryBlocking:missingDataAudit(p.records).historyBlocking}));
+await fs.writeFile('research/snapshot/missing-data.json',JSON.stringify(missingDataAudit(p.records.filter(r=>r.sport==='Football'),observations,attempts),null,2));
+console.log(JSON.stringify({recoveredRecords:completedRecordIds,networkRequests:result.networkRequests,stopReason:result.stopReason,remainingHistoryBlocking:missingDataAudit(p.records.filter(r=>r.sport==='Football')).historyBlocking}));

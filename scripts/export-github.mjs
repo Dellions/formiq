@@ -23,6 +23,6 @@ const fixtures=JSON.parse(await fs.readFile('research/snapshot/picks.json','utf8
 await fs.writeFile(out+'/data/sport-audit.json',JSON.stringify({status:'research_only',records:fixtures.filter(r=>['Basketball','Ice hockey'].includes(r.sport)&&Date.parse(r.start)>Date.now()).map(r=>({...r,audit:prioritySportAudit(r)})),publicationEligible:false}));
 await fs.writeFile(out+'/data/market-observations.json',JSON.stringify(linkObservations(observations,fixtures)));
 let receipt=null;try{receipt=JSON.parse(await fs.readFile('research/snapshot/recovery-report.json','utf8'))}catch(e){if(e.code!=='ENOENT')throw e}
-await fs.writeFile(out+'/data/missing-data.json',JSON.stringify({...missingDataAudit(fixtures,linkObservations(observations,fixtures),receipt?.attempts||[]),recoveryRun:receipt}));
+await fs.writeFile(out+'/data/missing-data.json',JSON.stringify({...missingDataAudit(fixtures.filter(r=>r.sport==='Football'),linkObservations(observations,fixtures),receipt?.attempts||[]),recoveryRun:receipt}));
 for(const name of ['picks','performance','framework','tickets','validation','forward-validation'])await fs.copyFile('research/snapshot/'+name+'.json',out+'/data/'+name+'.json');
 console.log('Static snapshot exported to '+out+'. No backend, credentials, or write endpoints embedded.');

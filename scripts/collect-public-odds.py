@@ -8,6 +8,7 @@ from public_odds_parser import parse_market,start_from_display,displayed_offset,
 def timestamp():return datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
 
 def collect(driver,urls,limit=6,spacing=10):
+    if any('/sport/football/' not in url for url in urls):raise ValueError('Football-only collection is active')
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import WebDriverWait
     report={'startedAt':timestamp(),'bookmaker':'SportyBet Nigeria','status':'partial','observations':[],'pages':[],
@@ -108,7 +109,7 @@ def collect(driver,urls,limit=6,spacing=10):
             key=(row['sportPath'],row['home'],row['away'],row['start'])
             if key not in dedup:dedup[key]=row
         report['observations']=list(dedup.values())[:limit]
-        report['sportCoverage']={sport:sum(r['sportPath']==sport for r in report['observations']) for sport in ['basketball','iceHockey','football']}
+        report['sportCoverage']={sport:sum(r['sportPath']==sport for r in report['observations']) for sport in ['football']}
         report['status']='sample_collected' if any(r['quotes'] for r in report['observations']) else 'partial'
     except Exception as e:
         report['error']=type(e).__name__+': '+str(e).splitlines()[0][:400]
@@ -130,7 +131,7 @@ def main():
     try:
         driver=webdriver.Chrome(options=options)
         driver.set_page_load_timeout(45)
-        report=collect(driver,args.url or ['https://www.sportybet.com/ng/sport/basketball/','https://www.sportybet.com/ng/sport/iceHockey/','https://www.sportybet.com/ng/sport/football/'],args.limit)
+        report=collect(driver,args.url or ['https://www.sportybet.com/ng/sport/football/'],args.limit)
     except Exception as e:
         report={'startedAt':timestamp(),'finishedAt':timestamp(),'status':'failed','observations':[],
                 'error':type(e).__name__+': '+str(e).splitlines()[0][:400],'publicationEligible':False}
