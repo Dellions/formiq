@@ -1,10 +1,10 @@
 {
-  "startedAt": "2026-10-21T17:12:49.203Z",
-  "status": "partial",
+  "startedAt": "2026-10-21T21:43:04.658Z",
+  "status": "catalogue_processed",
   "core": [
     {
       "date": "2026-10-21",
-      "screened": 8,
+      "screened": 0,
       "status": "partial"
     },
     {
@@ -14,58 +14,37 @@
     },
     {
       "date": "2026-10-23",
-      "screened": 20,
+      "screened": 6,
       "status": "partial"
     }
   ],
   "batches": [
     {
       "date": "2026-10-21",
-      "cursor": 8,
-      "nextCursor": 10,
-      "records": 1,
-      "rateLimited": false,
-      "sourceFailures": false
-    },
-    {
-      "date": "2026-10-21",
-      "cursor": 10,
-      "nextCursor": 12,
-      "records": 0,
-      "rateLimited": false,
-      "sourceFailures": false
-    },
-    {
-      "date": "2026-10-21",
-      "cursor": 12,
-      "nextCursor": 14,
-      "records": 0,
-      "rateLimited": false,
-      "sourceFailures": false
-    },
-    {
-      "date": "2026-10-21",
       "cursor": 14,
-      "nextCursor": 16,
+      "nextCursor": null,
       "records": 0,
-      "rateLimited": true,
-      "sourceFailures": true
-    }
-  ],
-  "unfinished": [
-    {
-      "date": "2026-10-21",
-      "cursor": 14
+      "rateLimited": false,
+      "sourceFailures": false
     },
     {
       "date": "2026-10-22",
-      "cursor": 0
+      "cursor": 0,
+      "nextCursor": null,
+      "records": 0,
+      "rateLimited": false,
+      "sourceFailures": false
     },
     {
       "date": "2026-10-23",
-      "cursor": 0
+      "cursor": 0,
+      "nextCursor": null,
+      "records": 0,
+      "rateLimited": false,
+      "sourceFailures": false
     }
   ],
-  "stopReason": "HTTP_429",
-  "finishedAt": "2026-10-21T17:13:19.493Z"
+  "unfinished": [],
+  "stopReason": null,
+  "finishedAt": "2026-10-21T21:43:06.725Z"
 }
