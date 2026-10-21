@@ -24,5 +24,6 @@ jobs:
       - run: node tests/priority-sport-audit.test.mjs
       - run: node tests/forward-validation.test.mjs
       - run: node tests/forward-api.test.mjs
+      - run: node tests/research-supplements.test.mjs
       - run: python tests/public_odds_test.py
       - run: bash scripts/build.sh && node scripts/validate-artifact.mjs
