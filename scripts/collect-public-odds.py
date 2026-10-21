@@ -68,6 +68,10 @@ def collect(driver,urls,limit=6,spacing=10):
         report['status']='sample_collected' if any(r['quotes'] for r in report['observations']) else 'partial'
     except Exception as e:
         report['error']=type(e).__name__+': '+str(e).splitlines()[0][:400]
+        try:
+            report['failurePage']={'url':driver.current_url,'title':driver.title,'visibleText':driver.find_element(By.TAG_NAME,'body').text[:6000]}
+        except Exception:
+            report['failurePage']={'error':'Visible page state unavailable'}
     report['finishedAt']=timestamp()
     report['limitations']=['Small visible-page sample; no complete fixture coverage','No independent price corroboration or exact rules verification','Cross-source event matching not approved','No calibrated model, EV or betting publication produced','Bet9ja backup adapter not yet implemented']
     return report
