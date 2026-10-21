@@ -1,0 +1,1140 @@
+{
+  "at": "2026-10-21T12:47:13.673435Z",
+  "status": "partial",
+  "networkRequests": 2,
+  "requestBudget": 8,
+  "stopReason": null,
+  "attempts": [
+    {
+      "taskId": "tsdb-2565506:history.home",
+      "eventId": "tsdb-2565506",
+      "side": "home",
+      "adapter": "basketnews-hapoel",
+      "attemptedAt": "2026-10-21T12:47:09.318213Z",
+      "sources": [],
+      "status": "failed",
+      "error": "HTTP403",
+      "usableResults": 0,
+      "nextAttemptAt": "2026-10-22T12:47:09.548883Z"
+    },
+    {
+      "taskId": "tsdb-2565506:history.away",
+      "eventId": "tsdb-2565506",
+      "side": "away",
+      "adapter": "virtus-club-schedule",
+      "attemptedAt": "2026-10-21T12:47:09.549134Z",
+      "sources": [],
+      "status": "failed",
+      "error": "SOURCE_ACCESS_CHALLENGE",
+      "usableResults": 0,
+      "nextAttemptAt": "2026-10-22T12:47:13.673330Z"
+    },
+    {
+      "taskId": "ol-87436:history.away",
+      "eventId": "ol-87436",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.702Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87439:history.away",
+      "eventId": "ol-87439",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87440:history.away",
+      "eventId": "ol-87440",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87806:history.home",
+      "eventId": "ol-87806",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87807:history.home",
+      "eventId": "ol-87807",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87807:history.away",
+      "eventId": "ol-87807",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87808:history.home",
+      "eventId": "ol-87808",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87810:history.home",
+      "eventId": "ol-87810",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87811:history.home",
+      "eventId": "ol-87811",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87811:history.away",
+      "eventId": "ol-87811",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87812:history.home",
+      "eventId": "ol-87812",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87815:history.home",
+      "eventId": "ol-87815",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87816:history.home",
+      "eventId": "ol-87816",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87816:history.away",
+      "eventId": "ol-87816",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87817:history.home",
+      "eventId": "ol-87817",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87818:history.home",
+      "eventId": "ol-87818",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87819:history.home",
+      "eventId": "ol-87819",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87819:history.away",
+      "eventId": "ol-87819",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87820:history.home",
+      "eventId": "ol-87820",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87820:history.away",
+      "eventId": "ol-87820",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87821:history.home",
+      "eventId": "ol-87821",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88297:history.home",
+      "eventId": "ol-88297",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88298:history.home",
+      "eventId": "ol-88298",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88298:history.away",
+      "eventId": "ol-88298",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88299:history.home",
+      "eventId": "ol-88299",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88299:history.away",
+      "eventId": "ol-88299",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88300:history.home",
+      "eventId": "ol-88300",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88300:history.away",
+      "eventId": "ol-88300",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88301:history.home",
+      "eventId": "ol-88301",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88302:history.home",
+      "eventId": "ol-88302",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88302:history.away",
+      "eventId": "ol-88302",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.703Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88303:history.away",
+      "eventId": "ol-88303",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-88304:history.home",
+      "eventId": "ol-88304",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88304:history.away",
+      "eventId": "ol-88304",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88305:history.home",
+      "eventId": "ol-88305",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88305:history.away",
+      "eventId": "ol-88305",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88306:history.away",
+      "eventId": "ol-88306",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88308:history.home",
+      "eventId": "ol-88308",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88308:history.away",
+      "eventId": "ol-88308",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88310:history.home",
+      "eventId": "ol-88310",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88311:history.home",
+      "eventId": "ol-88311",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88311:history.away",
+      "eventId": "ol-88311",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88312:history.home",
+      "eventId": "ol-88312",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88312:history.away",
+      "eventId": "ol-88312",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88313:history.home",
+      "eventId": "ol-88313",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-83648:history.away",
+      "eventId": "ol-83648",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-83655:history.away",
+      "eventId": "ol-83655",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-85391:history.home",
+      "eventId": "ol-85391",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.704Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-85391:history.away",
+      "eventId": "ol-85391",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.705Z",
+      "status": "cached_results",
+      "usableResults": 7,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-85425:history.home",
+      "eventId": "ol-85425",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.705Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-85425:history.away",
+      "eventId": "ol-85425",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.705Z",
+      "status": "cached_results",
+      "usableResults": 9,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-86598:history.home",
+      "eventId": "ol-86598",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.705Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-86598:history.away",
+      "eventId": "ol-86598",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.705Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87433:history.home",
+      "eventId": "ol-87433",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.705Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87433:history.away",
+      "eventId": "ol-87433",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.705Z",
+      "status": "cached_results",
+      "usableResults": 7,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87434:history.home",
+      "eventId": "ol-87434",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.705Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87435:history.away",
+      "eventId": "ol-87435",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "cached_results",
+      "usableResults": 6,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-10-20T22:38:54.982Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87438:history.away",
+      "eventId": "ol-87438",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87439:history.home",
+      "eventId": "ol-87439",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "cached_results",
+      "usableResults": 7,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87441:history.away",
+      "eventId": "ol-87441",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87746:history.home",
+      "eventId": "ol-87746",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "cached_results",
+      "usableResults": 6,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-10-20T22:38:54.982Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87746:history.away",
+      "eventId": "ol-87746",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-10-20T22:38:54.982Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87747:history.home",
+      "eventId": "ol-87747",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-10-20T22:38:54.982Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87747:history.away",
+      "eventId": "ol-87747",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "cached_results",
+      "usableResults": 6,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-10-20T22:38:54.982Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87806:history.away",
+      "eventId": "ol-87806",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87808:history.away",
+      "eventId": "ol-87808",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87809:history.home",
+      "eventId": "ol-87809",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87809:history.away",
+      "eventId": "ol-87809",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87810:history.away",
+      "eventId": "ol-87810",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87812:history.away",
+      "eventId": "ol-87812",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.706Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87813:history.home",
+      "eventId": "ol-87813",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.707Z",
+      "status": "cached_results",
+      "usableResults": 7,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87813:history.away",
+      "eventId": "ol-87813",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.707Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87814:history.home",
+      "eventId": "ol-87814",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.707Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87814:history.away",
+      "eventId": "ol-87814",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.707Z",
+      "status": "cached_results",
+      "usableResults": 7,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-87817:history.away",
+      "eventId": "ol-87817",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.708Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87821:history.away",
+      "eventId": "ol-87821",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.708Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88297:history.away",
+      "eventId": "ol-88297",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.708Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88301:history.away",
+      "eventId": "ol-88301",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.708Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88303:history.home",
+      "eventId": "ol-88303",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.708Z",
+      "status": "cached_results",
+      "usableResults": 9,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-88306:history.home",
+      "eventId": "ol-88306",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.708Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88307:history.home",
+      "eventId": "ol-88307",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.708Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88307:history.away",
+      "eventId": "ol-88307",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.708Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88309:history.home",
+      "eventId": "ol-88309",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.708Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-10-20T22:38:54.982Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-88309:history.away",
+      "eventId": "ol-88309",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.709Z",
+      "status": "cached_results",
+      "usableResults": 6,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-10-20T22:38:54.982Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-88310:history.away",
+      "eventId": "ol-88310",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.709Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88313:history.away",
+      "eventId": "ol-88313",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.709Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88314:history.home",
+      "eventId": "ol-88314",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.709Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-88314:history.away",
+      "eventId": "ol-88314",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-21T12:47:13.709Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    }
+  ],
+  "publicationEligible": false,
+  "outcomes": [
+    {
+      "taskId": "ol-85391:history.away",
+      "status": "no_sample_improvement",
+      "candidateResults": 7
+    },
+    {
+      "taskId": "ol-85425:history.away",
+      "status": "no_sample_improvement",
+      "candidateResults": 9
+    },
+    {
+      "taskId": "ol-87433:history.away",
+      "status": "history_extended",
+      "results": 10
+    },
+    {
+      "taskId": "ol-87435:history.away",
+      "status": "history_extended",
+      "results": 10
+    },
+    {
+      "taskId": "ol-87439:history.home",
+      "status": "history_extended",
+      "results": 10
+    },
+    {
+      "taskId": "ol-87746:history.home",
+      "status": "history_extended",
+      "results": 10
+    },
+    {
+      "taskId": "ol-87747:history.away",
+      "status": "history_extended",
+      "results": 10
+    },
+    {
+      "taskId": "ol-87813:history.home",
+      "status": "history_extended",
+      "results": 10
+    },
+    {
+      "taskId": "ol-87814:history.away",
+      "status": "history_extended",
+      "results": 10
+    },
+    {
+      "taskId": "ol-88303:history.home",
+      "status": "history_extended",
+      "results": 10
+    },
+    {
+      "taskId": "ol-88309:history.away",
+      "status": "history_extended",
+      "results": 10
+    }
+  ],
+  "completedRecordIds": [
+    "ol-87433",
+    "ol-87435",
+    "ol-87439",
+    "ol-87746",
+    "ol-87747",
+    "ol-87813",
+    "ol-87814",
+    "ol-88303",
+    "ol-88309"
+  ],
+  "automaticRun": true,
+  "frameworkExecution": "Partial deterministic history recovery; not complete nine-step research"
+}
