@@ -1,11 +1,38 @@
 {
   "bookmaker": "SportyBet Nigeria",
-  "checkedAt": "2026-10-21T11:38:00Z",
-  "status": "partial",
+  "status": "rule_documents_observed",
+  "checkedAt": "2026-10-21T12:05:56.676595+00:00",
   "rulesVerified": false,
-  "sourceURL": "https://www.sportybet.com/ng/m/help/how-to-play/sports/football",
-  "access": "Official Nigeria search result supports a general regulation-time default. Direct page extraction returned a JavaScript shell; complete market exceptions were not retrieved.",
-  "generalContext": "Ordinary football markets generally use scheduled regulation play with added injury time, subject to stated market exceptions.",
-  "limitations": ["General source context does not confirm exact settlement of any collected quote", "No corresponding basketball or hockey overtime/shootout rules verified", "Individual quote rules remain unverified"],
-  "publicationEligible": false
+  "publicationEligible": false,
+  "documents": [
+    {
+      "sport": "football",
+      "url": "https://www.sportybet.com/ng/m/help/how-to-play/sports/football",
+      "retrievedAt": "2026-10-21T12:05:24.352717+00:00",
+      "sha256": "757bbecd071c99f8aab6c64b7a61809a68b5995c49e893787519a8eaf26dfb18",
+      "status": "rule_text_observed",
+      "summary": "Ordinary match markets use regulation plus stoppage time. Extra time and shootouts require an explicit market exception."
+    },
+    {
+      "sport": "basketball",
+      "url": "https://www.sportybet.com/ng/m/help/how-to-play/sports/basketball",
+      "retrievedAt": "2026-10-21T12:05:35.773124+00:00",
+      "sha256": "167e15f77712fc82cc719248188a230b140e89b4b28d2bd3756acab14548cc5c",
+      "status": "rule_text_observed",
+      "summary": "The rules distinguish regulation-only markets from markets explicitly including overtime. Winner including overtime and Over/Under including overtime are separate named markets."
+    },
+    {
+      "sport": "iceHockey",
+      "url": "https://www.sportybet.com/ng/m/help/how-to-play/sports/iceHockey",
+      "retrievedAt": "2026-10-21T12:05:46.556968+00:00",
+      "sha256": "3d141e7ff5b3147309046171aeb89eea197a284cc72b2c64cc73be3e376718ee",
+      "status": "rule_text_observed",
+      "summary": "Ordinary markets default to regulation unless stated otherwise. Overtime-inclusive markets have a separate shootout scoring convention."
+    }
+  ],
+  "limitations": [
+    "Nigeria rule documents were retrieved with Selenium; this verifies document access, not each observed quote's settlement scope",
+    "Listing labels such as 2 Way or Over/Under still require exact detail-market mapping",
+    "No independent price corroboration or calibrated model is implied"
+  ]
 }
