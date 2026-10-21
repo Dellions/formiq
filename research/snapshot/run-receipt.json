@@ -1,0 +1,63 @@
+{
+  "startedAt": "2026-10-21T11:03:19.900Z",
+  "status": "partial",
+  "core": [
+    {
+      "date": "2026-10-21",
+      "screened": 10,
+      "status": "partial"
+    },
+    {
+      "date": "2026-10-22",
+      "screened": 36,
+      "status": "partial"
+    },
+    {
+      "date": "2026-10-23",
+      "screened": 20,
+      "status": "partial"
+    }
+  ],
+  "batches": [
+    {
+      "date": "2026-10-21",
+      "cursor": 0,
+      "nextCursor": 2,
+      "records": 1,
+      "rateLimited": false,
+      "sourceFailures": false
+    },
+    {
+      "date": "2026-10-21",
+      "cursor": 2,
+      "nextCursor": 4,
+      "records": 0,
+      "rateLimited": false,
+      "sourceFailures": false
+    },
+    {
+      "date": "2026-10-21",
+      "cursor": 4,
+      "nextCursor": 6,
+      "records": 0,
+      "rateLimited": true,
+      "sourceFailures": true
+    }
+  ],
+  "unfinished": [
+    {
+      "date": "2026-10-21",
+      "cursor": 4
+    },
+    {
+      "date": "2026-10-22",
+      "cursor": 0
+    },
+    {
+      "date": "2026-10-23",
+      "cursor": 0
+    }
+  ],
+  "stopReason": "HTTP_429",
+  "finishedAt": "2026-10-21T11:03:45.738Z"
+}
