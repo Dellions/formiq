@@ -1,0 +1,405 @@
+{
+  "startedAt": "2026-10-21T12:05:28.390657Z",
+  "bookmaker": "SportyBet Nigeria",
+  "status": "sample_collected",
+  "observations": [
+    {
+      "bookmakerEventId": "display:24152",
+      "sourceURL": "https://www.sportybet.com/ng/sport/basketball/",
+      "observedAt": "2026-10-21T12:05:32.204525Z",
+      "home": "Hapoel Tel-Aviv",
+      "away": "Virtus Bologna",
+      "start": "2026-10-21T16:00:00Z",
+      "sportPath": "basketball",
+      "competitionSourceLabel": "International Euroleague",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 1.31,
+          "marketLabel": "2 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 3.77,
+          "marketLabel": "2 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 175.5,
+          "odds": 1.96,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 175.5,
+          "odds": 1.87,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    },
+    {
+      "bookmakerEventId": "display:46056",
+      "sourceURL": "https://www.sportybet.com/ng/sport/basketball/",
+      "observedAt": "2026-10-21T12:05:32.204525Z",
+      "home": "Orlando Magic",
+      "away": "Atlanta Hawks",
+      "start": "2026-10-21T23:00:00Z",
+      "sportPath": "basketball",
+      "competitionSourceLabel": "USA NBA",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 1.69,
+          "marketLabel": "2 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 2.28,
+          "marketLabel": "2 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 235.5,
+          "odds": 2.0,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 235.5,
+          "odds": 1.84,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    },
+    {
+      "bookmakerEventId": "display:51125",
+      "sourceURL": "https://www.sportybet.com/ng/sport/iceHockey/",
+      "observedAt": "2026-10-21T12:05:41.563448Z",
+      "home": "Buffalo Sabres",
+      "away": "Philadelphia Flyers",
+      "start": "2026-10-21T23:30:00Z",
+      "sportPath": "iceHockey",
+      "competitionSourceLabel": "USA NHL",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 1.92,
+          "marketLabel": "3 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "draw",
+          "odds": 4.3,
+          "marketLabel": "3 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 3.25,
+          "marketLabel": "3 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 5.5,
+          "odds": 1.72,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 5.5,
+          "odds": 2.15,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    },
+    {
+      "bookmakerEventId": "display:36284",
+      "sourceURL": "https://www.sportybet.com/ng/sport/iceHockey/",
+      "observedAt": "2026-10-21T12:05:41.563448Z",
+      "home": "Metallurg Magnitogorsk",
+      "away": "Salavat Yulaev UFA",
+      "start": "2026-10-21T14:00:00Z",
+      "sportPath": "iceHockey",
+      "competitionSourceLabel": "Russia KHL",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 1.74,
+          "marketLabel": "3 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "draw",
+          "odds": 4.3,
+          "marketLabel": "3 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 3.9,
+          "marketLabel": "3 Way",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 5.5,
+          "odds": 2.0,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 5.5,
+          "odds": 1.82,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    },
+    {
+      "bookmakerEventId": "display:29733",
+      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
+      "observedAt": "2026-10-21T12:05:51.434818Z",
+      "home": "Ipswich Town",
+      "away": "Nottingham Forest",
+      "start": "2026-10-23T19:00:00Z",
+      "sportPath": "football",
+      "competitionSourceLabel": "England Premier League",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 3.15,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "draw",
+          "odds": 3.57,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 2.31,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 2.5,
+          "odds": 1.73,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 2.5,
+          "odds": 2.15,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    },
+    {
+      "bookmakerEventId": "display:52354",
+      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
+      "observedAt": "2026-10-21T12:05:51.434818Z",
+      "home": "Como 1907",
+      "away": "Man Utd",
+      "start": "2026-10-21T16:45:00Z",
+      "sportPath": "football",
+      "competitionSourceLabel": "International Clubs UEFA Champions League",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 2.42,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "draw",
+          "odds": 3.92,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 2.84,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.sportybet.com/ng/sport/basketball/",
+      "retrievedAt": "2026-10-21T12:05:31.854397Z"
+    },
+    {
+      "url": "https://www.sportybet.com/ng/sport/iceHockey/",
+      "retrievedAt": "2026-10-21T12:05:41.201734Z"
+    },
+    {
+      "url": "https://www.sportybet.com/ng/sport/football/",
+      "retrievedAt": "2026-10-21T12:05:51.116717Z"
+    }
+  ],
+  "fallback": {
+    "bookmaker": "Bet9ja",
+    "status": "not_verified"
+  },
+  "publicationEligible": false,
+  "sportCoverage": {
+    "basketball": 2,
+    "iceHockey": 2,
+    "football": 2
+  },
+  "finishedAt": "2026-10-21T12:05:51.435606Z",
+  "limitations": [
+    "Small visible-page sample; no complete fixture coverage",
+    "No independent price corroboration or exact rules verification",
+    "Cross-source event matching not approved",
+    "No calibrated model, EV or betting publication produced",
+    "Bet9ja backup adapter not yet implemented"
+  ]
+}

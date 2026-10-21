@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T11:52:49.515Z",
-  "observedAt": "2026-10-21T11:52:25.644912Z",
+  "generatedAt": "2026-10-21T12:05:51.722Z",
+  "observedAt": "2026-10-21T12:05:28.390657Z",
   "status": "research_only",
   "publicationEligible": false,
   "fixtureCount": 6,
@@ -11,7 +11,7 @@
     {
       "bookmakerEventId": "display:24152",
       "sourceURL": "https://www.sportybet.com/ng/sport/basketball/",
-      "observedAt": "2026-10-21T11:52:30.140855Z",
+      "observedAt": "2026-10-21T12:05:32.204525Z",
       "home": "Hapoel Tel-Aviv",
       "away": "Virtus Bologna",
       "start": "2026-10-21T16:00:00Z",
@@ -40,7 +40,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 3.78,
+          "odds": 3.77,
           "marketLabel": "2 Way",
           "period": "full_match",
           "settlement": "unverified",
@@ -134,7 +134,7 @@
     {
       "bookmakerEventId": "display:46056",
       "sourceURL": "https://www.sportybet.com/ng/sport/basketball/",
-      "observedAt": "2026-10-21T11:52:30.140855Z",
+      "observedAt": "2026-10-21T12:05:32.204525Z",
       "home": "Orlando Magic",
       "away": "Atlanta Hawks",
       "start": "2026-10-21T23:00:00Z",
@@ -237,7 +237,7 @@
     {
       "bookmakerEventId": "display:51125",
       "sourceURL": "https://www.sportybet.com/ng/sport/iceHockey/",
-      "observedAt": "2026-10-21T11:52:39.663747Z",
+      "observedAt": "2026-10-21T12:05:41.563448Z",
       "home": "Buffalo Sabres",
       "away": "Philadelphia Flyers",
       "start": "2026-10-21T23:30:00Z",
@@ -248,7 +248,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.91,
+          "odds": 1.92,
           "marketLabel": "3 Way",
           "period": "full_match",
           "settlement": "unverified",
@@ -287,7 +287,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 3.3,
+          "odds": 3.25,
           "marketLabel": "3 Way",
           "period": "full_match",
           "settlement": "unverified",
@@ -360,7 +360,7 @@
     {
       "bookmakerEventId": "display:36284",
       "sourceURL": "https://www.sportybet.com/ng/sport/iceHockey/",
-      "observedAt": "2026-10-21T11:52:39.663747Z",
+      "observedAt": "2026-10-21T12:05:41.563448Z",
       "home": "Metallurg Magnitogorsk",
       "away": "Salavat Yulaev UFA",
       "start": "2026-10-21T14:00:00Z",
@@ -483,7 +483,7 @@
     {
       "bookmakerEventId": "display:29733",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:52:49.260737Z",
+      "observedAt": "2026-10-21T12:05:51.434818Z",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "start": "2026-10-23T19:00:00Z",
@@ -494,7 +494,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 3.13,
+          "odds": 3.15,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -512,7 +512,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.58,
+          "odds": 3.57,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -531,7 +531,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 2.32,
+          "odds": 2.31,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -619,7 +619,7 @@
     {
       "bookmakerEventId": "display:52354",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:52:49.260737Z",
+      "observedAt": "2026-10-21T12:05:51.434818Z",
       "home": "Como 1907",
       "away": "Man Utd",
       "start": "2026-10-21T16:45:00Z",
