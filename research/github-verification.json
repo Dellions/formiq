@@ -1,0 +1,83 @@
+{
+  "recordedAt": "2026-10-21T11:17:52.735Z",
+  "status": "partial",
+  "repository": "https://github.com/Dellions/formiq",
+  "visibility": "private",
+  "sourceTransfer": {
+    "verified": true,
+    "initialCommit": "3a90c4b084c3df6ff9a7b83992b43fb24a45c77e",
+    "initialFiles": 38,
+    "readback": "All transferred blob hashes matched staged content"
+  },
+  "validation": {
+    "status": "success",
+    "runURL": "https://github.com/Dellions/formiq/actions/runs/39590642695"
+  },
+  "publicOdds": {
+    "status": "sample_verified_and_archived",
+    "runURL": "https://github.com/Dellions/formiq/actions/runs/39590642654",
+    "bookmaker": "SportyBet Nigeria",
+    "fixtures": 6,
+    "quotes": 22,
+    "observedAt": "2026-10-21T11:16:09.577397Z",
+    "classification": "RESEARCH_ONLY",
+    "publicationEligible": false,
+    "scope": "Bounded football visible-table sample; no complete sport or market coverage"
+  },
+  "research": {
+    "runURL": "https://github.com/Dellions/formiq/actions/runs/39590642724",
+    "status": "partial",
+    "core": [
+      {
+        "date": "2026-10-21",
+        "screened": 10,
+        "status": "partial"
+      },
+      {
+        "date": "2026-10-22",
+        "screened": 36,
+        "status": "partial"
+      },
+      {
+        "date": "2026-10-23",
+        "screened": 20,
+        "status": "partial"
+      }
+    ],
+    "stopReason": "HTTP_429",
+    "unfinished": [
+      {
+        "date": "2026-10-21",
+        "cursor": 8
+      },
+      {
+        "date": "2026-10-22",
+        "cursor": 0
+      },
+      {
+        "date": "2026-10-23",
+        "cursor": 0
+      }
+    ]
+  },
+  "schedules": {
+    "researchUTC": "17 6,12,18 * * *",
+    "oddsUTC": "27 6,12,18 * * *",
+    "futureCronExecutionVerified": false
+  },
+  "hosting": {
+    "liveSite": "https://edgeform-daily.jovial-morel-4182.chatgpt.site",
+    "private": true,
+    "githubPagesEnabledByThisMigration": false,
+    "backendCutover": false
+  },
+  "limitations": [
+    "No full framework execution or hosted AI engine",
+    "SportyBet fixture mapping, exact settlement rules and independent price corroboration incomplete",
+    "Bet9ja adapter not implemented",
+    "Basketball/hockey bookmaker extraction not live-verified",
+    "TheSportsDB HTTP429 caused unfinished extended collection",
+    "No calibrated probabilities, qualified bets or accumulator tickets produced by these runs",
+    "GitHub snapshots and price archives are separate from live Site R2 records; no complete record migration or backend integration claimed"
+  ]
+}
