@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';import worker from '../worker/index.js';
+const map=new Map(),env={BUCKET:{get:async k=>map.has(k)?{json:async()=>JSON.parse(map.get(k))}:null,put:async(k,v)=>map.set(k,v),list:async({prefix})=>({objects:[...map.keys()].filter(k=>k.startsWith(prefix)).map(key=>({key})),truncated:false})}};
+const f={id:'test',eventId:'test',sport:'Basketball',home:{id:'136059'},away:{id:'135386'},start:new Date(Date.now()+3600000).toISOString(),history:{home:[],away:[]}};map.set('research/records/test.json',JSON.stringify(f));
+const get=()=>worker.fetch(new Request('https://formiq.test/api/missing-data'),env,{});
+let d=await(await get()).json();assert.equal(d.historyBlocking,1);assert.equal(d.automaticHistoryTasks,2);
+const attempt={taskId:'test:history.home',status:'failed',attemptedAt:new Date().toISOString(),error:'HTTP403'};
+let res=await worker.fetch(new Request('https://formiq.test/api/missing-data',{method:'POST',body:JSON.stringify({attempts:[attempt]})}),env,{});assert.equal(res.status,200);
+d=await(await get()).json();assert.equal(d.records[0].gaps.find(g=>g.field==='history.home').status,'failed');assert.equal(d.historyBlocking,1);
+assert.equal(JSON.parse(map.get('research/records/test.json')).history.home.length,0);
+res=await worker.fetch(new Request('https://formiq.test/api/missing-data',{method:'POST',headers:{origin:'https://evil.test'},body:'{}'}),env,{});assert.equal(res.status,403);
+console.log('Missing-data API: dynamic audit, persisted failure receipt, record isolation and cross-origin protection passed');

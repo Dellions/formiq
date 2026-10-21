@@ -2,7 +2,7 @@
 export function missingDataAudit(records,observations=null,attempts=[],now=Date.now()){
   const prior=new Map(attempts.map(a=>[a.taskId,a]));
   const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
-  const valid=rows=>[...new Map((rows||[]).filter(r=>Number.isFinite(r.gf)&&Number.isFinite(r.ga)&&r.gf>=0&&r.ga>=0&&Number.isFinite(Date.parse(r.date))&&Date.parse(r.date)<now&&Date.parse(r.date)>now-365*86400000).map(r=>[r.opponent?[r.date.slice(0,10),normalize(r.opponent),r.venue].join('|'):r.id||r.date,r])).values()].slice(0,10);
+  const valid=rows=>[...new Map((rows||[]).filter(r=>Number.isFinite(r.gf)&&Number.isFinite(r.ga)&&r.gf>=0&&r.ga>=0&&Number.isFinite(Date.parse(r.date))&&Date.parse(r.date)<now&&Date.parse(r.date)>now-365*86400000).map(r=>[r.historyIdentityKey||(r.opponent?[r.date.slice(0,10),normalize(r.opponent),r.venue].join('|'):r.id||r.date),r])).values()].slice(0,10);
   const wat=t=>new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Lagos'}).format(t);
   const rows=records.filter(r=>Date.parse(r.start)>now&&wat(new Date(r.start))<=wat(new Date(now+2*86400000))).map(r=>{
     const gaps=[];

@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';import {execFileSync} from 'node:child_process';
 import {missingDataAudit} from './missing-data.mjs';import {buildResearch,footballHistory} from '../worker/index.js';
+import {mergeRecoveryHistory} from './recovery-history.mjs';
 const snapshot='research/snapshot/picks.json',p=JSON.parse(await fs.readFile(snapshot,'utf8'));
 const read=async(path,fallback)=>{try{return JSON.parse(await fs.readFile(path,'utf8'))}catch(e){if(e.code==='ENOENT')return fallback;throw e}};
 const previous=await read('research/snapshot/recovery-report.json',{attempts:[]}),observations=await read('research/snapshot/market-observations.json',null);
@@ -18,15 +19,13 @@ for(const t of tasks.filter(t=>t.adapter==='cached-domestic-history')){
  result.attempts.push({taskId:t.taskId,eventId:t.eventId,side:t.side,adapter:t.adapter,attemptedAt:new Date().toISOString(),status:rows.length?'cached_results':'no_cached_alternative',usableResults:rows.length,sources});
  if(rows.length)result.results.push({eventId:t.eventId,side:t.side,history:rows,sources,taskId:t.taskId});
 }
-const norm=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
-function mergeHistory(old,added){const map=new Map(),conflicts=new Set();for(const r of [...old,...added]){if(!Number.isFinite(r.gf)||!Number.isFinite(r.ga)||!Number.isFinite(Date.parse(r.date))||Date.parse(r.date)>=Date.now())continue;const key=[r.date.slice(0,10),norm(r.opponent),r.venue].join('|');if(map.has(key)&&(map.get(key).gf!==r.gf||map.get(key).ga!==r.ga)){conflicts.add(key);continue}map.set(key,r)}return {rows:[...map].filter(([k])=>!conflicts.has(k)).map(([,r])=>r).sort((a,b)=>Date.parse(b.date)-Date.parse(a.date)).slice(0,10),conflicts:[...conflicts]}}
 const changes=new Map(),outcomes=[];
 for(const x of result.results){const original=p.records.find(r=>r.eventId===x.eventId);if(!original||original.publicationStatus==='published'){outcomes.push({taskId:x.taskId,status:'protected_published_record'});continue}
  if(original.savedAt&&!original.generatedByScan){outcomes.push({taskId:x.taskId,status:'protected_reviewed_record',candidateResults:x.history.length});continue}
- const r=changes.get(x.eventId)||structuredClone(original),merged=mergeHistory(r.history?.[x.side]||[],x.history);
+ const r=changes.get(x.eventId)||structuredClone(original),merged=mergeRecoveryHistory(r.history?.[x.side]||[],x.history,r.sport);
  if(merged.conflicts.length){outcomes.push({taskId:x.taskId,status:'conflicting_scores',conflicts:merged.conflicts});continue}
- if(merged.rows.length<=(r.history?.[x.side]||[]).length){outcomes.push({taskId:x.taskId,status:'no_sample_improvement',candidateResults:merged.rows.length});continue}
- r.history[x.side]=merged.rows;r.sources=[...r.sources,...x.sources.filter(s=>s.url&&s.retrievedAt).map(s=>({...s,classification:'SOURCE_REPORTED',cacheMaxAgeMinutes:1440}))];changes.set(r.eventId,r);outcomes.push({taskId:x.taskId,status:'history_extended',results:merged.rows.length});
+ if(merged.rows.length<=(r.history?.[x.side]||[]).length&&!merged.oldDuplicates){outcomes.push({taskId:x.taskId,status:'no_sample_improvement',candidateResults:merged.rows.length});continue}
+ r.history[x.side]=merged.rows;r.sources=[...r.sources,...x.sources.filter(s=>s.url&&s.retrievedAt).map(s=>({...s,classification:'SOURCE_REPORTED',cacheMaxAgeMinutes:1440}))];r.scope=(original.scope||'')+' Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.';changes.set(r.eventId,r);outcomes.push({taskId:x.taskId,status:merged.oldDuplicates?'history_deduplicated':'history_extended',results:merged.rows.length});
 }
 const completedRecordIds=[];
 for(const [id,r]of changes){const rebuilt={...buildResearch(r),generatedByScan:true,recoveredAt:new Date().toISOString(),dataRecovery:'Public fallback history; sport inputs and calibration still incomplete'};p.records[p.records.findIndex(x=>x.eventId===id)]=rebuilt;completedRecordIds.push(id)}

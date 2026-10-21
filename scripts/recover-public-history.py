@@ -1,7 +1,7 @@
 import json,os,time,hashlib,urllib.request,urllib.error
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
-from recovery_sources import NHL,key,virtus_rows,hapoel_rows,nhl_rows,usable
+from recovery_sources import NHL,key,virtus_rows,hapoel_rows,nhl_rows,usable,Page
 stamp=lambda:datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
 request=json.loads(Path('.edgeform-state/recovery/request.json').read_text());root=Path('research/recovery/cache');root.mkdir(parents=True,exist_ok=True)
 budget=max(1,min(12,int(os.environ.get('RECOVERY_REQUEST_BUDGET','8'))));calls=0;stopped=False;last=0
@@ -24,7 +24,9 @@ def fetch_rows(url,parser,ttl=14400):
   if e.code==429:stopped=True
   raise RuntimeError('HTTP'+str(e.code))
  text=raw.decode('utf8')
- if any(s in text.lower() for s in ['verify you are human','access denied','cf-chl-','captcha']):raise RuntimeError('SOURCE_ACCESS_CHALLENGE')
+ if text.lstrip().startswith('<'):
+  page=Page();page.feed(text);visible=' '.join(page.text).lower()
+  if any(s in visible for s in ['verify you are human','access denied','checking your browser','complete the captcha','confirm you are human']):raise RuntimeError('SOURCE_ACCESS_CHALLENGE')
  at=stamp();rows=parser(text)
  for row in rows:row.update(url=url,retrievedAt=at,total=row['gf']+row['ga'],result='W' if row['gf']>row['ga'] else 'L' if row['gf']<row['ga'] else 'D')
  c={'at':time.time(),'retrievedAt':at,'url':url,'rows':rows};path.write_text(json.dumps(c));return rows,at,False

@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';import worker from '../worker/index.js';
 import {linkObservations} from './fixture-odds-linker.mjs';
 import {prioritySportAudit} from './priority-sport-audit.mjs';
+import {missingDataAudit} from './missing-data.mjs';
 import {execFileSync} from 'node:child_process';
 execFileSync(process.execPath,['scripts/export-sync-batches.mjs'],{stdio:'inherit'});
 execFileSync(process.execPath,['scripts/archive-forward-validation.mjs'],{stdio:'inherit'});
@@ -10,6 +11,7 @@ html=html.replace("fetch('/api/market-observations')","fetch('./data/market-obse
 html=html.replace("fetch('/api/sport-audit')","fetch('./data/sport-audit.json')");
 html=html.replace("fetch('/api/forward-validation')","fetch('./data/forward-validation.json')");
 html=html.replace("fetch('/api/rule-audit')","fetch('./data/rule-audit.json')");
+html=html.replace("fetch('/api/missing-data')","fetch('./data/missing-data.json')");
 html=html.replace("fetch('/api/tickets')","fetch('./data/tickets.json')").replace("fetch('/api/validation')","fetch('./data/validation.json')").replace("fetch('/api/picks?date='+$('#date').value)","fetch('./data/picks.json')").replace("fetch('/api/performance')","fetch('./data/performance.json')").replace('href="/api/framework"','href="./data/framework.json"').replace('href="/api/instructions"','href="./data/framework.json"');
 const start=html.indexOf("$('#scan').onclick=async()=>"),end=html.indexOf('async function loadPerformance()',start);html=html.slice(0,start)+"$('#scan').onclick=load;$('#scan').textContent='↻ Reload Snapshot';\n"+html.slice(end);
 const settle=html.indexOf("$('#settle').onclick=async()=>"),next=html.indexOf("$('#modal').addEventListener",settle);html=html.slice(0,settle)+"$('#settle').disabled=true;$('#settle').textContent='Results updated by workflow';\n"+html.slice(next);
@@ -20,5 +22,7 @@ let observations=null;try{observations=JSON.parse(await fs.readFile('research/sn
 const fixtures=JSON.parse(await fs.readFile('research/snapshot/picks.json','utf8')).records||[];
 await fs.writeFile(out+'/data/sport-audit.json',JSON.stringify({status:'research_only',records:fixtures.filter(r=>['Basketball','Ice hockey'].includes(r.sport)&&Date.parse(r.start)>Date.now()).map(r=>({...r,audit:prioritySportAudit(r)})),publicationEligible:false}));
 await fs.writeFile(out+'/data/market-observations.json',JSON.stringify(linkObservations(observations,fixtures)));
+let receipt=null;try{receipt=JSON.parse(await fs.readFile('research/snapshot/recovery-report.json','utf8'))}catch(e){if(e.code!=='ENOENT')throw e}
+await fs.writeFile(out+'/data/missing-data.json',JSON.stringify({...missingDataAudit(fixtures,linkObservations(observations,fixtures),receipt?.attempts||[]),recoveryRun:receipt}));
 for(const name of ['picks','performance','framework','tickets','validation','forward-validation'])await fs.copyFile('research/snapshot/'+name+'.json',out+'/data/'+name+'.json');
 console.log('Static snapshot exported to '+out+'. No backend, credentials, or write endpoints embedded.');

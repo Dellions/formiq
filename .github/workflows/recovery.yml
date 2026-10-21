@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: node tests/missing-data.test.mjs && python tests/recovery_sources_test.py
+      - run: node tests/missing-data.test.mjs && node tests/recovery-history.test.mjs && python tests/recovery_sources_test.py
       - name: Check gaps and run bounded alternative sources
         run: node scripts/automatic-recovery.mjs
       - name: Refresh derived research exports

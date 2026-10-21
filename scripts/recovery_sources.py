@@ -9,7 +9,7 @@ NHL=dict((key(name),abbr) for abbr,name in [
 NHL[key('Utah Hockey Club')]='UTA'
 
 class Page(HTMLParser):
- def __init__(self):super().__init__();self.rows=[];self.cells=None;self.cell=None;self.link=None;self.events=[];self.skip=0
+ def __init__(self):super().__init__();self.rows=[];self.cells=None;self.cell=None;self.link=None;self.events=[];self.text=[];self.skip=0
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if tag in ['script','style']:self.skip+=1
@@ -20,6 +20,7 @@ class Page(HTMLParser):
   if self.skip:return
   t=' '.join(data.split())
   if not t:return
+  self.text.append(t)
   if self.cell is not None:self.cell.append(t)
   if self.link is not None:self.link['text'].append(t)
   if re.fullmatch(r'20\d{2}-\d{2}-\d{2}',t):self.events.append(('date',t))
