@@ -93,5 +93,5 @@ def main():
     if report['status'] not in ['sample_collected']:out=out.with_suffix('.failure.json')
     temporary=out.with_suffix('.tmp');temporary.write_text(json.dumps(report,indent=2));temporary.replace(out)
     print(json.dumps({'status':report['status'],'events':len(report['observations']),'quotes':sum(len(r['quotes']) for r in report['observations']),'error':report.get('error')}))
-    if report.get('error'):raise SystemExit(1)
+    if report.get('error') or report['status']!='sample_collected':raise SystemExit(1)
 if __name__=='__main__':main()
