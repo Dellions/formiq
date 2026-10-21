@@ -1,15 +1,17 @@
 {
-  "generatedAt": "2026-10-21T11:32:01.954Z",
-  "observedAt": "2026-10-21T11:31:56.674823Z",
+  "generatedAt": "2026-10-21T11:41:32.092Z",
+  "observedAt": "2026-10-21T11:41:26.174123Z",
   "status": "research_only",
   "publicationEligible": false,
   "fixtureCount": 6,
   "exactCandidates": 0,
+  "aliasCandidates": 6,
+  "unmatched": 0,
   "rows": [
     {
       "bookmakerEventId": "display:29733",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "start": "2026-10-23T19:00:00Z",
@@ -27,7 +29,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -46,7 +47,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -66,7 +66,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -86,7 +85,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -106,7 +104,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -119,17 +116,38 @@
       "classification": "RESEARCH_ONLY",
       "calibrated": false,
       "displayedTimezoneMinutes": 0,
-      "eventId": null,
-      "mappingStatus": "unmatched",
-      "reasons": [
-        "No exact team, competition and kickoff match; review required"
-      ],
+      "eventId": "ol-86598",
+      "mappingStatus": "alias_candidate",
+      "candidateCount": 1,
+      "aliasRegistryVersion": "senior-football-v1",
+      "researchFixture": {
+        "eventId": "ol-86598",
+        "home": "Ipswich Town",
+        "away": "Nottingham Forest",
+        "league": "Premier League 2026/2027",
+        "start": "2026-10-23T19:00:00Z",
+        "sources": [
+          {
+            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+            "retrievedAt": "2026-10-21T11:03:20.907Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/pl/2025",
+            "retrievedAt": "2026-10-21T11:03:22.563Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
+          }
+        ]
+      },
+      "reasons": [],
       "publicationEligible": false
     },
     {
       "bookmakerEventId": "display:52354",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Como 1907",
       "away": "Man Utd",
       "start": "2026-10-21T16:45:00Z",
@@ -147,7 +165,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -166,7 +183,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -186,7 +202,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -199,17 +214,50 @@
       "classification": "RESEARCH_ONLY",
       "calibrated": false,
       "displayedTimezoneMinutes": 0,
-      "eventId": null,
-      "mappingStatus": "unmatched",
-      "reasons": [
-        "No exact team, competition and kickoff match; review required"
-      ],
+      "eventId": "ol-87433",
+      "mappingStatus": "alias_candidate",
+      "candidateCount": 1,
+      "aliasRegistryVersion": "senior-football-v1",
+      "researchFixture": {
+        "eventId": "ol-87433",
+        "home": "Como 1907",
+        "away": "Manchester United FC",
+        "league": "Champions League 2026/2027",
+        "start": "2026-10-21T16:45:00Z",
+        "sources": [
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+            "retrievedAt": "2026-10-21T11:03:21.076Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+            "retrievedAt": "2026-10-21T11:03:20.907Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+            "retrievedAt": "2026-10-21T11:03:21.482Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
+          },
+          {
+            "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv",
+            "retrievedAt": "2026-10-20T22:39:06.581Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 5760
+          }
+        ]
+      },
+      "reasons": [],
       "publicationEligible": false
     },
     {
       "bookmakerEventId": "display:44317",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Lille",
       "away": "Galatasaray Istanbul",
       "start": "2026-10-21T16:45:00Z",
@@ -227,7 +275,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -246,7 +293,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -266,7 +312,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -279,17 +324,44 @@
       "classification": "RESEARCH_ONLY",
       "calibrated": false,
       "displayedTimezoneMinutes": 0,
-      "eventId": null,
-      "mappingStatus": "unmatched",
-      "reasons": [
-        "No exact team, competition and kickoff match; review required"
-      ],
+      "eventId": "ol-87434",
+      "mappingStatus": "alias_candidate",
+      "candidateCount": 1,
+      "aliasRegistryVersion": "senior-football-v1",
+      "researchFixture": {
+        "eventId": "ol-87434",
+        "home": "Lille OSC",
+        "away": "Galatasaray Istanbul",
+        "league": "Champions League 2026/2027",
+        "start": "2026-10-21T16:45:00Z",
+        "sources": [
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+            "retrievedAt": "2026-10-21T11:03:21.076Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+            "retrievedAt": "2026-10-21T11:03:21.482Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
+          },
+          {
+            "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv",
+            "retrievedAt": "2026-10-20T22:39:18.386Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 5760
+          }
+        ]
+      },
+      "reasons": [],
       "publicationEligible": false
     },
     {
       "bookmakerEventId": "display:51580",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Aston Villa",
       "away": "Viking FK",
       "start": "2026-10-21T19:00:00Z",
@@ -307,7 +379,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -326,7 +397,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -346,7 +416,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -359,17 +428,44 @@
       "classification": "RESEARCH_ONLY",
       "calibrated": false,
       "displayedTimezoneMinutes": 0,
-      "eventId": null,
-      "mappingStatus": "unmatched",
-      "reasons": [
-        "No exact team, competition and kickoff match; review required"
-      ],
+      "eventId": "ol-87439",
+      "mappingStatus": "alias_candidate",
+      "candidateCount": 1,
+      "aliasRegistryVersion": "senior-football-v1",
+      "researchFixture": {
+        "eventId": "ol-87439",
+        "home": "Aston Villa",
+        "away": "Viking",
+        "league": "Champions League 2026/2027",
+        "start": "2026-10-21T19:00:00Z",
+        "sources": [
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+            "retrievedAt": "2026-10-21T11:03:21.076Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+            "retrievedAt": "2026-10-21T11:03:20.907Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+            "retrievedAt": "2026-10-21T11:03:21.482Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
+          }
+        ]
+      },
+      "reasons": [],
       "publicationEligible": false
     },
     {
       "bookmakerEventId": "display:45744",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Bayern Munich",
       "away": "Arsenal",
       "start": "2026-10-21T19:00:00Z",
@@ -387,7 +483,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -406,7 +501,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -426,7 +520,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -439,17 +532,50 @@
       "classification": "RESEARCH_ONLY",
       "calibrated": false,
       "displayedTimezoneMinutes": 0,
-      "eventId": null,
-      "mappingStatus": "unmatched",
-      "reasons": [
-        "No exact team, competition and kickoff match; review required"
-      ],
+      "eventId": "ol-87437",
+      "mappingStatus": "alias_candidate",
+      "candidateCount": 1,
+      "aliasRegistryVersion": "senior-football-v1",
+      "researchFixture": {
+        "eventId": "ol-87437",
+        "home": "FC Bayern München",
+        "away": "FC Arsenal",
+        "league": "Champions League 2026/2027",
+        "start": "2026-10-21T19:00:00Z",
+        "sources": [
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+            "retrievedAt": "2026-10-21T11:03:21.076Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+            "retrievedAt": "2026-10-21T11:03:20.516Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+            "retrievedAt": "2026-10-21T11:03:20.907Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+            "retrievedAt": "2026-10-21T11:03:21.482Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
+          }
+        ]
+      },
+      "reasons": [],
       "publicationEligible": false
     },
     {
       "bookmakerEventId": "display:52627",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Betis",
       "away": "Feyenoord",
       "start": "2026-10-21T19:00:00Z",
@@ -467,7 +593,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -486,7 +611,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -506,7 +630,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -526,7 +649,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -546,7 +668,6 @@
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED",
           "gaps": [
-            "No exact team, competition and kickoff match; review required",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -559,11 +680,44 @@
       "classification": "RESEARCH_ONLY",
       "calibrated": false,
       "displayedTimezoneMinutes": 0,
-      "eventId": null,
-      "mappingStatus": "unmatched",
-      "reasons": [
-        "No exact team, competition and kickoff match; review required"
-      ],
+      "eventId": "ol-87441",
+      "mappingStatus": "alias_candidate",
+      "candidateCount": 1,
+      "aliasRegistryVersion": "senior-football-v1",
+      "researchFixture": {
+        "eventId": "ol-87441",
+        "home": "Real Betis",
+        "away": "Feyenoord Rotterdam",
+        "league": "Champions League 2026/2027",
+        "start": "2026-10-21T19:00:00Z",
+        "sources": [
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+            "retrievedAt": "2026-10-21T11:03:21.076Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
+            "retrievedAt": "2026-10-21T11:03:20.688Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 15
+          },
+          {
+            "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+            "retrievedAt": "2026-10-21T11:03:21.482Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 1440
+          },
+          {
+            "url": "https://www.football-data.co.uk/mmz4281/2627/N1.csv",
+            "retrievedAt": "2026-10-20T22:39:30.193Z",
+            "classification": "SOURCE_REPORTED",
+            "cacheMaxAgeMinutes": 5760
+          }
+        ]
+      },
+      "reasons": [],
       "publicationEligible": false
     }
   ],

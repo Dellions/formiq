@@ -1,12 +1,12 @@
 {
-  "startedAt": "2026-10-21T11:31:56.674823Z",
+  "startedAt": "2026-10-21T11:41:26.174123Z",
   "bookmaker": "SportyBet Nigeria",
   "status": "sample_collected",
   "observations": [
     {
       "bookmakerEventId": "display:29733",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "start": "2026-10-23T19:00:00Z",
@@ -74,7 +74,7 @@
     {
       "bookmakerEventId": "display:52354",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Como 1907",
       "away": "Man Utd",
       "start": "2026-10-21T16:45:00Z",
@@ -120,7 +120,7 @@
     {
       "bookmakerEventId": "display:44317",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Lille",
       "away": "Galatasaray Istanbul",
       "start": "2026-10-21T16:45:00Z",
@@ -166,7 +166,7 @@
     {
       "bookmakerEventId": "display:51580",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Aston Villa",
       "away": "Viking FK",
       "start": "2026-10-21T19:00:00Z",
@@ -212,7 +212,7 @@
     {
       "bookmakerEventId": "display:45744",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Bayern Munich",
       "away": "Arsenal",
       "start": "2026-10-21T19:00:00Z",
@@ -258,7 +258,7 @@
     {
       "bookmakerEventId": "display:52627",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-21T11:32:01.643099Z",
+      "observedAt": "2026-10-21T11:41:31.908285Z",
       "home": "Betis",
       "away": "Feyenoord",
       "start": "2026-10-21T19:00:00Z",
@@ -327,7 +327,7 @@
   "pages": [
     {
       "url": "https://www.sportybet.com/ng/sport/football/",
-      "retrievedAt": "2026-10-21T11:32:01.255233Z"
+      "retrievedAt": "2026-10-21T11:41:31.616889Z"
     }
   ],
   "fallback": {
@@ -335,7 +335,7 @@
     "status": "not_verified"
   },
   "publicationEligible": false,
-  "finishedAt": "2026-10-21T11:32:01.648181Z",
+  "finishedAt": "2026-10-21T11:41:31.909391Z",
   "limitations": [
     "Small visible-page sample; no complete fixture coverage",
     "No independent price corroboration or exact rules verification",
