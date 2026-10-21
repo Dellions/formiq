@@ -1,3 +1,4 @@
+// Runs after the shared writer queue has loaded current main.
 import fs from 'node:fs/promises';import {execFileSync} from 'node:child_process';
 import {missingDataAudit} from './missing-data.mjs';import {buildResearch,footballHistory} from '../worker/index.js';
 import {mergeRecoveryHistory} from './recovery-history.mjs';
