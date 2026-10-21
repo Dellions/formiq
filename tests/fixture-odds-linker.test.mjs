@@ -10,6 +10,7 @@ assert.equal(link(o,[f,{...f,eventId:'2'}]).eventId,null);
 assert.ok(link({...o,observedAt:'2026-10-21T10:00:00Z'}).reasons.some(x=>x.includes('Stale')));
 assert.ok(link({...o,quotes:[{...o.quotes[0],side:'draw'}]}).quotes[0].gaps.includes('Unsupported market or line'));
 assert.equal(linkObservations(null,[],now).fixtureCount,0);
+assert.equal(link({...o,sportPath:'iceHockey'},[{...f,sport:'Ice hockey'}]).eventId,'1');
 const aliasFixture={...f,league:'Champions League 2026/2027',home:{name:'FC Bayern München'},away:{name:'FC Arsenal'}};
 const aliasObservation={...o,home:'Bayern Munich',away:'Arsenal',competitionSourceLabel:'International Clubs UEFA Champions League'};
 const alias=link(aliasObservation,[aliasFixture]);assert.equal(alias.mappingStatus,'alias_candidate');assert.equal(alias.mappingVerified,false);assert.equal(alias.researchFixture.home,'FC Bayern München');

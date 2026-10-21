@@ -2,9 +2,21 @@ import sys,unittest
 from pathlib import Path
 from datetime import datetime,timezone
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from public_odds_parser import parse_market,start_from_display,displayed_offset,parse_listing
+from public_odds_parser import parse_market,start_from_display,displayed_offset,parse_listing,parse_priority_listing
 
 class PublicOddsTests(unittest.TestCase):
+    def test_priority_sports_layouts(self):
+        now=datetime(2026,10,21,10,tzinfo=timezone.utc)
+        base='GMT+00:00\n\ue6a3 USA NBA\n2 Way & O/U\n21/10 Wednesday\n1\n2\nPoints\nOver\nUnder\n23:00\nID: 123\nHome\nAway\n1.80\n2.10\n220.5\n1.90\n1.90\n+200'
+        rows=parse_priority_listing(base,'https://example.test','2026-10-21T10:00:00Z','basketball',now=now)
+        self.assertEqual(len(rows),1);self.assertEqual(len(rows[0]['quotes']),4);self.assertEqual(rows[0]['sportPath'],'basketball')
+        self.assertEqual(rows[0]['quotes'][1]['side'],'away');self.assertEqual(rows[0]['quotes'][2]['line'],220.5)
+        hockey=base.replace('USA NBA','USA NHL').replace('2 Way & O/U','3 Way & O/U').replace('1.80\n2.10','1.80\n4.20\n2.10').replace('220.5','5.5')
+        h=parse_priority_listing(hockey,'https://example.test','2026-10-21T10:00:00Z','iceHockey',now=now)
+        self.assertEqual(len(h[0]['quotes']),5);self.assertEqual(h[0]['quotes'][1]['side'],'draw');self.assertTrue(all(q['settlement']=='unverified' for q in h[0]['quotes']))
+        self.assertEqual(parse_priority_listing(base.replace('GMT+00:00',''),'https://example.test','now','basketball',now=now),[])
+        self.assertEqual(parse_priority_listing(base.replace('2 Way & O/U','1st Half'),'https://example.test','now','basketball',now=now),[])
+        self.assertEqual(parse_priority_listing(base.replace('1.80','suspended'),'https://example.test','now','basketball',now=now),[])
     def test_market_identity(self):
         # Synthetic test prices; never published as observations.
         text='Over/Under\nOver 2.5\n1.80\nUnder 2.5\n2.10'

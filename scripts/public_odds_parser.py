@@ -50,6 +50,42 @@ def parse_listing(text,url,observed_at,limit=6,now=None):
         if len(out)>=limit:break
     return out
 
+def parse_priority_listing(text,url,observed_at,sport,limit=4,now=None):
+    """Observed 2-way basketball and 3-way hockey tables; rules remain unverified."""
+    if sport not in ['basketball','iceHockey']:return []
+    offset=displayed_offset(text)
+    if offset is None:return []
+    lines=[s.strip() for s in text.splitlines() if s.strip()]
+    league=date=mode=None;rows=[];seen=set();price=lambda s:bool(re.fullmatch(r'\d+\.\d{2}',s)) and float(s)>1
+    for i,line in enumerate(lines):
+        if line.startswith('\ue6a3 '):league=line[2:].strip();date=mode=None
+        if line in ['2 Way & O/U','3 Way & O/U']:mode=line
+        if re.fullmatch(r'\d{2}/\d{2}\s+\w+',line):date=line.split()[0]
+        width=2 if sport=='basketball' else 3
+        if not league or not date or mode!=('2 Way & O/U' if width==2 else '3 Way & O/U') or re.search(r'virtual|simulated|ebasketball|eice',league,re.I):continue
+        if not re.fullmatch(r'\d{2}:\d{2}',line) or i+4+width>len(lines):continue
+        b=lines[i:];m=re.fullmatch(r'ID:\s*(\d+)',b[1])
+        if not m or not all(price(x) for x in b[4:4+width]):continue
+        start=start_from_display(date+' '+line,now,offset)
+        if not start or m[1] in seen or b[2]==b[3]:continue
+        seen.add(m[1]);sides=['home','away'] if width==2 else ['home','draw','away']
+        quotes=[{'type':'win','side':side,'odds':float(value),'marketLabel':'2 Way' if width==2 else '3 Way'} for side,value in zip(sides,b[4:4+width])]
+        n=4+width
+        if len(b)>n+2 and re.fullmatch(r'\d+\.5',b[n]) and all(price(x) for x in b[n+1:n+3]):
+            quotes.extend({'type':'total','side':side,'line':float(b[n]),'odds':float(value),'marketLabel':'Over/Under'} for side,value in zip(['over','under'],b[n+1:n+3]))
+        for q in quotes:q.update(period='full_match',settlement='unverified',rulesVerified=False,classification='SOURCE_OBSERVED')
+        rows.append({'bookmakerEventId':'display:'+m[1],'sourceURL':url,'observedAt':observed_at,'home':b[2],'away':b[3],'start':start,'sportPath':sport,'competitionSourceLabel':league,'mappingVerified':False,'quotes':quotes,'classification':'RESEARCH_ONLY','calibrated':False,'displayedTimezoneMinutes':offset})
+    # Spread the bounded sample across visible competitions instead of filling it from one league.
+    groups={}
+    for r in rows:groups.setdefault(r['competitionSourceLabel'],[]).append(r)
+    out=[]
+    while groups and len(out)<limit:
+        for league in list(groups):
+            if len(out)>=limit:break
+            out.append(groups[league].pop(0))
+            if not groups[league]:del groups[league]
+    return out
+
 def parse_market(title,text):
     # Exact names keep promoted, first-half, team-total and player markets separate.
     types={'1X2':('win',{'Home':'home','Away':'away'}),

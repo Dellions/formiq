@@ -3,7 +3,7 @@ import argparse,json,re,time
 from datetime import datetime,timezone
 from pathlib import Path
 from urllib.parse import urlparse,unquote
-from public_odds_parser import parse_market,start_from_display,displayed_offset,parse_listing
+from public_odds_parser import parse_market,start_from_display,displayed_offset,parse_listing,parse_priority_listing
 
 def timestamp():return datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
 
@@ -31,16 +31,20 @@ def collect(driver,urls,limit=6,spacing=10):
     try:
         candidates=[]
         for url in urls:
+            if len(report['observations'])>=limit:break
             visit(url)
             if '/sr:match:' in url:candidates.append(url)
             else:
+                sport=urlparse(url).path.rstrip('/').split('/')[-1]
+                quota=min(max(1,(limit+len(urls)-1)//len(urls)),limit-len(report['observations']))
+                if sport in ['basketball','iceHockey']:
+                    report['observations'].extend(parse_priority_listing(driver.find_element(By.TAG_NAME,'body').text,driver.current_url,timestamp(),sport,quota))
                 if '/sport/football/' in url:
-                    report['observations'].extend(parse_listing(driver.find_element(By.TAG_NAME,'body').text,driver.current_url,timestamp(),limit-len(report['observations'])))
-                    if len(report['observations'])>=limit:break
+                    report['observations'].extend(parse_listing(driver.find_element(By.TAG_NAME,'body').text,driver.current_url,timestamp(),quota))
+                if len(report['observations'])>=limit:break
                 for e in driver.find_elements(By.CSS_SELECTOR,'a[href*="sr:match:"]'):
                     href=e.get_attribute('href')
                     if href and href not in candidates:candidates.append(href)
-            if len(candidates)>=limit:break
         for url in candidates[:max(0,limit-len(report['observations']))]:
             if driver.current_url!=url:visit(url)
             title=driver.find_element(By.CSS_SELECTOR,'.j_title')
@@ -69,6 +73,12 @@ def collect(driver,urls,limit=6,spacing=10):
                 'home':home,'away':away,'start':start,'sportPath':parts[3],
                 'competitionSourceLabel':parts[-3].replace('_',' '),'mappingVerified':False,
                 'quotes':quotes,'classification':'RESEARCH_ONLY','calibrated':False})
+        dedup={}
+        for row in report['observations']:
+            key=(row['sportPath'],row['home'],row['away'],row['start'])
+            if key not in dedup:dedup[key]=row
+        report['observations']=list(dedup.values())[:limit]
+        report['sportCoverage']={sport:sum(r['sportPath']==sport for r in report['observations']) for sport in ['basketball','iceHockey','football']}
         report['status']='sample_collected' if any(r['quotes'] for r in report['observations']) else 'partial'
     except Exception as e:
         report['error']=type(e).__name__+': '+str(e).splitlines()[0][:400]
@@ -90,7 +100,7 @@ def main():
     try:
         driver=webdriver.Chrome(options=options)
         driver.set_page_load_timeout(45)
-        report=collect(driver,args.url or ['https://www.sportybet.com/ng/sport/football/','https://www.sportybet.com/ng/sport/basketball/','https://www.sportybet.com/ng/sport/iceHockey/'],args.limit)
+        report=collect(driver,args.url or ['https://www.sportybet.com/ng/sport/basketball/','https://www.sportybet.com/ng/sport/iceHockey/','https://www.sportybet.com/ng/sport/football/'],args.limit)
     except Exception as e:
         report={'startedAt':timestamp(),'finishedAt':timestamp(),'status':'failed','observations':[],
                 'error':type(e).__name__+': '+str(e).splitlines()[0][:400],'publicationEligible':False}

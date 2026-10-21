@@ -170,19 +170,24 @@ const FOOTBALL_LEAGUE_GROUPS = [
   ['Champions League','International Clubs UEFA Champions League','UEFA Champions League'],
   ['England Premier League','English Premier League','Premier League']
 ];
+const BASKETBALL_TEAM_GROUPS=[['Hapoel Tel-Aviv','Hapoel Tel Aviv BC'],['Virtus Bologna','Virtus Pallacanestro Bologna']];
+const BASKETBALL_LEAGUE_GROUPS=[['USA NBA','NBA'],['International Euroleague','EuroLeague Basketball','EuroLeague'],['Germany BBL','German BBL']];
+const HOCKEY_LEAGUE_GROUPS=[['USA NHL','NHL'],['Russia KHL','KHL'],['Sweden SHL','SHL'],['USA AHL','American AHL','AHL'],['Germany DEL','DEL'],['Finland Liiga','Liiga']];
 // Conservative cross-source linking. A candidate is never verification or a bet.
 function linkObservations(sample, fixtures, now = Date.now()) {
   const norm = x => String(x || '').normalize('NFKC').trim().toLowerCase().replace(/\s+/g, ' ');
-  const sports = {football:'Football', basketball:'Basketball', iceHockey:'Ice Hockey', handball:'Handball'};
+  const sports = {football:'Football', basketball:'Basketball', iceHockey:'Ice hockey', handball:'Handball'};
   const aliasKey=(value,groups)=>{const n=norm(value);const i=groups.findIndex(g=>g.some(v=>norm(v)===n));return i<0?'literal:'+n:'group:'+i};
-  const leagueKey=value=>aliasKey(String(value||'').replace(/\s+20\d{2}\/20\d{2}$/,''),FOOTBALL_LEAGUE_GROUPS);
   const rows = (sample?.observations || []).map(o => {
+    const teams=o.sportPath==='football'?FOOTBALL_TEAM_GROUPS:o.sportPath==='basketball'?BASKETBALL_TEAM_GROUPS:[];
+    const leagues=o.sportPath==='football'?FOOTBALL_LEAGUE_GROUPS:o.sportPath==='basketball'?BASKETBALL_LEAGUE_GROUPS:o.sportPath==='iceHockey'?HOCKEY_LEAGUE_GROUPS:[];
+    const leagueKey=value=>aliasKey(String(value||'').replace(/\s+20\d{2}\/20\d{2}$/,''),leagues);
     const exact=f=>norm(f.home?.name)===norm(o.home)&&norm(f.away?.name)===norm(o.away)&&norm(f.league)===norm(o.competitionSourceLabel);
     const candidates = fixtures.filter(f => f.sport === sports[o.sportPath] &&
       Number.isFinite(Date.parse(o.start)) && Date.parse(f.start) === Date.parse(o.start) &&
-      (exact(f)||o.sportPath==='football'&&
-        aliasKey(f.home?.name,FOOTBALL_TEAM_GROUPS)===aliasKey(o.home,FOOTBALL_TEAM_GROUPS)&&
-        aliasKey(f.away?.name,FOOTBALL_TEAM_GROUPS)===aliasKey(o.away,FOOTBALL_TEAM_GROUPS)&&
+      (exact(f)||['football','basketball','iceHockey'].includes(o.sportPath)&&
+        aliasKey(f.home?.name,teams)===aliasKey(o.home,teams)&&
+        aliasKey(f.away?.name,teams)===aliasKey(o.away,teams)&&
         leagueKey(f.league)===leagueKey(o.competitionSourceLabel)));
     const f = candidates.length === 1 ? candidates[0] : null;
     const reasons = [];
@@ -201,7 +206,7 @@ function linkObservations(sample, fixtures, now = Date.now()) {
       return {...q, gaps, usableForBetting:false, probability:null, estimatedEV:null};
     });
     return {...o, eventId:f?.eventId || null, mappingStatus:f?(exact(f)?'exact_candidate':'alias_candidate'):'unmatched',
-      candidateCount:candidates.length, aliasRegistryVersion:'senior-football-v1',
+      candidateCount:candidates.length, aliasRegistryVersion:'scoped-sports-v2',
       researchFixture:f?{eventId:f.eventId,home:f.home.name,away:f.away.name,league:f.league,start:f.start,sources:f.sources||[]}:null,
       mappingVerified:false, reasons, quotes, publicationEligible:false};
   });
@@ -212,7 +217,40 @@ function linkObservations(sample, fixtures, now = Date.now()) {
     unmatched:rows.filter(r=>!r.eventId).length, rows,
     note:'Source-observed prices; exact candidates still require independent verification. No price is a betting recommendation.'};
 }
+// Descriptive inputs only. Does not invent possession, xG, lineups or probabilities.
+function prioritySportAudit(f, now=Date.now()) {
+  if(!['Basketball','Ice hockey'].includes(f.sport))return null;
+  const start=Date.parse(f.start),mean=xs=>xs.length?xs.reduce((a,b)=>a+b,0)/xs.length:null;
+  function team(rows,venue){
+    const ids=new Set(),accepted=[],excluded=[];
+    for(const r of [...(rows||[])].sort((a,b)=>Date.parse(b.date)-Date.parse(a.date))){
+      const t=Date.parse(r.date),key=r.id||[r.date,r.opponent,r.venue].join('|');
+      if(!Number.isFinite(t)||t>=Math.min(start,now)||!Number.isFinite(r.gf)||!Number.isFinite(r.ga)||r.gf<0||r.ga<0||ids.has(key)){excluded.push({id:r.id||null,reason:'Missing/invalid score or date, duplicate or not completed before observation'});continue}
+      ids.add(key);accepted.push(r);
+    }
+    const recent=accepted.slice(0,10),summary=rs=>{
+      const totals=rs.map(r=>r.gf+r.ga),avg=mean(totals);
+      return {n:rs.length,scored:mean(rs.map(r=>r.gf)),conceded:mean(rs.map(r=>r.ga)),combinedTotal:avg,
+        margin:mean(rs.map(r=>r.gf-r.ga)),totalSD:rs.length>1?Math.sqrt(totals.reduce((s,x)=>s+(x-avg)**2,0)/(rs.length-1)):null,
+        winRate:rs.length?rs.filter(r=>r.gf>r.ga).length/rs.length:null};
+    };
+    const split=recent.filter(r=>r.venue===venue);
+    return {last10:summary(recent),last5:summary(recent.slice(0,5)),venue:summary(split),venueType:venue,
+      sampleStatus:recent.length>=10?'preferred_10':recent.length>=6?'fallback_6_to_9':'insufficient',
+      restDays:recent.length?(start-Date.parse(recent[0].date))/86400000:null,
+      longGap:recent.length?(start-Date.parse(recent[0].date))/86400000>45:null,
+      overtimeScope:'Source final scores; overtime/shootout inclusion not independently verified',excluded};
+  }
+  const home=team(f.history?.home,'home'),away=team(f.history?.away,'away');
+  const enough=home.last10.n>=6&&away.last10.n>=6;
+  return {version:'priority-sports-v1',classification:'CALCULATED_DESCRIPTIVE',home,away,
+    scoreSampleSufficient:enough,modelReady:false,calibrated:false,publicationEligible:false,
+    units:f.sport==='Basketball'?'points':'goals',
+    missing:f.sport==='Basketball'?['Possessions and pace','Opponent-adjusted offensive/defensive efficiency','Injuries and rotations','Travel','Confirmed market and overtime settlement','Historical calibration']:['Expected goals/chance quality','Starting goalie confirmation','Power play and penalty kill','Rest/travel context','Confirmed regulation/overtime/shootout settlement','Historical calibration'],
+    note:'Last-five/ten and venue descriptions are calculated from available score history. They are not an opponent-adjusted projection or an achieved accuracy result.'};
+}
 async function api(req,env,ctx){const u=new URL(req.url);if(!env.BUCKET)return json({error:'Persistent storage unavailable'},503);if(req.method==='POST'&&req.headers.get('origin')&&req.headers.get('origin')!==u.origin)return json({error:'Cross-origin write rejected'},403);if(req.method==='POST'&&Number(req.headers.get('content-length')||0)>300000)return json({error:'Body too large'},413);
+ if(u.pathname==='/api/sport-audit'){const records=(await allRecords(env)).filter(r=>['Basketball','Ice hockey'].includes(r.sport)&&Date.parse(r.start)>Date.now()&&day(new Date(r.start))<=day(new Date(Date.now()+2*86400000))).map(r=>({eventId:r.eventId,match:r.match,home:r.home,away:r.away,league:r.league,sport:r.sport,start:r.start,audit:prioritySportAudit(r)}));return json({status:'research_only',generatedAt:nowISO(),records,publicationEligible:false})}
 if(u.pathname==='/api/market-observations'){if(req.method==='POST'){const text=await req.text();if(text.length>100000)return json({error:'Observation batch too large'},413);const d=JSON.parse(text);if(d.status!=='sample_collected'||!Array.isArray(d.observations)||!d.observations.length||d.observations.length>10||d.observations.some(o=>{try{const x=new URL(o.sourceURL);return x.protocol!=='https:'||x.username||x.password||x.hostname!=='www.sportybet.com'||!x.pathname.startsWith('/ng/')||!o.home||!o.away||!Array.isArray(o.quotes)||o.quotes.length>100}catch{return true}}))return json({error:'Expected bounded public SportyBet observation batch'},422);const stamp=x=>Math.max(...x.observations.map(o=>Date.parse(o.observedAt)));if(d.observations.some(o=>!Number.isFinite(Date.parse(o.observedAt))||Date.parse(o.observedAt)>Date.now()||!Number.isFinite(Date.parse(o.start))))return json({error:'Valid non-future observation and kickoff timestamps required'},422);const previous=await readJSON(env,'research/market-observations/latest.json');if(previous&&stamp(d)<stamp(previous))return json({error:'Older sample rejected; newer stored observations preserved'},409);if(previous&&JSON.stringify(previous)===JSON.stringify(d))return json(linkObservations(previous,await allRecords(env)));await env.BUCKET.put('research/market-observations/latest.json',JSON.stringify(d));await env.BUCKET.put('research/market-observations/history/'+crypto.randomUUID()+'.json',JSON.stringify(d));}return json(linkObservations(await readJSON(env,'research/market-observations/latest.json'),await allRecords(env)))}
  if(u.pathname==='/api/tickets'){if(req.method==='POST')return json(await recordTickets(env));return json(await ticketAudit(env))}
  if(u.pathname==='/api/validation')return json(VALIDATION_REPORT);
@@ -279,5 +317,7 @@ $('#settle').onclick=async()=>{const b=$('#settle');b.disabled=true;try{const r=
 $('#modal').addEventListener('click',e=>{if(e.target===$('#modal'))$('#modal').close()});render();load();setInterval(render,60000);
 const pricePanel=document.createElement('details');pricePanel.className='card';pricePanel.style.margin='16px 0';pricePanel.innerHTML='<summary>Bookmaker observations · Research only</summary><div id="price-observations">Loading source observations…</div>';document.querySelector('.notice').after(pricePanel);
 async function loadObservations(){const box=document.querySelector('#price-observations');try{const res=await fetch('/api/market-observations');if(!res.ok)throw Error('Source observations unavailable');const d=await res.json();box.innerHTML='<p>'+d.fixtureCount+' observed fixtures · '+d.exactCandidates+' exact candidates · '+(d.aliasCandidates||0)+' alias candidates · '+(d.unmatched??d.fixtureCount)+' unmatched. Settlement rules and independent verification remain required. Prices expire after 30 minutes.</p>'+(d.rows.length?d.rows.map(o=>'<details><summary>'+esc(o.home)+' — '+esc(o.away)+' · '+esc(o.mappingStatus)+'</summary><p>'+wat(o.start)+' WAT · '+esc(o.competitionSourceLabel)+'</p><p><a href="'+esc(o.sourceURL)+'" target="_blank" rel="noopener">SportyBet source</a> · Observed '+wat(o.observedAt)+' WAT</p>'+o.quotes.map(q=>'<p>'+esc(q.marketLabel||q.type)+' '+esc(q.side)+' '+esc(q.line??'')+' · <strong>'+num(q.odds)+'</strong><br><small>'+esc(q.gaps.join(' · '))+'</small></p>').join('')+'</details>').join(''):blank('No bookmaker observations imported','Missing prices remain missing.'))}catch(e){box.textContent=e.message}}loadObservations();setInterval(loadObservations,60000);
+const sportPanel=document.createElement('details');sportPanel.className='card';sportPanel.style.margin='16px 0';sportPanel.innerHTML='<summary>Basketball & hockey · Data desk</summary><div id="sport-audit">Loading score-history audit…</div>';document.querySelector('.notice').after(sportPanel);
+async function loadSportAudit(){const box=document.querySelector('#sport-audit');try{const res=await fetch('/api/sport-audit');if(!res.ok)throw Error('Sport data audit unavailable');const d=await res.json();box.innerHTML='<p>Last 10 results where available; six-result fallback. Descriptive statistics only. Pace, opponent adjustment, injuries and exact settlement remain required.</p>'+d.records.map(r=>{const a=r.audit;return '<details><summary>'+esc(r.match)+' · '+esc(r.league)+'</summary><p>'+wat(r.start)+' WAT · '+esc(a.units)+'</p><div class="tablewrap"><table><thead><tr><th>TEAM</th><th>SAMPLE</th><th>SCORED / ALLOWED</th><th>LAST 5 TOTAL</th><th>TOTAL VARIATION</th><th>VENUE SAMPLE</th><th>REST DAYS</th></tr></thead><tbody>'+[['home',r.home.name],['away',r.away.name]].map(([key,name])=>{const t=a[key];return '<tr><td>'+esc(name)+'</td><td>'+t.last10.n+' / 10<small>'+esc(t.sampleStatus)+'</small></td><td>'+num(t.last10.scored)+' / '+num(t.last10.conceded)+'</td><td>'+num(t.last5.combinedTotal)+'</td><td>'+num(t.last10.totalSD)+'</td><td>'+t.venue.n+'</td><td>'+num(t.restDays)+(t.longGap?' · long gap':'')+'</td></tr>'}).join('')+'</tbody></table></div><p>Missing: '+esc(a.missing.join(' · '))+'</p><small>'+esc(a.home.overtimeScope)+'</small></details>'}).join('')+(d.records.length?'':blank('No upcoming basketball or hockey records in the saved three-day horizon','Source coverage remains incomplete; no synthetic fixtures added.'))}catch(e){box.textContent=e.message}}loadSportAudit();setInterval(loadSportAudit,300000);
 </script></body></html>
 `;

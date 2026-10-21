@@ -1,10 +1,12 @@
 import fs from 'node:fs/promises';import worker from '../worker/index.js';
 import {linkObservations} from './fixture-odds-linker.mjs';
+import {prioritySportAudit} from './priority-sport-audit.mjs';
 import {execFileSync} from 'node:child_process';
 execFileSync(process.execPath,['scripts/export-sync-batches.mjs'],{stdio:'inherit'});
 const out='github-pages';await fs.mkdir(out+'/data',{recursive:true});
 let html=await(await worker.fetch(new Request('https://edgeform.local/'),{},{})).text();
 html=html.replace("fetch('/api/market-observations')","fetch('./data/market-observations.json')");
+html=html.replace("fetch('/api/sport-audit')","fetch('./data/sport-audit.json')");
 html=html.replace("fetch('/api/tickets')","fetch('./data/tickets.json')").replace("fetch('/api/validation')","fetch('./data/validation.json')").replace("fetch('/api/picks?date='+$('#date').value)","fetch('./data/picks.json')").replace("fetch('/api/performance')","fetch('./data/performance.json')").replace('href="/api/framework"','href="./data/framework.json"').replace('href="/api/instructions"','href="./data/framework.json"');
 const start=html.indexOf("$('#scan').onclick=async()=>"),end=html.indexOf('async function loadPerformance()',start);html=html.slice(0,start)+"$('#scan').onclick=load;$('#scan').textContent='↻ Reload Snapshot';\n"+html.slice(end);
 const settle=html.indexOf("$('#settle').onclick=async()=>"),next=html.indexOf("$('#modal').addEventListener",settle);html=html.slice(0,settle)+"$('#settle').disabled=true;$('#settle').textContent='Results updated by workflow';\n"+html.slice(next);
@@ -12,6 +14,7 @@ html=html.replaceAll('↻ Refresh 3 Days','↻ Reload Snapshot').replace('Privat
 await fs.writeFile(out+'/index.html',html);await fs.writeFile(out+'/.nojekyll','');
 let observations=null;try{observations=JSON.parse(await fs.readFile('research/snapshot/bookmaker-observations.json','utf8'))}catch(e){if(e.code!=='ENOENT')throw e}
 const fixtures=JSON.parse(await fs.readFile('research/snapshot/picks.json','utf8')).records||[];
+await fs.writeFile(out+'/data/sport-audit.json',JSON.stringify({status:'research_only',records:fixtures.filter(r=>['Basketball','Ice hockey'].includes(r.sport)&&Date.parse(r.start)>Date.now()).map(r=>({...r,audit:prioritySportAudit(r)})),publicationEligible:false}));
 await fs.writeFile(out+'/data/market-observations.json',JSON.stringify(linkObservations(observations,fixtures)));
 for(const name of ['picks','performance','framework','tickets','validation'])await fs.copyFile('research/snapshot/'+name+'.json',out+'/data/'+name+'.json');
 console.log('Static snapshot exported to '+out+'. No backend, credentials, or write endpoints embedded.');
