@@ -35,7 +35,7 @@ def virtus_rows(html):
  p=Page();p.feed(html);out=[]
  for row in p.rows:
   if len(row)<4 or not re.fullmatch(r'\d{2}/\d{2}/\d{2}',row[0]):continue
-  m=re.fullmatch(r'(\d+)\s*[-–:]\s*(\d+)',row[2]);home=key(row[1])==key('Virtus Bologna');away=key(row[3])==key('Virtus Bologna')
+  m=re.fullmatch(r'(\d+)\s*[-–]\s*(\d+)',row[2]);home=key(row[1])==key('Virtus Bologna');away=key(row[3])==key('Virtus Bologna')
   if not m or home==away:continue
   date=datetime.strptime(row[0],'%d/%m/%y').date().isoformat();a,b=map(int,m.groups())
   out.append({'id':'virtus-'+date,'date':date,'datePrecision':'day','gf':a if home else b,'ga':b if home else a,'venue':'home' if home else 'away','opponent':row[3] if home else row[1]})
