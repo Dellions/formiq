@@ -1,0 +1,49 @@
+name: Recover missing sports history
+on:
+  push:
+    branches: ['main']
+    paths: ['scripts/automatic-recovery.mjs', 'scripts/recover-public-history.py', 'scripts/recovery_sources.py', '.github/workflows/recovery.yml']
+  schedule:
+    - cron: '35 6,12,18 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: edgeform-public-odds
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: node tests/missing-data.test.mjs && python tests/recovery_sources_test.py
+      - name: Check gaps and run bounded alternative sources
+        run: node scripts/automatic-recovery.mjs
+      - name: Refresh derived research exports
+        run: |
+          node scripts/link-public-odds.mjs
+          node scripts/export-sync-batches.mjs
+          node scripts/archive-forward-validation.mjs
+      - name: Preserve recovery records and receipts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/snapshot research/recovery
+          if ! git diff --cached --quiet; then
+            git commit -m 'Recover missing history and retain source attempt receipts'
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: formiq-recovery-receipt
+          path: .edgeform-state/recovery/
+          retention-days: 30

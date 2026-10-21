@@ -25,5 +25,6 @@ jobs:
       - run: node tests/forward-validation.test.mjs
       - run: node tests/forward-api.test.mjs
       - run: node tests/research-supplements.test.mjs
+      - run: node tests/missing-data.test.mjs && python tests/recovery_sources_test.py
       - run: python tests/public_odds_test.py
       - run: bash scripts/build.sh && node scripts/validate-artifact.mjs
