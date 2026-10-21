@@ -23,7 +23,12 @@ const changes=new Map(),outcomes=[];
 for(const x of result.results){const original=p.records.find(r=>r.eventId===x.eventId);if(!original||original.publicationStatus==='published'){outcomes.push({taskId:x.taskId,status:'protected_published_record'});continue}
  if(original.savedAt&&!original.generatedByScan){outcomes.push({taskId:x.taskId,status:'protected_reviewed_record',candidateResults:x.history.length});continue}
  const r=changes.get(x.eventId)||structuredClone(original),merged=mergeRecoveryHistory(r.history?.[x.side]||[],x.history,r.sport);
- if(merged.conflicts.length){outcomes.push({taskId:x.taskId,status:'conflicting_scores',conflicts:merged.conflicts});continue}
+ merged.rows=merged.rows.filter(row=>!(r.dataRecoveryConflicts||[]).includes(row.historyIdentityKey));
+ if(merged.conflicts.length){
+ const conflicts=[...new Set([...(r.dataRecoveryConflicts||[]),...merged.conflicts])];
+ r.history[x.side]=merged.rows;r.dataRecoveryConflicts=conflicts;
+ changes.set(r.eventId,r);outcomes.push({taskId:x.taskId,status:'conflicting_scores',conflicts:merged.conflicts,quarantined:true,remainingResults:merged.rows.length});continue
+ }
  if(merged.rows.length<=(r.history?.[x.side]||[]).length&&!merged.oldDuplicates){outcomes.push({taskId:x.taskId,status:'no_sample_improvement',candidateResults:merged.rows.length});continue}
  r.history[x.side]=merged.rows;r.sources=[...r.sources,...x.sources.filter(s=>s.url&&s.retrievedAt).map(s=>({...s,classification:'SOURCE_REPORTED',cacheMaxAgeMinutes:1440}))];r.scope=(original.scope||'')+' Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.';changes.set(r.eventId,r);outcomes.push({taskId:x.taskId,status:merged.oldDuplicates?'history_deduplicated':'history_extended',results:merged.rows.length});
 }

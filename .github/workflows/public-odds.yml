@@ -1,4 +1,4 @@
-name: Test public bookmaker odds collection
+name: Collect public bookmaker odds
 on:
   push:
     branches: ['main']

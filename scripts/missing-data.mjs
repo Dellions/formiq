@@ -6,6 +6,7 @@ export function missingDataAudit(records,observations=null,attempts=[],now=Date.
   const wat=t=>new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Lagos'}).format(t);
   const rows=records.filter(r=>Date.parse(r.start)>now&&wat(new Date(r.start))<=wat(new Date(now+2*86400000))).map(r=>{
     const gaps=[];
+    if(r.dataRecoveryConflicts?.length)gaps.push({field:'historyConflicts',severity:'blocking',reason:'Conflicting source scores quarantined; independent review required: '+r.dataRecoveryConflicts.join(', '),adapter:null});
     for(const side of ['home','away']){const n=valid(r.history?.[side]).length;if(n<10)gaps.push({field:'history.'+side,actual:n,target:10,minimum:6,severity:n<6?'blocking':'preferred',reason:n<6?'Fewer than six valid completed results':'Preferred last-ten history incomplete',adapter:r.sport==='Ice hockey'&&r.league==='NHL'?'official-nhl-schedule':r.sport==='Basketball'&&r[side]?.id==='135386'?'virtus-club-schedule':r.sport==='Basketball'&&r[side]?.id==='136059'?'basketnews-hapoel':r.sport==='Football'?'cached-domestic-history':null})}
     const prices=(observations?.rows||[]).filter(o=>o.eventId===r.eventId).flatMap(o=>(o.quotes||[]).filter(q=>Number.isFinite(q.odds)&&q.odds>1).map(q=>({...q,observedAt:o.observedAt})));
     if(!prices.some(q=>Date.parse(q.observedAt)<=now&&Date.parse(q.observedAt)>now-1800000))gaps.push({field:'freshPrices',severity:'blocking',reason:'No fresh fixture-linked price',adapter:null});
