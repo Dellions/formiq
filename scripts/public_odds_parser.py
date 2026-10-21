@@ -2,18 +2,53 @@
 import re
 from datetime import datetime, timedelta, timezone
 
-def start_from_display(text, now=None):
+def start_from_display(text, now=None, utc_offset_minutes=60):
     now=now or datetime.now(timezone.utc)
-    local=now.astimezone(timezone(timedelta(hours=1)))
+    local=now.astimezone(timezone(timedelta(minutes=utc_offset_minutes)))
+    wat=timezone(timedelta(hours=1));today=now.astimezone(wat).date()
     match=re.search(r'\b(\d{2})/(\d{2})\s+(\d{2}):(\d{2})\b',text)
     if not match:return None
     day,month,hour,minute=map(int,match.groups())
-    for offset in range(3):
+    for offset in range(-1,4):
         date=local.date()+timedelta(days=offset)
         if (date.day,date.month)==(day,month):
             candidate=datetime(date.year,month,day,hour,minute,tzinfo=local.tzinfo)
-            if candidate>now:return candidate.astimezone(timezone.utc).isoformat().replace('+00:00','Z')
+            if candidate>now and 0<=(candidate.astimezone(wat).date()-today).days<=2:return candidate.astimezone(timezone.utc).isoformat().replace('+00:00','Z')
     return None
+
+def displayed_offset(text):
+    m=re.search(r'GMT([+-])(\d{2}):(\d{2})',text)
+    if not m:return None
+    minutes=int(m[2])*60+int(m[3])
+    if minutes>14*60 or int(m[3])>59:return None
+    return minutes if m[1]=='+' else -minutes
+
+def parse_listing(text,url,observed_at,limit=6,now=None):
+    """Football's visible 3 Way & O/U table. Source labels are retained without fuzzy joins."""
+    offset=displayed_offset(text)
+    if offset is None:return []
+    lines=[s.strip() for s in text.splitlines() if s.strip()]
+    league=None;date=None;out=[];seen=set()
+    price=lambda s:bool(re.fullmatch(r'\d+\.\d{2}',s)) and float(s)>1
+    for i,line in enumerate(lines):
+        if line.startswith('\ue6a3 ') and len(line)>2:league=line[2:].strip()
+        if re.fullmatch(r'\d{2}/\d{2}\s+\w+',line):date=line.split()[0]
+        if not re.fullmatch(r'\d{2}:\d{2}',line) or i+9>=len(lines) or not league or not date:continue
+        block=lines[i:i+10]
+        match=re.fullmatch(r'ID:\s*(\d+)',block[1])
+        if not match or not all(price(x) for x in block[4:7]) or re.search('virtual|simulated|esoccer|efootball',league,re.I):continue
+        start=start_from_display(date+' '+line,now,offset)
+        if not start or match[1] in seen:continue
+        home,away=block[2:4]
+        if not home or not away or home==away:continue
+        seen.add(match[1]);quotes=[{'type':'win','side':side,'odds':float(value),'marketLabel':'1X2'} for side,value in zip(['home','draw','away'],block[4:7])]
+        if re.fullmatch(r'\d+\.5',block[7]) and all(price(x) for x in block[8:10]):
+            quotes.extend({'type':'total','side':side,'line':float(block[7]),'odds':float(value),'marketLabel':'Over/Under'} for side,value in zip(['over','under'],block[8:10]))
+        for q in quotes:q.update(period='full_match',settlement='unverified',rulesVerified=False,classification='SOURCE_OBSERVED')
+        out.append({'bookmakerEventId':'display:'+match[1],'sourceURL':url,'observedAt':observed_at,'home':home,'away':away,'start':start,'sportPath':'football',
+                    'competitionSourceLabel':league,'mappingVerified':False,'quotes':quotes,'classification':'RESEARCH_ONLY','calibrated':False,'displayedTimezoneMinutes':offset})
+        if len(out)>=limit:break
+    return out
 
 def parse_market(title,text):
     # Exact names keep promoted, first-half, team-total and player markets separate.

@@ -3,7 +3,7 @@ import argparse,json,re,time
 from datetime import datetime,timezone
 from pathlib import Path
 from urllib.parse import urlparse,unquote
-from public_odds_parser import parse_market,start_from_display
+from public_odds_parser import parse_market,start_from_display,displayed_offset,parse_listing
 
 def timestamp():return datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
 
@@ -24,7 +24,7 @@ def collect(driver,urls,limit=6,spacing=10):
             text=d.find_element(By.TAG_NAME,'body').text
             if re.search(r'verify you are human|checking your browser|access denied|request blocked|too many requests|\b403 forbidden\b|captcha',text,re.I):
                 raise RuntimeError('Access challenge or source restriction; stopped without retry')
-            return text if d.find_elements(By.CSS_SELECTOR,'.m-table-header-title') or d.find_elements(By.CSS_SELECTOR,'a[href*="sr:match:"]') else False
+            return text if d.find_elements(By.CSS_SELECTOR,'.m-table-header-title') or d.find_elements(By.CSS_SELECTOR,'a[href*="sr:match:"]') or re.search(r'\bID:\s*\d+',text) else False
         WebDriverWait(driver,35).until(loaded)
         if urlparse(driver.current_url).netloc!='www.sportybet.com':raise RuntimeError('Unexpected redirect')
         report['pages'].append({'url':driver.current_url,'retrievedAt':timestamp()})
@@ -34,17 +34,21 @@ def collect(driver,urls,limit=6,spacing=10):
             visit(url)
             if '/sr:match:' in url:candidates.append(url)
             else:
+                if '/sport/football/' in url:
+                    report['observations'].extend(parse_listing(driver.find_element(By.TAG_NAME,'body').text,driver.current_url,timestamp(),limit-len(report['observations'])))
+                    if len(report['observations'])>=limit:break
                 for e in driver.find_elements(By.CSS_SELECTOR,'a[href*="sr:match:"]'):
                     href=e.get_attribute('href')
                     if href and href not in candidates:candidates.append(href)
             if len(candidates)>=limit:break
-        for url in candidates[:limit]:
+        for url in candidates[:max(0,limit-len(report['observations']))]:
             if driver.current_url!=url:visit(url)
             title=driver.find_element(By.CSS_SELECTOR,'.j_title')
             name=title.text.splitlines()[0].strip()
             if name.count(' vs ')!=1:raise ValueError('Unrecognized match title')
             home,away=name.split(' vs ')
-            start=start_from_display(title.find_element(By.XPATH,'..').text[:1200])
+            offset=displayed_offset(driver.find_element(By.TAG_NAME,'body').text)
+            start=start_from_display(title.find_element(By.XPATH,'..').text[:1200],utc_offset_minutes=offset) if offset is not None else None
             if not start:report['pages'][-1]['omission']='Upcoming WAT date/time not confirmed';continue
             observed=timestamp();seen=set();quotes=[]
             for header in driver.find_elements(By.CSS_SELECTOR,'.m-table-header-title'):
