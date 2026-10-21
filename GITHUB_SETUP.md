@@ -1,8 +1,8 @@
 # FormIQ GitHub deployment preparation
 
-See [ENGINE_MIGRATION.md](ENGINE_MIGRATION.md) for the requested Flashscore/SportyBet migration, source-access findings, new resumable runner and quote quarantine contract. Those requested source adapters are not enabled or verified.
+See [ENGINE_MIGRATION.md](ENGINE_MIGRATION.md) for source access findings, the resumable runner and quote quarantine contract. Flashscore is disabled. A bounded SportyBet football sample has passed on GitHub; Bet9ja remains unfinished.
 
-SportyBet is now the requested primary bookmaker; Bet9ja is backup. A public-page Selenium prototype and a manual `Test public bookmaker odds collection` acceptance workflow are prepared. They have not been verified on GitHub or connected to betting publication. Run the manual workflow after connecting the private repository and inspect the artifact before scheduling it.
+SportyBet is the primary bookmaker; Bet9ja is backup. The public-page Selenium collector has captured 3 fixtures and 11 displayed prices in GitHub run 39589881594. The bounded collector is configured for 07:27, 13:27 and 19:27 WAT, plus manual dispatch and relevant code changes. Price observations remain research-only and do not enter betting publication. Check the run artifacts, immutable quote archive and failure receipts.
 
 The existing private FormIQ Site and its storage remain the live system. The connected private repository is `Dellions/formiq`. GitHub Pages deployment and full R2 migration have not been activated.
 

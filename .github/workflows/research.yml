@@ -56,6 +56,7 @@ jobs:
           git add research/snapshot
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh timestamped FormIQ research snapshot'
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi
       - uses: actions/upload-artifact@v4

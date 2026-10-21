@@ -6,7 +6,10 @@ on:
       - '.github/workflows/public-odds.yml'
       - 'scripts/collect-public-odds.py'
       - 'scripts/public_odds_parser.py'
+      - 'scripts/archive-public-odds.py'
       - 'requirements-collector.txt'
+  schedule:
+    - cron: '27 6,12,18 * * *'
   workflow_dispatch:
     inputs:
       limit:
@@ -14,7 +17,7 @@ on:
         default: '6'
         required: true
 permissions:
-  contents: read
+  contents: write
 concurrency:
   group: edgeform-public-odds
   cancel-in-progress: false
@@ -33,8 +36,19 @@ jobs:
       - run: python tests/public_odds_test.py
       - name: Collect a bounded public odds sample
         env:
-          MATCH_LIMIT: ${{ inputs.limit || '3' }}
+          MATCH_LIMIT: ${{ inputs.limit || '6' }}
         run: python scripts/collect-public-odds.py --limit "$MATCH_LIMIT" --out .edgeform-state/public-odds/observations.json
+      - name: Retain research-only observations
+        run: |
+          python scripts/archive-public-odds.py .edgeform-state/public-odds/observations.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/snapshot/bookmaker-observations.json research/odds-history
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive timestamped public bookmaker observations'
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
       - name: Preserve observations or failure receipt
         if: always()
         uses: actions/upload-artifact@v4

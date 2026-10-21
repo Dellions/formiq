@@ -1,6 +1,6 @@
 # FormIQ engine migration
 
-Status: development foundation prepared, not an activated GitHub deployment.
+Status: private GitHub source transfer and CI verified; data collection remains partial; authenticated backend cutover pending.
 Existing project: `appgprj_6ad78b6349ec8191bd87c1a8d52f6406`.
 Existing private site and R2 records remain authoritative.
 
@@ -26,14 +26,16 @@ The private application stays behind authenticated hosting. GitHub Pages is a se
 | --- | --- | --- |
 | OpenLigaDB, Football-Data, TheSportsDB | Existing collectors retained | Existing source audit, cache periods and feed limitations still apply. |
 | Flashscore | Requested adapter not enabled | https://www.flashscore.com/terms-of-use/ clauses 2.9–2.10 restrict substantial database extraction and scraping without express consent, subject to applicable law. No access basis or tested adapter established. |
-| SportyBet Nigeria | Primary; bounded public-page collector prototype | Public Bayern–Arsenal match and prices read successfully while logged out on 21 October 2026. Local Selenium cannot launch because the execution workspace denies a required Chrome socket. End-to-end automated collection remains unverified. Indexed Nigeria terms section 7.1 reserves blocking of automated traffic; public reachability does not establish provider approval. |
+| SportyBet Nigeria | Primary; bounded sample verified on GitHub | GitHub run 39589881594 captured 3 upcoming fixtures and 11 displayed prices on 21 October 2026. Visible-table parsing and the page's timezone were checked. Exact fixture mapping, settlement and calibration remain unverified. Indexed Nigeria terms section 7.1 reserves blocking of automated traffic; public reachability does not establish provider approval. |
 | Bet9ja | Backup; adapter not implemented | Public homepage responded, but rendered odds were not obtained. No price collection claimed. |
 
 Flashscore remains disabled. At the owner's request, SportyBet is primary and Bet9ja is backup. The SportyBet Selenium prototype uses public rendered text and a market-title class observed in the live DOM, with no hidden feed calls, login cookies, CAPTCHA solvers, proxy rotation or anti-bot bypasses. Browser reachability and a working production scraper are different milestones.
 
 `scripts/collect-public-odds.py` serially samples at most ten match pages, spaced at least ten seconds apart, detects source challenges, and retains original source labels and observation times. Only exact ordinary 1X2, half-point match totals, double chance and BTTS headings are parsed; promoted, partial-period, team and player markets are excluded. Rules and cross-source fixture matching remain unverified, so observations do not enter recommendations. Failure receipts do not replace earlier observation files.
 
-The supplied `.github/workflows/public-odds.yml` is a **manual acceptance workflow**, not an active schedule. After GitHub is connected, dispatch it, inspect its artifacts, verify parsed prices against rendered pages and approve exact fixture mappings/rules before integrating collection into scheduled research. Python parser tests passed locally. Selenium installed successfully (4.51.0), but Chrome exited before any page navigation with `socket() failed: Operation not permitted`; local end-to-end execution did not pass. Bet9ja has no implemented parser yet.
+The supplied `.github/workflows/public-odds.yml` runs on relevant main-branch code changes, manual dispatch, and a configured 07:27 / 13:27 / 19:27 WAT schedule. Future cron execution must be verified in run history. Successful samples are archived under `research/odds-history/` and copied to `research/snapshot/bookmaker-observations.json`; failed or empty collections cannot overwrite successful samples. The current default is six fixtures, not complete coverage. Only the football table has passed a live automated sample; basketball/hockey coverage and Bet9ja remain unfinished. No automatic cross-source matching or publication is enabled.
+
+The local execution workspace could not launch Chrome (`socket() failed: Operation not permitted`), but Chrome did run successfully on GitHub. Initial GitHub attempts timed out due to a collector selector assumption. Visible-page diagnostics showed the odds table and UTC display; the parser was fixed and then collected the verified sample. Earlier failed runs remain visible in Actions rather than being relabelled as success.
 
 For an approved browser source: first implement and fixture-test a provider-specific parser, pin its Selenium/browser versions, confirm permitted pages and cadence, save source timestamps, detect empty/changed layouts, stop on access challenges and 403/429, and preserve the last good dataset. A generic browser stub must not be described as a working collector. Site-specific live extraction and permission still require validation.
 
