@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T17:33:06.924Z",
-  "observedAt": "2026-10-22T17:22:57.570206Z",
+  "generatedAt": "2026-10-22T21:47:14.440Z",
+  "observedAt": "2026-10-22T21:47:09.587236Z",
   "status": "research_only",
   "publicationEligible": false,
   "fixtureCount": 6,
@@ -11,7 +11,7 @@
     {
       "bookmakerEventId": "display:29733",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-22T17:23:01.563677Z",
+      "observedAt": "2026-10-22T21:47:14.154072Z",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "start": "2026-10-23T19:00:00Z",
@@ -129,7 +129,7 @@
         "sources": [
           {
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "retrievedAt": "2026-10-22T17:10:51.122Z",
+            "retrievedAt": "2026-10-22T21:35:54.449Z",
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 15
           },
@@ -147,7 +147,7 @@
     {
       "bookmakerEventId": "display:41546",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-22T17:23:01.563677Z",
+      "observedAt": "2026-10-22T21:47:14.154072Z",
       "home": "Aston Villa",
       "away": "Man City",
       "start": "2026-10-24T11:30:00Z",
@@ -158,7 +158,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 4.84,
+          "odds": 4.85,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -177,7 +177,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 4.36,
+          "odds": 4.4,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -230,7 +230,7 @@
     {
       "bookmakerEventId": "display:18638",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-22T17:23:01.563677Z",
+      "observedAt": "2026-10-22T21:47:14.154072Z",
       "home": "Arsenal",
       "away": "Everton",
       "start": "2026-10-24T14:00:00Z",
@@ -353,7 +353,7 @@
     {
       "bookmakerEventId": "display:23817",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-22T17:23:01.563677Z",
+      "observedAt": "2026-10-22T21:47:14.154072Z",
       "home": "Coventry City",
       "away": "Fulham",
       "start": "2026-10-24T14:00:00Z",
@@ -436,7 +436,7 @@
     {
       "bookmakerEventId": "display:42539",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-22T17:23:01.563677Z",
+      "observedAt": "2026-10-22T21:47:14.154072Z",
       "home": "Chelsea",
       "away": "Tottenham",
       "start": "2026-10-24T16:30:00Z",
@@ -447,7 +447,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.74,
+          "odds": 1.75,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -466,7 +466,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 4.33,
+          "odds": 4.34,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -486,7 +486,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 4.64,
+          "odds": 4.6,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -519,7 +519,7 @@
     {
       "bookmakerEventId": "display:36287",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-22T17:23:01.563677Z",
+      "observedAt": "2026-10-22T21:47:14.154072Z",
       "home": "Alaves",
       "away": "Malaga CF",
       "start": "2026-10-23T19:00:00Z",
@@ -530,7 +530,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.73,
+          "odds": 1.72,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -549,7 +549,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.85,
+          "odds": 3.89,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -569,7 +569,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 5.47,
+          "odds": 5.54,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -609,7 +609,7 @@
           "type": "total",
           "side": "under",
           "line": 2.5,
-          "odds": 1.8,
+          "odds": 1.83,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
