@@ -1,7 +1,7 @@
 {
   "type": "PROSPECTIVE_EXPERIMENTAL_AUDIT",
   "recorded": 77,
-  "resolved": 4,
+  "resolved": 7,
   "calibrated": false,
   "publicationEligible": false,
   "groups": [
@@ -936,11 +936,11 @@
     {
       "key": "Football|Europa League 2026/27|research-v5-horizon|total|over|full_match|regulation",
       "recorded": 5,
-      "resolved": 0,
-      "pending": 5,
-      "hitRate": null,
-      "brier": null,
-      "logLoss": null,
+      "resolved": 3,
+      "pending": 2,
+      "hitRate": 1,
+      "brier": 0.027825413836118376,
+      "logLoss": 0.177318755040585,
       "bins": [
         {
           "range": [
@@ -974,18 +974,18 @@
             0.6000000000000001,
             0.8
           ],
-          "n": 0,
-          "predicted": null,
-          "observed": null
+          "n": 1,
+          "predicted": 0.7798622128393267,
+          "observed": 1
         },
         {
           "range": [
             0.8,
             1
           ],
-          "n": 0,
-          "predicted": null,
-          "observed": null
+          "n": 2,
+          "predicted": 0.867959117261641,
+          "observed": 1
         }
       ],
       "reviewThresholdReached": false,
@@ -1172,7 +1172,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-10-23T17:23:25.979Z",
+  "generatedAt": "2026-10-23T21:24:54.578Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -5020,6 +5020,42 @@
       "scoredAt": "2026-10-23T11:39:23.784Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/ucl/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-87747",
+      "home": 0,
+      "away": 2,
+      "outcome": 1,
+      "scoredAt": "2026-10-23T21:24:54.573Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/uel2026/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-87813",
+      "home": 3,
+      "away": 0,
+      "outcome": 1,
+      "scoredAt": "2026-10-23T21:24:54.574Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/uel2026/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-87814",
+      "home": 2,
+      "away": 2,
+      "outcome": 1,
+      "scoredAt": "2026-10-23T21:24:54.577Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/uel2026/2026"
       ],
       "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
       "bettingSettlement": false
