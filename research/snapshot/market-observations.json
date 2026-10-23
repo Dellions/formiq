@@ -1,153 +1,17 @@
 {
-  "generatedAt": "2026-10-23T17:23:25.714Z",
-  "observedAt": "2026-10-23T17:19:18.453378Z",
+  "generatedAt": "2026-10-23T21:32:35.030Z",
+  "observedAt": "2026-10-23T21:32:29.196416Z",
   "status": "research_only",
   "publicationEligible": false,
   "fixtureCount": 6,
   "exactCandidates": 0,
-  "aliasCandidates": 1,
-  "unmatched": 5,
+  "aliasCandidates": 0,
+  "unmatched": 6,
   "rows": [
-    {
-      "bookmakerEventId": "display:29733",
-      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-23T17:19:23.668548Z",
-      "home": "Ipswich Town",
-      "away": "Nottingham Forest",
-      "start": "2026-10-23T19:00:00Z",
-      "sportPath": "football",
-      "competitionSourceLabel": "England Premier League",
-      "mappingVerified": false,
-      "quotes": [
-        {
-          "type": "win",
-          "side": "home",
-          "odds": 3.19,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        },
-        {
-          "type": "win",
-          "side": "draw",
-          "odds": 3.61,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "Unsupported market or line",
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        },
-        {
-          "type": "win",
-          "side": "away",
-          "odds": 2.33,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        },
-        {
-          "type": "total",
-          "side": "over",
-          "line": 2.5,
-          "odds": 1.74,
-          "marketLabel": "Over/Under",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        },
-        {
-          "type": "total",
-          "side": "under",
-          "line": 2.5,
-          "odds": 2.15,
-          "marketLabel": "Over/Under",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        }
-      ],
-      "classification": "RESEARCH_ONLY",
-      "calibrated": false,
-      "displayedTimezoneMinutes": 0,
-      "eventId": "ol-86598",
-      "mappingStatus": "alias_candidate",
-      "candidateCount": 1,
-      "aliasRegistryVersion": "scoped-sports-v2",
-      "researchFixture": {
-        "eventId": "ol-86598",
-        "home": "Ipswich Town",
-        "away": "Nottingham Forest",
-        "league": "Premier League 2026/2027",
-        "start": "2026-10-23T19:00:00Z",
-        "sources": [
-          {
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "retrievedAt": "2026-10-23T17:07:13.150Z",
-            "classification": "SOURCE_REPORTED",
-            "cacheMaxAgeMinutes": 15
-          },
-          {
-            "url": "https://api.openligadb.de/getmatchdata/pl/2025",
-            "retrievedAt": "2026-10-23T17:07:13.454Z",
-            "classification": "SOURCE_REPORTED",
-            "cacheMaxAgeMinutes": 1440
-          }
-        ]
-      },
-      "reasons": [],
-      "publicationEligible": false
-    },
     {
       "bookmakerEventId": "display:41546",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-23T17:19:23.668548Z",
+      "observedAt": "2026-10-23T21:32:34.731134Z",
       "home": "Aston Villa",
       "away": "Man City",
       "start": "2026-10-24T11:30:00Z",
@@ -158,7 +22,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 4.95,
+          "odds": 5.18,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -177,7 +41,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 4.47,
+          "odds": 4.55,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -197,7 +61,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 1.68,
+          "odds": 1.65,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -230,7 +94,7 @@
     {
       "bookmakerEventId": "display:18638",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-23T17:19:23.668548Z",
+      "observedAt": "2026-10-23T21:32:34.731134Z",
       "home": "Arsenal",
       "away": "Everton",
       "start": "2026-10-24T14:00:00Z",
@@ -241,7 +105,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.48,
+          "odds": 1.49,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -260,7 +124,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 4.81,
+          "odds": 4.67,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -280,7 +144,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 7.36,
+          "odds": 7.4,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -300,7 +164,7 @@
           "type": "total",
           "side": "over",
           "line": 2.5,
-          "odds": 1.81,
+          "odds": 1.9,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
@@ -320,7 +184,7 @@
           "type": "total",
           "side": "under",
           "line": 2.5,
-          "odds": 2.05,
+          "odds": 1.95,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
@@ -353,7 +217,7 @@
     {
       "bookmakerEventId": "display:23817",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-23T17:19:23.668548Z",
+      "observedAt": "2026-10-23T21:32:34.731134Z",
       "home": "Coventry City",
       "away": "Fulham",
       "start": "2026-10-24T14:00:00Z",
@@ -436,7 +300,7 @@
     {
       "bookmakerEventId": "display:42539",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-23T17:19:23.668548Z",
+      "observedAt": "2026-10-23T21:32:34.731134Z",
       "home": "Chelsea",
       "away": "Tottenham",
       "start": "2026-10-24T16:30:00Z",
@@ -447,7 +311,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.78,
+          "odds": 1.88,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -466,7 +330,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 4.27,
+          "odds": 4.12,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -486,7 +350,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 4.44,
+          "odds": 4.09,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -519,7 +383,7 @@
     {
       "bookmakerEventId": "display:39338",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-23T17:19:23.668548Z",
+      "observedAt": "2026-10-23T21:32:34.731134Z",
       "home": "Crystal Palace",
       "away": "Newcastle",
       "start": "2026-10-25T14:00:00Z",
@@ -530,7 +394,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 2.95,
+          "odds": 2.93,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -549,7 +413,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.78,
+          "odds": 3.79,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -569,7 +433,90 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 2.4,
+          "odds": 2.41,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED",
+          "gaps": [
+            "No exact team, competition and kickoff match; review required",
+            "Exact settlement rules unverified",
+            "Independent price and identity verification required",
+            "Calibrated model required"
+          ],
+          "usableForBetting": false,
+          "probability": null,
+          "estimatedEV": null
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0,
+      "eventId": null,
+      "mappingStatus": "unmatched",
+      "candidateCount": 0,
+      "aliasRegistryVersion": "scoped-sports-v2",
+      "researchFixture": null,
+      "reasons": [
+        "No exact team, competition and kickoff match; review required"
+      ],
+      "publicationEligible": false
+    },
+    {
+      "bookmakerEventId": "display:39393",
+      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
+      "observedAt": "2026-10-23T21:32:34.731134Z",
+      "home": "Hull City",
+      "away": "Brentford",
+      "start": "2026-10-25T14:00:00Z",
+      "sportPath": "football",
+      "competitionSourceLabel": "England Premier League",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 4.88,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED",
+          "gaps": [
+            "No exact team, competition and kickoff match; review required",
+            "Exact settlement rules unverified",
+            "Independent price and identity verification required",
+            "Calibrated model required"
+          ],
+          "usableForBetting": false,
+          "probability": null,
+          "estimatedEV": null
+        },
+        {
+          "type": "win",
+          "side": "draw",
+          "odds": 4.19,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED",
+          "gaps": [
+            "No exact team, competition and kickoff match; review required",
+            "Unsupported market or line",
+            "Exact settlement rules unverified",
+            "Independent price and identity verification required",
+            "Calibrated model required"
+          ],
+          "usableForBetting": false,
+          "probability": null,
+          "estimatedEV": null
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 1.73,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
