@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T11:59:18.658Z",
+  "generatedAt": "2026-10-23T17:23:25.610Z",
   "status": "partial",
   "records": [
     {
@@ -82,7 +82,7 @@
             "eventId": "ol-83211",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.597Z",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -445,7 +445,7 @@
             "eventId": "ol-83217",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.597Z",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
             "status": "cached_results",
             "usableResults": 6,
             "sources": [
@@ -528,7 +528,7 @@
             "eventId": "ol-83218",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.597Z",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -611,7 +611,7 @@
             "eventId": "ol-83645",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.597Z",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -632,7 +632,7 @@
             "eventId": "ol-83645",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.597Z",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -680,83 +680,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-83645:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-83648",
-      "match": "SV Darmstadt 98 — FC St. Pauli",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-10-23T16:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": false,
-      "gaps": [
-        {
-          "field": "history.away",
-          "actual": 8,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-83648:history.away",
-          "status": "no_cached_alternative",
-          "lastAttempt": {
-            "taskId": "ol-83648:history.away",
-            "eventId": "ol-83648",
-            "side": "away",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.600Z",
-            "status": "no_cached_alternative",
-            "usableResults": 0,
-            "sources": []
-          }
-        },
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83648:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83648:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83648:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83648:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83648:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -869,83 +792,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-83652:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-83655",
-      "match": "VfL Bochum — VfL Wolfsburg",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-10-23T16:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": false,
-      "gaps": [
-        {
-          "field": "history.away",
-          "actual": 8,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-83655:history.away",
-          "status": "no_cached_alternative",
-          "lastAttempt": {
-            "taskId": "ol-83655:history.away",
-            "eventId": "ol-83655",
-            "side": "away",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.600Z",
-            "status": "no_cached_alternative",
-            "usableResults": 0,
-            "sources": []
-          }
-        },
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83655:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83655:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83655:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83655:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83655:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -1143,7 +989,7 @@
             "eventId": "ol-83661",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.594Z",
+            "attemptedAt": "2026-10-23T17:23:25.560Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1303,62 +1149,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-84846:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-84847",
-      "match": "Rot-Weiss Essen — Jahn Regensburg",
-      "sport": "Football",
-      "league": "3. Liga 2026/2027",
-      "start": "2026-10-23T17:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-84847:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-84847:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-84847:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-84847:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-84847:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -1780,7 +1570,7 @@
             "eventId": "ol-85425",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.601Z",
+            "attemptedAt": "2026-10-23T17:23:25.566Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1807,7 +1597,7 @@
             "eventId": "ol-85425",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.601Z",
+            "attemptedAt": "2026-10-23T17:23:25.566Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
@@ -1890,7 +1680,7 @@
             "eventId": "ol-85426",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.595Z",
+            "attemptedAt": "2026-10-23T17:23:25.561Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -1973,7 +1763,7 @@
             "eventId": "ol-85427",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.597Z",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2000,7 +1790,7 @@
             "eventId": "ol-85427",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.597Z",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2195,7 +1985,7 @@
             "eventId": "ol-85430",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.598Z",
+            "attemptedAt": "2026-10-23T17:23:25.564Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2222,7 +2012,7 @@
             "eventId": "ol-85430",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.598Z",
+            "attemptedAt": "2026-10-23T17:23:25.564Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2305,7 +2095,7 @@
             "eventId": "ol-85431",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.598Z",
+            "attemptedAt": "2026-10-23T17:23:25.564Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2332,7 +2122,7 @@
             "eventId": "ol-85431",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.599Z",
+            "attemptedAt": "2026-10-23T17:23:25.564Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
@@ -2415,7 +2205,7 @@
             "eventId": "ol-85432",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.595Z",
+            "attemptedAt": "2026-10-23T17:23:25.562Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2498,7 +2288,7 @@
             "eventId": "ol-85434",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.599Z",
+            "attemptedAt": "2026-10-23T17:23:25.565Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
@@ -2525,7 +2315,7 @@
             "eventId": "ol-85434",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.599Z",
+            "attemptedAt": "2026-10-23T17:23:25.565Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2608,7 +2398,7 @@
             "eventId": "ol-86598",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.601Z",
+            "attemptedAt": "2026-10-23T17:23:25.566Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2635,7 +2425,7 @@
             "eventId": "ol-86598",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.602Z",
+            "attemptedAt": "2026-10-23T17:23:25.567Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2709,7 +2499,7 @@
             "eventId": "ol-86599",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.600Z",
+            "attemptedAt": "2026-10-23T17:23:25.565Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2792,7 +2582,7 @@
             "eventId": "ol-86600",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.600Z",
+            "attemptedAt": "2026-10-23T17:23:25.566Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -2875,7 +2665,7 @@
             "eventId": "ol-86601",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.601Z",
+            "attemptedAt": "2026-10-23T17:23:25.566Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2902,7 +2692,7 @@
             "eventId": "ol-86601",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.601Z",
+            "attemptedAt": "2026-10-23T17:23:25.567Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -2985,7 +2775,7 @@
             "eventId": "ol-86602",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.595Z",
+            "attemptedAt": "2026-10-23T17:23:25.562Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -3068,7 +2858,7 @@
             "eventId": "ol-86603",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.602Z",
+            "attemptedAt": "2026-10-23T17:23:25.567Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -3095,7 +2885,7 @@
             "eventId": "ol-86603",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.602Z",
+            "attemptedAt": "2026-10-23T17:23:25.567Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -3178,7 +2968,7 @@
             "eventId": "ol-86604",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.596Z",
+            "attemptedAt": "2026-10-23T17:23:25.562Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -3261,7 +3051,7 @@
             "eventId": "ol-86605",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.596Z",
+            "attemptedAt": "2026-10-23T17:23:25.562Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -3288,7 +3078,7 @@
             "eventId": "ol-86605",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.596Z",
+            "attemptedAt": "2026-10-23T17:23:25.562Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -3354,7 +3144,7 @@
       "league": "Premier League 2026/2027",
       "start": "2026-10-25T14:00:00Z",
       "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
+      "preferredHistoryReady": false,
       "gaps": [
         {
           "field": "historyConflicts",
@@ -3364,6 +3154,33 @@
           "taskId": "ol-86606:historyConflicts",
           "status": "no_supported_adapter",
           "lastAttempt": null
+        },
+        {
+          "field": "history.away",
+          "actual": 9,
+          "target": 10,
+          "minimum": 6,
+          "severity": "preferred",
+          "reason": "Preferred last-ten history incomplete",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-86606:history.away",
+          "status": "cached_results",
+          "lastAttempt": {
+            "taskId": "ol-86606:history.away",
+            "eventId": "ol-86606",
+            "side": "away",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
+            "status": "cached_results",
+            "usableResults": 7,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+                "retrievedAt": "2026-10-20T22:38:31.449Z",
+                "cached": true
+              }
+            ]
+          }
         },
         {
           "field": "freshPrices",
@@ -3436,7 +3253,7 @@
             "eventId": "ol-86607",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.597Z",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -3463,7 +3280,7 @@
             "eventId": "ol-86607",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T11:59:18.597Z",
+            "attemptedAt": "2026-10-23T17:23:25.563Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -3523,11 +3340,11 @@
       ]
     }
   ],
-  "fixtures": 47,
-  "withGaps": 47,
+  "fixtures": 44,
+  "withGaps": 44,
   "historyBlocking": 0,
-  "historyPreferredIncomplete": 23,
-  "automaticHistoryTasks": 34,
+  "historyPreferredIncomplete": 22,
+  "automaticHistoryTasks": 33,
   "publicationEligible": false,
   "note": "Successful collection is not data completeness. Unsupported adapters remain explicit gaps; cached or failed attempts are never reported as recovered data."
 }
