@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-24T16:12:03.812820Z",
+  "at": "2026-10-24T21:07:24.601270Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -1394,7 +1394,7 @@
       "eventId": "ol-83661",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.828Z",
+      "attemptedAt": "2026-10-24T21:07:24.619Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": []
@@ -1404,7 +1404,7 @@
       "eventId": "ol-85426",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.829Z",
+      "attemptedAt": "2026-10-24T21:07:24.620Z",
       "status": "cached_results",
       "usableResults": 7,
       "sources": [
@@ -1420,7 +1420,7 @@
       "eventId": "ol-85426",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.829Z",
+      "attemptedAt": "2026-10-24T21:07:24.620Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -1436,7 +1436,7 @@
       "eventId": "ol-85432",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.830Z",
+      "attemptedAt": "2026-10-24T21:07:24.620Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -1452,7 +1452,7 @@
       "eventId": "ol-86602",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.830Z",
+      "attemptedAt": "2026-10-24T21:07:24.621Z",
       "status": "cached_results",
       "usableResults": 7,
       "sources": [
@@ -1468,7 +1468,7 @@
       "eventId": "ol-86602",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.830Z",
+      "attemptedAt": "2026-10-24T21:07:24.621Z",
       "status": "cached_results",
       "usableResults": 7,
       "sources": [
@@ -1484,7 +1484,7 @@
       "eventId": "ol-86604",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.830Z",
+      "attemptedAt": "2026-10-24T21:07:24.621Z",
       "status": "cached_results",
       "usableResults": 7,
       "sources": [
@@ -1500,7 +1500,7 @@
       "eventId": "ol-86604",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.830Z",
+      "attemptedAt": "2026-10-24T21:07:24.621Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -1516,7 +1516,7 @@
       "eventId": "ol-86605",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.830Z",
+      "attemptedAt": "2026-10-24T21:07:24.621Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -1532,7 +1532,7 @@
       "eventId": "ol-86605",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.831Z",
+      "attemptedAt": "2026-10-24T21:07:24.622Z",
       "status": "cached_results",
       "usableResults": 7,
       "sources": [
@@ -1548,7 +1548,7 @@
       "eventId": "ol-86606",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.831Z",
+      "attemptedAt": "2026-10-24T21:07:24.622Z",
       "status": "cached_results",
       "usableResults": 7,
       "sources": [
@@ -1564,7 +1564,7 @@
       "eventId": "ol-86606",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.831Z",
+      "attemptedAt": "2026-10-24T21:07:24.622Z",
       "status": "cached_results",
       "usableResults": 7,
       "sources": [
@@ -1580,7 +1580,7 @@
       "eventId": "ol-86607",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.831Z",
+      "attemptedAt": "2026-10-24T21:07:24.622Z",
       "status": "cached_results",
       "usableResults": 7,
       "sources": [
@@ -1596,7 +1596,7 @@
       "eventId": "ol-86607",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.831Z",
+      "attemptedAt": "2026-10-24T21:07:24.622Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -1612,7 +1612,7 @@
       "eventId": "ol-85433",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.830Z",
+      "attemptedAt": "2026-10-24T21:07:24.620Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -1628,7 +1628,7 @@
       "eventId": "ol-85433",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-24T16:12:03.830Z",
+      "attemptedAt": "2026-10-24T21:07:24.621Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -1834,16 +1834,6 @@
     },
     {
       "taskId": "ol-86607:history.home",
-      "status": "no_sample_improvement",
-      "candidateResults": 7
-    },
-    {
-      "taskId": "ol-85434:history.home",
-      "status": "no_sample_improvement",
-      "candidateResults": 9
-    },
-    {
-      "taskId": "ol-86603:history.home",
       "status": "no_sample_improvement",
       "candidateResults": 7
     }
