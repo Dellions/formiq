@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T21:36:06.664Z",
+  "generatedAt": "2026-10-24T11:29:30.170Z",
   "status": "partial",
   "records": [
     {
@@ -82,7 +82,7 @@
             "eventId": "ol-83211",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.623Z",
+            "attemptedAt": "2026-10-24T11:29:30.118Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -389,7 +389,7 @@
             "eventId": "ol-83217",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.623Z",
+            "attemptedAt": "2026-10-24T11:29:30.118Z",
             "status": "cached_results",
             "usableResults": 6,
             "sources": [
@@ -472,7 +472,7 @@
             "eventId": "ol-83218",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.623Z",
+            "attemptedAt": "2026-10-24T11:29:30.119Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -526,160 +526,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-83218:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-83645",
-      "match": "1. FC Heidenheim 1846 — Energie Cottbus",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-10-24T11:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": false,
-      "gaps": [
-        {
-          "field": "history.home",
-          "actual": 8,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-83645:history.home",
-          "status": "no_cached_alternative",
-          "lastAttempt": {
-            "taskId": "ol-83645:history.home",
-            "eventId": "ol-83645",
-            "side": "home",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.623Z",
-            "status": "no_cached_alternative",
-            "usableResults": 0,
-            "sources": []
-          }
-        },
-        {
-          "field": "history.away",
-          "actual": 8,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-83645:history.away",
-          "status": "no_cached_alternative",
-          "lastAttempt": {
-            "taskId": "ol-83645:history.away",
-            "eventId": "ol-83645",
-            "side": "away",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.624Z",
-            "status": "no_cached_alternative",
-            "usableResults": 0,
-            "sources": []
-          }
-        },
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83645:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83645:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83645:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83645:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83645:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-83650",
-      "match": "Hertha BSC — DSC Arminia Bielefeld",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-10-24T11:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83650:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83650:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83650:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83650:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83650:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -798,62 +644,6 @@
       ]
     },
     {
-      "eventId": "ol-83659",
-      "match": "1. FC Magdeburg — Karlsruher SC",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-10-24T11:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83659:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83659:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83659:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83659:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83659:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-83660",
       "match": "Eintracht Braunschweig — Hannover 96",
       "sport": "Football",
@@ -933,7 +723,7 @@
             "eventId": "ol-83661",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.621Z",
+            "attemptedAt": "2026-10-24T11:29:30.118Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1514,7 +1304,7 @@
             "eventId": "ol-85426",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.622Z",
+            "attemptedAt": "2026-10-24T11:29:30.118Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -1597,7 +1387,7 @@
             "eventId": "ol-85427",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.624Z",
+            "attemptedAt": "2026-10-24T11:29:30.120Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1624,7 +1414,7 @@
             "eventId": "ol-85427",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.624Z",
+            "attemptedAt": "2026-10-24T11:29:30.120Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1819,7 +1609,7 @@
             "eventId": "ol-85430",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.624Z",
+            "attemptedAt": "2026-10-24T11:29:30.120Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1846,7 +1636,7 @@
             "eventId": "ol-85430",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.625Z",
+            "attemptedAt": "2026-10-24T11:29:30.121Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1929,7 +1719,7 @@
             "eventId": "ol-85431",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.625Z",
+            "attemptedAt": "2026-10-24T11:29:30.122Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1956,7 +1746,7 @@
             "eventId": "ol-85431",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.625Z",
+            "attemptedAt": "2026-10-24T11:29:30.122Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
@@ -2039,7 +1829,7 @@
             "eventId": "ol-85432",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.623Z",
+            "attemptedAt": "2026-10-24T11:29:30.119Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2099,6 +1889,116 @@
       ]
     },
     {
+      "eventId": "ol-85433",
+      "match": "FC Sevilla — CA Osasuna",
+      "sport": "Football",
+      "league": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-26T20:00:00Z",
+      "minimumHistoryReady": true,
+      "preferredHistoryReady": false,
+      "gaps": [
+        {
+          "field": "history.home",
+          "actual": 9,
+          "target": 10,
+          "minimum": 6,
+          "severity": "preferred",
+          "reason": "Preferred last-ten history incomplete",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-85433:history.home",
+          "status": "cached_results",
+          "lastAttempt": {
+            "taskId": "ol-85433:history.home",
+            "eventId": "ol-85433",
+            "side": "home",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-10-24T11:29:30.118Z",
+            "status": "cached_results",
+            "usableResults": 9,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+                "retrievedAt": "2026-10-20T22:38:43.204Z",
+                "cached": true
+              }
+            ]
+          }
+        },
+        {
+          "field": "history.away",
+          "actual": 8,
+          "target": 10,
+          "minimum": 6,
+          "severity": "preferred",
+          "reason": "Preferred last-ten history incomplete",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-85433:history.away",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-85433:history.away",
+            "eventId": "ol-85433",
+            "side": "away",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-10-24T11:29:30.118Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+                "retrievedAt": "2026-10-20T22:38:43.204Z",
+                "cached": true
+              }
+            ]
+          }
+        },
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-85433:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-85433:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-85433:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-85433:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-85433:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
       "eventId": "ol-85434",
       "match": "FC Valencia — FC Villareal",
       "sport": "Football",
@@ -2122,7 +2022,7 @@
             "eventId": "ol-85434",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.625Z",
+            "attemptedAt": "2026-10-24T11:29:30.122Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
@@ -2149,7 +2049,7 @@
             "eventId": "ol-85434",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.625Z",
+            "attemptedAt": "2026-10-24T11:29:30.123Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2232,7 +2132,7 @@
             "eventId": "ol-86599",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.626Z",
+            "attemptedAt": "2026-10-24T11:29:30.123Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2315,7 +2215,7 @@
             "eventId": "ol-86600",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.626Z",
+            "attemptedAt": "2026-10-24T11:29:30.123Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -2398,7 +2298,7 @@
             "eventId": "ol-86601",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.626Z",
+            "attemptedAt": "2026-10-24T11:29:30.124Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2425,7 +2325,7 @@
             "eventId": "ol-86601",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.627Z",
+            "attemptedAt": "2026-10-24T11:29:30.124Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -2508,7 +2408,7 @@
             "eventId": "ol-86602",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.623Z",
+            "attemptedAt": "2026-10-24T11:29:30.119Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -2591,7 +2491,7 @@
             "eventId": "ol-86603",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.627Z",
+            "attemptedAt": "2026-10-24T11:29:30.124Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -2618,7 +2518,7 @@
             "eventId": "ol-86603",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.627Z",
+            "attemptedAt": "2026-10-24T11:29:30.124Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2701,7 +2601,7 @@
             "eventId": "ol-86604",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.623Z",
+            "attemptedAt": "2026-10-24T11:29:30.119Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2784,7 +2684,7 @@
             "eventId": "ol-86605",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.623Z",
+            "attemptedAt": "2026-10-24T11:29:30.119Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2811,7 +2711,7 @@
             "eventId": "ol-86605",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.623Z",
+            "attemptedAt": "2026-10-24T11:29:30.120Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -2903,7 +2803,7 @@
             "eventId": "ol-86606",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.624Z",
+            "attemptedAt": "2026-10-24T11:29:30.121Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -2986,7 +2886,7 @@
             "eventId": "ol-86607",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.624Z",
+            "attemptedAt": "2026-10-24T11:29:30.121Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
@@ -3013,7 +2913,7 @@
             "eventId": "ol-86607",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-23T21:36:06.624Z",
+            "attemptedAt": "2026-10-24T11:29:30.121Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -3073,8 +2973,8 @@
       ]
     }
   ],
-  "fixtures": 41,
-  "withGaps": 41,
+  "fixtures": 39,
+  "withGaps": 39,
   "historyBlocking": 0,
   "historyPreferredIncomplete": 20,
   "automaticHistoryTasks": 29,
