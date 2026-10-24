@@ -1,7 +1,7 @@
 {
   "type": "PROSPECTIVE_EXPERIMENTAL_AUDIT",
   "recorded": 78,
-  "resolved": 8,
+  "resolved": 9,
   "calibrated": false,
   "publicationEligible": false,
   "groups": [
@@ -994,11 +994,11 @@
     {
       "key": "Football|Conference League 2026/27|research-v5-horizon|total|over|full_match|regulation",
       "recorded": 2,
-      "resolved": 0,
-      "pending": 2,
-      "hitRate": null,
-      "brier": null,
-      "logLoss": null,
+      "resolved": 1,
+      "pending": 1,
+      "hitRate": 1,
+      "brier": 0.043277342799087154,
+      "logLoss": 0.23323438238625097,
       "bins": [
         {
           "range": [
@@ -1032,9 +1032,9 @@
             0.6000000000000001,
             0.8
           ],
-          "n": 0,
-          "predicted": null,
-          "observed": null
+          "n": 1,
+          "predicted": 0.7919679284362934,
+          "observed": 1
         },
         {
           "range": [
@@ -1172,7 +1172,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-10-24T11:29:30.557Z",
+  "generatedAt": "2026-10-24T15:56:59.120Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -5120,6 +5120,18 @@
       "scoredAt": "2026-10-23T21:24:54.577Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/uel2026/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-88309",
+      "home": 3,
+      "away": 0,
+      "outcome": 1,
+      "scoredAt": "2026-10-24T15:56:59.118Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/uecl2026/2026"
       ],
       "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
       "bettingSettlement": false
