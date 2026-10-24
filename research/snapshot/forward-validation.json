@@ -1,7 +1,7 @@
 {
   "type": "PROSPECTIVE_EXPERIMENTAL_AUDIT",
-  "recorded": 77,
-  "resolved": 7,
+  "recorded": 78,
+  "resolved": 8,
   "calibrated": false,
   "publicationEligible": false,
   "groups": [
@@ -413,9 +413,9 @@
     },
     {
       "key": "Football|LaLiga EA Sports 2026/2027|research-v5-horizon|total|over|full_match|regulation",
-      "recorded": 7,
+      "recorded": 8,
       "resolved": 0,
-      "pending": 7,
+      "pending": 8,
       "hitRate": null,
       "brier": null,
       "logLoss": null,
@@ -936,11 +936,11 @@
     {
       "key": "Football|Europa League 2026/27|research-v5-horizon|total|over|full_match|regulation",
       "recorded": 5,
-      "resolved": 3,
-      "pending": 2,
+      "resolved": 4,
+      "pending": 1,
       "hitRate": 1,
-      "brier": 0.027825413836118376,
-      "logLoss": 0.177318755040585,
+      "brier": 0.02803215220717242,
+      "logLoss": 0.1793517085450272,
       "bins": [
         {
           "range": [
@@ -983,8 +983,8 @@
             0.8,
             1
           ],
-          "n": 2,
-          "predicted": 0.867959117261641,
+          "n": 3,
+          "predicted": 0.8555493776168129,
           "observed": 1
         }
       ],
@@ -1172,7 +1172,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-10-23T21:36:06.973Z",
+  "generatedAt": "2026-10-24T11:00:08.357Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -4973,6 +4973,58 @@
       "odds": null,
       "estimatedEV": null,
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-85433",
+      "eventId": "ol-85433",
+      "match": "FC Sevilla — CA Osasuna",
+      "sport": "Football",
+      "league": "LaLiga EA Sports 2026/2027",
+      "start": "2026-10-26T20:00:00Z",
+      "home": {
+        "id": 1139,
+        "name": "FC Sevilla"
+      },
+      "away": {
+        "id": 1279,
+        "name": "CA Osasuna"
+      },
+      "recordedAt": "2026-10-24T11:00:08.341Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8726615527102638,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 9,
+      "awaySample": 8,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/la1/2026",
+          "retrievedAt": "2026-10-24T11:00:06.130Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/la1/2025",
+          "retrievedAt": "2026-10-23T17:07:13.455Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     }
   ],
   "outcomes": [
@@ -5054,6 +5106,18 @@
       "away": 2,
       "outcome": 1,
       "scoredAt": "2026-10-23T21:24:54.577Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/uel2026/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-87746",
+      "home": 3,
+      "away": 0,
+      "outcome": 1,
+      "scoredAt": "2026-10-24T11:00:08.349Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/uel2026/2026"
       ],
