@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-25T11:56:14.333291Z",
+  "at": "2026-10-25T16:44:29.850748Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -1436,7 +1436,7 @@
       "eventId": "ol-85432",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-25T11:56:14.360Z",
+      "attemptedAt": "2026-10-25T16:44:29.872Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -1612,7 +1612,7 @@
       "eventId": "ol-85433",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-25T11:56:14.360Z",
+      "attemptedAt": "2026-10-25T16:44:29.872Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -1628,7 +1628,7 @@
       "eventId": "ol-85433",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-10-25T11:56:14.360Z",
+      "attemptedAt": "2026-10-25T16:44:29.873Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -1739,61 +1739,11 @@
     },
     {
       "taskId": "ol-85426:history.home",
-      "status": "history_extended",
-      "results": 10
+      "status": "no_sample_improvement",
+      "candidateResults": 10
     },
     {
       "taskId": "ol-85426:history.away",
-      "status": "no_sample_improvement",
-      "candidateResults": 10
-    },
-    {
-      "taskId": "ol-86602:history.home",
-      "status": "history_extended",
-      "results": 10
-    },
-    {
-      "taskId": "ol-86602:history.away",
-      "status": "no_sample_improvement",
-      "candidateResults": 7
-    },
-    {
-      "taskId": "ol-86604:history.home",
-      "status": "history_extended",
-      "results": 10
-    },
-    {
-      "taskId": "ol-86605:history.away",
-      "status": "no_sample_improvement",
-      "candidateResults": 7
-    },
-    {
-      "taskId": "ol-86606:history.home",
-      "status": "history_extended",
-      "results": 10
-    },
-    {
-      "taskId": "ol-86606:history.away",
-      "status": "history_extended",
-      "results": 9
-    },
-    {
-      "taskId": "ol-86607:history.home",
-      "status": "no_sample_improvement",
-      "candidateResults": 7
-    },
-    {
-      "taskId": "ol-85433:history.home",
-      "status": "history_extended",
-      "results": 10
-    },
-    {
-      "taskId": "ol-85426:history.home",
-      "status": "no_sample_improvement",
-      "candidateResults": 10
-    },
-    {
-      "taskId": "ol-85433:history.home",
       "status": "no_sample_improvement",
       "candidateResults": 10
     },
@@ -1831,13 +1781,19 @@
       "taskId": "ol-86607:history.home",
       "status": "no_sample_improvement",
       "candidateResults": 7
+    },
+    {
+      "taskId": "ol-85433:history.home",
+      "status": "history_extended",
+      "results": 10
+    },
+    {
+      "taskId": "ol-85433:history.home",
+      "status": "no_sample_improvement",
+      "candidateResults": 10
     }
   ],
   "completedRecordIds": [
-    "ol-85426",
-    "ol-86602",
-    "ol-86604",
-    "ol-86606",
     "ol-85433"
   ],
   "automaticRun": true,
