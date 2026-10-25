@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T21:07:24.653Z",
+  "generatedAt": "2026-10-25T11:56:14.412Z",
   "status": "partial",
   "records": [
     {
@@ -250,7 +250,7 @@
             "eventId": "ol-83661",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.619Z",
+            "attemptedAt": "2026-10-25T11:56:14.359Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -478,35 +478,8 @@
       "league": "LaLiga EA Sports 2026/2027",
       "start": "2026-10-25T13:00:00Z",
       "minimumHistoryReady": true,
-      "preferredHistoryReady": false,
+      "preferredHistoryReady": true,
       "gaps": [
-        {
-          "field": "history.home",
-          "actual": 7,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-85426:history.home",
-          "status": "cached_results",
-          "lastAttempt": {
-            "taskId": "ol-85426:history.home",
-            "eventId": "ol-85426",
-            "side": "home",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.620Z",
-            "status": "cached_results",
-            "usableResults": 7,
-            "sources": [
-              {
-                "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
-                "retrievedAt": "2026-10-20T22:38:43.204Z",
-                "cached": true
-              }
-            ]
-          }
-        },
         {
           "field": "freshPrices",
           "severity": "blocking",
@@ -677,7 +650,7 @@
       "gaps": [
         {
           "field": "history.away",
-          "actual": 8,
+          "actual": 9,
           "target": 10,
           "minimum": 6,
           "severity": "preferred",
@@ -690,13 +663,13 @@
             "eventId": "ol-85432",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.620Z",
+            "attemptedAt": "2026-10-25T11:56:14.360Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
-                "retrievedAt": "2026-10-20T22:38:43.204Z",
+                "retrievedAt": "2026-10-25T11:28:59.688Z",
                 "cached": true
               }
             ]
@@ -759,35 +732,8 @@
       "preferredHistoryReady": false,
       "gaps": [
         {
-          "field": "history.home",
-          "actual": 9,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-85433:history.home",
-          "status": "cached_results",
-          "lastAttempt": {
-            "taskId": "ol-85433:history.home",
-            "eventId": "ol-85433",
-            "side": "home",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.620Z",
-            "status": "cached_results",
-            "usableResults": 9,
-            "sources": [
-              {
-                "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
-                "retrievedAt": "2026-10-20T22:38:43.204Z",
-                "cached": true
-              }
-            ]
-          }
-        },
-        {
           "field": "history.away",
-          "actual": 8,
+          "actual": 9,
           "target": 10,
           "minimum": 6,
           "severity": "preferred",
@@ -800,13 +746,13 @@
             "eventId": "ol-85433",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.621Z",
+            "attemptedAt": "2026-10-25T11:56:14.360Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
-                "retrievedAt": "2026-10-20T22:38:43.204Z",
+                "retrievedAt": "2026-10-25T11:28:59.688Z",
                 "cached": true
               }
             ]
@@ -883,13 +829,13 @@
             "eventId": "ol-86602",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.621Z",
+            "attemptedAt": "2026-10-25T11:56:14.361Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-10-20T22:38:31.449Z",
+                "retrievedAt": "2026-10-25T11:28:59.283Z",
                 "cached": true
               }
             ]
@@ -966,13 +912,13 @@
             "eventId": "ol-86604",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.621Z",
+            "attemptedAt": "2026-10-25T11:56:14.361Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-10-20T22:38:31.449Z",
+                "retrievedAt": "2026-10-25T11:28:59.283Z",
                 "cached": true
               }
             ]
@@ -1049,13 +995,13 @@
             "eventId": "ol-86605",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.621Z",
+            "attemptedAt": "2026-10-25T11:56:14.362Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-10-20T22:38:31.449Z",
+                "retrievedAt": "2026-10-25T11:28:59.283Z",
                 "cached": true
               }
             ]
@@ -1076,13 +1022,13 @@
             "eventId": "ol-86605",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.622Z",
+            "attemptedAt": "2026-10-25T11:56:14.362Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-10-20T22:38:31.449Z",
+                "retrievedAt": "2026-10-25T11:28:59.283Z",
                 "cached": true
               }
             ]
@@ -1168,13 +1114,13 @@
             "eventId": "ol-86606",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.622Z",
+            "attemptedAt": "2026-10-25T11:56:14.362Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-10-20T22:38:31.449Z",
+                "retrievedAt": "2026-10-25T11:28:59.283Z",
                 "cached": true
               }
             ]
@@ -1251,13 +1197,13 @@
             "eventId": "ol-86607",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.622Z",
+            "attemptedAt": "2026-10-25T11:56:14.363Z",
             "status": "cached_results",
             "usableResults": 7,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-10-20T22:38:31.449Z",
+                "retrievedAt": "2026-10-25T11:28:59.283Z",
                 "cached": true
               }
             ]
@@ -1278,13 +1224,13 @@
             "eventId": "ol-86607",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-24T21:07:24.622Z",
+            "attemptedAt": "2026-10-25T11:56:14.363Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-10-20T22:38:31.449Z",
+                "retrievedAt": "2026-10-25T11:28:59.283Z",
                 "cached": true
               }
             ]
@@ -1341,8 +1287,8 @@
   "fixtures": 18,
   "withGaps": 18,
   "historyBlocking": 0,
-  "historyPreferredIncomplete": 9,
-  "automaticHistoryTasks": 12,
+  "historyPreferredIncomplete": 8,
+  "automaticHistoryTasks": 10,
   "publicationEligible": false,
   "note": "Successful collection is not data completeness. Unsupported adapters remain explicit gaps; cached or failed attempts are never reported as recovered data."
 }

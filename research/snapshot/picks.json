@@ -2,7 +2,7 @@
   "version": "research-v5-horizon",
   "status": "partial",
   "date": "2026-10-27",
-  "updated": "2026-10-25T11:29:04.073Z",
+  "updated": "2026-10-25T11:56:14.382Z",
   "startedAt": "2026-10-25T11:29:03.360Z",
   "screened": 0,
   "discovered": 0,
@@ -62122,6 +62122,13 @@
           "retrievedAt": "2026-10-24T20:49:44.343Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true,
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
         }
       ],
       "history": {
@@ -62139,22 +62146,46 @@
             "competition": "LaLiga EA Sports 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-21|levanteud|away"
           },
           {
-            "id": "85423",
-            "date": "2026-10-17T19:00:00Z",
+            "id": "fd-17/10/2026-valencia-athbilbao",
+            "date": "2026-10-17T20:00:00Z",
             "gf": 0,
             "ga": 0,
             "total": 0,
             "venue": "away",
-            "opponent": "FC Valencia",
-            "opponentId": 434,
+            "opponent": "Valencia",
+            "opponentId": "valencia",
             "result": "D",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "shots": 9,
+            "shotsOnTarget": 2,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-17|valencia|away"
+          },
+          {
+            "id": "fd-19/09/2026-athbilbao-alaves",
+            "date": "2026-09-19T15:15:00Z",
+            "gf": 0,
+            "ga": 0,
+            "total": 0,
+            "venue": "home",
+            "opponent": "Alaves",
+            "opponentId": "alaves",
+            "result": "D",
+            "shots": 24,
+            "shotsOnTarget": 6,
+            "yellowCards": 2,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-19|alaves|home"
           },
           {
             "id": "85395",
@@ -62169,22 +62200,46 @@
             "competition": "LaLiga EA Sports 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-19|deportivoalaves|home"
           },
           {
-            "id": "85375",
-            "date": "2026-09-12T16:30:00Z",
+            "id": "fd-12/09/2026-athbilbao-elche",
+            "date": "2026-09-12T17:30:00Z",
             "gf": 1,
             "ga": 1,
             "total": 2,
             "venue": "home",
-            "opponent": "Elche CF",
-            "opponentId": 2533,
+            "opponent": "Elche",
+            "opponentId": "elche",
             "result": "D",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "shots": 19,
+            "shotsOnTarget": 3,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-12|elche|home"
+          },
+          {
+            "id": "fd-05/09/2026-athbilbao-athmadrid",
+            "date": "2026-09-05T15:15:00Z",
+            "gf": 3,
+            "ga": 0,
+            "total": 3,
+            "venue": "home",
+            "opponent": "Ath Madrid",
+            "opponentId": "athmadrid",
+            "result": "W",
+            "shots": 11,
+            "shotsOnTarget": 4,
+            "yellowCards": 0,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-05|athmadrid|home"
           },
           {
             "id": "85366",
@@ -62199,52 +62254,65 @@
             "competition": "LaLiga EA Sports 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-05|atleticomadrid|home"
           },
           {
-            "id": "85362",
-            "date": "2026-08-30T19:30:00Z",
+            "id": "fd-30/08/2026-celta-athbilbao",
+            "date": "2026-08-30T20:30:00Z",
             "gf": 2,
             "ga": 0,
             "total": 2,
             "venue": "away",
-            "opponent": "Celta Vigo",
-            "opponentId": 2175,
+            "opponent": "Celta",
+            "opponentId": "celta",
             "result": "W",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "shots": 17,
+            "shotsOnTarget": 7,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-08-30|celta|away"
           },
           {
-            "id": "85344",
-            "date": "2026-08-27T19:00:00Z",
+            "id": "fd-27/08/2026-barcelona-athbilbao",
+            "date": "2026-08-27T20:00:00Z",
             "gf": 0,
             "ga": 2,
             "total": 2,
             "venue": "away",
-            "opponent": "FC Barcelona",
-            "opponentId": 356,
+            "opponent": "Barcelona",
+            "opponentId": "barcelona",
             "result": "L",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "shots": 5,
+            "shotsOnTarget": 0,
+            "yellowCards": 2,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-08-27|barcelona|away"
           },
           {
-            "id": "85347",
-            "date": "2026-08-22T15:00:00Z",
+            "id": "fd-22/08/2026-athbilbao-sevilla",
+            "date": "2026-08-22T16:00:00Z",
             "gf": 1,
             "ga": 3,
             "total": 4,
             "venue": "home",
-            "opponent": "FC Sevilla",
-            "opponentId": 1139,
+            "opponent": "Sevilla",
+            "opponentId": "sevilla",
             "result": "L",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "shots": 18,
+            "shotsOnTarget": 8,
+            "yellowCards": 2,
+            "redCards": 1,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-08-22|sevilla|home"
           }
         ],
         "away": [
@@ -62476,7 +62544,7 @@
       "id": "ol-85426",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-10-25T11:29:02.985Z",
+      "completedAt": "2026-10-25T11:56:14.381Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -62508,36 +62576,36 @@
           "status": "partial",
           "classification": "CALCULATED",
           "home": {
-            "sample": 8,
-            "gf": 1,
-            "ga": 1.125,
-            "total": 2.125,
-            "form": "LDDDW",
-            "wins": 0.25,
-            "over15": 0.75,
-            "over25": 0.375,
-            "btts": 0.375,
+            "sample": 10,
+            "gf": 1.1,
+            "ga": 0.9,
+            "total": 2,
+            "form": "LDDDD",
+            "wins": 0.3,
+            "over15": 0.7,
+            "over25": 0.4,
+            "btts": 0.3,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 14.714285714285714,
+                "sample": 7
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4.285714285714286,
+                "sample": 7
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 2.142857142857143,
+                "sample": 7
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0.14285714285714285,
+                "sample": 7
               }
             },
-            "draws": 0.375,
-            "losses": 0.375,
-            "from": "2026-08-22T15:00:00Z",
+            "draws": 0.4,
+            "losses": 0.3,
+            "from": "2026-08-22T16:00:00Z",
             "to": "2026-10-21T18:00:00Z"
           },
           "away": {
@@ -62651,37 +62719,37 @@
           "title": "Home / away and form",
           "status": "calculated",
           "home": {
-            "sample": 4,
-            "gf": 1.25,
-            "ga": 1,
-            "total": 2.25,
-            "form": "DDWL",
-            "wins": 0.25,
-            "over15": 0.75,
+            "sample": 6,
+            "gf": 1.3333333333333333,
+            "ga": 0.6666666666666666,
+            "total": 2,
+            "form": "DDDWW",
+            "wins": 0.3333333333333333,
+            "over15": 0.6666666666666666,
             "over25": 0.5,
-            "btts": 0.5,
+            "btts": 0.3333333333333333,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 18,
+                "sample": 4
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 5.25,
+                "sample": 4
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 1.75,
+                "sample": 4
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0.25,
+                "sample": 4
               }
             },
             "draws": 0.5,
-            "losses": 0.25,
-            "from": "2026-08-22T15:00:00Z",
-            "to": "2026-09-19T14:15:00Z"
+            "losses": 0.16666666666666666,
+            "from": "2026-08-22T16:00:00Z",
+            "to": "2026-09-19T15:15:00Z"
           },
           "away": {
             "sample": 5,
@@ -62716,7 +62784,7 @@
             "from": "2026-08-15T17:30:00Z",
             "to": "2026-10-15T16:45:00Z"
           },
-          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies."
+          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment."
         },
         {
           "step": 4,
@@ -62736,22 +62804,46 @@
               "competition": "LaLiga EA Sports 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-21|levanteud|away"
             },
             {
-              "id": "85423",
-              "date": "2026-10-17T19:00:00Z",
+              "id": "fd-17/10/2026-valencia-athbilbao",
+              "date": "2026-10-17T20:00:00Z",
               "gf": 0,
               "ga": 0,
               "total": 0,
               "venue": "away",
-              "opponent": "FC Valencia",
-              "opponentId": 434,
+              "opponent": "Valencia",
+              "opponentId": "valencia",
               "result": "D",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "shots": 9,
+              "shotsOnTarget": 2,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-17|valencia|away"
+            },
+            {
+              "id": "fd-19/09/2026-athbilbao-alaves",
+              "date": "2026-09-19T15:15:00Z",
+              "gf": 0,
+              "ga": 0,
+              "total": 0,
+              "venue": "home",
+              "opponent": "Alaves",
+              "opponentId": "alaves",
+              "result": "D",
+              "shots": 24,
+              "shotsOnTarget": 6,
+              "yellowCards": 2,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-19|alaves|home"
             },
             {
               "id": "85395",
@@ -62766,22 +62858,46 @@
               "competition": "LaLiga EA Sports 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-19|deportivoalaves|home"
             },
             {
-              "id": "85375",
-              "date": "2026-09-12T16:30:00Z",
+              "id": "fd-12/09/2026-athbilbao-elche",
+              "date": "2026-09-12T17:30:00Z",
               "gf": 1,
               "ga": 1,
               "total": 2,
               "venue": "home",
-              "opponent": "Elche CF",
-              "opponentId": 2533,
+              "opponent": "Elche",
+              "opponentId": "elche",
               "result": "D",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "shots": 19,
+              "shotsOnTarget": 3,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-12|elche|home"
+            },
+            {
+              "id": "fd-05/09/2026-athbilbao-athmadrid",
+              "date": "2026-09-05T15:15:00Z",
+              "gf": 3,
+              "ga": 0,
+              "total": 3,
+              "venue": "home",
+              "opponent": "Ath Madrid",
+              "opponentId": "athmadrid",
+              "result": "W",
+              "shots": 11,
+              "shotsOnTarget": 4,
+              "yellowCards": 0,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-05|athmadrid|home"
             },
             {
               "id": "85366",
@@ -62796,52 +62912,65 @@
               "competition": "LaLiga EA Sports 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-05|atleticomadrid|home"
             },
             {
-              "id": "85362",
-              "date": "2026-08-30T19:30:00Z",
+              "id": "fd-30/08/2026-celta-athbilbao",
+              "date": "2026-08-30T20:30:00Z",
               "gf": 2,
               "ga": 0,
               "total": 2,
               "venue": "away",
-              "opponent": "Celta Vigo",
-              "opponentId": 2175,
+              "opponent": "Celta",
+              "opponentId": "celta",
               "result": "W",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "shots": 17,
+              "shotsOnTarget": 7,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-08-30|celta|away"
             },
             {
-              "id": "85344",
-              "date": "2026-08-27T19:00:00Z",
+              "id": "fd-27/08/2026-barcelona-athbilbao",
+              "date": "2026-08-27T20:00:00Z",
               "gf": 0,
               "ga": 2,
               "total": 2,
               "venue": "away",
-              "opponent": "FC Barcelona",
-              "opponentId": 356,
+              "opponent": "Barcelona",
+              "opponentId": "barcelona",
               "result": "L",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "shots": 5,
+              "shotsOnTarget": 0,
+              "yellowCards": 2,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-08-27|barcelona|away"
             },
             {
-              "id": "85347",
-              "date": "2026-08-22T15:00:00Z",
+              "id": "fd-22/08/2026-athbilbao-sevilla",
+              "date": "2026-08-22T16:00:00Z",
               "gf": 1,
               "ga": 3,
               "total": 4,
               "venue": "home",
-              "opponent": "FC Sevilla",
-              "opponentId": 1139,
+              "opponent": "Sevilla",
+              "opponentId": "sevilla",
               "result": "L",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "shots": 18,
+              "shotsOnTarget": 8,
+              "yellowCards": 2,
+              "redCards": 1,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-08-22|sevilla|home"
             }
           ],
           "away": [
@@ -62997,11 +63126,11 @@
             }
           ],
           "samples": {
-            "home": 8,
+            "home": 10,
             "away": 10
           },
-          "fallback": true,
-          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
+          "fallback": false,
+          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
           "missing": [
             "Opponent-strength adjustment"
           ]
@@ -63010,7 +63139,7 @@
           "step": 5,
           "title": "Scoring environment and independent screens",
           "status": "exploratory",
-          "homeAVGSC": 2.125,
+          "homeAVGSC": 2,
           "awayAVGSC": 1.8,
           "markets": [
             {
@@ -63019,8 +63148,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5992129915058058,
-              "fairOdds": 1.6688556726499328,
+              "probability": 0.5761147710029042,
+              "fairOdds": 1.7357652508356862,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63033,8 +63162,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.40078700849419424,
-              "fairOdds": 2.4950908557568323,
+              "probability": 0.4238852289970958,
+              "fairOdds": 2.3591291500437053,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63047,8 +63176,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.3285676627836882,
-              "fairOdds": 3.0435131428571163,
+              "probability": 0.305736292034991,
+              "fairOdds": 3.270792594964656,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63061,8 +63190,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6714323372163118,
-              "fairOdds": 1.4893533489106219,
+              "probability": 0.694263707965009,
+              "fairOdds": 1.4403748727283323,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63075,8 +63204,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.14638952588761278,
-              "fairOdds": 6.831089819689198,
+              "probability": 0.13134217310068697,
+              "fairOdds": 7.613700735965436,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63089,8 +63218,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.8536104741123872,
-              "fairOdds": 1.1714945286254055,
+              "probability": 0.868657826899313,
+              "fairOdds": 1.1512012774575633,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63102,8 +63231,8 @@
               "side": "home",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.4759878662570098,
-              "fairOdds": 2.1008938901397327,
+              "probability": 0.5250050242482935,
+              "fairOdds": 1.904743676371113,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63115,8 +63244,8 @@
               "side": "away",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.2293150823377566,
-              "fairOdds": 4.360812162050061,
+              "probability": 0.18378047093840089,
+              "fairOdds": 5.441274553786391,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63128,8 +63257,8 @@
               "side": "1X",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7706849176622431,
-              "fairOdds": 1.2975471260464648,
+              "probability": 0.8162195290615986,
+              "fairOdds": 1.225160590251611,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63141,8 +63270,8 @@
               "side": "X2",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5240121337429899,
-              "fairOdds": 1.9083527567521288,
+              "probability": 0.47499497575170596,
+              "fairOdds": 2.105285426266761,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63154,8 +63283,8 @@
               "side": "yes",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.3831514733220993,
-              "fairOdds": 2.609933850259117,
+              "probability": 0.3430225401004264,
+              "fairOdds": 2.9152603199405815,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63167,8 +63296,8 @@
               "side": "no",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6168485266779007,
-              "fairOdds": 1.6211435332197353,
+              "probability": 0.6569774598995737,
+              "fairOdds": 1.522122235598252,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -63204,8 +63333,8 @@
             "1–3",
             "0–0",
             "0–0",
-            "1–1",
-            "3–0"
+            "0–0",
+            "1–1"
           ],
           "awayLast5": [
             "1–1",
@@ -63226,9 +63355,9 @@
           "status": "exploratory",
           "projection": {
             "classification": "MODELLED",
-            "home": 1.24875,
-            "away": 0.770625,
-            "total": 2.019375,
+            "home": 1.2958333333333334,
+            "away": 0.6391666666666667,
+            "total": 1.935,
             "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
             "calibrated": false,
             "range": null,
@@ -63254,76 +63383,76 @@
               "type": "total",
               "side": "over",
               "line": 1.5,
-              "probability": 0.5992129915058058
+              "probability": 0.5761147710029042
             },
             {
               "type": "total",
               "side": "under",
               "line": 1.5,
-              "probability": 0.40078700849419424
+              "probability": 0.4238852289970958
             },
             {
               "type": "total",
               "side": "under",
               "line": 2.5,
-              "probability": 0.6714323372163118
+              "probability": 0.694263707965009
             },
             {
               "type": "total",
               "side": "over",
               "line": 3.5,
-              "probability": 0.14638952588761278
+              "probability": 0.13134217310068697
             },
             {
               "type": "total",
               "side": "under",
               "line": 3.5,
-              "probability": 0.8536104741123872
+              "probability": 0.868657826899313
             },
             {
               "type": "win",
               "side": "home",
               "line": null,
-              "probability": 0.4759878662570098
+              "probability": 0.5250050242482935
             },
             {
               "type": "win",
               "side": "away",
               "line": null,
-              "probability": 0.2293150823377566
+              "probability": 0.18378047093840089
             },
             {
               "type": "double_chance",
               "side": "1X",
               "line": null,
-              "probability": 0.7706849176622431
+              "probability": 0.8162195290615986
             },
             {
               "type": "double_chance",
               "side": "X2",
               "line": null,
-              "probability": 0.5240121337429899
+              "probability": 0.47499497575170596
             },
             {
               "type": "btts",
               "side": "yes",
               "line": null,
-              "probability": 0.3831514733220993
+              "probability": 0.3430225401004264
             },
             {
               "type": "btts",
               "side": "no",
               "line": null,
-              "probability": 0.6168485266779007
+              "probability": 0.6569774598995737
             }
           ]
         }
       ],
       "projection": {
         "classification": "MODELLED",
-        "home": 1.24875,
-        "away": 0.770625,
-        "total": 2.019375,
+        "home": 1.2958333333333334,
+        "away": 0.6391666666666667,
+        "total": 1.935,
         "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
         "calibrated": false,
         "range": null,
@@ -63336,8 +63465,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5992129915058058,
-          "fairOdds": 1.6688556726499328,
+          "probability": 0.5761147710029042,
+          "fairOdds": 1.7357652508356862,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63350,8 +63479,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.40078700849419424,
-          "fairOdds": 2.4950908557568323,
+          "probability": 0.4238852289970958,
+          "fairOdds": 2.3591291500437053,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63364,8 +63493,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.3285676627836882,
-          "fairOdds": 3.0435131428571163,
+          "probability": 0.305736292034991,
+          "fairOdds": 3.270792594964656,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63378,8 +63507,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6714323372163118,
-          "fairOdds": 1.4893533489106219,
+          "probability": 0.694263707965009,
+          "fairOdds": 1.4403748727283323,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63392,8 +63521,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.14638952588761278,
-          "fairOdds": 6.831089819689198,
+          "probability": 0.13134217310068697,
+          "fairOdds": 7.613700735965436,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63406,8 +63535,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.8536104741123872,
-          "fairOdds": 1.1714945286254055,
+          "probability": 0.868657826899313,
+          "fairOdds": 1.1512012774575633,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63419,8 +63548,8 @@
           "side": "home",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.4759878662570098,
-          "fairOdds": 2.1008938901397327,
+          "probability": 0.5250050242482935,
+          "fairOdds": 1.904743676371113,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63432,8 +63561,8 @@
           "side": "away",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.2293150823377566,
-          "fairOdds": 4.360812162050061,
+          "probability": 0.18378047093840089,
+          "fairOdds": 5.441274553786391,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63445,8 +63574,8 @@
           "side": "1X",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7706849176622431,
-          "fairOdds": 1.2975471260464648,
+          "probability": 0.8162195290615986,
+          "fairOdds": 1.225160590251611,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63458,8 +63587,8 @@
           "side": "X2",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5240121337429899,
-          "fairOdds": 1.9083527567521288,
+          "probability": 0.47499497575170596,
+          "fairOdds": 2.105285426266761,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63471,8 +63600,8 @@
           "side": "yes",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.3831514733220993,
-          "fairOdds": 2.609933850259117,
+          "probability": 0.3430225401004264,
+          "fairOdds": 2.9152603199405815,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63484,8 +63613,8 @@
           "side": "no",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6168485266779007,
-          "fairOdds": 1.6211435332197353,
+          "probability": 0.6569774598995737,
+          "fairOdds": 1.522122235598252,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -63500,8 +63629,8 @@
         "Independently corroborated opponent strength",
         "Verified bookmaker price and settlement rules"
       ],
-      "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
-      "homeSample": 8,
+      "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
+      "homeSample": 10,
       "awaySample": 10,
       "verdict": "NO BET",
       "publicationStatus": "research",
@@ -63512,8 +63641,8 @@
         "line": 3.5,
         "period": "full_match",
         "settlement": "regulation",
-        "probability": 0.8536104741123872,
-        "fairOdds": 1.1714945286254055,
+        "probability": 0.868657826899313,
+        "fairOdds": 1.1512012774575633,
         "odds": null,
         "estimatedEV": null,
         "calibrated": false,
@@ -63523,9 +63652,11 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-10-25T11:29:02.985Z"
+        "createdAt": "2026-10-25T11:56:14.381Z"
       },
-      "generatedByScan": true
+      "generatedByScan": true,
+      "recoveredAt": "2026-10-25T11:56:14.381Z",
+      "dataRecovery": "Public fallback history; sport inputs and calibration still incomplete"
     },
     {
       "eventId": "ol-85427",
@@ -72298,24 +72429,54 @@
           "retrievedAt": "2026-10-24T20:49:44.343Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-10-20T22:38:43.204Z",
+          "cached": true,
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
         }
       ],
       "history": {
         "home": [
           {
-            "id": "85422",
-            "date": "2026-10-18T19:00:00Z",
+            "id": "fd-18/10/2026-realmadrid-sevilla",
+            "date": "2026-10-18T20:00:00Z",
             "gf": 1,
             "ga": 4,
             "total": 5,
             "venue": "away",
             "opponent": "Real Madrid",
-            "opponentId": 1133,
+            "opponentId": "realmadrid",
             "result": "L",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "shots": 11,
+            "shotsOnTarget": 5,
+            "yellowCards": 2,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-18|realmadrid|away"
+          },
+          {
+            "id": "fd-12/10/2026-levante-sevilla",
+            "date": "2026-10-12T20:00:00Z",
+            "gf": 3,
+            "ga": 3,
+            "total": 6,
+            "venue": "away",
+            "opponent": "Levante",
+            "opponentId": "levante",
+            "result": "D",
+            "shots": 18,
+            "shotsOnTarget": 5,
+            "yellowCards": 4,
+            "redCards": 1,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-12|levante|away"
           },
           {
             "id": "85409",
@@ -72330,22 +72491,46 @@
             "competition": "LaLiga EA Sports 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-12|levanteud|away"
           },
           {
-            "id": "85402",
-            "date": "2026-09-19T19:00:00Z",
+            "id": "fd-19/09/2026-sevilla-barcelona",
+            "date": "2026-09-19T20:00:00Z",
             "gf": 1,
             "ga": 3,
             "total": 4,
             "venue": "home",
-            "opponent": "FC Barcelona",
-            "opponentId": 356,
+            "opponent": "Barcelona",
+            "opponentId": "barcelona",
             "result": "L",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "shots": 7,
+            "shotsOnTarget": 3,
+            "yellowCards": 1,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-19|barcelona|home"
+          },
+          {
+            "id": "fd-16/09/2026-lacoruna-sevilla",
+            "date": "2026-09-16T18:00:00Z",
+            "gf": 1,
+            "ga": 0,
+            "total": 1,
+            "venue": "away",
+            "opponent": "La Coruna",
+            "opponentId": "lacoruna",
+            "result": "W",
+            "shots": 11,
+            "shotsOnTarget": 6,
+            "yellowCards": 4,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-16|lacoruna|away"
           },
           {
             "id": "85388",
@@ -72360,22 +72545,46 @@
             "competition": "LaLiga EA Sports 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-16|deportivoacoruna|away"
           },
           {
-            "id": "85383",
-            "date": "2026-09-11T19:00:00Z",
+            "id": "fd-11/09/2026-sevilla-valencia",
+            "date": "2026-09-11T20:00:00Z",
             "gf": 1,
             "ga": 0,
             "total": 1,
             "venue": "home",
-            "opponent": "FC Valencia",
-            "opponentId": 434,
+            "opponent": "Valencia",
+            "opponentId": "valencia",
             "result": "W",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "shots": 13,
+            "shotsOnTarget": 4,
+            "yellowCards": 1,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-11|valencia|home"
+          },
+          {
+            "id": "fd-06/09/2026-espanol-sevilla",
+            "date": "2026-09-06T20:00:00Z",
+            "gf": 1,
+            "ga": 1,
+            "total": 2,
+            "venue": "away",
+            "opponent": "Espanol",
+            "opponentId": "espanol",
+            "result": "D",
+            "shots": 6,
+            "shotsOnTarget": 3,
+            "yellowCards": 3,
+            "redCards": 1,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-06|espanol|away"
           },
           {
             "id": "85369",
@@ -72390,52 +72599,27 @@
             "competition": "LaLiga EA Sports 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-06|espanyolbarcelona|away"
           },
           {
-            "id": "85359",
-            "date": "2026-08-29T19:30:00Z",
+            "id": "fd-29/08/2026-sevilla-athmadrid",
+            "date": "2026-08-29T20:30:00Z",
             "gf": 1,
             "ga": 3,
             "total": 4,
             "venue": "home",
-            "opponent": "Atlético Madrid",
-            "opponentId": 355,
+            "opponent": "Ath Madrid",
+            "opponentId": "athmadrid",
             "result": "L",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "85347",
-            "date": "2026-08-22T15:00:00Z",
-            "gf": 3,
-            "ga": 1,
-            "total": 4,
-            "venue": "away",
-            "opponent": "Athletic Club",
-            "opponentId": 1135,
-            "result": "W",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "85336",
-            "date": "2026-08-15T19:30:00Z",
-            "gf": 2,
-            "ga": 1,
-            "total": 3,
-            "venue": "home",
-            "opponent": "Rayo Vallecano",
-            "opponentId": 1802,
-            "result": "W",
-            "competition": "LaLiga EA Sports 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-            "scoreScope": "regulation"
+            "shots": 20,
+            "shotsOnTarget": 5,
+            "yellowCards": 2,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-08-29|athmadrid|home"
           }
         ],
         "away": [
@@ -72652,7 +72836,7 @@
       "id": "ol-85433",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-10-25T11:29:03.240Z",
+      "completedAt": "2026-10-25T11:56:14.382Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -72684,37 +72868,37 @@
           "status": "partial",
           "classification": "CALCULATED",
           "home": {
-            "sample": 9,
-            "gf": 1.5555555555555556,
-            "ga": 1.7777777777777777,
-            "total": 3.3333333333333335,
-            "form": "LDLWW",
-            "wins": 0.4444444444444444,
-            "over15": 0.7777777777777778,
-            "over25": 0.6666666666666666,
-            "btts": 0.7777777777777778,
+            "sample": 10,
+            "gf": 1.4,
+            "ga": 1.8,
+            "total": 3.2,
+            "form": "LDDLW",
+            "wins": 0.3,
+            "over15": 0.7,
+            "over25": 0.5,
+            "btts": 0.7,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 12.285714285714286,
+                "sample": 7
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4.428571428571429,
+                "sample": 7
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 2.4285714285714284,
+                "sample": 7
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0.2857142857142857,
+                "sample": 7
               }
             },
-            "draws": 0.2222222222222222,
-            "losses": 0.3333333333333333,
-            "from": "2026-08-15T19:30:00Z",
-            "to": "2026-10-18T19:00:00Z"
+            "draws": 0.4,
+            "losses": 0.3,
+            "from": "2026-08-29T20:30:00Z",
+            "to": "2026-10-18T20:00:00Z"
           },
           "away": {
             "sample": 9,
@@ -72827,37 +73011,37 @@
           "title": "Home / away and form",
           "status": "calculated",
           "home": {
-            "sample": 4,
-            "gf": 1.25,
-            "ga": 1.75,
+            "sample": 3,
+            "gf": 1,
+            "ga": 2,
             "total": 3,
-            "form": "LWLW",
-            "wins": 0.5,
-            "over15": 0.75,
-            "over25": 0.75,
-            "btts": 0.75,
+            "form": "LWL",
+            "wins": 0.3333333333333333,
+            "over15": 0.6666666666666666,
+            "over25": 0.6666666666666666,
+            "btts": 0.6666666666666666,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 13.333333333333334,
+                "sample": 3
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4,
+                "sample": 3
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 1.3333333333333333,
+                "sample": 3
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0,
+                "sample": 3
               }
             },
             "draws": 0,
-            "losses": 0.5,
-            "from": "2026-08-15T19:30:00Z",
-            "to": "2026-09-19T19:00:00Z"
+            "losses": 0.6666666666666666,
+            "from": "2026-08-29T20:30:00Z",
+            "to": "2026-09-19T20:00:00Z"
           },
           "away": {
             "sample": 4,
@@ -72892,7 +73076,7 @@
             "from": "2026-08-27T18:30:00Z",
             "to": "2026-10-11T16:30:00Z"
           },
-          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies."
+          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment."
         },
         {
           "step": 4,
@@ -72900,19 +73084,42 @@
           "status": "calculated",
           "home": [
             {
-              "id": "85422",
-              "date": "2026-10-18T19:00:00Z",
+              "id": "fd-18/10/2026-realmadrid-sevilla",
+              "date": "2026-10-18T20:00:00Z",
               "gf": 1,
               "ga": 4,
               "total": 5,
               "venue": "away",
               "opponent": "Real Madrid",
-              "opponentId": 1133,
+              "opponentId": "realmadrid",
               "result": "L",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "shots": 11,
+              "shotsOnTarget": 5,
+              "yellowCards": 2,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-18|realmadrid|away"
+            },
+            {
+              "id": "fd-12/10/2026-levante-sevilla",
+              "date": "2026-10-12T20:00:00Z",
+              "gf": 3,
+              "ga": 3,
+              "total": 6,
+              "venue": "away",
+              "opponent": "Levante",
+              "opponentId": "levante",
+              "result": "D",
+              "shots": 18,
+              "shotsOnTarget": 5,
+              "yellowCards": 4,
+              "redCards": 1,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-12|levante|away"
             },
             {
               "id": "85409",
@@ -72927,22 +73134,46 @@
               "competition": "LaLiga EA Sports 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-12|levanteud|away"
             },
             {
-              "id": "85402",
-              "date": "2026-09-19T19:00:00Z",
+              "id": "fd-19/09/2026-sevilla-barcelona",
+              "date": "2026-09-19T20:00:00Z",
               "gf": 1,
               "ga": 3,
               "total": 4,
               "venue": "home",
-              "opponent": "FC Barcelona",
-              "opponentId": 356,
+              "opponent": "Barcelona",
+              "opponentId": "barcelona",
               "result": "L",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "shots": 7,
+              "shotsOnTarget": 3,
+              "yellowCards": 1,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-19|barcelona|home"
+            },
+            {
+              "id": "fd-16/09/2026-lacoruna-sevilla",
+              "date": "2026-09-16T18:00:00Z",
+              "gf": 1,
+              "ga": 0,
+              "total": 1,
+              "venue": "away",
+              "opponent": "La Coruna",
+              "opponentId": "lacoruna",
+              "result": "W",
+              "shots": 11,
+              "shotsOnTarget": 6,
+              "yellowCards": 4,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-16|lacoruna|away"
             },
             {
               "id": "85388",
@@ -72957,22 +73188,46 @@
               "competition": "LaLiga EA Sports 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-16|deportivoacoruna|away"
             },
             {
-              "id": "85383",
-              "date": "2026-09-11T19:00:00Z",
+              "id": "fd-11/09/2026-sevilla-valencia",
+              "date": "2026-09-11T20:00:00Z",
               "gf": 1,
               "ga": 0,
               "total": 1,
               "venue": "home",
-              "opponent": "FC Valencia",
-              "opponentId": 434,
+              "opponent": "Valencia",
+              "opponentId": "valencia",
               "result": "W",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "shots": 13,
+              "shotsOnTarget": 4,
+              "yellowCards": 1,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-11|valencia|home"
+            },
+            {
+              "id": "fd-06/09/2026-espanol-sevilla",
+              "date": "2026-09-06T20:00:00Z",
+              "gf": 1,
+              "ga": 1,
+              "total": 2,
+              "venue": "away",
+              "opponent": "Espanol",
+              "opponentId": "espanol",
+              "result": "D",
+              "shots": 6,
+              "shotsOnTarget": 3,
+              "yellowCards": 3,
+              "redCards": 1,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-06|espanol|away"
             },
             {
               "id": "85369",
@@ -72987,52 +73242,27 @@
               "competition": "LaLiga EA Sports 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-06|espanyolbarcelona|away"
             },
             {
-              "id": "85359",
-              "date": "2026-08-29T19:30:00Z",
+              "id": "fd-29/08/2026-sevilla-athmadrid",
+              "date": "2026-08-29T20:30:00Z",
               "gf": 1,
               "ga": 3,
               "total": 4,
               "venue": "home",
-              "opponent": "Atlético Madrid",
-              "opponentId": 355,
+              "opponent": "Ath Madrid",
+              "opponentId": "athmadrid",
               "result": "L",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "85347",
-              "date": "2026-08-22T15:00:00Z",
-              "gf": 3,
-              "ga": 1,
-              "total": 4,
-              "venue": "away",
-              "opponent": "Athletic Club",
-              "opponentId": 1135,
-              "result": "W",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "85336",
-              "date": "2026-08-15T19:30:00Z",
-              "gf": 2,
-              "ga": 1,
-              "total": 3,
-              "venue": "home",
-              "opponent": "Rayo Vallecano",
-              "opponentId": 1802,
-              "result": "W",
-              "competition": "LaLiga EA Sports 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-              "scoreScope": "regulation"
+              "shots": 20,
+              "shotsOnTarget": 5,
+              "yellowCards": 2,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-08-29|athmadrid|home"
             }
           ],
           "away": [
@@ -73173,11 +73403,11 @@
             }
           ],
           "samples": {
-            "home": 9,
+            "home": 10,
             "away": 9
           },
           "fallback": true,
-          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
+          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
           "missing": [
             "Opponent-strength adjustment"
           ]
@@ -73186,7 +73416,7 @@
           "step": 5,
           "title": "Scoring environment and independent screens",
           "status": "exploratory",
-          "homeAVGSC": 3.3333333333333335,
+          "homeAVGSC": 3.2,
           "awayAVGSC": 3.111111111111111,
           "markets": [
             {
@@ -73195,8 +73425,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.8680939313652711,
-              "fairOdds": 1.1519490735608267,
+              "probability": 0.863567643258734,
+              "fairOdds": 1.1579868789738679,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73209,8 +73439,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.13190606863472887,
-              "fairOdds": 7.581152333249928,
+              "probability": 0.13643235674126597,
+              "fairOdds": 7.329639565608525,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73223,8 +73453,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.686159426278312,
-              "fairOdds": 1.4573872509832602,
+              "probability": 0.6782012707765723,
+              "fairOdds": 1.4744885376799028,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73237,8 +73467,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.31384057372168805,
-              "fairOdds": 3.1863311621613146,
+              "probability": 0.32179872922342767,
+              "fairOdds": 3.1075324704147333,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73251,8 +73481,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.47158620789450245,
-              "fairOdds": 2.1205030665860947,
+              "probability": 0.4622580286113579,
+              "fairOdds": 2.1632939572819128,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73265,8 +73495,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5284137921054975,
-              "fairOdds": 1.8924562813083246,
+              "probability": 0.5377419713886421,
+              "fairOdds": 1.8596279502186566,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73278,8 +73508,8 @@
               "side": "home",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.49854050778067266,
-              "fairOdds": 2.005855059705477,
+              "probability": 0.4675266146278378,
+              "fairOdds": 2.138915665359551,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73291,8 +73521,8 @@
               "side": "away",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.2871254792051131,
-              "fairOdds": 3.482797844233226,
+              "probability": 0.3132902081955496,
+              "fairOdds": 3.1919286777575238,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73304,8 +73534,8 @@
               "side": "1X",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7128745207948869,
-              "fairOdds": 1.4027714146452526,
+              "probability": 0.6867097918044501,
+              "fairOdds": 1.4562192238038794,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73317,8 +73547,8 @@
               "side": "X2",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5014594922193273,
-              "fairOdds": 1.9941790224655318,
+              "probability": 0.5324733853721619,
+              "fairOdds": 1.878028137126646,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73330,8 +73560,8 @@
               "side": "yes",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6763709951252592,
-              "fairOdds": 1.4784785379727985,
+              "probability": 0.6756809829347139,
+              "fairOdds": 1.4799883750711136,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73343,8 +73573,8 @@
               "side": "no",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.3236290048747408,
-              "fairOdds": 3.089957899129115,
+              "probability": 0.3243190170652861,
+              "fairOdds": 3.083383789975837,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -73373,14 +73603,14 @@
           "title": "Patterns and fatigue",
           "status": "partial",
           "restDays": {
-            "home": 8.041666666666666,
+            "home": 8,
             "away": 8.333333333333334
           },
           "homeLast5": [
             "1–4",
             "3–3",
+            "3–3",
             "1–3",
-            "1–0",
             "1–0"
           ],
           "awayLast5": [
@@ -73402,9 +73632,9 @@
           "status": "exploratory",
           "projection": {
             "classification": "MODELLED",
-            "home": 2.0305555555555554,
-            "away": 1.5076388888888888,
-            "total": 3.538194444444444,
+            "home": 1.9362499999999998,
+            "away": 1.5586111111111112,
+            "total": 3.4948611111111108,
             "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
             "calibrated": false,
             "range": null,
@@ -73430,76 +73660,76 @@
               "type": "total",
               "side": "over",
               "line": 1.5,
-              "probability": 0.8680939313652711
+              "probability": 0.863567643258734
             },
             {
               "type": "total",
               "side": "under",
               "line": 1.5,
-              "probability": 0.13190606863472887
+              "probability": 0.13643235674126597
             },
             {
               "type": "total",
               "side": "under",
               "line": 2.5,
-              "probability": 0.31384057372168805
+              "probability": 0.32179872922342767
             },
             {
               "type": "total",
               "side": "over",
               "line": 3.5,
-              "probability": 0.47158620789450245
+              "probability": 0.4622580286113579
             },
             {
               "type": "total",
               "side": "under",
               "line": 3.5,
-              "probability": 0.5284137921054975
+              "probability": 0.5377419713886421
             },
             {
               "type": "win",
               "side": "home",
               "line": null,
-              "probability": 0.49854050778067266
+              "probability": 0.4675266146278378
             },
             {
               "type": "win",
               "side": "away",
               "line": null,
-              "probability": 0.2871254792051131
+              "probability": 0.3132902081955496
             },
             {
               "type": "double_chance",
               "side": "1X",
               "line": null,
-              "probability": 0.7128745207948869
+              "probability": 0.6867097918044501
             },
             {
               "type": "double_chance",
               "side": "X2",
               "line": null,
-              "probability": 0.5014594922193273
+              "probability": 0.5324733853721619
             },
             {
               "type": "btts",
               "side": "yes",
               "line": null,
-              "probability": 0.6763709951252592
+              "probability": 0.6756809829347139
             },
             {
               "type": "btts",
               "side": "no",
               "line": null,
-              "probability": 0.3236290048747408
+              "probability": 0.3243190170652861
             }
           ]
         }
       ],
       "projection": {
         "classification": "MODELLED",
-        "home": 2.0305555555555554,
-        "away": 1.5076388888888888,
-        "total": 3.538194444444444,
+        "home": 1.9362499999999998,
+        "away": 1.5586111111111112,
+        "total": 3.4948611111111108,
         "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
         "calibrated": false,
         "range": null,
@@ -73512,8 +73742,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.8680939313652711,
-          "fairOdds": 1.1519490735608267,
+          "probability": 0.863567643258734,
+          "fairOdds": 1.1579868789738679,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73526,8 +73756,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.13190606863472887,
-          "fairOdds": 7.581152333249928,
+          "probability": 0.13643235674126597,
+          "fairOdds": 7.329639565608525,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73540,8 +73770,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.686159426278312,
-          "fairOdds": 1.4573872509832602,
+          "probability": 0.6782012707765723,
+          "fairOdds": 1.4744885376799028,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73554,8 +73784,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.31384057372168805,
-          "fairOdds": 3.1863311621613146,
+          "probability": 0.32179872922342767,
+          "fairOdds": 3.1075324704147333,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73568,8 +73798,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.47158620789450245,
-          "fairOdds": 2.1205030665860947,
+          "probability": 0.4622580286113579,
+          "fairOdds": 2.1632939572819128,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73582,8 +73812,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5284137921054975,
-          "fairOdds": 1.8924562813083246,
+          "probability": 0.5377419713886421,
+          "fairOdds": 1.8596279502186566,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73595,8 +73825,8 @@
           "side": "home",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.49854050778067266,
-          "fairOdds": 2.005855059705477,
+          "probability": 0.4675266146278378,
+          "fairOdds": 2.138915665359551,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73608,8 +73838,8 @@
           "side": "away",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.2871254792051131,
-          "fairOdds": 3.482797844233226,
+          "probability": 0.3132902081955496,
+          "fairOdds": 3.1919286777575238,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73621,8 +73851,8 @@
           "side": "1X",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7128745207948869,
-          "fairOdds": 1.4027714146452526,
+          "probability": 0.6867097918044501,
+          "fairOdds": 1.4562192238038794,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73634,8 +73864,8 @@
           "side": "X2",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5014594922193273,
-          "fairOdds": 1.9941790224655318,
+          "probability": 0.5324733853721619,
+          "fairOdds": 1.878028137126646,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73647,8 +73877,8 @@
           "side": "yes",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6763709951252592,
-          "fairOdds": 1.4784785379727985,
+          "probability": 0.6756809829347139,
+          "fairOdds": 1.4799883750711136,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73660,8 +73890,8 @@
           "side": "no",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.3236290048747408,
-          "fairOdds": 3.089957899129115,
+          "probability": 0.3243190170652861,
+          "fairOdds": 3.083383789975837,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -73676,8 +73906,8 @@
         "Independently corroborated opponent strength",
         "Verified bookmaker price and settlement rules"
       ],
-      "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
-      "homeSample": 9,
+      "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
+      "homeSample": 10,
       "awaySample": 9,
       "verdict": "NO BET",
       "publicationStatus": "research",
@@ -73688,8 +73918,8 @@
         "line": 1.5,
         "period": "full_match",
         "settlement": "regulation",
-        "probability": 0.8680939313652711,
-        "fairOdds": 1.1519490735608267,
+        "probability": 0.863567643258734,
+        "fairOdds": 1.1579868789738679,
         "odds": null,
         "estimatedEV": null,
         "calibrated": false,
@@ -73699,9 +73929,11 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-10-25T11:29:03.240Z"
+        "createdAt": "2026-10-25T11:56:14.382Z"
       },
-      "generatedByScan": true
+      "generatedByScan": true,
+      "recoveredAt": "2026-10-25T11:56:14.382Z",
+      "dataRecovery": "Public fallback history; sport inputs and calibration still incomplete"
     },
     {
       "eventId": "ol-85434",
@@ -80845,6 +81077,13 @@
           "retrievedAt": "2026-10-25T11:28:59.283Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 5760
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true,
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
         }
       ],
       "history": {
@@ -80862,7 +81101,27 @@
             "competition": "Champions League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-20|villarreal|home"
+          },
+          {
+            "id": "fd-17/10/2026-brentford-liverpool",
+            "date": "2026-10-17T15:00:00Z",
+            "gf": 2,
+            "ga": 1,
+            "total": 3,
+            "venue": "away",
+            "opponent": "Brentford",
+            "opponentId": "brentford",
+            "result": "W",
+            "shots": 21,
+            "shotsOnTarget": 5,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-17|brentford|away"
           },
           {
             "id": "87415",
@@ -80877,7 +81136,27 @@
             "competition": "Champions League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-14|lask|away"
+          },
+          {
+            "id": "fd-11/10/2026-liverpool-mancity",
+            "date": "2026-10-11T16:30:00Z",
+            "gf": 0,
+            "ga": 3,
+            "total": 3,
+            "venue": "home",
+            "opponent": "Man City",
+            "opponentId": "mancity",
+            "result": "L",
+            "shots": 13,
+            "shotsOnTarget": 6,
+            "yellowCards": 4,
+            "redCards": 1,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-11|mancity|home"
           },
           {
             "id": "86586",
@@ -80892,37 +81171,46 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-11|manchestercity|home"
           },
           {
-            "id": "86576",
-            "date": "2026-09-20T13:00:00Z",
+            "id": "fd-20/09/2026-bournemouth-liverpool",
+            "date": "2026-09-20T14:00:00Z",
             "gf": 1,
             "ga": 0,
             "total": 1,
             "venue": "away",
-            "opponent": "AFC Bournemouth",
-            "opponentId": 2942,
+            "opponent": "Bournemouth",
+            "opponentId": "bournemouth",
             "result": "W",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "shots": 12,
+            "shotsOnTarget": 3,
+            "yellowCards": 2,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-20|bournemouth|away"
           },
           {
-            "id": "86562",
-            "date": "2026-09-12T14:00:00Z",
+            "id": "fd-12/09/2026-liverpool-fulham",
+            "date": "2026-09-12T15:00:00Z",
             "gf": 0,
             "ga": 0,
             "total": 0,
             "venue": "home",
-            "opponent": "Fulham FC",
-            "opponentId": 549,
+            "opponent": "Fulham",
+            "opponentId": "fulham",
             "result": "D",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "shots": 14,
+            "shotsOnTarget": 3,
+            "yellowCards": 0,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-12|fulham|home"
           },
           {
             "id": "87396",
@@ -80937,7 +81225,27 @@
             "competition": "Champions League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-09|atleticomadrid|home"
+          },
+          {
+            "id": "fd-04/09/2026-ipswich-liverpool",
+            "date": "2026-09-04T20:00:00Z",
+            "gf": 2,
+            "ga": 0,
+            "total": 2,
+            "venue": "away",
+            "opponent": "Ipswich",
+            "opponentId": "ipswich",
+            "result": "W",
+            "shots": 10,
+            "shotsOnTarget": 7,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-04|ipswich|away"
           },
           {
             "id": "86548",
@@ -80952,37 +81260,8 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86539",
-            "date": "2026-08-29T11:30:00Z",
-            "gf": 2,
-            "ga": 2,
-            "total": 4,
-            "venue": "home",
-            "opponent": "Nottingham Forest",
-            "opponentId": 8793,
-            "result": "D",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86536",
-            "date": "2026-08-23T15:30:00Z",
-            "gf": 2,
-            "ga": 2,
-            "total": 4,
-            "venue": "away",
-            "opponent": "Newcastle United FC",
-            "opponentId": 1075,
-            "result": "D",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-04|ipswichtown|away"
           }
         ],
         "away": [
@@ -81187,11 +81466,11 @@
         "meanTotal": 2.933333333333333,
         "scope": "Current season same competition; source-reported completed scores"
       },
-      "scope": "Available OpenLigaDB competition results and Football-Data.co.uk domestic full-time scores, exact normalized team-name mapping; last 10 when available, minimum 6 for a forecast. Current-season-only domestic fallback; incomplete competition coverage.",
+      "scope": "Available OpenLigaDB competition results and Football-Data.co.uk domestic full-time scores, exact normalized team-name mapping; last 10 when available, minimum 6 for a forecast. Current-season-only domestic fallback; incomplete competition coverage. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
       "id": "ol-86602",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-10-25T11:29:02.986Z",
+      "completedAt": "2026-10-25T11:56:14.381Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -81223,36 +81502,36 @@
           "status": "partial",
           "classification": "CALCULATED",
           "home": {
-            "sample": 9,
-            "gf": 2.111111111111111,
-            "ga": 1.5555555555555556,
-            "total": 3.6666666666666665,
-            "form": "WWLWD",
-            "wins": 0.5555555555555556,
-            "over15": 0.7777777777777778,
-            "over25": 0.6666666666666666,
-            "btts": 0.5555555555555556,
+            "sample": 10,
+            "gf": 1.9,
+            "ga": 1.4,
+            "total": 3.3,
+            "form": "WWWLL",
+            "wins": 0.7,
+            "over15": 0.8,
+            "over25": 0.6,
+            "btts": 0.4,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 14,
+                "sample": 5
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4.8,
+                "sample": 5
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 2.4,
+                "sample": 5
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0.2,
+                "sample": 5
               }
             },
-            "draws": 0.3333333333333333,
-            "losses": 0.1111111111111111,
-            "from": "2026-08-23T15:30:00Z",
+            "draws": 0.1,
+            "losses": 0.2,
+            "from": "2026-09-04T19:00:00Z",
             "to": "2026-10-20T19:00:00Z"
           },
           "away": {
@@ -81367,35 +81646,35 @@
           "status": "calculated",
           "home": {
             "sample": 5,
-            "gf": 1.6,
-            "ga": 1.8,
-            "total": 3.4,
-            "form": "WLDWD",
+            "gf": 1.2,
+            "ga": 2,
+            "total": 3.2,
+            "form": "WLLDW",
             "wins": 0.4,
             "over15": 0.8,
             "over25": 0.8,
-            "btts": 0.6,
+            "btts": 0.4,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 13.5,
+                "sample": 2
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4.5,
+                "sample": 2
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 2,
+                "sample": 2
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0.5,
+                "sample": 2
               }
             },
-            "draws": 0.4,
-            "losses": 0.2,
-            "from": "2026-08-29T11:30:00Z",
+            "draws": 0.2,
+            "losses": 0.4,
+            "from": "2026-09-09T19:00:00Z",
             "to": "2026-10-20T19:00:00Z"
           },
           "away": {
@@ -81431,7 +81710,7 @@
             "from": "2026-08-30T14:00:00Z",
             "to": "2026-10-10T15:00:00Z"
           },
-          "scope": "Available OpenLigaDB competition results and Football-Data.co.uk domestic full-time scores, exact normalized team-name mapping; last 10 when available, minimum 6 for a forecast. Current-season-only domestic fallback; incomplete competition coverage."
+          "scope": "Available OpenLigaDB competition results and Football-Data.co.uk domestic full-time scores, exact normalized team-name mapping; last 10 when available, minimum 6 for a forecast. Current-season-only domestic fallback; incomplete competition coverage. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment."
         },
         {
           "step": 4,
@@ -81451,7 +81730,27 @@
               "competition": "Champions League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-20|villarreal|home"
+            },
+            {
+              "id": "fd-17/10/2026-brentford-liverpool",
+              "date": "2026-10-17T15:00:00Z",
+              "gf": 2,
+              "ga": 1,
+              "total": 3,
+              "venue": "away",
+              "opponent": "Brentford",
+              "opponentId": "brentford",
+              "result": "W",
+              "shots": 21,
+              "shotsOnTarget": 5,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-17|brentford|away"
             },
             {
               "id": "87415",
@@ -81466,7 +81765,27 @@
               "competition": "Champions League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-14|lask|away"
+            },
+            {
+              "id": "fd-11/10/2026-liverpool-mancity",
+              "date": "2026-10-11T16:30:00Z",
+              "gf": 0,
+              "ga": 3,
+              "total": 3,
+              "venue": "home",
+              "opponent": "Man City",
+              "opponentId": "mancity",
+              "result": "L",
+              "shots": 13,
+              "shotsOnTarget": 6,
+              "yellowCards": 4,
+              "redCards": 1,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-11|mancity|home"
             },
             {
               "id": "86586",
@@ -81481,37 +81800,46 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-11|manchestercity|home"
             },
             {
-              "id": "86576",
-              "date": "2026-09-20T13:00:00Z",
+              "id": "fd-20/09/2026-bournemouth-liverpool",
+              "date": "2026-09-20T14:00:00Z",
               "gf": 1,
               "ga": 0,
               "total": 1,
               "venue": "away",
-              "opponent": "AFC Bournemouth",
-              "opponentId": 2942,
+              "opponent": "Bournemouth",
+              "opponentId": "bournemouth",
               "result": "W",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "shots": 12,
+              "shotsOnTarget": 3,
+              "yellowCards": 2,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-20|bournemouth|away"
             },
             {
-              "id": "86562",
-              "date": "2026-09-12T14:00:00Z",
+              "id": "fd-12/09/2026-liverpool-fulham",
+              "date": "2026-09-12T15:00:00Z",
               "gf": 0,
               "ga": 0,
               "total": 0,
               "venue": "home",
-              "opponent": "Fulham FC",
-              "opponentId": 549,
+              "opponent": "Fulham",
+              "opponentId": "fulham",
               "result": "D",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "shots": 14,
+              "shotsOnTarget": 3,
+              "yellowCards": 0,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-12|fulham|home"
             },
             {
               "id": "87396",
@@ -81526,7 +81854,27 @@
               "competition": "Champions League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-09|atleticomadrid|home"
+            },
+            {
+              "id": "fd-04/09/2026-ipswich-liverpool",
+              "date": "2026-09-04T20:00:00Z",
+              "gf": 2,
+              "ga": 0,
+              "total": 2,
+              "venue": "away",
+              "opponent": "Ipswich",
+              "opponentId": "ipswich",
+              "result": "W",
+              "shots": 10,
+              "shotsOnTarget": 7,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-04|ipswich|away"
             },
             {
               "id": "86548",
@@ -81541,37 +81889,8 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86539",
-              "date": "2026-08-29T11:30:00Z",
-              "gf": 2,
-              "ga": 2,
-              "total": 4,
-              "venue": "home",
-              "opponent": "Nottingham Forest",
-              "opponentId": 8793,
-              "result": "D",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86536",
-              "date": "2026-08-23T15:30:00Z",
-              "gf": 2,
-              "ga": 2,
-              "total": 4,
-              "venue": "away",
-              "opponent": "Newcastle United FC",
-              "opponentId": 1075,
-              "result": "D",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-04|ipswichtown|away"
             }
           ],
           "away": [
@@ -81703,11 +82022,11 @@
             }
           ],
           "samples": {
-            "home": 9,
+            "home": 10,
             "away": 7
           },
           "fallback": true,
-          "scope": "Available OpenLigaDB competition results and Football-Data.co.uk domestic full-time scores, exact normalized team-name mapping; last 10 when available, minimum 6 for a forecast. Current-season-only domestic fallback; incomplete competition coverage.",
+          "scope": "Available OpenLigaDB competition results and Football-Data.co.uk domestic full-time scores, exact normalized team-name mapping; last 10 when available, minimum 6 for a forecast. Current-season-only domestic fallback; incomplete competition coverage. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
           "missing": [
             "Opponent-strength adjustment"
           ]
@@ -81716,7 +82035,7 @@
           "step": 5,
           "title": "Scoring environment and independent screens",
           "status": "exploratory",
-          "homeAVGSC": 3.6666666666666665,
+          "homeAVGSC": 3.3,
           "awayAVGSC": 4,
           "markets": [
             {
@@ -81725,8 +82044,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.9010774528819809,
-              "fairOdds": 1.1097825129256402,
+              "probability": 0.8882171917680058,
+              "fairOdds": 1.1258507595529528,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81739,8 +82058,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.09892254711801907,
-              "fairOdds": 10.108918837350142,
+              "probability": 0.11178280823199416,
+              "fairOdds": 8.94591946486618,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81753,8 +82072,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7473876132800554,
-              "fairOdds": 1.3379938096797004,
+              "probability": 0.7227937305462563,
+              "fairOdds": 1.3835205781935092,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81767,8 +82086,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.25261238671994457,
-              "fairOdds": 3.9586340677293745,
+              "probability": 0.2772062694537437,
+              "fairOdds": 3.60742201816206,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81781,8 +82100,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5474200553091055,
-              "fairOdds": 1.8267507562092171,
+              "probability": 0.5160603549805198,
+              "fairOdds": 1.9377578423704875,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81795,8 +82114,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.45257994469089446,
-              "fairOdds": 2.209554382006444,
+              "probability": 0.48393964501948017,
+              "fairOdds": 2.0663733800105315,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81808,8 +82127,8 @@
               "side": "home",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.21112502033191669,
-              "fairOdds": 4.736530035274202,
+              "probability": 0.1873401668687572,
+              "fairOdds": 5.337883576780193,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81821,8 +82140,8 @@
               "side": "away",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6029802689759687,
-              "fairOdds": 1.6584290588783002,
+              "probability": 0.629348916028109,
+              "fairOdds": 1.5889437075876942,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81834,8 +82153,8 @@
               "side": "1X",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.3970197310240309,
-              "fairOdds": 2.518766504175259,
+              "probability": 0.3706510839718906,
+              "fairOdds": 2.697955147693128,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81847,8 +82166,8 @@
               "side": "X2",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7888749796680828,
-              "fairOdds": 1.2676279838672884,
+              "probability": 0.8126598331312425,
+              "fairOdds": 1.2305271642956943,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81860,8 +82179,8 @@
               "side": "yes",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6968078826017858,
-              "fairOdds": 1.4351157972928434,
+              "probability": 0.6633235712418512,
+              "fairOdds": 1.5075598747800187,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81873,8 +82192,8 @@
               "side": "no",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.30319211739821417,
-              "fairOdds": 3.2982387820016923,
+              "probability": 0.33667642875814885,
+              "fairOdds": 2.970210904542857,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -81908,10 +82227,10 @@
           },
           "homeLast5": [
             "4–3",
+            "2–1",
             "6–3",
             "0–3",
-            "1–0",
-            "0–0"
+            "0–3"
           ],
           "awayLast5": [
             "5–0",
@@ -81932,9 +82251,9 @@
           "status": "exploratory",
           "projection": {
             "classification": "MODELLED",
-            "home": 1.4315873015873017,
-            "away": 2.4717460317460316,
-            "total": 3.9033333333333333,
+            "home": 1.2929761904761903,
+            "away": 2.456190476190476,
+            "total": 3.749166666666666,
             "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
             "calibrated": false,
             "range": null,
@@ -81960,76 +82279,76 @@
               "type": "total",
               "side": "over",
               "line": 1.5,
-              "probability": 0.9010774528819809
+              "probability": 0.8882171917680058
             },
             {
               "type": "total",
               "side": "under",
               "line": 1.5,
-              "probability": 0.09892254711801907
+              "probability": 0.11178280823199416
             },
             {
               "type": "total",
               "side": "under",
               "line": 2.5,
-              "probability": 0.25261238671994457
+              "probability": 0.2772062694537437
             },
             {
               "type": "total",
               "side": "over",
               "line": 3.5,
-              "probability": 0.5474200553091055
+              "probability": 0.5160603549805198
             },
             {
               "type": "total",
               "side": "under",
               "line": 3.5,
-              "probability": 0.45257994469089446
+              "probability": 0.48393964501948017
             },
             {
               "type": "win",
               "side": "home",
               "line": null,
-              "probability": 0.21112502033191669
+              "probability": 0.1873401668687572
             },
             {
               "type": "win",
               "side": "away",
               "line": null,
-              "probability": 0.6029802689759687
+              "probability": 0.629348916028109
             },
             {
               "type": "double_chance",
               "side": "1X",
               "line": null,
-              "probability": 0.3970197310240309
+              "probability": 0.3706510839718906
             },
             {
               "type": "double_chance",
               "side": "X2",
               "line": null,
-              "probability": 0.7888749796680828
+              "probability": 0.8126598331312425
             },
             {
               "type": "btts",
               "side": "yes",
               "line": null,
-              "probability": 0.6968078826017858
+              "probability": 0.6633235712418512
             },
             {
               "type": "btts",
               "side": "no",
               "line": null,
-              "probability": 0.30319211739821417
+              "probability": 0.33667642875814885
             }
           ]
         }
       ],
       "projection": {
         "classification": "MODELLED",
-        "home": 1.4315873015873017,
-        "away": 2.4717460317460316,
-        "total": 3.9033333333333333,
+        "home": 1.2929761904761903,
+        "away": 2.456190476190476,
+        "total": 3.749166666666666,
         "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
         "calibrated": false,
         "range": null,
@@ -82042,8 +82361,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.9010774528819809,
-          "fairOdds": 1.1097825129256402,
+          "probability": 0.8882171917680058,
+          "fairOdds": 1.1258507595529528,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82056,8 +82375,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.09892254711801907,
-          "fairOdds": 10.108918837350142,
+          "probability": 0.11178280823199416,
+          "fairOdds": 8.94591946486618,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82070,8 +82389,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7473876132800554,
-          "fairOdds": 1.3379938096797004,
+          "probability": 0.7227937305462563,
+          "fairOdds": 1.3835205781935092,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82084,8 +82403,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.25261238671994457,
-          "fairOdds": 3.9586340677293745,
+          "probability": 0.2772062694537437,
+          "fairOdds": 3.60742201816206,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82098,8 +82417,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5474200553091055,
-          "fairOdds": 1.8267507562092171,
+          "probability": 0.5160603549805198,
+          "fairOdds": 1.9377578423704875,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82112,8 +82431,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.45257994469089446,
-          "fairOdds": 2.209554382006444,
+          "probability": 0.48393964501948017,
+          "fairOdds": 2.0663733800105315,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82125,8 +82444,8 @@
           "side": "home",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.21112502033191669,
-          "fairOdds": 4.736530035274202,
+          "probability": 0.1873401668687572,
+          "fairOdds": 5.337883576780193,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82138,8 +82457,8 @@
           "side": "away",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6029802689759687,
-          "fairOdds": 1.6584290588783002,
+          "probability": 0.629348916028109,
+          "fairOdds": 1.5889437075876942,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82151,8 +82470,8 @@
           "side": "1X",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.3970197310240309,
-          "fairOdds": 2.518766504175259,
+          "probability": 0.3706510839718906,
+          "fairOdds": 2.697955147693128,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82164,8 +82483,8 @@
           "side": "X2",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7888749796680828,
-          "fairOdds": 1.2676279838672884,
+          "probability": 0.8126598331312425,
+          "fairOdds": 1.2305271642956943,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82177,8 +82496,8 @@
           "side": "yes",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6968078826017858,
-          "fairOdds": 1.4351157972928434,
+          "probability": 0.6633235712418512,
+          "fairOdds": 1.5075598747800187,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82190,8 +82509,8 @@
           "side": "no",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.30319211739821417,
-          "fairOdds": 3.2982387820016923,
+          "probability": 0.33667642875814885,
+          "fairOdds": 2.970210904542857,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -82206,7 +82525,7 @@
         "Independently corroborated opponent strength",
         "Verified bookmaker price and settlement rules"
       ],
-      "homeSample": 9,
+      "homeSample": 10,
       "awaySample": 7,
       "verdict": "NO BET",
       "publicationStatus": "research",
@@ -82217,8 +82536,8 @@
         "line": 1.5,
         "period": "full_match",
         "settlement": "regulation",
-        "probability": 0.9010774528819809,
-        "fairOdds": 1.1097825129256402,
+        "probability": 0.8882171917680058,
+        "fairOdds": 1.1258507595529528,
         "odds": null,
         "estimatedEV": null,
         "calibrated": false,
@@ -82228,9 +82547,11 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-10-25T11:29:02.986Z"
+        "createdAt": "2026-10-25T11:56:14.381Z"
       },
-      "generatedByScan": true
+      "generatedByScan": true,
+      "recoveredAt": "2026-10-25T11:56:14.381Z",
+      "dataRecovery": "Public fallback history; sport inputs and calibration still incomplete"
     },
     {
       "eventId": "ol-86603",
@@ -83599,6 +83920,13 @@
           "retrievedAt": "2026-10-24T20:49:44.516Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true,
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
         }
       ],
       "history": {
@@ -83616,7 +83944,27 @@
             "competition": "Europa League 2026/27",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-22|besiktas|away"
+          },
+          {
+            "id": "fd-18/10/2026-brighton-crystalpalace",
+            "date": "2026-10-18T14:00:00Z",
+            "gf": 0,
+            "ga": 5,
+            "total": 5,
+            "venue": "away",
+            "opponent": "Brighton",
+            "opponentId": "brighton",
+            "result": "L",
+            "shots": 5,
+            "shotsOnTarget": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-18|brighton|away"
           },
           {
             "id": "87781",
@@ -83631,7 +83979,27 @@
             "competition": "Europa League 2026/27",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-15|lyon|away"
+          },
+          {
+            "id": "fd-11/10/2026-crystalpalace-nottmforest",
+            "date": "2026-10-11T14:00:00Z",
+            "gf": 3,
+            "ga": 1,
+            "total": 4,
+            "venue": "home",
+            "opponent": "Nott'm Forest",
+            "opponentId": "nottmforest",
+            "result": "W",
+            "shots": 13,
+            "shotsOnTarget": 7,
+            "yellowCards": 2,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-11|nottmforest|home"
           },
           {
             "id": "86584",
@@ -83646,7 +84014,27 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-11|nottinghamforest|home"
+          },
+          {
+            "id": "fd-20/09/2026-leeds-crystalpalace",
+            "date": "2026-09-20T14:00:00Z",
+            "gf": 0,
+            "ga": 0,
+            "total": 0,
+            "venue": "away",
+            "opponent": "Leeds",
+            "opponentId": "leeds",
+            "result": "D",
+            "shots": 12,
+            "shotsOnTarget": 4,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-20|leeds|away"
           },
           {
             "id": "86572",
@@ -83661,7 +84049,8 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-20|leedsunited|away"
           },
           {
             "id": "87772",
@@ -83676,7 +84065,27 @@
             "competition": "Europa League 2026/27",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-17|lechpoznan|home"
+          },
+          {
+            "id": "fd-12/09/2026-crystalpalace-ipswich",
+            "date": "2026-09-12T15:00:00Z",
+            "gf": 2,
+            "ga": 3,
+            "total": 5,
+            "venue": "home",
+            "opponent": "Ipswich",
+            "opponentId": "ipswich",
+            "result": "L",
+            "shots": 11,
+            "shotsOnTarget": 4,
+            "yellowCards": 1,
+            "redCards": 1,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-12|ipswich|home"
           },
           {
             "id": "86561",
@@ -83691,52 +84100,8 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86552",
-            "date": "2026-09-05T14:00:00Z",
-            "gf": 3,
-            "ga": 2,
-            "total": 5,
-            "venue": "away",
-            "opponent": "Fulham FC",
-            "opponentId": 549,
-            "result": "W",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86538",
-            "date": "2026-08-28T19:00:00Z",
-            "gf": 1,
-            "ga": 4,
-            "total": 5,
-            "venue": "home",
-            "opponent": "Manchester City",
-            "opponentId": 4244,
-            "result": "L",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86530",
-            "date": "2026-08-22T14:00:00Z",
-            "gf": 0,
-            "ga": 2,
-            "total": 2,
-            "venue": "away",
-            "opponent": "Everton FC",
-            "opponentId": 541,
-            "result": "L",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-12|ipswichtown|home"
           }
         ],
         "away": [
@@ -83908,7 +84273,7 @@
       "id": "ol-86604",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-10-25T11:29:02.986Z",
+      "completedAt": "2026-10-25T11:56:14.382Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -83940,36 +84305,36 @@
           "status": "partial",
           "classification": "CALCULATED",
           "home": {
-            "sample": 9,
-            "gf": 1.8888888888888888,
-            "ga": 1.8888888888888888,
-            "total": 3.7777777777777777,
-            "form": "DLWDW",
-            "wins": 0.3333333333333333,
-            "over15": 0.8888888888888888,
-            "over25": 0.7777777777777778,
-            "btts": 0.6666666666666666,
+            "sample": 10,
+            "gf": 1.8,
+            "ga": 1.8,
+            "total": 3.6,
+            "form": "DLLWW",
+            "wins": 0.3,
+            "over15": 0.8,
+            "over25": 0.8,
+            "btts": 0.6,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 10.25,
+                "sample": 4
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4,
+                "sample": 4
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 1.75,
+                "sample": 4
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0.25,
+                "sample": 4
               }
             },
-            "draws": 0.2222222222222222,
-            "losses": 0.4444444444444444,
-            "from": "2026-08-22T14:00:00Z",
+            "draws": 0.3,
+            "losses": 0.4,
+            "from": "2026-09-12T14:00:00Z",
             "to": "2026-10-22T19:00:00Z"
           },
           "away": {
@@ -84083,37 +84448,37 @@
           "title": "Home / away and form",
           "status": "calculated",
           "home": {
-            "sample": 4,
-            "gf": 2.5,
-            "ga": 2,
-            "total": 4.5,
-            "form": "WWLL",
-            "wins": 0.5,
+            "sample": 5,
+            "gf": 2.8,
+            "ga": 1.6,
+            "total": 4.4,
+            "form": "WWWLL",
+            "wins": 0.6,
             "over15": 1,
             "over25": 1,
-            "btts": 0.75,
+            "btts": 0.8,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 12,
+                "sample": 2
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 5.5,
+                "sample": 2
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 1.5,
+                "sample": 2
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0.5,
+                "sample": 2
               }
             },
             "draws": 0,
-            "losses": 0.5,
-            "from": "2026-08-28T19:00:00Z",
-            "to": "2026-10-11T13:00:00Z"
+            "losses": 0.4,
+            "from": "2026-09-12T14:00:00Z",
+            "to": "2026-10-11T14:00:00Z"
           },
           "away": {
             "sample": 3,
@@ -84148,7 +84513,7 @@
             "from": "2026-08-29T16:30:00Z",
             "to": "2026-10-12T19:00:00Z"
           },
-          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies."
+          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment."
         },
         {
           "step": 4,
@@ -84168,7 +84533,27 @@
               "competition": "Europa League 2026/27",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-22|besiktas|away"
+            },
+            {
+              "id": "fd-18/10/2026-brighton-crystalpalace",
+              "date": "2026-10-18T14:00:00Z",
+              "gf": 0,
+              "ga": 5,
+              "total": 5,
+              "venue": "away",
+              "opponent": "Brighton",
+              "opponentId": "brighton",
+              "result": "L",
+              "shots": 5,
+              "shotsOnTarget": 1,
+              "yellowCards": 1,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-18|brighton|away"
             },
             {
               "id": "87781",
@@ -84183,7 +84568,27 @@
               "competition": "Europa League 2026/27",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-15|lyon|away"
+            },
+            {
+              "id": "fd-11/10/2026-crystalpalace-nottmforest",
+              "date": "2026-10-11T14:00:00Z",
+              "gf": 3,
+              "ga": 1,
+              "total": 4,
+              "venue": "home",
+              "opponent": "Nott'm Forest",
+              "opponentId": "nottmforest",
+              "result": "W",
+              "shots": 13,
+              "shotsOnTarget": 7,
+              "yellowCards": 2,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-11|nottmforest|home"
             },
             {
               "id": "86584",
@@ -84198,7 +84603,27 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-11|nottinghamforest|home"
+            },
+            {
+              "id": "fd-20/09/2026-leeds-crystalpalace",
+              "date": "2026-09-20T14:00:00Z",
+              "gf": 0,
+              "ga": 0,
+              "total": 0,
+              "venue": "away",
+              "opponent": "Leeds",
+              "opponentId": "leeds",
+              "result": "D",
+              "shots": 12,
+              "shotsOnTarget": 4,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-20|leeds|away"
             },
             {
               "id": "86572",
@@ -84213,7 +84638,8 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-20|leedsunited|away"
             },
             {
               "id": "87772",
@@ -84228,7 +84654,27 @@
               "competition": "Europa League 2026/27",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-17|lechpoznan|home"
+            },
+            {
+              "id": "fd-12/09/2026-crystalpalace-ipswich",
+              "date": "2026-09-12T15:00:00Z",
+              "gf": 2,
+              "ga": 3,
+              "total": 5,
+              "venue": "home",
+              "opponent": "Ipswich",
+              "opponentId": "ipswich",
+              "result": "L",
+              "shots": 11,
+              "shotsOnTarget": 4,
+              "yellowCards": 1,
+              "redCards": 1,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-12|ipswich|home"
             },
             {
               "id": "86561",
@@ -84243,52 +84689,8 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86552",
-              "date": "2026-09-05T14:00:00Z",
-              "gf": 3,
-              "ga": 2,
-              "total": 5,
-              "venue": "away",
-              "opponent": "Fulham FC",
-              "opponentId": 549,
-              "result": "W",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86538",
-              "date": "2026-08-28T19:00:00Z",
-              "gf": 1,
-              "ga": 4,
-              "total": 5,
-              "venue": "home",
-              "opponent": "Manchester City",
-              "opponentId": 4244,
-              "result": "L",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86530",
-              "date": "2026-08-22T14:00:00Z",
-              "gf": 0,
-              "ga": 2,
-              "total": 2,
-              "venue": "away",
-              "opponent": "Everton FC",
-              "opponentId": 541,
-              "result": "L",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-12|ipswichtown|home"
             }
           ],
           "away": [
@@ -84384,11 +84786,11 @@
             }
           ],
           "samples": {
-            "home": 9,
+            "home": 10,
             "away": 6
           },
           "fallback": true,
-          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
+          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
           "missing": [
             "Opponent-strength adjustment"
           ]
@@ -84397,7 +84799,7 @@
           "step": 5,
           "title": "Scoring environment and independent screens",
           "status": "exploratory",
-          "homeAVGSC": 3.7777777777777777,
+          "homeAVGSC": 3.6,
           "awayAVGSC": 3.8333333333333335,
           "markets": [
             {
@@ -84406,8 +84808,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.9055307959936612,
-              "fairOdds": 1.1043246728043914,
+              "probability": 0.8996903595162605,
+              "fairOdds": 1.1114935148773555,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84420,8 +84822,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.09446920400633885,
-              "fairOdds": 10.585460209158747,
+              "probability": 0.10030964048373947,
+              "fairOdds": 9.969131532896913,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84434,8 +84836,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7561429187649114,
-              "fairOdds": 1.3225013091882238,
+              "probability": 0.7446865510831928,
+              "fairOdds": 1.3428468642886566,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84448,8 +84850,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.24385708123508865,
-              "fairOdds": 4.100762606257709,
+              "probability": 0.2553134489168072,
+              "fairOdds": 3.91675410849918,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84462,8 +84864,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5588955919795435,
-              "fairOdds": 1.7892429540517858,
+              "probability": 0.5439135625489164,
+              "fairOdds": 1.8385274221031505,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84476,8 +84878,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.4411044080204565,
-              "fairOdds": 2.267036968611804,
+              "probability": 0.45608643745108357,
+              "fairOdds": 2.192566842348283,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84489,8 +84891,8 @@
               "side": "home",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.491509542678678,
-              "fairOdds": 2.0345484943183396,
+              "probability": 0.5160658642084913,
+              "fairOdds": 1.9377371559611596,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84502,8 +84904,8 @@
               "side": "away",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.30561997007276825,
-              "fairOdds": 3.2720374907500305,
+              "probability": 0.2820295513706116,
+              "fairOdds": 3.545727726545621,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84515,8 +84917,8 @@
               "side": "1X",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6943800299272315,
-              "fairOdds": 1.4401335823335766,
+              "probability": 0.7179704486293874,
+              "fairOdds": 1.3928149855039433,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84528,8 +84930,8 @@
               "side": "X2",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5084904573213217,
-              "fairOdds": 1.9666052442122568,
+              "probability": 0.4839341357915077,
+              "fairOdds": 2.066396904125044,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84541,8 +84943,8 @@
               "side": "yes",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7349583899241967,
-              "fairOdds": 1.3606212456505729,
+              "probability": 0.7207113662191699,
+              "fairOdds": 1.3875180091108732,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84554,8 +84956,8 @@
               "side": "no",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.2650416100758033,
-              "fairOdds": 3.7729924735742237,
+              "probability": 0.27928863378083013,
+              "fairOdds": 3.580525231058072,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -84589,10 +84991,10 @@
           },
           "homeLast5": [
             "2–2",
+            "0–5",
             "2–3",
             "3–1",
-            "0–0",
-            "4–0"
+            "3–1"
           ],
           "awayLast5": [
             "1–4",
@@ -84613,9 +85015,9 @@
           "status": "exploratory",
           "projection": {
             "classification": "MODELLED",
-            "home": 2.2222222222222223,
-            "away": 1.738888888888889,
-            "total": 3.9611111111111112,
+            "home": 2.245833333333333,
+            "away": 1.6400000000000001,
+            "total": 3.8858333333333333,
             "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
             "calibrated": false,
             "range": null,
@@ -84641,82 +85043,82 @@
               "type": "total",
               "side": "over",
               "line": 1.5,
-              "probability": 0.9055307959936612
+              "probability": 0.8996903595162605
             },
             {
               "type": "total",
               "side": "under",
               "line": 1.5,
-              "probability": 0.09446920400633885
+              "probability": 0.10030964048373947
             },
             {
               "type": "total",
               "side": "over",
               "line": 2.5,
-              "probability": 0.7561429187649114
+              "probability": 0.7446865510831928
             },
             {
               "type": "total",
               "side": "under",
               "line": 2.5,
-              "probability": 0.24385708123508865
+              "probability": 0.2553134489168072
             },
             {
               "type": "total",
               "side": "over",
               "line": 3.5,
-              "probability": 0.5588955919795435
+              "probability": 0.5439135625489164
             },
             {
               "type": "total",
               "side": "under",
               "line": 3.5,
-              "probability": 0.4411044080204565
+              "probability": 0.45608643745108357
             },
             {
               "type": "win",
               "side": "home",
               "line": null,
-              "probability": 0.491509542678678
+              "probability": 0.5160658642084913
             },
             {
               "type": "win",
               "side": "away",
               "line": null,
-              "probability": 0.30561997007276825
+              "probability": 0.2820295513706116
             },
             {
               "type": "double_chance",
               "side": "1X",
               "line": null,
-              "probability": 0.6943800299272315
+              "probability": 0.7179704486293874
             },
             {
               "type": "double_chance",
               "side": "X2",
               "line": null,
-              "probability": 0.5084904573213217
+              "probability": 0.4839341357915077
             },
             {
               "type": "btts",
               "side": "yes",
               "line": null,
-              "probability": 0.7349583899241967
+              "probability": 0.7207113662191699
             },
             {
               "type": "btts",
               "side": "no",
               "line": null,
-              "probability": 0.2650416100758033
+              "probability": 0.27928863378083013
             }
           ]
         }
       ],
       "projection": {
         "classification": "MODELLED",
-        "home": 2.2222222222222223,
-        "away": 1.738888888888889,
-        "total": 3.9611111111111112,
+        "home": 2.245833333333333,
+        "away": 1.6400000000000001,
+        "total": 3.8858333333333333,
         "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
         "calibrated": false,
         "range": null,
@@ -84729,8 +85131,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.9055307959936612,
-          "fairOdds": 1.1043246728043914,
+          "probability": 0.8996903595162605,
+          "fairOdds": 1.1114935148773555,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84743,8 +85145,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.09446920400633885,
-          "fairOdds": 10.585460209158747,
+          "probability": 0.10030964048373947,
+          "fairOdds": 9.969131532896913,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84757,8 +85159,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7561429187649114,
-          "fairOdds": 1.3225013091882238,
+          "probability": 0.7446865510831928,
+          "fairOdds": 1.3428468642886566,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84771,8 +85173,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.24385708123508865,
-          "fairOdds": 4.100762606257709,
+          "probability": 0.2553134489168072,
+          "fairOdds": 3.91675410849918,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84785,8 +85187,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5588955919795435,
-          "fairOdds": 1.7892429540517858,
+          "probability": 0.5439135625489164,
+          "fairOdds": 1.8385274221031505,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84799,8 +85201,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.4411044080204565,
-          "fairOdds": 2.267036968611804,
+          "probability": 0.45608643745108357,
+          "fairOdds": 2.192566842348283,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84812,8 +85214,8 @@
           "side": "home",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.491509542678678,
-          "fairOdds": 2.0345484943183396,
+          "probability": 0.5160658642084913,
+          "fairOdds": 1.9377371559611596,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84825,8 +85227,8 @@
           "side": "away",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.30561997007276825,
-          "fairOdds": 3.2720374907500305,
+          "probability": 0.2820295513706116,
+          "fairOdds": 3.545727726545621,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84838,8 +85240,8 @@
           "side": "1X",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6943800299272315,
-          "fairOdds": 1.4401335823335766,
+          "probability": 0.7179704486293874,
+          "fairOdds": 1.3928149855039433,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84851,8 +85253,8 @@
           "side": "X2",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5084904573213217,
-          "fairOdds": 1.9666052442122568,
+          "probability": 0.4839341357915077,
+          "fairOdds": 2.066396904125044,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84864,8 +85266,8 @@
           "side": "yes",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7349583899241967,
-          "fairOdds": 1.3606212456505729,
+          "probability": 0.7207113662191699,
+          "fairOdds": 1.3875180091108732,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84877,8 +85279,8 @@
           "side": "no",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.2650416100758033,
-          "fairOdds": 3.7729924735742237,
+          "probability": 0.27928863378083013,
+          "fairOdds": 3.580525231058072,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -84893,8 +85295,8 @@
         "Independently corroborated opponent strength",
         "Verified bookmaker price and settlement rules"
       ],
-      "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
-      "homeSample": 9,
+      "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
+      "homeSample": 10,
       "awaySample": 6,
       "verdict": "NO BET",
       "publicationStatus": "research",
@@ -84905,8 +85307,8 @@
         "line": 1.5,
         "period": "full_match",
         "settlement": "regulation",
-        "probability": 0.9055307959936612,
-        "fairOdds": 1.1043246728043914,
+        "probability": 0.8996903595162605,
+        "fairOdds": 1.1114935148773555,
         "odds": null,
         "estimatedEV": null,
         "calibrated": false,
@@ -84916,9 +85318,11 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-10-25T11:29:02.986Z"
+        "createdAt": "2026-10-25T11:56:14.382Z"
       },
-      "generatedByScan": true
+      "generatedByScan": true,
+      "recoveredAt": "2026-10-25T11:56:14.382Z",
+      "dataRecovery": "Public fallback history; sport inputs and calibration still incomplete"
     },
     {
       "eventId": "ol-86605",
@@ -86293,6 +86697,20 @@
           "retrievedAt": "2026-10-24T20:49:44.516Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true,
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-20T22:38:31.449Z",
+          "cached": true,
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
         }
       ],
       "history": {
@@ -86310,7 +86728,27 @@
             "competition": "Champions League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-21|como|away"
+          },
+          {
+            "id": "fd-18/10/2026-leeds-manunited",
+            "date": "2026-10-18T14:00:00Z",
+            "gf": 1,
+            "ga": 1,
+            "total": 2,
+            "venue": "away",
+            "opponent": "Leeds",
+            "opponentId": "leeds",
+            "result": "D",
+            "shots": 13,
+            "shotsOnTarget": 3,
+            "yellowCards": 2,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-18|leeds|away"
           },
           {
             "id": "87410",
@@ -86325,7 +86763,27 @@
             "competition": "Champions League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-13|atleticomadrid|away"
+          },
+          {
+            "id": "fd-10/10/2026-manunited-tottenham",
+            "date": "2026-10-10T17:30:00Z",
+            "gf": 1,
+            "ga": 1,
+            "total": 2,
+            "venue": "home",
+            "opponent": "Tottenham",
+            "opponentId": "tottenham",
+            "result": "D",
+            "shots": 12,
+            "shotsOnTarget": 4,
+            "yellowCards": 4,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-10|tottenham|home"
           },
           {
             "id": "86583",
@@ -86340,22 +86798,46 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-10|tottenhamhotspur|home"
           },
           {
-            "id": "86577",
-            "date": "2026-09-20T15:30:00Z",
+            "id": "fd-20/09/2026-fulham-manunited",
+            "date": "2026-09-20T16:30:00Z",
             "gf": 1,
             "ga": 1,
             "total": 2,
             "venue": "away",
-            "opponent": "Fulham FC",
-            "opponentId": 549,
+            "opponent": "Fulham",
+            "opponentId": "fulham",
             "result": "D",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "shots": 29,
+            "shotsOnTarget": 6,
+            "yellowCards": 0,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-20|fulham|away"
+          },
+          {
+            "id": "fd-13/09/2026-manunited-mancity",
+            "date": "2026-09-13T16:30:00Z",
+            "gf": 0,
+            "ga": 1,
+            "total": 1,
+            "venue": "home",
+            "opponent": "Man City",
+            "opponentId": "mancity",
+            "result": "L",
+            "shots": 16,
+            "shotsOnTarget": 3,
+            "yellowCards": 1,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-13|mancity|home"
           },
           {
             "id": "86566",
@@ -86370,7 +86852,8 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-13|manchestercity|home"
           },
           {
             "id": "87402",
@@ -86385,52 +86868,27 @@
             "competition": "Champions League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-10|sabah|home"
           },
           {
-            "id": "86556",
-            "date": "2026-09-06T13:00:00Z",
+            "id": "fd-06/09/2026-everton-manunited",
+            "date": "2026-09-06T14:00:00Z",
             "gf": 2,
             "ga": 2,
             "total": 4,
             "venue": "away",
-            "opponent": "Everton FC",
-            "opponentId": 541,
+            "opponent": "Everton",
+            "opponentId": "everton",
             "result": "D",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86546",
-            "date": "2026-08-30T15:30:00Z",
-            "gf": 5,
-            "ga": 2,
-            "total": 7,
-            "venue": "home",
-            "opponent": "Ipswich Town",
-            "opponentId": 8796,
-            "result": "W",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86529",
-            "date": "2026-08-22T11:30:00Z",
-            "gf": 0,
-            "ga": 2,
-            "total": 2,
-            "venue": "away",
-            "opponent": "Hull City",
-            "opponentId": 8791,
-            "result": "L",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "shots": 14,
+            "shotsOnTarget": 3,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-06|everton|away"
           }
         ],
         "away": [
@@ -86447,7 +86905,27 @@
             "competition": "Europa League 2026/27",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-22|milan|home"
+          },
+          {
+            "id": "fd-18/10/2026-bournemouth-sunderland",
+            "date": "2026-10-18T14:00:00Z",
+            "gf": 2,
+            "ga": 0,
+            "total": 2,
+            "venue": "home",
+            "opponent": "Sunderland",
+            "opponentId": "sunderland",
+            "result": "W",
+            "shots": 29,
+            "shotsOnTarget": 6,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-18|sunderland|home"
           },
           {
             "id": "87784",
@@ -86462,37 +86940,46 @@
             "competition": "Europa League 2026/27",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-15|sturmgraz|home"
           },
           {
-            "id": "86580",
-            "date": "2026-10-10T14:00:00Z",
+            "id": "fd-10/10/2026-chelsea-bournemouth",
+            "date": "2026-10-10T15:00:00Z",
             "gf": 1,
             "ga": 5,
             "total": 6,
             "venue": "away",
-            "opponent": "Chelsea FC",
-            "opponentId": 364,
+            "opponent": "Chelsea",
+            "opponentId": "chelsea",
             "result": "L",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "shots": 9,
+            "shotsOnTarget": 4,
+            "yellowCards": 4,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-10|chelsea|away"
           },
           {
-            "id": "86576",
-            "date": "2026-09-20T13:00:00Z",
+            "id": "fd-20/09/2026-bournemouth-liverpool",
+            "date": "2026-09-20T14:00:00Z",
             "gf": 0,
             "ga": 1,
             "total": 1,
             "venue": "home",
-            "opponent": "FC Liverpool",
-            "opponentId": 370,
+            "opponent": "Liverpool",
+            "opponentId": "liverpool",
             "result": "L",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "shots": 9,
+            "shotsOnTarget": 2,
+            "yellowCards": 1,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-20|liverpool|home"
           },
           {
             "id": "87776",
@@ -86507,7 +86994,27 @@
             "competition": "Europa League 2026/27",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-17|realsociedad|away"
+          },
+          {
+            "id": "fd-05/09/2026-newcastle-bournemouth",
+            "date": "2026-09-05T12:30:00Z",
+            "gf": 2,
+            "ga": 2,
+            "total": 4,
+            "venue": "away",
+            "opponent": "Newcastle",
+            "opponentId": "newcastle",
+            "result": "D",
+            "shots": 17,
+            "shotsOnTarget": 5,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-05|newcastle|away"
           },
           {
             "id": "86549",
@@ -86522,37 +87029,27 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-05|newcastleunited|away"
           },
           {
-            "id": "86540",
-            "date": "2026-08-29T14:00:00Z",
+            "id": "fd-29/08/2026-bournemouth-everton",
+            "date": "2026-08-29T15:00:00Z",
             "gf": 1,
             "ga": 1,
             "total": 2,
             "venue": "home",
-            "opponent": "Everton FC",
-            "opponentId": 541,
+            "opponent": "Everton",
+            "opponentId": "everton",
             "result": "D",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86535",
-            "date": "2026-08-23T13:00:00Z",
-            "gf": 1,
-            "ga": 2,
-            "total": 3,
-            "venue": "away",
-            "opponent": "Manchester City",
-            "opponentId": 4244,
-            "result": "L",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "shots": 17,
+            "shotsOnTarget": 5,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-08-29|everton|home"
           }
         ]
       },
@@ -86632,7 +87129,7 @@
       "id": "ol-86606",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-10-25T11:29:02.995Z",
+      "completedAt": "2026-10-25T11:56:14.382Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -86664,69 +87161,69 @@
           "status": "partial",
           "classification": "CALCULATED",
           "home": {
-            "sample": 9,
-            "gf": 1.5555555555555556,
-            "ga": 1.6666666666666667,
-            "total": 3.2222222222222223,
-            "form": "LLDDL",
-            "wins": 0.2222222222222222,
-            "over15": 0.8888888888888888,
-            "over25": 0.4444444444444444,
-            "btts": 0.5555555555555556,
+            "sample": 10,
+            "gf": 1.1,
+            "ga": 1.4,
+            "total": 2.5,
+            "form": "LDLDD",
+            "wins": 0.1,
+            "over15": 0.8,
+            "over25": 0.3,
+            "btts": 0.6,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 16.8,
+                "sample": 5
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 3.8,
+                "sample": 5
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 2,
+                "sample": 5
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0,
+                "sample": 5
               }
             },
-            "draws": 0.3333333333333333,
-            "losses": 0.4444444444444444,
-            "from": "2026-08-22T11:30:00Z",
+            "draws": 0.5,
+            "losses": 0.4,
+            "from": "2026-09-06T14:00:00Z",
             "to": "2026-10-21T16:45:00Z"
           },
           "away": {
-            "sample": 8,
-            "gf": 1.625,
-            "ga": 1.5,
-            "total": 3.125,
-            "form": "WWLLW",
-            "wins": 0.375,
-            "over15": 0.875,
-            "over25": 0.75,
-            "btts": 0.625,
+            "sample": 9,
+            "gf": 1.7777777777777777,
+            "ga": 1.3333333333333333,
+            "total": 3.111111111111111,
+            "form": "WWWLL",
+            "wins": 0.4444444444444444,
+            "over15": 0.8888888888888888,
+            "over25": 0.6666666666666666,
+            "btts": 0.5555555555555556,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 16.2,
+                "sample": 5
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4.4,
+                "sample": 5
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 2.8,
+                "sample": 5
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0,
+                "sample": 5
               }
             },
-            "draws": 0.25,
-            "losses": 0.375,
-            "from": "2026-08-23T13:00:00Z",
+            "draws": 0.3333333333333333,
+            "losses": 0.2222222222222222,
+            "from": "2026-08-29T15:00:00Z",
             "to": "2026-10-22T19:00:00Z"
           },
           "season": {
@@ -86807,72 +87304,72 @@
           "title": "Home / away and form",
           "status": "calculated",
           "home": {
-            "sample": 4,
-            "gf": 2.5,
-            "ga": 1,
-            "total": 3.5,
-            "form": "DLWW",
-            "wins": 0.5,
-            "over15": 0.75,
-            "over25": 0.5,
-            "btts": 0.5,
+            "sample": 5,
+            "gf": 1.2,
+            "ga": 0.8,
+            "total": 2,
+            "form": "DDLLW",
+            "wins": 0.2,
+            "over15": 0.6,
+            "over25": 0.2,
+            "btts": 0.4,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 14,
+                "sample": 2
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 3.5,
+                "sample": 2
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 2.5,
+                "sample": 2
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0,
+                "sample": 2
               }
             },
-            "draws": 0.25,
-            "losses": 0.25,
-            "from": "2026-08-30T15:30:00Z",
-            "to": "2026-10-10T16:30:00Z"
+            "draws": 0.4,
+            "losses": 0.4,
+            "from": "2026-09-10T19:00:00Z",
+            "to": "2026-10-10T17:30:00Z"
           },
           "away": {
             "sample": 4,
-            "gf": 1.5,
+            "gf": 1.75,
             "ga": 2.5,
-            "total": 4,
-            "form": "LWDL",
+            "total": 4.25,
+            "form": "LWDD",
             "wins": 0.25,
             "over15": 1,
             "over25": 1,
             "btts": 1,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 13,
+                "sample": 2
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4.5,
+                "sample": 2
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 3.5,
+                "sample": 2
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0,
+                "sample": 2
               }
             },
-            "draws": 0.25,
-            "losses": 0.5,
-            "from": "2026-08-23T13:00:00Z",
-            "to": "2026-10-10T14:00:00Z"
+            "draws": 0.5,
+            "losses": 0.25,
+            "from": "2026-09-05T11:30:00Z",
+            "to": "2026-10-10T15:00:00Z"
           },
-          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies."
+          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment."
         },
         {
           "step": 4,
@@ -86892,7 +87389,27 @@
               "competition": "Champions League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-21|como|away"
+            },
+            {
+              "id": "fd-18/10/2026-leeds-manunited",
+              "date": "2026-10-18T14:00:00Z",
+              "gf": 1,
+              "ga": 1,
+              "total": 2,
+              "venue": "away",
+              "opponent": "Leeds",
+              "opponentId": "leeds",
+              "result": "D",
+              "shots": 13,
+              "shotsOnTarget": 3,
+              "yellowCards": 2,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-18|leeds|away"
             },
             {
               "id": "87410",
@@ -86907,7 +87424,27 @@
               "competition": "Champions League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-13|atleticomadrid|away"
+            },
+            {
+              "id": "fd-10/10/2026-manunited-tottenham",
+              "date": "2026-10-10T17:30:00Z",
+              "gf": 1,
+              "ga": 1,
+              "total": 2,
+              "venue": "home",
+              "opponent": "Tottenham",
+              "opponentId": "tottenham",
+              "result": "D",
+              "shots": 12,
+              "shotsOnTarget": 4,
+              "yellowCards": 4,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-10|tottenham|home"
             },
             {
               "id": "86583",
@@ -86922,22 +87459,46 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-10|tottenhamhotspur|home"
             },
             {
-              "id": "86577",
-              "date": "2026-09-20T15:30:00Z",
+              "id": "fd-20/09/2026-fulham-manunited",
+              "date": "2026-09-20T16:30:00Z",
               "gf": 1,
               "ga": 1,
               "total": 2,
               "venue": "away",
-              "opponent": "Fulham FC",
-              "opponentId": 549,
+              "opponent": "Fulham",
+              "opponentId": "fulham",
               "result": "D",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "shots": 29,
+              "shotsOnTarget": 6,
+              "yellowCards": 0,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-20|fulham|away"
+            },
+            {
+              "id": "fd-13/09/2026-manunited-mancity",
+              "date": "2026-09-13T16:30:00Z",
+              "gf": 0,
+              "ga": 1,
+              "total": 1,
+              "venue": "home",
+              "opponent": "Man City",
+              "opponentId": "mancity",
+              "result": "L",
+              "shots": 16,
+              "shotsOnTarget": 3,
+              "yellowCards": 1,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-13|mancity|home"
             },
             {
               "id": "86566",
@@ -86952,7 +87513,8 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-13|manchestercity|home"
             },
             {
               "id": "87402",
@@ -86967,52 +87529,27 @@
               "competition": "Champions League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-10|sabah|home"
             },
             {
-              "id": "86556",
-              "date": "2026-09-06T13:00:00Z",
+              "id": "fd-06/09/2026-everton-manunited",
+              "date": "2026-09-06T14:00:00Z",
               "gf": 2,
               "ga": 2,
               "total": 4,
               "venue": "away",
-              "opponent": "Everton FC",
-              "opponentId": 541,
+              "opponent": "Everton",
+              "opponentId": "everton",
               "result": "D",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86546",
-              "date": "2026-08-30T15:30:00Z",
-              "gf": 5,
-              "ga": 2,
-              "total": 7,
-              "venue": "home",
-              "opponent": "Ipswich Town",
-              "opponentId": 8796,
-              "result": "W",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86529",
-              "date": "2026-08-22T11:30:00Z",
-              "gf": 0,
-              "ga": 2,
-              "total": 2,
-              "venue": "away",
-              "opponent": "Hull City",
-              "opponentId": 8791,
-              "result": "L",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "shots": 14,
+              "shotsOnTarget": 3,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-06|everton|away"
             }
           ],
           "away": [
@@ -87029,7 +87566,27 @@
               "competition": "Europa League 2026/27",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-22|milan|home"
+            },
+            {
+              "id": "fd-18/10/2026-bournemouth-sunderland",
+              "date": "2026-10-18T14:00:00Z",
+              "gf": 2,
+              "ga": 0,
+              "total": 2,
+              "venue": "home",
+              "opponent": "Sunderland",
+              "opponentId": "sunderland",
+              "result": "W",
+              "shots": 29,
+              "shotsOnTarget": 6,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-18|sunderland|home"
             },
             {
               "id": "87784",
@@ -87044,37 +87601,46 @@
               "competition": "Europa League 2026/27",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-15|sturmgraz|home"
             },
             {
-              "id": "86580",
-              "date": "2026-10-10T14:00:00Z",
+              "id": "fd-10/10/2026-chelsea-bournemouth",
+              "date": "2026-10-10T15:00:00Z",
               "gf": 1,
               "ga": 5,
               "total": 6,
               "venue": "away",
-              "opponent": "Chelsea FC",
-              "opponentId": 364,
+              "opponent": "Chelsea",
+              "opponentId": "chelsea",
               "result": "L",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "shots": 9,
+              "shotsOnTarget": 4,
+              "yellowCards": 4,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-10|chelsea|away"
             },
             {
-              "id": "86576",
-              "date": "2026-09-20T13:00:00Z",
+              "id": "fd-20/09/2026-bournemouth-liverpool",
+              "date": "2026-09-20T14:00:00Z",
               "gf": 0,
               "ga": 1,
               "total": 1,
               "venue": "home",
-              "opponent": "FC Liverpool",
-              "opponentId": 370,
+              "opponent": "Liverpool",
+              "opponentId": "liverpool",
               "result": "L",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "shots": 9,
+              "shotsOnTarget": 2,
+              "yellowCards": 1,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-20|liverpool|home"
             },
             {
               "id": "87776",
@@ -87089,7 +87655,27 @@
               "competition": "Europa League 2026/27",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-17|realsociedad|away"
+            },
+            {
+              "id": "fd-05/09/2026-newcastle-bournemouth",
+              "date": "2026-09-05T12:30:00Z",
+              "gf": 2,
+              "ga": 2,
+              "total": 4,
+              "venue": "away",
+              "opponent": "Newcastle",
+              "opponentId": "newcastle",
+              "result": "D",
+              "shots": 17,
+              "shotsOnTarget": 5,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-05|newcastle|away"
             },
             {
               "id": "86549",
@@ -87104,45 +87690,35 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-05|newcastleunited|away"
             },
             {
-              "id": "86540",
-              "date": "2026-08-29T14:00:00Z",
+              "id": "fd-29/08/2026-bournemouth-everton",
+              "date": "2026-08-29T15:00:00Z",
               "gf": 1,
               "ga": 1,
               "total": 2,
               "venue": "home",
-              "opponent": "Everton FC",
-              "opponentId": 541,
+              "opponent": "Everton",
+              "opponentId": "everton",
               "result": "D",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86535",
-              "date": "2026-08-23T13:00:00Z",
-              "gf": 1,
-              "ga": 2,
-              "total": 3,
-              "venue": "away",
-              "opponent": "Manchester City",
-              "opponentId": 4244,
-              "result": "L",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "shots": 17,
+              "shotsOnTarget": 5,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-08-29|everton|home"
             }
           ],
           "samples": {
-            "home": 9,
-            "away": 8
+            "home": 10,
+            "away": 9
           },
           "fallback": true,
-          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
+          "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
           "missing": [
             "Opponent-strength adjustment"
           ]
@@ -87151,8 +87727,8 @@
           "step": 5,
           "title": "Scoring environment and independent screens",
           "status": "exploratory",
-          "homeAVGSC": 3.2222222222222223,
-          "awayAVGSC": 3.125,
+          "homeAVGSC": 2.5,
+          "awayAVGSC": 3.111111111111111,
           "markets": [
             {
               "type": "total",
@@ -87160,8 +87736,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.850335826845216,
-              "fairOdds": 1.1760059595631114,
+              "probability": 0.7881639960501463,
+              "fairOdds": 1.2687714803155965,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87174,8 +87750,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.14966417315478397,
-              "fairOdds": 6.6816257954119145,
+              "probability": 0.2118360039498537,
+              "fairOdds": 4.720632854444905,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87188,8 +87764,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6554805183189796,
-              "fairOdds": 1.525598354264688,
+              "probability": 0.5580428379649588,
+              "fairOdds": 1.7919771242773177,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87202,8 +87778,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.3445194816810204,
-              "fairOdds": 2.9025934763418344,
+              "probability": 0.4419571620350412,
+              "fairOdds": 2.2626627327304485,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87216,8 +87792,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.4362457435292175,
-              "fairOdds": 2.2922859760419074,
+              "probability": 0.3342606654844327,
+              "fairOdds": 2.9916771647382854,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87230,8 +87806,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5637542564707825,
-              "fairOdds": 1.7738225273192711,
+              "probability": 0.6657393345155673,
+              "fairOdds": 1.5020894036968104,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87243,8 +87819,8 @@
               "side": "home",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.46301520651631695,
-              "fairOdds": 2.159756279980319,
+              "probability": 0.36751225879153715,
+              "fairOdds": 2.720997670358601,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87256,8 +87832,8 @@
               "side": "away",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.31326629459177485,
-              "fairOdds": 3.1921723379245925,
+              "probability": 0.385634240116459,
+              "fairOdds": 2.5931307336661975,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87269,8 +87845,8 @@
               "side": "1X",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6867337054082245,
-              "fairOdds": 1.4561685149930952,
+              "probability": 0.6143657598835408,
+              "fairOdds": 1.6276948770542812,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87282,8 +87858,8 @@
               "side": "X2",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5369847934836824,
-              "fairOdds": 1.8622501272568854,
+              "probability": 0.6324877412084626,
+              "fairOdds": 1.5810583112478198,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87295,8 +87871,8 @@
               "side": "yes",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6582735140774241,
-              "fairOdds": 1.5191253766323995,
+              "probability": 0.5888941223132516,
+              "fairOdds": 1.698098116639154,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87308,8 +87884,8 @@
               "side": "no",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.34172648592257593,
-              "fairOdds": 2.926316926533366,
+              "probability": 0.41110587768674844,
+              "fairOdds": 2.4324633975726635,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -87343,17 +87919,17 @@
           },
           "homeLast5": [
             "1–4",
+            "1–1",
             "0–2",
             "1–1",
-            "1–1",
-            "0–1"
+            "1–1"
           ],
           "awayLast5": [
             "3–0",
+            "2–0",
             "3–0",
             "1–5",
-            "0–1",
-            "2–1"
+            "0–1"
           ],
           "missing": [
             "Travel",
@@ -87396,9 +87972,9 @@
         "Verified bookmaker price and settlement rules",
         "Conflicting source scores require independent review"
       ],
-      "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
-      "homeSample": 9,
-      "awaySample": 8,
+      "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies. Automatic recovery adds sourced domestic/official league scores; competition and venue scope remain source-specific. No opponent-strength adjustment.",
+      "homeSample": 10,
+      "awaySample": 9,
       "verdict": "NO BET",
       "publicationStatus": "research",
       "settlementStatus": "not_published",
@@ -87406,7 +87982,9 @@
       "generatedByScan": true,
       "dataRecoveryConflicts": [
         "2026-09-12|brentford|home"
-      ]
+      ],
+      "recoveredAt": "2026-10-25T11:56:14.382Z",
+      "dataRecovery": "Public fallback history; sport inputs and calibration still incomplete"
     },
     {
       "eventId": "ol-86607",
@@ -134504,7 +135082,7 @@
     }
   ],
   "frameworkExecution": "Partial deterministic implementation. No hosted AI engine; advanced research not executed.",
-  "message": "18 upcoming saved fixtures · 17 experimental forecasts · no guaranteed outcomes.",
+  "message": "Saved research includes automatic history recovery. Remaining gaps are listed in the missing-data desk.",
   "activeSports": [
     "Football"
   ],
