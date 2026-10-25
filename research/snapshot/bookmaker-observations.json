@@ -1,12 +1,12 @@
 {
-  "startedAt": "2026-10-25T16:37:47.634008Z",
+  "startedAt": "2026-10-25T21:00:08.218357Z",
   "bookmaker": "SportyBet Nigeria",
   "status": "sample_collected",
   "observations": [
     {
       "bookmakerEventId": "display:39564",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-25T16:37:52.283545Z",
+      "observedAt": "2026-10-25T21:00:12.386900Z",
       "home": "Bradford City FC",
       "away": "Peterborough United",
       "start": "2026-10-27T19:45:00Z",
@@ -17,7 +17,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.81,
+          "odds": 1.82,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -27,7 +27,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.84,
+          "odds": 3.89,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -37,7 +37,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 4.63,
+          "odds": 4.69,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -59,7 +59,7 @@
           "type": "total",
           "side": "under",
           "line": 2.5,
-          "odds": 1.98,
+          "odds": 2.0,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
@@ -74,7 +74,7 @@
     {
       "bookmakerEventId": "display:14181",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-25T16:37:52.283545Z",
+      "observedAt": "2026-10-25T21:00:12.386900Z",
       "home": "Fleetwood Town",
       "away": "Arsenal",
       "start": "2026-10-27T20:00:00Z",
@@ -85,7 +85,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 27.92,
+          "odds": 29.37,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -95,7 +95,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 12.07,
+          "odds": 12.67,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -127,122 +127,8 @@
           "type": "total",
           "side": "under",
           "line": 3.5,
-          "odds": 1.93,
+          "odds": 1.97,
           "marketLabel": "Over/Under",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        }
-      ],
-      "classification": "RESEARCH_ONLY",
-      "calibrated": false,
-      "displayedTimezoneMinutes": 0
-    },
-    {
-      "bookmakerEventId": "display:42077",
-      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-25T16:37:52.283545Z",
-      "home": "Real Sociedad",
-      "away": "Levante",
-      "start": "2026-10-25T17:30:00Z",
-      "sportPath": "football",
-      "competitionSourceLabel": "Spain LaLiga",
-      "mappingVerified": false,
-      "quotes": [
-        {
-          "type": "win",
-          "side": "home",
-          "odds": 1.59,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "win",
-          "side": "draw",
-          "odds": 4.87,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "win",
-          "side": "away",
-          "odds": 5.37,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "total",
-          "side": "over",
-          "line": 3.5,
-          "odds": 2.1,
-          "marketLabel": "Over/Under",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "total",
-          "side": "under",
-          "line": 3.5,
-          "odds": 1.77,
-          "marketLabel": "Over/Under",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        }
-      ],
-      "classification": "RESEARCH_ONLY",
-      "calibrated": false,
-      "displayedTimezoneMinutes": 0
-    },
-    {
-      "bookmakerEventId": "display:42393",
-      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-25T16:37:52.283545Z",
-      "home": "Barcelona",
-      "away": "Real Madrid",
-      "start": "2026-10-25T20:00:00Z",
-      "sportPath": "football",
-      "competitionSourceLabel": "Spain LaLiga",
-      "mappingVerified": false,
-      "quotes": [
-        {
-          "type": "win",
-          "side": "home",
-          "odds": 1.61,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "win",
-          "side": "draw",
-          "odds": 5.79,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "win",
-          "side": "away",
-          "odds": 4.4,
-          "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
           "rulesVerified": false,
@@ -256,7 +142,7 @@
     {
       "bookmakerEventId": "display:42440",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-25T16:37:52.283545Z",
+      "observedAt": "2026-10-25T21:00:12.386900Z",
       "home": "Sevilla",
       "away": "Osasuna",
       "start": "2026-10-26T20:00:00Z",
@@ -267,7 +153,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.99,
+          "odds": 1.97,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -277,7 +163,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.49,
+          "odds": 3.5,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -287,7 +173,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 4.33,
+          "odds": 4.4,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -322,12 +208,12 @@
       "displayedTimezoneMinutes": 0
     },
     {
-      "bookmakerEventId": "display:24246",
+      "bookmakerEventId": "display:13539",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-10-25T16:37:52.283545Z",
-      "home": "Lecce",
-      "away": "Juventus",
-      "start": "2026-10-25T17:00:00Z",
+      "observedAt": "2026-10-25T21:00:12.386900Z",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "start": "2026-10-27T17:30:00Z",
       "sportPath": "football",
       "competitionSourceLabel": "Italy Serie A",
       "mappingVerified": false,
@@ -335,7 +221,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 6.43,
+          "odds": 3.24,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -345,7 +231,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 4.49,
+          "odds": 3.64,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -355,7 +241,33 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 1.56,
+          "odds": 2.29,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    },
+    {
+      "bookmakerEventId": "display:32944",
+      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
+      "observedAt": "2026-10-25T21:00:12.386900Z",
+      "home": "Roma",
+      "away": "Cagliari",
+      "start": "2026-10-27T19:45:00Z",
+      "sportPath": "football",
+      "competitionSourceLabel": "Italy Serie A",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 1.38,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -363,22 +275,66 @@
           "classification": "SOURCE_OBSERVED"
         },
         {
-          "type": "total",
-          "side": "over",
-          "line": 2.5,
-          "odds": 1.82,
-          "marketLabel": "Over/Under",
+          "type": "win",
+          "side": "draw",
+          "odds": 5.51,
+          "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
           "rulesVerified": false,
           "classification": "SOURCE_OBSERVED"
         },
         {
-          "type": "total",
-          "side": "under",
-          "line": 2.5,
-          "odds": 2.05,
-          "marketLabel": "Over/Under",
+          "type": "win",
+          "side": "away",
+          "odds": 8.82,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    },
+    {
+      "bookmakerEventId": "display:33177",
+      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
+      "observedAt": "2026-10-25T21:00:12.386900Z",
+      "home": "Torino",
+      "away": "Como 1907",
+      "start": "2026-10-27T19:45:00Z",
+      "sportPath": "football",
+      "competitionSourceLabel": "Italy Serie A",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 4.66,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "draw",
+          "odds": 4.0,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 1.8,
+          "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
           "rulesVerified": false,
@@ -393,7 +349,7 @@
   "pages": [
     {
       "url": "https://www.sportybet.com/ng/sport/football/",
-      "retrievedAt": "2026-10-25T16:37:51.809594Z"
+      "retrievedAt": "2026-10-25T21:00:11.983070Z"
     }
   ],
   "fallback": {
@@ -404,7 +360,7 @@
   "sportCoverage": {
     "football": 6
   },
-  "finishedAt": "2026-10-25T16:37:52.286619Z",
+  "finishedAt": "2026-10-25T21:00:12.390009Z",
   "limitations": [
     "Small visible-page sample; no complete fixture coverage",
     "No independent price corroboration or exact rules verification",
