@@ -1172,7 +1172,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-10-25T11:29:04.595Z",
+  "generatedAt": "2026-10-25T11:49:59.032Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -5029,6 +5029,18 @@
   ],
   "outcomes": [
     {
+      "eventId": "ol-85391",
+      "home": 3,
+      "away": 1,
+      "outcome": 1,
+      "scoredAt": "2026-10-25T11:29:04.588Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/la1/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
       "eventId": "ol-87433",
       "home": 4,
       "away": 1,
@@ -5132,18 +5144,6 @@
       "scoredAt": "2026-10-24T15:56:59.118Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/uecl2026/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-85391",
-      "home": 3,
-      "away": 1,
-      "outcome": 1,
-      "scoredAt": "2026-10-25T11:29:04.588Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/la1/2026"
       ],
       "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
       "bettingSettlement": false
