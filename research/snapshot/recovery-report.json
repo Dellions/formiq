@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-26T13:28:47.763375Z",
+  "at": "2026-10-26T22:51:02.959986Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -1784,18 +1784,11 @@
     },
     {
       "taskId": "ol-85433:history.home",
-      "status": "history_extended",
-      "results": 10
-    },
-    {
-      "taskId": "ol-85433:history.home",
       "status": "no_sample_improvement",
       "candidateResults": 10
     }
   ],
-  "completedRecordIds": [
-    "ol-85433"
-  ],
+  "completedRecordIds": [],
   "automaticRun": true,
   "frameworkExecution": "Partial deterministic history recovery; not complete nine-step research"
 }
