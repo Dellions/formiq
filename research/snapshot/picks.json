@@ -2,8 +2,8 @@
   "version": "research-v5-horizon",
   "status": "partial",
   "date": "2026-10-28",
-  "updated": "2026-10-26T13:28:47.786Z",
-  "startedAt": "2026-10-26T13:02:34.304Z",
+  "updated": "2026-10-26T22:40:07.209Z",
+  "startedAt": "2026-10-26T22:40:06.331Z",
   "screened": 0,
   "discovered": 0,
   "records": [
@@ -134604,28 +134604,7 @@
       "generatedByScan": true
     }
   ],
-  "forecasts": [
-    {
-      "eventId": "ol-85433",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "period": "full_match",
-      "settlement": "regulation",
-      "probability": 0.8680939313652711,
-      "fairOdds": 1.1519490735608267,
-      "odds": null,
-      "estimatedEV": null,
-      "calibrated": false,
-      "verdict": "RESEARCH ONLY",
-      "reason": "Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.",
-      "selection": "Over 1.5 goals",
-      "modelVersion": "research-v5-horizon",
-      "classification": "EXPERIMENTAL_FORECAST",
-      "referenceLineOnly": true,
-      "createdAt": "2026-10-26T13:02:33.899Z"
-    }
-  ],
+  "forecasts": [],
   "picks": [],
   "tickets": [
     {
@@ -134653,11 +134632,19 @@
   "coverage": [
     {
       "sport": "Football",
+      "league": "2. Fußball-Bundesliga 2026/2027",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
+      "retrievedAt": "2026-10-26T22:40:05.454Z"
+    },
+    {
+      "sport": "Football",
       "league": "1. Fußball-Bundesliga 2026/2027",
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-      "retrievedAt": "2026-10-26T13:02:33.470Z"
+      "retrievedAt": "2026-10-26T22:40:05.378Z"
     },
     {
       "sport": "Football",
@@ -134665,15 +134652,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-      "retrievedAt": "2026-10-26T13:02:33.561Z"
-    },
-    {
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "status": "connected",
-      "fixtures": 0,
-      "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-      "retrievedAt": "2026-10-26T13:02:33.464Z"
+      "retrievedAt": "2026-10-26T22:40:05.494Z"
     },
     {
       "sport": "Football",
@@ -134681,7 +134660,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-      "retrievedAt": "2026-10-26T13:02:33.789Z"
+      "retrievedAt": "2026-10-26T22:40:05.880Z"
     },
     {
       "sport": "Football",
@@ -134689,15 +134668,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-      "retrievedAt": "2026-10-26T13:02:33.749Z"
-    },
-    {
-      "sport": "Football",
-      "league": "Conference League 2026/27",
-      "status": "connected",
-      "fixtures": 0,
-      "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-      "retrievedAt": "2026-10-26T13:02:33.704Z"
+      "retrievedAt": "2026-10-26T22:40:05.742Z"
     },
     {
       "sport": "Football",
@@ -134705,7 +134676,15 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-      "retrievedAt": "2026-10-26T13:02:33.837Z"
+      "retrievedAt": "2026-10-26T22:40:05.808Z"
+    },
+    {
+      "sport": "Football",
+      "league": "Conference League 2026/27",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
+      "retrievedAt": "2026-10-26T22:40:05.649Z"
     },
     {
       "sport": "Football",
@@ -134713,7 +134692,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-      "retrievedAt": "2026-10-26T13:02:33.855Z"
+      "retrievedAt": "2026-10-26T22:40:05.802Z"
     }
   ],
   "sourceAudit": [
@@ -134762,7 +134741,7 @@
     }
   ],
   "frameworkExecution": "Partial deterministic implementation. No hosted AI engine; advanced research not executed.",
-  "message": "Saved research includes automatic history recovery. Remaining gaps are listed in the missing-data desk.",
+  "message": "0 upcoming saved fixtures · 0 experimental forecasts · no guaranteed outcomes.",
   "activeSports": [
     "Football"
   ],
