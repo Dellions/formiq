@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:10:04.266Z",
+  "generatedAt": "2026-10-26T13:28:47.802Z",
   "status": "partial",
   "records": [
     {
@@ -26,7 +26,7 @@
             "eventId": "ol-85433",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-25T21:10:04.228Z",
+            "attemptedAt": "2026-10-26T13:28:47.776Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
