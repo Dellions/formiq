@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T12:36:54.092Z",
+  "generatedAt": "2026-10-27T22:33:38.776Z",
   "observedAt": "2026-10-27T12:29:26.946449Z",
   "status": "research_only",
   "publicationEligible": false,
@@ -30,6 +30,8 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
+            "Fixture is not upcoming",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -49,6 +51,8 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
+            "Fixture is not upcoming",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -69,6 +73,8 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
+            "Fixture is not upcoming",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -87,7 +93,9 @@
       "aliasRegistryVersion": "scoped-sports-v2",
       "researchFixture": null,
       "reasons": [
-        "No exact team, competition and kickoff match; review required"
+        "No exact team, competition and kickoff match; review required",
+        "Stale, future-dated or missing observation time",
+        "Fixture is not upcoming"
       ],
       "publicationEligible": false
     },
@@ -113,6 +121,8 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
+            "Fixture is not upcoming",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -132,6 +142,8 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
+            "Fixture is not upcoming",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -152,6 +164,8 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
+            "Fixture is not upcoming",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -172,6 +186,8 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
+            "Fixture is not upcoming",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -192,6 +208,8 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
+            "Fixture is not upcoming",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -210,7 +228,9 @@
       "aliasRegistryVersion": "scoped-sports-v2",
       "researchFixture": null,
       "reasons": [
-        "No exact team, competition and kickoff match; review required"
+        "No exact team, competition and kickoff match; review required",
+        "Stale, future-dated or missing observation time",
+        "Fixture is not upcoming"
       ],
       "publicationEligible": false
     },
@@ -236,6 +256,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -255,6 +276,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -275,6 +297,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -293,7 +316,8 @@
       "aliasRegistryVersion": "scoped-sports-v2",
       "researchFixture": null,
       "reasons": [
-        "No exact team, competition and kickoff match; review required"
+        "No exact team, competition and kickoff match; review required",
+        "Stale, future-dated or missing observation time"
       ],
       "publicationEligible": false
     },
@@ -319,6 +343,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -338,6 +363,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -358,6 +384,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -378,6 +405,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -398,6 +426,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -416,7 +445,8 @@
       "aliasRegistryVersion": "scoped-sports-v2",
       "researchFixture": null,
       "reasons": [
-        "No exact team, competition and kickoff match; review required"
+        "No exact team, competition and kickoff match; review required",
+        "Stale, future-dated or missing observation time"
       ],
       "publicationEligible": false
     },
@@ -442,6 +472,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -461,6 +492,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -481,6 +513,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -499,7 +532,8 @@
       "aliasRegistryVersion": "scoped-sports-v2",
       "researchFixture": null,
       "reasons": [
-        "No exact team, competition and kickoff match; review required"
+        "No exact team, competition and kickoff match; review required",
+        "Stale, future-dated or missing observation time"
       ],
       "publicationEligible": false
     },
@@ -525,6 +559,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -544,6 +579,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Unsupported market or line",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
@@ -564,6 +600,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -584,6 +621,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -604,6 +642,7 @@
           "classification": "SOURCE_OBSERVED",
           "gaps": [
             "No exact team, competition and kickoff match; review required",
+            "Stale, future-dated or missing observation time",
             "Exact settlement rules unverified",
             "Independent price and identity verification required",
             "Calibrated model required"
@@ -622,7 +661,8 @@
       "aliasRegistryVersion": "scoped-sports-v2",
       "researchFixture": null,
       "reasons": [
-        "No exact team, competition and kickoff match; review required"
+        "No exact team, competition and kickoff match; review required",
+        "Stale, future-dated or missing observation time"
       ],
       "publicationEligible": false
     }
