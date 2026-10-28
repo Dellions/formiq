@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-27T22:33:38.679552Z",
+  "at": "2026-10-28T13:27:32.453227Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -1638,6 +1638,32 @@
           "cached": true
         }
       ]
+    },
+    {
+      "taskId": "ol-83227:history.home",
+      "eventId": "ol-83227",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-28T13:27:32.475Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-10-25T11:29:00.039Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-83674:history.home",
+      "eventId": "ol-83674",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-10-28T13:27:32.475Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
     }
   ],
   "publicationEligible": false,
