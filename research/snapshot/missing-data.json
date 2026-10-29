@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T13:37:23.599Z",
+  "generatedAt": "2026-10-29T22:56:27.236Z",
   "status": "partial",
   "records": [
     {
@@ -194,7 +194,7 @@
             "eventId": "ol-83224",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.517Z",
+            "attemptedAt": "2026-10-29T22:56:27.173Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -389,7 +389,7 @@
             "eventId": "ol-83227",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.522Z",
+            "attemptedAt": "2026-10-29T22:56:27.176Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -472,7 +472,7 @@
             "eventId": "ol-83663",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.518Z",
+            "attemptedAt": "2026-10-29T22:56:27.174Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -493,7 +493,7 @@
             "eventId": "ol-83663",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.518Z",
+            "attemptedAt": "2026-10-29T22:56:27.174Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -682,7 +682,7 @@
             "eventId": "ol-83669",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.518Z",
+            "attemptedAt": "2026-10-29T22:56:27.174Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -815,7 +815,7 @@
             "eventId": "ol-83674",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.522Z",
+            "attemptedAt": "2026-10-29T22:56:27.176Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1452,7 +1452,7 @@
             "eventId": "ol-85443",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.518Z",
+            "attemptedAt": "2026-10-29T22:56:27.174Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1591,7 +1591,7 @@
             "eventId": "ol-86608",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.518Z",
+            "attemptedAt": "2026-10-29T22:56:27.174Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -1669,6 +1669,33 @@
           "lastAttempt": null
         },
         {
+          "field": "history.home",
+          "actual": 9,
+          "target": 10,
+          "minimum": 6,
+          "severity": "preferred",
+          "reason": "Preferred last-ten history incomplete",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-86609:history.home",
+          "status": "cached_results",
+          "lastAttempt": {
+            "taskId": "ol-86609:history.home",
+            "eventId": "ol-86609",
+            "side": "home",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-10-29T22:56:27.175Z",
+            "status": "cached_results",
+            "usableResults": 8,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+                "retrievedAt": "2026-10-29T13:00:38.240Z",
+                "cached": true
+              }
+            ]
+          }
+        },
+        {
           "field": "history.away",
           "actual": 6,
           "target": 10,
@@ -1683,7 +1710,7 @@
             "eventId": "ol-86609",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.519Z",
+            "attemptedAt": "2026-10-29T22:56:27.175Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1766,7 +1793,7 @@
             "eventId": "ol-86610",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.519Z",
+            "attemptedAt": "2026-10-29T22:56:27.175Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -1793,7 +1820,7 @@
             "eventId": "ol-86610",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.519Z",
+            "attemptedAt": "2026-10-29T22:56:27.175Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1876,7 +1903,7 @@
             "eventId": "ol-86611",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.519Z",
+            "attemptedAt": "2026-10-29T22:56:27.175Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1903,7 +1930,7 @@
             "eventId": "ol-86611",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.520Z",
+            "attemptedAt": "2026-10-29T22:56:27.175Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -1986,7 +2013,7 @@
             "eventId": "ol-86612",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.520Z",
+            "attemptedAt": "2026-10-29T22:56:27.175Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2013,7 +2040,7 @@
             "eventId": "ol-86612",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.520Z",
+            "attemptedAt": "2026-10-29T22:56:27.175Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2087,7 +2114,7 @@
             "eventId": "ol-86613",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.520Z",
+            "attemptedAt": "2026-10-29T22:56:27.176Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2114,7 +2141,7 @@
             "eventId": "ol-86613",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.520Z",
+            "attemptedAt": "2026-10-29T22:56:27.176Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -2197,7 +2224,7 @@
             "eventId": "ol-86614",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.521Z",
+            "attemptedAt": "2026-10-29T22:56:27.176Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2280,7 +2307,7 @@
             "eventId": "ol-86615",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-29T13:37:23.522Z",
+            "attemptedAt": "2026-10-29T22:56:27.177Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -2344,7 +2371,7 @@
   "withGaps": 33,
   "historyBlocking": 0,
   "historyPreferredIncomplete": 14,
-  "automaticHistoryTasks": 19,
+  "automaticHistoryTasks": 20,
   "publicationEligible": false,
   "note": "Successful collection is not data completeness. Unsupported adapters remain explicit gaps; cached or failed attempts are never reported as recovered data."
 }
