@@ -1,6 +1,6 @@
 {
-  "snapshotUpdated": "2026-10-29T22:56:27.193Z",
-  "generatedAt": "2026-10-29T22:56:27.540Z",
+  "snapshotUpdated": "2026-10-30T12:56:02.934Z",
+  "generatedAt": "2026-10-30T12:56:03.407Z",
   "files": [
     {
       "path": "research/snapshot/sync/batch-0.json",
@@ -219,7 +219,7 @@
     },
     {
       "path": "research/snapshot/sync/batch-16.json",
-      "bytes": 162085,
+      "bytes": 162083,
       "recordIds": [
         "ol-84856",
         "ol-83227",
@@ -231,7 +231,7 @@
     },
     {
       "path": "research/snapshot/sync/batch-17.json",
-      "bytes": 167023,
+      "bytes": 163310,
       "recordIds": [
         "ol-86608",
         "ol-84855",
@@ -243,7 +243,7 @@
     },
     {
       "path": "research/snapshot/sync/batch-18.json",
-      "bytes": 167402,
+      "bytes": 162231,
       "recordIds": [
         "ol-85441",
         "ol-83220",
@@ -255,33 +255,58 @@
     },
     {
       "path": "research/snapshot/sync/batch-19.json",
-      "bytes": 155320,
+      "bytes": 178244,
       "recordIds": [
         "ol-86609",
         "ol-86610",
         "ol-86611",
         "ol-86612",
         "ol-86613",
-        "ol-85443"
+        "ol-85443",
+        "ol-84863"
       ]
     },
     {
       "path": "research/snapshot/sync/batch-20.json",
-      "bytes": 163910,
+      "bytes": 161833,
       "recordIds": [
-        "ol-84863",
         "ol-83219",
         "ol-85436",
         "ol-86614",
         "ol-83669",
-        "ol-85439"
+        "ol-85439",
+        "ol-86615"
       ]
     },
     {
       "path": "research/snapshot/sync/batch-21.json",
-      "bytes": 32602,
+      "bytes": 164322,
       "recordIds": [
-        "ol-86615"
+        "ol-83664",
+        "ol-83665",
+        "ol-83673",
+        "ol-84861",
+        "ol-85440",
+        "ol-83223"
+      ]
+    },
+    {
+      "path": "research/snapshot/sync/batch-22.json",
+      "bytes": 161929,
+      "recordIds": [
+        "ol-85442",
+        "ol-84864",
+        "ol-83221",
+        "ol-86616",
+        "ol-85438",
+        "ol-84858"
+      ]
+    },
+    {
+      "path": "research/snapshot/sync/batch-23.json",
+      "bytes": 26794,
+      "recordIds": [
+        "ol-85435"
       ]
     }
   ],
