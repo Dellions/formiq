@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T22:37:07.302Z",
+  "generatedAt": "2026-10-31T12:59:08.028Z",
   "status": "partial",
   "records": [
     {
@@ -306,7 +306,7 @@
             "eventId": "ol-83224",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.219Z",
+            "attemptedAt": "2026-10-31T12:59:07.961Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -478,104 +478,6 @@
       ]
     },
     {
-      "eventId": "ol-83663",
-      "match": "VfL Wolfsburg — VfL Osnabrück",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-10-31T12:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": false,
-      "gaps": [
-        {
-          "field": "history.home",
-          "actual": 9,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-83663:history.home",
-          "status": "no_cached_alternative",
-          "lastAttempt": {
-            "taskId": "ol-83663:history.home",
-            "eventId": "ol-83663",
-            "side": "home",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.220Z",
-            "status": "no_cached_alternative",
-            "usableResults": 0,
-            "sources": []
-          }
-        },
-        {
-          "field": "history.away",
-          "actual": 9,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-83663:history.away",
-          "status": "no_cached_alternative",
-          "lastAttempt": {
-            "taskId": "ol-83663:history.away",
-            "eventId": "ol-83663",
-            "side": "away",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.220Z",
-            "status": "no_cached_alternative",
-            "usableResults": 0,
-            "sources": []
-          }
-        },
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83663:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83663:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83663:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83663:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83663:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-83664",
       "match": "FC St. Pauli — 1. FC Nürnberg",
       "sport": "Football",
@@ -599,7 +501,7 @@
             "eventId": "ol-83664",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.218Z",
+            "attemptedAt": "2026-10-31T12:59:07.961Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -709,118 +611,6 @@
       ]
     },
     {
-      "eventId": "ol-83667",
-      "match": "SV Darmstadt 98 — 1. FC Magdeburg",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-10-31T12:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83667:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83667:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83667:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83667:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83667:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-83668",
-      "match": "1. FC Kaiserslautern — Hertha BSC",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-10-31T12:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83668:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83668:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83668:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83668:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83668:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-83669",
       "match": "Karlsruher SC — 1. FC Heidenheim 1846",
       "sport": "Football",
@@ -844,7 +634,7 @@
             "eventId": "ol-83669",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.220Z",
+            "attemptedAt": "2026-10-31T12:59:07.961Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1570,6 +1360,62 @@
       ]
     },
     {
+      "eventId": "ol-85437",
+      "match": "Deportivo A Coruña — CA Osasuna",
+      "sport": "Football",
+      "league": "LaLiga EA Sports 2026/2027",
+      "start": "2026-11-02T20:00:00Z",
+      "minimumHistoryReady": true,
+      "preferredHistoryReady": true,
+      "gaps": [
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-85437:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-85437:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-85437:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-85437:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-85437:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
       "eventId": "ol-85438",
       "match": "Elche CF — FC Valencia",
       "sport": "Football",
@@ -1873,7 +1719,7 @@
             "eventId": "ol-85443",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.220Z",
+            "attemptedAt": "2026-10-31T12:59:07.961Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1933,89 +1779,6 @@
       ]
     },
     {
-      "eventId": "ol-86608",
-      "match": "Chelsea FC — Manchester United FC",
-      "sport": "Football",
-      "league": "Premier League 2026/2027",
-      "start": "2026-10-31T12:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": false,
-      "gaps": [
-        {
-          "field": "history.home",
-          "actual": 8,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-86608:history.home",
-          "status": "cached_results",
-          "lastAttempt": {
-            "taskId": "ol-86608:history.home",
-            "eventId": "ol-86608",
-            "side": "home",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.220Z",
-            "status": "cached_results",
-            "usableResults": 8,
-            "sources": [
-              {
-                "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-10-29T13:00:38.240Z",
-                "cached": true
-              }
-            ]
-          }
-        },
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-86608:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-86608:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-86608:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-86608:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-86608:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-86609",
       "match": "AFC Bournemouth — Leeds United",
       "sport": "Football",
@@ -2048,7 +1811,7 @@
             "eventId": "ol-86609",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.220Z",
+            "attemptedAt": "2026-10-31T12:59:07.962Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -2075,7 +1838,7 @@
             "eventId": "ol-86609",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.220Z",
+            "attemptedAt": "2026-10-31T12:59:07.962Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2158,7 +1921,7 @@
             "eventId": "ol-86610",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.221Z",
+            "attemptedAt": "2026-10-31T12:59:07.962Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -2185,7 +1948,7 @@
             "eventId": "ol-86610",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.221Z",
+            "attemptedAt": "2026-10-31T12:59:07.962Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2268,7 +2031,7 @@
             "eventId": "ol-86611",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.221Z",
+            "attemptedAt": "2026-10-31T12:59:07.962Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2295,7 +2058,7 @@
             "eventId": "ol-86611",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.221Z",
+            "attemptedAt": "2026-10-31T12:59:07.962Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -2378,7 +2141,7 @@
             "eventId": "ol-86612",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.221Z",
+            "attemptedAt": "2026-10-31T12:59:07.962Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2405,7 +2168,7 @@
             "eventId": "ol-86612",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.221Z",
+            "attemptedAt": "2026-10-31T12:59:07.962Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2479,7 +2242,7 @@
             "eventId": "ol-86613",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.222Z",
+            "attemptedAt": "2026-10-31T12:59:07.962Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2506,7 +2269,7 @@
             "eventId": "ol-86613",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.222Z",
+            "attemptedAt": "2026-10-31T12:59:07.963Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -2589,7 +2352,7 @@
             "eventId": "ol-86614",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.222Z",
+            "attemptedAt": "2026-10-31T12:59:07.963Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2672,7 +2435,7 @@
             "eventId": "ol-86615",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-30T22:37:07.223Z",
+            "attemptedAt": "2026-10-31T12:59:07.964Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -2786,13 +2549,123 @@
           "lastAttempt": null
         }
       ]
+    },
+    {
+      "eventId": "ol-86617",
+      "match": "Newcastle United FC — Everton FC",
+      "sport": "Football",
+      "league": "Premier League 2026/2027",
+      "start": "2026-11-02T20:00:00Z",
+      "minimumHistoryReady": true,
+      "preferredHistoryReady": false,
+      "gaps": [
+        {
+          "field": "history.home",
+          "actual": 6,
+          "target": 10,
+          "minimum": 6,
+          "severity": "preferred",
+          "reason": "Preferred last-ten history incomplete",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-86617:history.home",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-86617:history.home",
+            "eventId": "ol-86617",
+            "side": "home",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-10-31T12:59:07.960Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+                "retrievedAt": "2026-10-29T13:00:38.240Z",
+                "cached": true
+              }
+            ]
+          }
+        },
+        {
+          "field": "history.away",
+          "actual": 8,
+          "target": 10,
+          "minimum": 6,
+          "severity": "preferred",
+          "reason": "Preferred last-ten history incomplete",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-86617:history.away",
+          "status": "cached_results",
+          "lastAttempt": {
+            "taskId": "ol-86617:history.away",
+            "eventId": "ol-86617",
+            "side": "away",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-10-31T12:59:07.961Z",
+            "status": "cached_results",
+            "usableResults": 8,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+                "retrievedAt": "2026-10-29T13:00:38.240Z",
+                "cached": true
+              }
+            ]
+          }
+        },
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-86617:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-86617:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-86617:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-86617:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-86617:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
     }
   ],
-  "fixtures": 41,
-  "withGaps": 41,
+  "fixtures": 39,
+  "withGaps": 39,
   "historyBlocking": 0,
-  "historyPreferredIncomplete": 13,
-  "automaticHistoryTasks": 19,
+  "historyPreferredIncomplete": 12,
+  "automaticHistoryTasks": 18,
   "publicationEligible": false,
   "note": "Successful collection is not data completeness. Unsupported adapters remain explicit gaps; cached or failed attempts are never reported as recovered data."
 }
