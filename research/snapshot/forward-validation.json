@@ -1,6 +1,6 @@
 {
   "type": "PROSPECTIVE_EXPERIMENTAL_AUDIT",
-  "recorded": 124,
+  "recorded": 126,
   "resolved": 48,
   "calibrated": false,
   "publicationEligible": false,
@@ -529,9 +529,9 @@
     },
     {
       "key": "Football|LaLiga EA Sports 2026/2027|research-v5-horizon|total|over|full_match|regulation",
-      "recorded": 14,
+      "recorded": 15,
       "resolved": 8,
-      "pending": 6,
+      "pending": 7,
       "hitRate": 0.75,
       "brier": 0.17379133576731715,
       "logLoss": 0.5105436280146132,
@@ -761,9 +761,9 @@
     },
     {
       "key": "Football|Premier League 2026/2027|research-v5-horizon|total|over|full_match|regulation",
-      "recorded": 14,
+      "recorded": 15,
       "resolved": 0,
-      "pending": 14,
+      "pending": 15,
       "hitRate": null,
       "brier": null,
       "logLoss": null,
@@ -1288,7 +1288,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-10-30T22:37:07.833Z",
+  "generatedAt": "2026-10-31T12:29:03.007Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -7273,6 +7273,98 @@
           "retrievedAt": "2026-10-21T12:21:31.885Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-85437",
+      "eventId": "ol-85437",
+      "match": "Deportivo A Coruña — CA Osasuna",
+      "sport": "Football",
+      "league": "LaLiga EA Sports 2026/2027",
+      "start": "2026-11-02T20:00:00Z",
+      "home": {
+        "id": 440,
+        "name": "Deportivo A Coruña"
+      },
+      "away": {
+        "id": 1279,
+        "name": "CA Osasuna"
+      },
+      "recordedAt": "2026-10-31T12:29:03.001Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8023403681705468,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/la1/2026",
+          "retrievedAt": "2026-10-31T12:29:01.088Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-86617",
+      "eventId": "ol-86617",
+      "match": "Newcastle United FC — Everton FC",
+      "sport": "Football",
+      "league": "Premier League 2026/2027",
+      "start": "2026-11-02T20:00:00Z",
+      "home": {
+        "id": 1075,
+        "name": "Newcastle United FC"
+      },
+      "away": {
+        "id": 541,
+        "name": "Everton FC"
+      },
+      "recordedAt": "2026-10-31T12:29:03.002Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.7898561089028864,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 6,
+      "awaySample": 8,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+          "retrievedAt": "2026-10-31T12:29:01.332Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2025",
+          "retrievedAt": "2026-10-30T22:20:02.312Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-10-29T13:00:38.240Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
         }
       ],
       "classification": "FORWARD_EXPERIMENTAL_FORECAST",
