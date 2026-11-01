@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-01T13:43:32.873303Z",
+  "at": "2026-11-01T22:17:21.047780Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -2062,7 +2062,7 @@
       "eventId": "ol-86617",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.893Z",
+      "attemptedAt": "2026-11-01T22:17:21.072Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2078,7 +2078,7 @@
       "eventId": "ol-86617",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.894Z",
+      "attemptedAt": "2026-11-01T22:17:21.072Z",
       "status": "cached_results",
       "usableResults": 8,
       "sources": [
@@ -2094,7 +2094,7 @@
       "eventId": "ol-87442",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.892Z",
+      "attemptedAt": "2026-11-01T22:17:21.071Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": []
@@ -2104,7 +2104,7 @@
       "eventId": "ol-87446",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.893Z",
+      "attemptedAt": "2026-11-01T22:17:21.071Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2120,7 +2120,7 @@
       "eventId": "ol-87447",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.893Z",
+      "attemptedAt": "2026-11-01T22:17:21.071Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": []
@@ -2130,7 +2130,7 @@
       "eventId": "ol-87448",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.893Z",
+      "attemptedAt": "2026-11-01T22:17:21.071Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2146,7 +2146,7 @@
       "eventId": "ol-87450",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.893Z",
+      "attemptedAt": "2026-11-01T22:17:21.071Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": []
@@ -2156,7 +2156,7 @@
       "eventId": "ol-87450",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.893Z",
+      "attemptedAt": "2026-11-01T22:17:21.071Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": []
@@ -2166,7 +2166,7 @@
       "eventId": "ol-87445",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.893Z",
+      "attemptedAt": "2026-11-01T22:17:21.072Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2182,7 +2182,7 @@
       "eventId": "ol-87449",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-01T13:43:32.893Z",
+      "attemptedAt": "2026-11-01T22:17:21.072Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": []
@@ -2387,38 +2387,23 @@
     },
     {
       "taskId": "ol-85435:history.home",
-      "status": "history_extended",
-      "results": 10
+      "status": "no_sample_improvement",
+      "candidateResults": 10
     },
     {
       "taskId": "ol-86616:history.home",
-      "status": "history_extended",
-      "results": 10
+      "status": "no_sample_improvement",
+      "candidateResults": 10
     },
     {
       "taskId": "ol-86616:history.away",
-      "status": "history_extended",
-      "results": 10
+      "status": "no_sample_improvement",
+      "candidateResults": 10
     },
     {
       "taskId": "ol-86617:history.away",
       "status": "no_sample_improvement",
       "candidateResults": 8
-    },
-    {
-      "taskId": "ol-85435:history.home",
-      "status": "no_sample_improvement",
-      "candidateResults": 10
-    },
-    {
-      "taskId": "ol-86616:history.home",
-      "status": "no_sample_improvement",
-      "candidateResults": 10
-    },
-    {
-      "taskId": "ol-86616:history.away",
-      "status": "no_sample_improvement",
-      "candidateResults": 10
     },
     {
       "taskId": "ol-86617:history.away",
@@ -2426,10 +2411,7 @@
       "candidateResults": 8
     }
   ],
-  "completedRecordIds": [
-    "ol-85435",
-    "ol-86616"
-  ],
+  "completedRecordIds": [],
   "automaticRun": true,
   "frameworkExecution": "Partial deterministic history recovery; not complete nine-step research"
 }
