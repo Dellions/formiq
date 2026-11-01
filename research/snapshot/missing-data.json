@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T21:49:17.152Z",
+  "generatedAt": "2026-11-01T13:43:33.074Z",
   "status": "partial",
   "records": [
     {
@@ -115,195 +115,6 @@
       ]
     },
     {
-      "eventId": "ol-83664",
-      "match": "FC St. Pauli — 1. FC Nürnberg",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-01T12:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": false,
-      "gaps": [
-        {
-          "field": "history.home",
-          "actual": 9,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-83664:history.home",
-          "status": "no_cached_alternative",
-          "lastAttempt": {
-            "taskId": "ol-83664:history.home",
-            "eventId": "ol-83664",
-            "side": "home",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-31T21:49:17.092Z",
-            "status": "no_cached_alternative",
-            "usableResults": 0,
-            "sources": []
-          }
-        },
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83664:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83664:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83664:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83664:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83664:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-83665",
-      "match": "Hannover 96 — Dynamo Dresden",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-01T12:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83665:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83665:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83665:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83665:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83665:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-83673",
-      "match": "SpVgg Greuther Fürth — Holstein Kiel",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-01T12:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83673:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83673:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83673:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83673:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83673:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-84858",
       "match": "Alemannia Aachen — Preußen Münster",
       "sport": "Football",
@@ -354,62 +165,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-84858:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-84861",
-      "match": "1. FC Saarbrücken — SV Waldhof Mannheim",
-      "sport": "Football",
-      "league": "3. Liga 2026/2027",
-      "start": "2026-11-01T12:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-84861:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-84861:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-84861:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-84861:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-84861:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -640,62 +395,6 @@
       ]
     },
     {
-      "eventId": "ol-85440",
-      "match": "FC Getafe — FC Sevilla",
-      "sport": "Football",
-      "league": "LaLiga EA Sports 2026/2027",
-      "start": "2026-11-01T13:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-85440:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-85440:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-85440:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-85440:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-85440:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-85442",
       "match": "Racing Santander — Real Madrid",
       "sport": "Football",
@@ -831,7 +530,7 @@
             "eventId": "ol-86617",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-31T21:49:17.091Z",
+            "attemptedAt": "2026-11-01T13:43:32.893Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -858,7 +557,7 @@
             "eventId": "ol-86617",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-10-31T21:49:17.092Z",
+            "attemptedAt": "2026-11-01T13:43:32.894Z",
             "status": "cached_results",
             "usableResults": 8,
             "sources": [
@@ -916,13 +615,694 @@
           "lastAttempt": null
         }
       ]
+    },
+    {
+      "eventId": "ol-87442",
+      "match": "Shakhtar Donetsk — Sporting CP",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-03T17:45:00Z",
+      "minimumHistoryReady": false,
+      "preferredHistoryReady": false,
+      "gaps": [
+        {
+          "field": "history.home",
+          "actual": 3,
+          "target": 10,
+          "minimum": 6,
+          "severity": "blocking",
+          "reason": "Fewer than six valid completed results",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-87442:history.home",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-87442:history.home",
+            "eventId": "ol-87442",
+            "side": "home",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-11-01T13:43:32.892Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": []
+          }
+        },
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-87442:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-87442:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-87442:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87442:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87442:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
+      "eventId": "ol-87443",
+      "match": "Galatasaray Istanbul — VfB Stuttgart",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-03T17:45:00Z",
+      "minimumHistoryReady": true,
+      "preferredHistoryReady": true,
+      "gaps": [
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-87443:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-87443:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-87443:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87443:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87443:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
+      "eventId": "ol-87444",
+      "match": "Feyenoord Rotterdam — Inter Mailand",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-03T20:00:00Z",
+      "minimumHistoryReady": true,
+      "preferredHistoryReady": true,
+      "gaps": [
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-87444:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-87444:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-87444:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87444:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87444:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
+      "eventId": "ol-87445",
+      "match": "FC Barcelona — Aston Villa",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-03T20:00:00Z",
+      "minimumHistoryReady": true,
+      "preferredHistoryReady": false,
+      "gaps": [
+        {
+          "field": "history.away",
+          "actual": 9,
+          "target": 10,
+          "minimum": 6,
+          "severity": "preferred",
+          "reason": "Preferred last-ten history incomplete",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-87445:history.away",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-87445:history.away",
+            "eventId": "ol-87445",
+            "side": "away",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-11-01T13:43:32.893Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+                "retrievedAt": "2026-10-29T13:00:38.528Z",
+                "cached": true
+              }
+            ]
+          }
+        },
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-87445:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-87445:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-87445:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87445:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87445:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
+      "eventId": "ol-87446",
+      "match": "Atletico Madrid — FC Bayern München",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-03T20:00:00Z",
+      "minimumHistoryReady": false,
+      "preferredHistoryReady": false,
+      "gaps": [
+        {
+          "field": "history.home",
+          "actual": 3,
+          "target": 10,
+          "minimum": 6,
+          "severity": "blocking",
+          "reason": "Fewer than six valid completed results",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-87446:history.home",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-87446:history.home",
+            "eventId": "ol-87446",
+            "side": "home",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-11-01T13:43:32.893Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+                "retrievedAt": "2026-10-29T13:00:38.788Z",
+                "cached": true
+              }
+            ]
+          }
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-87446:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-87446:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87446:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87446:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
+      "eventId": "ol-87447",
+      "match": "Villarreal CF — Paris St. Germain",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-03T20:00:00Z",
+      "minimumHistoryReady": false,
+      "preferredHistoryReady": false,
+      "gaps": [
+        {
+          "field": "history.away",
+          "actual": 3,
+          "target": 10,
+          "minimum": 6,
+          "severity": "blocking",
+          "reason": "Fewer than six valid completed results",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-87447:history.away",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-87447:history.away",
+            "eventId": "ol-87447",
+            "side": "away",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-11-01T13:43:32.893Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": []
+          }
+        },
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-87447:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-87447:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-87447:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87447:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87447:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
+      "eventId": "ol-87448",
+      "match": "Manchester United FC — AS Rom",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-03T20:00:00Z",
+      "minimumHistoryReady": false,
+      "preferredHistoryReady": false,
+      "gaps": [
+        {
+          "field": "history.away",
+          "actual": 3,
+          "target": 10,
+          "minimum": 6,
+          "severity": "blocking",
+          "reason": "Fewer than six valid completed results",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-87448:history.away",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-87448:history.away",
+            "eventId": "ol-87448",
+            "side": "away",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-11-01T13:43:32.893Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+                "retrievedAt": "2026-10-29T13:00:38.240Z",
+                "cached": true
+              }
+            ]
+          }
+        },
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-87448:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-87448:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-87448:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87448:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87448:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
+      "eventId": "ol-87449",
+      "match": "FK Bodö/Glimt — Lille OSC",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-03T20:00:00Z",
+      "minimumHistoryReady": true,
+      "preferredHistoryReady": false,
+      "gaps": [
+        {
+          "field": "history.away",
+          "actual": 8,
+          "target": 10,
+          "minimum": 6,
+          "severity": "preferred",
+          "reason": "Preferred last-ten history incomplete",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-87449:history.away",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-87449:history.away",
+            "eventId": "ol-87449",
+            "side": "away",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-11-01T13:43:32.893Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": []
+          }
+        },
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-87449:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-87449:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-87449:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87449:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87449:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
+    },
+    {
+      "eventId": "ol-87450",
+      "match": "LASK — Slovan Bratislava",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-03T20:00:00Z",
+      "minimumHistoryReady": false,
+      "preferredHistoryReady": false,
+      "gaps": [
+        {
+          "field": "history.home",
+          "actual": 3,
+          "target": 10,
+          "minimum": 6,
+          "severity": "blocking",
+          "reason": "Fewer than six valid completed results",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-87450:history.home",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-87450:history.home",
+            "eventId": "ol-87450",
+            "side": "home",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-11-01T13:43:32.893Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": []
+          }
+        },
+        {
+          "field": "history.away",
+          "actual": 3,
+          "target": 10,
+          "minimum": 6,
+          "severity": "blocking",
+          "reason": "Fewer than six valid completed results",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-87450:history.away",
+          "status": "no_cached_alternative",
+          "lastAttempt": {
+            "taskId": "ol-87450:history.away",
+            "eventId": "ol-87450",
+            "side": "away",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-11-01T13:43:32.893Z",
+            "status": "no_cached_alternative",
+            "usableResults": 0,
+            "sources": []
+          }
+        },
+        {
+          "field": "freshPrices",
+          "severity": "blocking",
+          "reason": "No fresh fixture-linked price",
+          "adapter": null,
+          "taskId": "ol-87450:freshPrices",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "exactRules",
+          "severity": "blocking",
+          "reason": "Independent exact market/rule verification missing",
+          "adapter": null,
+          "taskId": "ol-87450:exactRules",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "fixtureConfirmation",
+          "severity": "blocking",
+          "reason": "Independent fixture confirmation missing",
+          "adapter": null,
+          "taskId": "ol-87450:fixtureConfirmation",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.opponentStrength",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87450:advanced.opponentStrength",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        },
+        {
+          "field": "advanced.playerAvailability",
+          "severity": "research",
+          "reason": "Verified sport-specific input missing",
+          "adapter": null,
+          "taskId": "ol-87450:advanced.playerAvailability",
+          "status": "no_supported_adapter",
+          "lastAttempt": null
+        }
+      ]
     }
   ],
-  "fixtures": 15,
-  "withGaps": 15,
-  "historyBlocking": 0,
-  "historyPreferredIncomplete": 2,
-  "automaticHistoryTasks": 3,
+  "fixtures": 19,
+  "withGaps": 19,
+  "historyBlocking": 5,
+  "historyPreferredIncomplete": 8,
+  "automaticHistoryTasks": 10,
   "publicationEligible": false,
   "note": "Successful collection is not data completeness. Unsupported adapters remain explicit gaps; cached or failed attempts are never reported as recovered data."
 }
