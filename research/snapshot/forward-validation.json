@@ -1,18 +1,18 @@
 {
   "type": "PROSPECTIVE_EXPERIMENTAL_AUDIT",
-  "recorded": 130,
-  "resolved": 52,
+  "recorded": 135,
+  "resolved": 54,
   "calibrated": false,
   "publicationEligible": false,
   "groups": [
     {
       "key": "Football|1. Fußball-Bundesliga 2026/2027|research-v5-horizon|total|over|full_match|regulation",
       "recorded": 18,
-      "resolved": 11,
-      "pending": 7,
-      "hitRate": 0.7272727272727273,
-      "brier": 0.19233948080055194,
-      "logLoss": 0.5595436691561512,
+      "resolved": 12,
+      "pending": 6,
+      "hitRate": 0.75,
+      "brier": 0.18117788667078294,
+      "logLoss": 0.5359671647172557,
       "bins": [
         {
           "range": [
@@ -46,9 +46,9 @@
             0.6000000000000001,
             0.8
           ],
-          "n": 2,
-          "predicted": 0.786193944667646,
-          "observed": 0
+          "n": 3,
+          "predicted": 0.776908747712295,
+          "observed": 0.3333333333333333
         },
         {
           "range": [
@@ -935,12 +935,12 @@
     },
     {
       "key": "Football|Champions League 2026/2027|research-v5-horizon|total|over|full_match|regulation",
-      "recorded": 9,
-      "resolved": 4,
-      "pending": 5,
-      "hitRate": 0.75,
-      "brier": 0.2262558132103067,
-      "logLoss": 0.721971741015504,
+      "recorded": 13,
+      "resolved": 5,
+      "pending": 8,
+      "hitRate": 0.8,
+      "brier": 0.18284125851778177,
+      "logLoss": 0.597724566482147,
       "bins": [
         {
           "range": [
@@ -983,9 +983,9 @@
             0.8,
             1
           ],
-          "n": 3,
-          "predicted": 0.8947043832426198,
-          "observed": 0.6666666666666666
+          "n": 4,
+          "predicted": 0.8970712428682017,
+          "observed": 0.75
         }
       ],
       "reviewThresholdReached": false,
@@ -1280,6 +1280,64 @@
       ],
       "reviewThresholdReached": false,
       "calibrated": false
+    },
+    {
+      "key": "Football|Champions League 2026/2027|research-v5-horizon|double_chance|X2|full_match|regulation",
+      "recorded": 1,
+      "resolved": 0,
+      "pending": 1,
+      "hitRate": null,
+      "brier": null,
+      "logLoss": null,
+      "bins": [
+        {
+          "range": [
+            0,
+            0.2
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.2,
+            0.4
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.4,
+            0.6000000000000001
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.6000000000000001,
+            0.8
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.8,
+            1
+          ],
+          "n": 0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "reviewThresholdReached": false,
+      "calibrated": false
     }
   ],
   "limitations": [
@@ -1288,7 +1346,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-11-01T22:17:21.532Z",
+  "generatedAt": "2026-11-02T15:52:00.625Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -7587,6 +7645,278 @@
       "odds": null,
       "estimatedEV": null,
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87453",
+      "eventId": "ol-87453",
+      "match": "RB Leipzig — Manchester City",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-04T20:00:00Z",
+      "home": {
+        "id": 1635,
+        "name": "RB Leipzig"
+      },
+      "away": {
+        "id": 4244,
+        "name": "Manchester City"
+      },
+      "recordedAt": "2026-11-02T15:52:00.597Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8881804172104506,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-02T15:51:50.727Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+          "retrievedAt": "2026-11-02T15:51:50.216Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+          "retrievedAt": "2026-11-02T15:51:50.688Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+          "retrievedAt": "2026-11-02T15:51:58.374Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87454",
+      "eventId": "ol-87454",
+      "match": "Slavia Prag — FC Arsenal",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-04T20:00:00Z",
+      "home": {
+        "id": 4578,
+        "name": "Slavia Prag"
+      },
+      "away": {
+        "id": 2617,
+        "name": "FC Arsenal"
+      },
+      "recordedAt": "2026-11-02T15:52:00.598Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "double_chance",
+      "side": "X2",
+      "line": null,
+      "probability": 0.8446935174070513,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 8,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-02T15:51:50.727Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+          "retrievedAt": "2026-11-02T15:51:50.688Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+          "retrievedAt": "2026-11-02T15:51:58.374Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87455",
+      "eventId": "ol-87455",
+      "match": "PSV Eindhoven — FC Brügge",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-04T20:00:00Z",
+      "home": {
+        "id": 376,
+        "name": "PSV Eindhoven"
+      },
+      "away": {
+        "id": 1210,
+        "name": "FC Brügge"
+      },
+      "recordedAt": "2026-11-02T15:52:00.598Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.9213114150836822,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-02T15:51:50.727Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+          "retrievedAt": "2026-11-02T15:51:58.374Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/N1.csv",
+          "retrievedAt": "2026-11-02T15:51:54.066Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87456",
+      "eventId": "ol-87456",
+      "match": "Borussia Dortmund — Real Betis",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-04T20:00:00Z",
+      "home": {
+        "id": 7,
+        "name": "Borussia Dortmund"
+      },
+      "away": {
+        "id": 1804,
+        "name": "Real Betis"
+      },
+      "recordedAt": "2026-11-02T15:52:00.598Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.7891697919899043,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-02T15:51:50.727Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+          "retrievedAt": "2026-11-02T15:51:50.216Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/la1/2026",
+          "retrievedAt": "2026-11-02T15:51:50.472Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87458",
+      "eventId": "ol-87458",
+      "match": "RC Lens — Como 1907",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-04T20:00:00Z",
+      "home": {
+        "id": 5962,
+        "name": "RC Lens"
+      },
+      "away": {
+        "id": 8787,
+        "name": "Como 1907"
+      },
+      "recordedAt": "2026-11-02T15:52:00.598Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8136234357365815,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 9,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-02T15:51:50.727Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+          "retrievedAt": "2026-11-02T15:51:58.374Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv",
+          "retrievedAt": "2026-11-02T15:51:53.790Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv",
+          "retrievedAt": "2026-11-02T15:51:53.521Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     }
   ],
   "outcomes": [
@@ -8210,6 +8540,30 @@
       "scoredAt": "2026-10-24T15:56:59.118Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/uecl2026/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83226",
+      "home": 0,
+      "away": 2,
+      "outcome": 1,
+      "scoredAt": "2026-11-02T15:52:00.601Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl1/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-87438",
+      "home": 3,
+      "away": 0,
+      "outcome": 1,
+      "scoredAt": "2026-11-02T15:52:00.621Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/ucl/2026"
       ],
       "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
       "bettingSettlement": false
