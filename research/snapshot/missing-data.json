@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:11:18.808Z",
+  "generatedAt": "2026-11-03T14:35:57.262Z",
   "status": "partial",
   "records": [
     {
@@ -26,7 +26,7 @@
             "eventId": "ol-87442",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.159Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -215,7 +215,7 @@
             "eventId": "ol-87445",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.707Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -298,7 +298,7 @@
             "eventId": "ol-87446",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -372,7 +372,7 @@
             "eventId": "ol-87447",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -449,7 +449,7 @@
             "eventId": "ol-87448",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -532,7 +532,7 @@
             "eventId": "ol-87449",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.707Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -609,7 +609,7 @@
             "eventId": "ol-87450",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -630,7 +630,7 @@
             "eventId": "ol-87450",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -707,7 +707,7 @@
             "eventId": "ol-87451",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -790,7 +790,7 @@
             "eventId": "ol-87452",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -929,7 +929,7 @@
             "eventId": "ol-87454",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.707Z",
+            "attemptedAt": "2026-11-03T14:35:57.163Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1124,7 +1124,7 @@
             "eventId": "ol-87457",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1201,7 +1201,7 @@
             "eventId": "ol-87458",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.707Z",
+            "attemptedAt": "2026-11-03T14:35:57.163Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1278,7 +1278,7 @@
             "eventId": "ol-87459",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1299,7 +1299,7 @@
             "eventId": "ol-87459",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1376,7 +1376,7 @@
             "eventId": "ol-87749",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1459,7 +1459,7 @@
             "eventId": "ol-87753",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.705Z",
+            "attemptedAt": "2026-11-03T14:35:57.161Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -1542,7 +1542,7 @@
             "eventId": "ol-87822",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.703Z",
+            "attemptedAt": "2026-11-03T14:35:57.159Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1628,9 +1628,36 @@
             "eventId": "ol-87823",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.703Z",
+            "attemptedAt": "2026-11-03T14:35:57.159Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
+            "sources": [
+              {
+                "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "cached": true
+              }
+            ]
+          }
+        },
+        {
+          "field": "history.away",
+          "actual": 9,
+          "target": 10,
+          "minimum": 6,
+          "severity": "preferred",
+          "reason": "Preferred last-ten history incomplete",
+          "adapter": "cached-domestic-history",
+          "taskId": "ol-87823:history.away",
+          "status": "cached_results",
+          "lastAttempt": {
+            "taskId": "ol-87823:history.away",
+            "eventId": "ol-87823",
+            "side": "away",
+            "adapter": "cached-domestic-history",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
+            "status": "cached_results",
+            "usableResults": 9,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
@@ -1711,7 +1738,7 @@
             "eventId": "ol-87824",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.703Z",
+            "attemptedAt": "2026-11-03T14:35:57.159Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1732,7 +1759,7 @@
             "eventId": "ol-87824",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.703Z",
+            "attemptedAt": "2026-11-03T14:35:57.159Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1809,7 +1836,7 @@
             "eventId": "ol-87825",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.703Z",
+            "attemptedAt": "2026-11-03T14:35:57.159Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1886,7 +1913,7 @@
             "eventId": "ol-87826",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.703Z",
+            "attemptedAt": "2026-11-03T14:35:57.159Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1907,7 +1934,7 @@
             "eventId": "ol-87826",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.703Z",
+            "attemptedAt": "2026-11-03T14:35:57.159Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1984,7 +2011,7 @@
             "eventId": "ol-87827",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.706Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2067,7 +2094,7 @@
             "eventId": "ol-87828",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2144,7 +2171,7 @@
             "eventId": "ol-87829",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.706Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2165,7 +2192,7 @@
             "eventId": "ol-87829",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2354,7 +2381,7 @@
             "eventId": "ol-87832",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2375,7 +2402,7 @@
             "eventId": "ol-87832",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.706Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2452,7 +2479,7 @@
             "eventId": "ol-87833",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -2535,7 +2562,7 @@
             "eventId": "ol-87834",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2556,7 +2583,7 @@
             "eventId": "ol-87834",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2633,7 +2660,7 @@
             "eventId": "ol-87835",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2654,7 +2681,7 @@
             "eventId": "ol-87835",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2731,7 +2758,7 @@
             "eventId": "ol-87836",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.706Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2752,7 +2779,7 @@
             "eventId": "ol-87836",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2829,7 +2856,7 @@
             "eventId": "ol-87837",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.706Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2850,7 +2877,7 @@
             "eventId": "ol-87837",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -2927,7 +2954,7 @@
             "eventId": "ol-88315",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3004,7 +3031,7 @@
             "eventId": "ol-88316",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.706Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3025,7 +3052,7 @@
             "eventId": "ol-88316",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3102,7 +3129,7 @@
             "eventId": "ol-88317",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3179,7 +3206,7 @@
             "eventId": "ol-88318",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3256,7 +3283,7 @@
             "eventId": "ol-88319",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3277,7 +3304,7 @@
             "eventId": "ol-88319",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3354,7 +3381,7 @@
             "eventId": "ol-88320",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3431,7 +3458,7 @@
             "eventId": "ol-88321",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3452,7 +3479,7 @@
             "eventId": "ol-88321",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3529,7 +3556,7 @@
             "eventId": "ol-88322",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3550,7 +3577,7 @@
             "eventId": "ol-88322",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3683,7 +3710,7 @@
             "eventId": "ol-88324",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.706Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3704,7 +3731,7 @@
             "eventId": "ol-88324",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3781,7 +3808,7 @@
             "eventId": "ol-88325",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3802,7 +3829,7 @@
             "eventId": "ol-88325",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3879,7 +3906,7 @@
             "eventId": "ol-88326",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3900,7 +3927,7 @@
             "eventId": "ol-88326",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -3977,7 +4004,7 @@
             "eventId": "ol-88327",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -4054,7 +4081,7 @@
             "eventId": "ol-88328",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.706Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -4137,7 +4164,7 @@
             "eventId": "ol-88329",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -4214,7 +4241,7 @@
             "eventId": "ol-88330",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.706Z",
+            "attemptedAt": "2026-11-03T14:35:57.162Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -4235,7 +4262,7 @@
             "eventId": "ol-88330",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -4312,7 +4339,7 @@
             "eventId": "ol-88331",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -4333,7 +4360,7 @@
             "eventId": "ol-88331",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -4410,7 +4437,7 @@
             "eventId": "ol-88332",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -4431,7 +4458,7 @@
             "eventId": "ol-88332",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-03T01:11:18.704Z",
+            "attemptedAt": "2026-11-03T14:35:57.160Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -4489,7 +4516,7 @@
   "withGaps": 54,
   "historyBlocking": 38,
   "historyPreferredIncomplete": 46,
-  "automaticHistoryTasks": 66,
+  "automaticHistoryTasks": 67,
   "publicationEligible": false,
   "note": "Successful collection is not data completeness. Unsupported adapters remain explicit gaps; cached or failed attempts are never reported as recovered data."
 }

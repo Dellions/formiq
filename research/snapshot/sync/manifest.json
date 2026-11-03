@@ -1,6 +1,6 @@
 {
-  "snapshotUpdated": "2026-11-03T14:14:02.940Z",
-  "generatedAt": "2026-11-03T14:29:11.624Z",
+  "snapshotUpdated": "2026-11-03T14:35:57.179Z",
+  "generatedAt": "2026-11-03T14:35:57.696Z",
   "files": [
     {
       "path": "research/snapshot/sync/batch-0.json",
@@ -343,7 +343,7 @@
     },
     {
       "path": "research/snapshot/sync/batch-26.json",
-      "bytes": 164010,
+      "bytes": 168293,
       "recordIds": [
         "ol-87753",
         "ol-87822",
