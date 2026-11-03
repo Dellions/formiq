@@ -2,7 +2,7 @@
   "version": "research-v5-horizon",
   "status": "partial",
   "date": "2026-11-05",
-  "updated": "2026-11-03T00:58:09.898Z",
+  "updated": "2026-11-03T01:11:18.724Z",
   "startedAt": "2026-11-03T00:58:07.876Z",
   "screened": 36,
   "discovered": 36,
@@ -213438,6 +213438,44 @@
         ],
         "away": [
           {
+            "id": "fd-31/10/2026-bournemouth-leeds",
+            "date": "2026-10-31T15:00:00Z",
+            "gf": 2,
+            "ga": 0,
+            "total": 2,
+            "venue": "home",
+            "opponent": "Leeds",
+            "opponentId": "leeds",
+            "result": "W",
+            "shots": 11,
+            "shotsOnTarget": 5,
+            "yellowCards": 2,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-31|leeds|home"
+          },
+          {
+            "id": "fd-25/10/2026-manunited-bournemouth",
+            "date": "2026-10-25T14:00:00Z",
+            "gf": 3,
+            "ga": 0,
+            "total": 3,
+            "venue": "away",
+            "opponent": "Man United",
+            "opponentId": "manunited",
+            "result": "W",
+            "shots": 10,
+            "shotsOnTarget": 4,
+            "yellowCards": 1,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-25|manunited|away"
+          },
+          {
             "id": "87813",
             "date": "2026-10-22T19:00:00Z",
             "gf": 3,
@@ -213450,7 +213488,27 @@
             "competition": "Europa League 2026/27",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-22|milan|home"
+          },
+          {
+            "id": "fd-18/10/2026-bournemouth-sunderland",
+            "date": "2026-10-18T14:00:00Z",
+            "gf": 2,
+            "ga": 0,
+            "total": 2,
+            "venue": "home",
+            "opponent": "Sunderland",
+            "opponentId": "sunderland",
+            "result": "W",
+            "shots": 29,
+            "shotsOnTarget": 6,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-18|sunderland|home"
           },
           {
             "id": "87784",
@@ -213465,37 +213523,46 @@
             "competition": "Europa League 2026/27",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-10-15|sturmgraz|home"
           },
           {
-            "id": "86580",
-            "date": "2026-10-10T14:00:00Z",
+            "id": "fd-10/10/2026-chelsea-bournemouth",
+            "date": "2026-10-10T15:00:00Z",
             "gf": 1,
             "ga": 5,
             "total": 6,
             "venue": "away",
-            "opponent": "Chelsea FC",
-            "opponentId": 364,
+            "opponent": "Chelsea",
+            "opponentId": "chelsea",
             "result": "L",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "shots": 9,
+            "shotsOnTarget": 4,
+            "yellowCards": 4,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-10-10|chelsea|away"
           },
           {
-            "id": "86576",
-            "date": "2026-09-20T13:00:00Z",
+            "id": "fd-20/09/2026-bournemouth-liverpool",
+            "date": "2026-09-20T14:00:00Z",
             "gf": 0,
             "ga": 1,
             "total": 1,
             "venue": "home",
-            "opponent": "FC Liverpool",
-            "opponentId": 370,
+            "opponent": "Liverpool",
+            "opponentId": "liverpool",
             "result": "L",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "shots": 9,
+            "shotsOnTarget": 2,
+            "yellowCards": 1,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-20|liverpool|home"
           },
           {
             "id": "87776",
@@ -213510,22 +213577,27 @@
             "competition": "Europa League 2026/27",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-17|realsociedad|away"
           },
           {
-            "id": "86558",
-            "date": "2026-09-12T14:00:00Z",
+            "id": "fd-05/09/2026-newcastle-bournemouth",
+            "date": "2026-09-05T12:30:00Z",
             "gf": 2,
-            "ga": 1,
-            "total": 3,
-            "venue": "home",
-            "opponent": "Brentford F.C.",
-            "opponentId": 5967,
-            "result": "W",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "ga": 2,
+            "total": 4,
+            "venue": "away",
+            "opponent": "Newcastle",
+            "opponentId": "newcastle",
+            "result": "D",
+            "shots": 17,
+            "shotsOnTarget": 5,
+            "yellowCards": 3,
+            "redCards": 0,
+            "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+            "scoreScope": "Source-reported domestic league full-time result",
+            "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+            "historyIdentityKey": "2026-09-05|newcastle|away"
           },
           {
             "id": "86549",
@@ -213540,37 +213612,8 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86540",
-            "date": "2026-08-29T14:00:00Z",
-            "gf": 1,
-            "ga": 1,
-            "total": 2,
-            "venue": "home",
-            "opponent": "Everton FC",
-            "opponentId": 541,
-            "result": "D",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "86535",
-            "date": "2026-08-23T13:00:00Z",
-            "gf": 1,
-            "ga": 2,
-            "total": 3,
-            "venue": "away",
-            "opponent": "Manchester City",
-            "opponentId": 4244,
-            "result": "L",
-            "competition": "Premier League 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
+            "scoreScope": "regulation",
+            "historyIdentityKey": "2026-09-05|newcastleunited|away"
           }
         ]
       },
@@ -213650,7 +213693,7 @@
       "id": "ol-87823",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-03T00:58:08.459Z",
+      "completedAt": "2026-11-03T01:11:18.724Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -213715,37 +213758,37 @@
             "to": "2026-10-22T19:00:00Z"
           },
           "away": {
-            "sample": 9,
-            "gf": 1.6666666666666667,
-            "ga": 1.4444444444444444,
-            "total": 3.111111111111111,
-            "form": "WWLLW",
-            "wins": 0.4444444444444444,
-            "over15": 0.8888888888888888,
-            "over25": 0.7777777777777778,
-            "btts": 0.6666666666666666,
+            "sample": 10,
+            "gf": 2,
+            "ga": 1.1,
+            "total": 3.1,
+            "form": "WWWWW",
+            "wins": 0.6,
+            "over15": 0.9,
+            "over25": 0.7,
+            "btts": 0.4,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 14.166666666666666,
+                "sample": 6
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4.333333333333333,
+                "sample": 6
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 2.3333333333333335,
+                "sample": 6
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0,
+                "sample": 6
               }
             },
-            "draws": 0.2222222222222222,
-            "losses": 0.3333333333333333,
-            "from": "2026-08-23T13:00:00Z",
-            "to": "2026-10-22T19:00:00Z"
+            "draws": 0.2,
+            "losses": 0.2,
+            "from": "2026-09-05T11:30:00Z",
+            "to": "2026-10-31T15:00:00Z"
           },
           "season": {
             "home": {
@@ -213858,37 +213901,37 @@
             "to": "2026-10-15T16:45:00Z"
           },
           "away": {
-            "sample": 4,
-            "gf": 1.5,
-            "ga": 2.5,
+            "sample": 5,
+            "gf": 2,
+            "ga": 2,
             "total": 4,
-            "form": "LWDL",
-            "wins": 0.25,
+            "form": "WLWDD",
+            "wins": 0.4,
             "over15": 1,
             "over25": 1,
-            "btts": 1,
+            "btts": 0.8,
             "availableMetrics": {
               "shots": {
-                "mean": null,
-                "sample": 0
+                "mean": 12,
+                "sample": 3
               },
               "shotsOnTarget": {
-                "mean": null,
-                "sample": 0
+                "mean": 4.333333333333333,
+                "sample": 3
               },
               "yellowCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 2.6666666666666665,
+                "sample": 3
               },
               "redCards": {
-                "mean": null,
-                "sample": 0
+                "mean": 0,
+                "sample": 3
               }
             },
-            "draws": 0.25,
-            "losses": 0.5,
-            "from": "2026-08-23T13:00:00Z",
-            "to": "2026-10-10T14:00:00Z"
+            "draws": 0.4,
+            "losses": 0.2,
+            "from": "2026-09-05T11:30:00Z",
+            "to": "2026-10-25T14:00:00Z"
           },
           "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies."
         },
@@ -213945,6 +213988,44 @@
           ],
           "away": [
             {
+              "id": "fd-31/10/2026-bournemouth-leeds",
+              "date": "2026-10-31T15:00:00Z",
+              "gf": 2,
+              "ga": 0,
+              "total": 2,
+              "venue": "home",
+              "opponent": "Leeds",
+              "opponentId": "leeds",
+              "result": "W",
+              "shots": 11,
+              "shotsOnTarget": 5,
+              "yellowCards": 2,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-31|leeds|home"
+            },
+            {
+              "id": "fd-25/10/2026-manunited-bournemouth",
+              "date": "2026-10-25T14:00:00Z",
+              "gf": 3,
+              "ga": 0,
+              "total": 3,
+              "venue": "away",
+              "opponent": "Man United",
+              "opponentId": "manunited",
+              "result": "W",
+              "shots": 10,
+              "shotsOnTarget": 4,
+              "yellowCards": 1,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-25|manunited|away"
+            },
+            {
               "id": "87813",
               "date": "2026-10-22T19:00:00Z",
               "gf": 3,
@@ -213957,7 +214038,27 @@
               "competition": "Europa League 2026/27",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-22|milan|home"
+            },
+            {
+              "id": "fd-18/10/2026-bournemouth-sunderland",
+              "date": "2026-10-18T14:00:00Z",
+              "gf": 2,
+              "ga": 0,
+              "total": 2,
+              "venue": "home",
+              "opponent": "Sunderland",
+              "opponentId": "sunderland",
+              "result": "W",
+              "shots": 29,
+              "shotsOnTarget": 6,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-18|sunderland|home"
             },
             {
               "id": "87784",
@@ -213972,37 +214073,46 @@
               "competition": "Europa League 2026/27",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-10-15|sturmgraz|home"
             },
             {
-              "id": "86580",
-              "date": "2026-10-10T14:00:00Z",
+              "id": "fd-10/10/2026-chelsea-bournemouth",
+              "date": "2026-10-10T15:00:00Z",
               "gf": 1,
               "ga": 5,
               "total": 6,
               "venue": "away",
-              "opponent": "Chelsea FC",
-              "opponentId": 364,
+              "opponent": "Chelsea",
+              "opponentId": "chelsea",
               "result": "L",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "shots": 9,
+              "shotsOnTarget": 4,
+              "yellowCards": 4,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-10-10|chelsea|away"
             },
             {
-              "id": "86576",
-              "date": "2026-09-20T13:00:00Z",
+              "id": "fd-20/09/2026-bournemouth-liverpool",
+              "date": "2026-09-20T14:00:00Z",
               "gf": 0,
               "ga": 1,
               "total": 1,
               "venue": "home",
-              "opponent": "FC Liverpool",
-              "opponentId": 370,
+              "opponent": "Liverpool",
+              "opponentId": "liverpool",
               "result": "L",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "shots": 9,
+              "shotsOnTarget": 2,
+              "yellowCards": 1,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-20|liverpool|home"
             },
             {
               "id": "87776",
@@ -214017,22 +214127,27 @@
               "competition": "Europa League 2026/27",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-17|realsociedad|away"
             },
             {
-              "id": "86558",
-              "date": "2026-09-12T14:00:00Z",
+              "id": "fd-05/09/2026-newcastle-bournemouth",
+              "date": "2026-09-05T12:30:00Z",
               "gf": 2,
-              "ga": 1,
-              "total": 3,
-              "venue": "home",
-              "opponent": "Brentford F.C.",
-              "opponentId": 5967,
-              "result": "W",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "ga": 2,
+              "total": 4,
+              "venue": "away",
+              "opponent": "Newcastle",
+              "opponentId": "newcastle",
+              "result": "D",
+              "shots": 17,
+              "shotsOnTarget": 5,
+              "yellowCards": 3,
+              "redCards": 0,
+              "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+              "scoreScope": "Source-reported domestic league full-time result",
+              "timeScope": "CSV kickoff used as reported; source timezone not independently confirmed",
+              "historyIdentityKey": "2026-09-05|newcastle|away"
             },
             {
               "id": "86549",
@@ -214047,42 +214162,13 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86540",
-              "date": "2026-08-29T14:00:00Z",
-              "gf": 1,
-              "ga": 1,
-              "total": 2,
-              "venue": "home",
-              "opponent": "Everton FC",
-              "opponentId": 541,
-              "result": "D",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "86535",
-              "date": "2026-08-23T13:00:00Z",
-              "gf": 1,
-              "ga": 2,
-              "total": 3,
-              "venue": "away",
-              "opponent": "Manchester City",
-              "opponentId": 4244,
-              "result": "L",
-              "competition": "Premier League 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
+              "scoreScope": "regulation",
+              "historyIdentityKey": "2026-09-05|newcastleunited|away"
             }
           ],
           "samples": {
             "home": 3,
-            "away": 9
+            "away": 10
           },
           "fallback": true,
           "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
@@ -214095,7 +214181,7 @@
           "title": "Scoring environment and independent screens",
           "status": "insufficient",
           "homeAVGSC": 2.6666666666666665,
-          "awayAVGSC": 3.111111111111111,
+          "awayAVGSC": 3.1,
           "markets": [],
           "leagueEnvironment": {
             "matches": 54,
@@ -214119,7 +214205,7 @@
           "status": "partial",
           "restDays": {
             "home": 13.947916666666666,
-            "away": 13.947916666666666
+            "away": 5.114583333333333
           },
           "homeLast5": [
             "0–1",
@@ -214127,11 +214213,11 @@
             "4–1"
           ],
           "awayLast5": [
+            "2–0",
             "3–0",
             "3–0",
-            "1–5",
-            "0–1",
-            "2–1"
+            "2–0",
+            "3–0"
           ],
           "missing": [
             "Travel",
@@ -214151,7 +214237,7 @@
             "Scores do not measure chance quality"
           ],
           "missing": [
-            "Sport-specific inputs and defensible scoring distribution"
+            "Conflicting source scores require independent review"
           ]
         },
         {
@@ -214160,7 +214246,7 @@
           "status": "no_bet",
           "verdict": "NO BET",
           "recommendation": null,
-          "reason": "Fewer than 6 valid results for one or both teams",
+          "reason": "Conflicting source scores quarantined; independent review required",
           "alternatives": []
         }
       ],
@@ -214171,16 +214257,22 @@
         "Advanced efficiency / xG / starting goaltender",
         "Travel and coaching context",
         "Independently corroborated opponent strength",
-        "Verified bookmaker price and settlement rules"
+        "Verified bookmaker price and settlement rules",
+        "Conflicting source scores require independent review"
       ],
       "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies.",
       "homeSample": 3,
-      "awaySample": 9,
+      "awaySample": 10,
       "verdict": "NO BET",
       "publicationStatus": "research",
       "settlementStatus": "not_published",
       "forecast": null,
-      "generatedByScan": true
+      "generatedByScan": true,
+      "dataRecoveryConflicts": [
+        "2026-09-12|brentford|home"
+      ],
+      "recoveredAt": "2026-11-03T01:11:18.724Z",
+      "dataRecovery": "Public fallback history; sport inputs and calibration still incomplete"
     },
     {
       "eventId": "ol-87824",
@@ -259284,7 +259376,7 @@
     }
   ],
   "frameworkExecution": "Partial deterministic implementation. No hosted AI engine; advanced research not executed.",
-  "message": "54 upcoming saved fixtures · 16 experimental forecasts · no guaranteed outcomes.",
+  "message": "Saved research includes automatic history recovery. Remaining gaps are listed in the missing-data desk.",
   "activeSports": [
     "Football"
   ],
