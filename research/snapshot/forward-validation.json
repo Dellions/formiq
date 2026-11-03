@@ -1346,7 +1346,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-11-03T23:23:27.906Z",
+  "generatedAt": "2026-11-03T23:31:24.053Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -2237,6 +2237,52 @@
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     },
     {
+      "id": "ol-83234",
+      "eventId": "ol-83234",
+      "match": "Hamburger SV — Borussia Mönchengladbach",
+      "sport": "Football",
+      "league": "1. Fußball-Bundesliga 2026/2027",
+      "start": "2026-11-06T19:30:00Z",
+      "home": {
+        "id": 100,
+        "name": "Hamburger SV"
+      },
+      "away": {
+        "id": 87,
+        "name": "Borussia Mönchengladbach"
+      },
+      "recordedAt": "2026-11-03T23:23:27.877Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8853900897700699,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+          "retrievedAt": "2026-11-03T23:23:23.610Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl1/2025",
+          "retrievedAt": "2026-11-03T23:23:25.731Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
       "id": "ol-83645",
       "eventId": "ol-83645",
       "match": "1. FC Heidenheim 1846 — Energie Cottbus",
@@ -3055,6 +3101,86 @@
           "retrievedAt": "2026-10-28T12:54:43.060Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-83684",
+      "eventId": "ol-83684",
+      "match": "Dynamo Dresden — SpVgg Greuther Fürth",
+      "sport": "Football",
+      "league": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-11-06T17:30:00Z",
+      "home": {
+        "id": 177,
+        "name": "Dynamo Dresden"
+      },
+      "away": {
+        "id": 115,
+        "name": "SpVgg Greuther Fürth"
+      },
+      "recordedAt": "2026-11-03T23:23:27.878Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.7965162425790867,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
+          "retrievedAt": "2026-11-03T23:23:23.750Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-83687",
+      "eventId": "ol-83687",
+      "match": "Eintracht Braunschweig — Energie Cottbus",
+      "sport": "Football",
+      "league": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-11-06T17:30:00Z",
+      "home": {
+        "id": 74,
+        "name": "Eintracht Braunschweig"
+      },
+      "away": {
+        "id": 93,
+        "name": "Energie Cottbus"
+      },
+      "recordedAt": "2026-11-03T23:23:27.878Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8743108767424543,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
+          "retrievedAt": "2026-11-03T23:23:23.750Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
         }
       ],
       "classification": "FORWARD_EXPERIMENTAL_FORECAST",
@@ -4485,6 +4611,46 @@
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     },
     {
+      "id": "ol-84870",
+      "eventId": "ol-84870",
+      "match": "Viktoria Köln — 1. FC Saarbrücken",
+      "sport": "Football",
+      "league": "3. Liga 2026/2027",
+      "start": "2026-11-06T18:00:00Z",
+      "home": {
+        "id": 2199,
+        "name": "Viktoria Köln"
+      },
+      "away": {
+        "id": 417,
+        "name": "1. FC Saarbrücken"
+      },
+      "recordedAt": "2026-11-03T23:23:27.878Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.9039258191577962,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
+          "retrievedAt": "2026-11-03T23:23:24.195Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
       "id": "ol-85391",
       "eventId": "ol-85391",
       "match": "Levante UD — Athletic Club",
@@ -5481,6 +5647,46 @@
         {
           "url": "https://api.openligadb.de/getmatchdata/la1/2026",
           "retrievedAt": "2026-10-28T12:54:42.122Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-85452",
+      "eventId": "ol-85452",
+      "match": "FC Sevilla — Deportivo Alaves",
+      "sport": "Football",
+      "league": "LaLiga EA Sports 2026/2027",
+      "start": "2026-11-06T20:00:00Z",
+      "home": {
+        "id": 1139,
+        "name": "FC Sevilla"
+      },
+      "away": {
+        "id": 4257,
+        "name": "Deportivo Alaves"
+      },
+      "recordedAt": "2026-11-03T23:23:27.879Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.7499754746612721,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/la1/2026",
+          "retrievedAt": "2026-11-03T23:23:23.829Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -6545,6 +6751,58 @@
         {
           "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
           "retrievedAt": "2026-10-29T13:00:38.240Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-86621",
+      "eventId": "ol-86621",
+      "match": "Everton FC — Coventry City",
+      "sport": "Football",
+      "league": "Premier League 2026/2027",
+      "start": "2026-11-06T20:00:00Z",
+      "home": {
+        "id": 541,
+        "name": "Everton FC"
+      },
+      "away": {
+        "id": 8795,
+        "name": "Coventry City"
+      },
+      "recordedAt": "2026-11-03T23:23:27.879Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "under",
+      "line": 3.5,
+      "probability": 0.810890345627548,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 8,
+      "awaySample": 6,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+          "retrievedAt": "2026-11-03T23:23:24.137Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2025",
+          "retrievedAt": "2026-11-03T23:23:25.711Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+          "retrievedAt": "2026-11-02T15:51:51.795Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 5760
         }
@@ -8323,264 +8581,6 @@
       "odds": null,
       "estimatedEV": null,
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-83234",
-      "eventId": "ol-83234",
-      "match": "Hamburger SV — Borussia Mönchengladbach",
-      "sport": "Football",
-      "league": "1. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-06T19:30:00Z",
-      "home": {
-        "id": 100,
-        "name": "Hamburger SV"
-      },
-      "away": {
-        "id": 87,
-        "name": "Borussia Mönchengladbach"
-      },
-      "recordedAt": "2026-11-03T23:23:27.877Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.8853900897700699,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-03T23:23:23.610Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl1/2025",
-          "retrievedAt": "2026-11-03T23:23:25.731Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-83684",
-      "eventId": "ol-83684",
-      "match": "Dynamo Dresden — SpVgg Greuther Fürth",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-06T17:30:00Z",
-      "home": {
-        "id": 177,
-        "name": "Dynamo Dresden"
-      },
-      "away": {
-        "id": 115,
-        "name": "SpVgg Greuther Fürth"
-      },
-      "recordedAt": "2026-11-03T23:23:27.878Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.7965162425790867,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-03T23:23:23.750Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-83687",
-      "eventId": "ol-83687",
-      "match": "Eintracht Braunschweig — Energie Cottbus",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-06T17:30:00Z",
-      "home": {
-        "id": 74,
-        "name": "Eintracht Braunschweig"
-      },
-      "away": {
-        "id": 93,
-        "name": "Energie Cottbus"
-      },
-      "recordedAt": "2026-11-03T23:23:27.878Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.8743108767424543,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-03T23:23:23.750Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-84870",
-      "eventId": "ol-84870",
-      "match": "Viktoria Köln — 1. FC Saarbrücken",
-      "sport": "Football",
-      "league": "3. Liga 2026/2027",
-      "start": "2026-11-06T18:00:00Z",
-      "home": {
-        "id": 2199,
-        "name": "Viktoria Köln"
-      },
-      "away": {
-        "id": 417,
-        "name": "1. FC Saarbrücken"
-      },
-      "recordedAt": "2026-11-03T23:23:27.878Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.9039258191577962,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-03T23:23:24.195Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-85452",
-      "eventId": "ol-85452",
-      "match": "FC Sevilla — Deportivo Alaves",
-      "sport": "Football",
-      "league": "LaLiga EA Sports 2026/2027",
-      "start": "2026-11-06T20:00:00Z",
-      "home": {
-        "id": 1139,
-        "name": "FC Sevilla"
-      },
-      "away": {
-        "id": 4257,
-        "name": "Deportivo Alaves"
-      },
-      "recordedAt": "2026-11-03T23:23:27.879Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.7499754746612721,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-          "retrievedAt": "2026-11-03T23:23:23.829Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-86621",
-      "eventId": "ol-86621",
-      "match": "Everton FC — Coventry City",
-      "sport": "Football",
-      "league": "Premier League 2026/2027",
-      "start": "2026-11-06T20:00:00Z",
-      "home": {
-        "id": 541,
-        "name": "Everton FC"
-      },
-      "away": {
-        "id": 8795,
-        "name": "Coventry City"
-      },
-      "recordedAt": "2026-11-03T23:23:27.879Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "under",
-      "line": 3.5,
-      "probability": 0.810890345627548,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 8,
-      "awaySample": 6,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-03T23:23:24.137Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/pl/2025",
-          "retrievedAt": "2026-11-03T23:23:25.711Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        },
-        {
-          "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-          "retrievedAt": "2026-11-02T15:51:51.795Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 5760
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     }
   ],
   "outcomes": [
@@ -8717,11 +8717,35 @@
       "bettingSettlement": false
     },
     {
+      "eventId": "ol-83221",
+      "home": 3,
+      "away": 1,
+      "outcome": 1,
+      "scoredAt": "2026-11-03T23:23:27.879Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl1/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
       "eventId": "ol-83222",
       "home": 1,
       "away": 2,
       "outcome": 1,
       "scoredAt": "2026-11-03T00:58:10.517Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl1/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83224",
+      "home": 0,
+      "away": 0,
+      "outcome": 0,
+      "scoredAt": "2026-11-03T23:23:27.881Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/bl1/2026"
       ],
@@ -8861,6 +8885,54 @@
       "bettingSettlement": false
     },
     {
+      "eventId": "ol-83665",
+      "home": 2,
+      "away": 1,
+      "outcome": 1,
+      "scoredAt": "2026-11-03T23:23:27.883Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl2/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83671",
+      "home": 3,
+      "away": 1,
+      "outcome": 1,
+      "scoredAt": "2026-11-03T23:23:27.885Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl2/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83673",
+      "home": 1,
+      "away": 0,
+      "outcome": 0,
+      "scoredAt": "2026-11-03T23:23:27.886Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl2/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83674",
+      "home": 1,
+      "away": 2,
+      "outcome": 1,
+      "scoredAt": "2026-11-03T23:23:27.887Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl2/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
       "eventId": "ol-84845",
       "home": 3,
       "away": 1,
@@ -8974,6 +9046,30 @@
       "away": 0,
       "outcome": 1,
       "scoredAt": "2026-10-28T12:54:44.124Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl3/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-84855",
+      "home": 0,
+      "away": 1,
+      "outcome": 0,
+      "scoredAt": "2026-11-03T23:23:27.888Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl3/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-84861",
+      "home": 2,
+      "away": 1,
+      "outcome": 1,
+      "scoredAt": "2026-11-03T23:23:27.891Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/bl3/2026"
       ],
@@ -9252,102 +9348,6 @@
       "scoredAt": "2026-10-24T15:56:59.118Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/uecl2026/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83221",
-      "home": 3,
-      "away": 1,
-      "outcome": 1,
-      "scoredAt": "2026-11-03T23:23:27.879Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl1/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83224",
-      "home": 0,
-      "away": 0,
-      "outcome": 0,
-      "scoredAt": "2026-11-03T23:23:27.881Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl1/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83665",
-      "home": 2,
-      "away": 1,
-      "outcome": 1,
-      "scoredAt": "2026-11-03T23:23:27.883Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl2/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83671",
-      "home": 3,
-      "away": 1,
-      "outcome": 1,
-      "scoredAt": "2026-11-03T23:23:27.885Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl2/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83673",
-      "home": 1,
-      "away": 0,
-      "outcome": 0,
-      "scoredAt": "2026-11-03T23:23:27.886Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl2/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83674",
-      "home": 1,
-      "away": 2,
-      "outcome": 1,
-      "scoredAt": "2026-11-03T23:23:27.887Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl2/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-84855",
-      "home": 0,
-      "away": 1,
-      "outcome": 0,
-      "scoredAt": "2026-11-03T23:23:27.888Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl3/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-84861",
-      "home": 2,
-      "away": 1,
-      "outcome": 1,
-      "scoredAt": "2026-11-03T23:23:27.891Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl3/2026"
       ],
       "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
       "bettingSettlement": false
