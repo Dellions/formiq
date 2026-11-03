@@ -1346,7 +1346,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-11-03T00:58:10.543Z",
+  "generatedAt": "2026-11-03T01:06:26.324Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -7495,6 +7495,122 @@
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     },
     {
+      "id": "ol-87749",
+      "eventId": "ol-87749",
+      "match": "Bayer 04 Leverkusen — Olympique Marseille",
+      "sport": "Football",
+      "league": "Europa League 2026/27",
+      "start": "2026-11-05T20:00:00Z",
+      "home": {
+        "id": 6,
+        "name": "Bayer 04 Leverkusen"
+      },
+      "away": {
+        "id": 2557,
+        "name": "Olympique Marseille"
+      },
+      "recordedAt": "2026-11-03T00:58:10.513Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8656015074074006,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 9,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+          "retrievedAt": "2026-11-03T00:58:06.759Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+          "retrievedAt": "2026-11-03T00:58:06.630Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
+          "retrievedAt": "2026-11-03T00:58:08.361Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv",
+          "retrievedAt": "2026-11-02T15:51:53.790Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87753",
+      "eventId": "ol-87753",
+      "match": "Crystal Palace FC — TSG Hoffenheim",
+      "sport": "Football",
+      "league": "Europa League 2026/27",
+      "start": "2026-11-05T17:45:00Z",
+      "home": {
+        "id": 2489,
+        "name": "Crystal Palace FC"
+      },
+      "away": {
+        "id": 175,
+        "name": "TSG Hoffenheim"
+      },
+      "recordedAt": "2026-11-03T00:58:10.514Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8776171896941715,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 9,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+          "retrievedAt": "2026-11-03T00:58:06.759Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+          "retrievedAt": "2026-11-03T00:58:06.630Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+          "retrievedAt": "2026-11-03T00:58:07.058Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
+          "retrievedAt": "2026-11-03T00:58:08.361Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
       "id": "ol-87809",
       "eventId": "ol-87809",
       "match": "Juventus Turin — Stade Rennes",
@@ -7657,6 +7773,180 @@
         {
           "url": "https://www.football-data.co.uk/mmz4281/2627/T1.csv",
           "retrievedAt": "2026-10-20T22:40:10.357Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87827",
+      "eventId": "ol-87827",
+      "match": "Real Sociedad — Olympique Lyon",
+      "sport": "Football",
+      "league": "Europa League 2026/27",
+      "start": "2026-11-05T17:45:00Z",
+      "home": {
+        "id": 1275,
+        "name": "Real Sociedad"
+      },
+      "away": {
+        "id": 1819,
+        "name": "Olympique Lyon"
+      },
+      "recordedAt": "2026-11-03T00:58:10.514Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.7786466821830964,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 9,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+          "retrievedAt": "2026-11-03T00:58:06.759Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/la1/2026",
+          "retrievedAt": "2026-11-03T00:58:06.421Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
+          "retrievedAt": "2026-11-03T00:58:08.361Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv",
+          "retrievedAt": "2026-11-02T15:51:53.790Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87830",
+      "eventId": "ol-87830",
+      "match": "AZ Alkmaar — Juventus Turin",
+      "sport": "Football",
+      "league": "Europa League 2026/27",
+      "start": "2026-11-05T20:00:00Z",
+      "home": {
+        "id": 727,
+        "name": "AZ Alkmaar"
+      },
+      "away": {
+        "id": 369,
+        "name": "Juventus Turin"
+      },
+      "recordedAt": "2026-11-03T00:58:10.515Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.7513396028629259,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+          "retrievedAt": "2026-11-03T00:58:06.759Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
+          "retrievedAt": "2026-11-03T00:58:08.361Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/N1.csv",
+          "retrievedAt": "2026-11-02T15:51:54.066Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv",
+          "retrievedAt": "2026-11-02T15:51:53.521Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87831",
+      "eventId": "ol-87831",
+      "match": "Celtic Glasgow — Besiktas Istanbul",
+      "sport": "Football",
+      "league": "Europa League 2026/27",
+      "start": "2026-11-05T20:00:00Z",
+      "home": {
+        "id": 2804,
+        "name": "Celtic Glasgow"
+      },
+      "away": {
+        "id": 1837,
+        "name": "Besiktas Istanbul"
+      },
+      "recordedAt": "2026-11-03T00:58:10.515Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8294498186127484,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+          "retrievedAt": "2026-11-03T00:58:06.759Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
+          "retrievedAt": "2026-11-03T00:58:08.368Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SC0.csv",
+          "retrievedAt": "2026-11-02T15:51:56.537Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/T1.csv",
+          "retrievedAt": "2026-11-02T15:51:56.842Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 5760
         }
@@ -7843,372 +8133,6 @@
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     },
     {
-      "id": "tsdb-2565506",
-      "eventId": "tsdb-2565506",
-      "match": "Hapoel Tel Aviv BC — Virtus Pallacanestro Bologna",
-      "sport": "Basketball",
-      "league": "EuroLeague Basketball",
-      "start": "2026-10-21T16:00:00Z",
-      "home": {
-        "id": "136059",
-        "name": "Hapoel Tel Aviv BC"
-      },
-      "away": {
-        "id": "135386",
-        "name": "Virtus Pallacanestro Bologna"
-      },
-      "recordedAt": "2026-10-21T12:29:26.265Z",
-      "modelVersion": "research-v5-horizon-neutral-v1",
-      "type": "total",
-      "side": "under",
-      "line": 182.5,
-      "probability": 0.6896798846878552,
-      "period": "source_final",
-      "settlement": "unverified",
-      "homeSample": 6,
-      "awaySample": 6,
-      "sources": [
-        {
-          "url": "https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-20&l=4546",
-          "retrievedAt": "2026-10-21T11:03:27.440Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 30
-        },
-        {
-          "url": "https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-21&l=4546",
-          "retrievedAt": "2026-10-21T11:03:29.737Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 30
-        },
-        {
-          "url": "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4546&s=2026-2027",
-          "retrievedAt": "2026-10-21T11:03:32.036Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        },
-        {
-          "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
-          "retrievedAt": "2026-10-21T12:20:48.734Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        },
-        {
-          "url": "https://www.virtus.it/stagione/eurolegue/",
-          "retrievedAt": "2026-10-21T12:20:48.734Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        },
-        {
-          "url": "https://hapoelbc.com/tickets/",
-          "retrievedAt": "2026-10-21T12:20:48.734Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 60
-        },
-        {
-          "url": "https://hapoelbc.com/meettherivalvirtus-bologna/",
-          "retrievedAt": "2026-10-21T12:21:31.885Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-87749",
-      "eventId": "ol-87749",
-      "match": "Bayer 04 Leverkusen — Olympique Marseille",
-      "sport": "Football",
-      "league": "Europa League 2026/27",
-      "start": "2026-11-05T20:00:00Z",
-      "home": {
-        "id": 6,
-        "name": "Bayer 04 Leverkusen"
-      },
-      "away": {
-        "id": 2557,
-        "name": "Olympique Marseille"
-      },
-      "recordedAt": "2026-11-03T00:58:10.513Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.8656015074074006,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 9,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-03T00:58:06.759Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-03T00:58:06.630Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
-          "retrievedAt": "2026-11-03T00:58:08.361Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        },
-        {
-          "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv",
-          "retrievedAt": "2026-11-02T15:51:53.790Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 5760
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-87753",
-      "eventId": "ol-87753",
-      "match": "Crystal Palace FC — TSG Hoffenheim",
-      "sport": "Football",
-      "league": "Europa League 2026/27",
-      "start": "2026-11-05T17:45:00Z",
-      "home": {
-        "id": 2489,
-        "name": "Crystal Palace FC"
-      },
-      "away": {
-        "id": 175,
-        "name": "TSG Hoffenheim"
-      },
-      "recordedAt": "2026-11-03T00:58:10.514Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.8776171896941715,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 9,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-03T00:58:06.759Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-03T00:58:06.630Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-03T00:58:07.058Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
-          "retrievedAt": "2026-11-03T00:58:08.361Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-87827",
-      "eventId": "ol-87827",
-      "match": "Real Sociedad — Olympique Lyon",
-      "sport": "Football",
-      "league": "Europa League 2026/27",
-      "start": "2026-11-05T17:45:00Z",
-      "home": {
-        "id": 1275,
-        "name": "Real Sociedad"
-      },
-      "away": {
-        "id": 1819,
-        "name": "Olympique Lyon"
-      },
-      "recordedAt": "2026-11-03T00:58:10.514Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.7786466821830964,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 9,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-03T00:58:06.759Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-          "retrievedAt": "2026-11-03T00:58:06.421Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
-          "retrievedAt": "2026-11-03T00:58:08.361Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        },
-        {
-          "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv",
-          "retrievedAt": "2026-11-02T15:51:53.790Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 5760
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-87830",
-      "eventId": "ol-87830",
-      "match": "AZ Alkmaar — Juventus Turin",
-      "sport": "Football",
-      "league": "Europa League 2026/27",
-      "start": "2026-11-05T20:00:00Z",
-      "home": {
-        "id": 727,
-        "name": "AZ Alkmaar"
-      },
-      "away": {
-        "id": 369,
-        "name": "Juventus Turin"
-      },
-      "recordedAt": "2026-11-03T00:58:10.515Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.7513396028629259,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-03T00:58:06.759Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
-          "retrievedAt": "2026-11-03T00:58:08.361Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        },
-        {
-          "url": "https://www.football-data.co.uk/mmz4281/2627/N1.csv",
-          "retrievedAt": "2026-11-02T15:51:54.066Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 5760
-        },
-        {
-          "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv",
-          "retrievedAt": "2026-11-02T15:51:53.521Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 5760
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-87831",
-      "eventId": "ol-87831",
-      "match": "Celtic Glasgow — Besiktas Istanbul",
-      "sport": "Football",
-      "league": "Europa League 2026/27",
-      "start": "2026-11-05T20:00:00Z",
-      "home": {
-        "id": 2804,
-        "name": "Celtic Glasgow"
-      },
-      "away": {
-        "id": 1837,
-        "name": "Besiktas Istanbul"
-      },
-      "recordedAt": "2026-11-03T00:58:10.515Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.8294498186127484,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-03T00:58:06.759Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        },
-        {
-          "url": "https://api.openligadb.de/getmatchdata/uel2026/2025",
-          "retrievedAt": "2026-11-03T00:58:08.368Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 1440
-        },
-        {
-          "url": "https://www.football-data.co.uk/mmz4281/2627/SC0.csv",
-          "retrievedAt": "2026-11-02T15:51:56.537Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 5760
-        },
-        {
-          "url": "https://www.football-data.co.uk/mmz4281/2627/T1.csv",
-          "retrievedAt": "2026-11-02T15:51:56.842Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 5760
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
       "id": "ol-88323",
       "eventId": "ol-88323",
       "match": "Trabzonspor — SC Freiburg",
@@ -8315,6 +8239,82 @@
           "retrievedAt": "2026-11-02T15:51:51.795Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "tsdb-2565506",
+      "eventId": "tsdb-2565506",
+      "match": "Hapoel Tel Aviv BC — Virtus Pallacanestro Bologna",
+      "sport": "Basketball",
+      "league": "EuroLeague Basketball",
+      "start": "2026-10-21T16:00:00Z",
+      "home": {
+        "id": "136059",
+        "name": "Hapoel Tel Aviv BC"
+      },
+      "away": {
+        "id": "135386",
+        "name": "Virtus Pallacanestro Bologna"
+      },
+      "recordedAt": "2026-10-21T12:29:26.265Z",
+      "modelVersion": "research-v5-horizon-neutral-v1",
+      "type": "total",
+      "side": "under",
+      "line": 182.5,
+      "probability": 0.6896798846878552,
+      "period": "source_final",
+      "settlement": "unverified",
+      "homeSample": 6,
+      "awaySample": 6,
+      "sources": [
+        {
+          "url": "https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-20&l=4546",
+          "retrievedAt": "2026-10-21T11:03:27.440Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 30
+        },
+        {
+          "url": "https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-21&l=4546",
+          "retrievedAt": "2026-10-21T11:03:29.737Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 30
+        },
+        {
+          "url": "https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4546&s=2026-2027",
+          "retrievedAt": "2026-10-21T11:03:32.036Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://basketnews.com/teams/635-hapoel-ibi-tel-aviv/schedules.html",
+          "retrievedAt": "2026-10-21T12:20:48.734Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.virtus.it/stagione/eurolegue/",
+          "retrievedAt": "2026-10-21T12:20:48.734Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://hapoelbc.com/tickets/",
+          "retrievedAt": "2026-10-21T12:20:48.734Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 60
+        },
+        {
+          "url": "https://hapoelbc.com/meettherivalvirtus-bologna/",
+          "retrievedAt": "2026-10-21T12:21:31.885Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
         }
       ],
       "classification": "FORWARD_EXPERIMENTAL_FORECAST",
@@ -8452,6 +8452,30 @@
       "away": 4,
       "outcome": 1,
       "scoredAt": "2026-11-01T13:24:21.365Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl1/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83222",
+      "home": 1,
+      "away": 2,
+      "outcome": 1,
+      "scoredAt": "2026-11-03T00:58:10.517Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl1/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83225",
+      "home": 2,
+      "away": 0,
+      "outcome": 1,
+      "scoredAt": "2026-11-03T00:58:10.519Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/bl1/2026"
       ],
@@ -8970,30 +8994,6 @@
       "scoredAt": "2026-10-24T15:56:59.118Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/uecl2026/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83222",
-      "home": 1,
-      "away": 2,
-      "outcome": 1,
-      "scoredAt": "2026-11-03T00:58:10.517Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl1/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83225",
-      "home": 2,
-      "away": 0,
-      "outcome": 1,
-      "scoredAt": "2026-11-03T00:58:10.519Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl1/2026"
       ],
       "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
       "bettingSettlement": false
