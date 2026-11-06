@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-05T23:48:56.329552Z",
+  "at": "2026-11-06T14:32:51.145753Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -2842,7 +2842,7 @@
       "eventId": "ol-86621",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.353Z",
+      "attemptedAt": "2026-11-06T14:32:51.166Z",
       "status": "cached_results",
       "usableResults": 8,
       "sources": [
@@ -2858,7 +2858,7 @@
       "eventId": "ol-86621",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.355Z",
+      "attemptedAt": "2026-11-06T14:32:51.168Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2874,7 +2874,7 @@
       "eventId": "ol-83228",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.353Z",
+      "attemptedAt": "2026-11-06T14:32:51.166Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2890,7 +2890,7 @@
       "eventId": "ol-83236",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.353Z",
+      "attemptedAt": "2026-11-06T14:32:51.166Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2906,7 +2906,7 @@
       "eventId": "ol-86618",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.353Z",
+      "attemptedAt": "2026-11-06T14:32:51.166Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2922,7 +2922,7 @@
       "eventId": "ol-86622",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.354Z",
+      "attemptedAt": "2026-11-06T14:32:51.167Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -2938,7 +2938,7 @@
       "eventId": "ol-86622",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.354Z",
+      "attemptedAt": "2026-11-06T14:32:51.167Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2954,7 +2954,7 @@
       "eventId": "ol-86624",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.354Z",
+      "attemptedAt": "2026-11-06T14:32:51.167Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2970,7 +2970,7 @@
       "eventId": "ol-86624",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.354Z",
+      "attemptedAt": "2026-11-06T14:32:51.167Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -2986,7 +2986,7 @@
       "eventId": "ol-86626",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.354Z",
+      "attemptedAt": "2026-11-06T14:32:51.168Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -3002,7 +3002,7 @@
       "eventId": "ol-83231",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.352Z",
+      "attemptedAt": "2026-11-06T14:32:51.165Z",
       "status": "cached_results",
       "usableResults": 8,
       "sources": [
@@ -3018,7 +3018,7 @@
       "eventId": "ol-85451",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.352Z",
+      "attemptedAt": "2026-11-06T14:32:51.165Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -3034,7 +3034,7 @@
       "eventId": "ol-86619",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.352Z",
+      "attemptedAt": "2026-11-06T14:32:51.166Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -3050,7 +3050,7 @@
       "eventId": "ol-86619",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.352Z",
+      "attemptedAt": "2026-11-06T14:32:51.166Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -3066,7 +3066,7 @@
       "eventId": "ol-86623",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.352Z",
+      "attemptedAt": "2026-11-06T14:32:51.166Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -3082,7 +3082,7 @@
       "eventId": "ol-86627",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.353Z",
+      "attemptedAt": "2026-11-06T14:32:51.167Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -3098,7 +3098,7 @@
       "eventId": "ol-86627",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-05T23:48:56.353Z",
+      "attemptedAt": "2026-11-06T14:32:51.167Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -3368,9 +3368,34 @@
       "candidateResults": 9
     },
     {
+      "taskId": "ol-83231:history.away",
+      "status": "no_sample_improvement",
+      "candidateResults": 10
+    },
+    {
+      "taskId": "ol-86619:history.home",
+      "status": "no_sample_improvement",
+      "candidateResults": 9
+    },
+    {
+      "taskId": "ol-86619:history.away",
+      "status": "no_sample_improvement",
+      "candidateResults": 9
+    },
+    {
       "taskId": "ol-86621:history.home",
       "status": "no_sample_improvement",
       "candidateResults": 8
+    },
+    {
+      "taskId": "ol-86627:history.home",
+      "status": "no_sample_improvement",
+      "candidateResults": 9
+    },
+    {
+      "taskId": "ol-86627:history.away",
+      "status": "no_sample_improvement",
+      "candidateResults": 9
     },
     {
       "taskId": "ol-86622:history.home",
