@@ -1,12 +1,7 @@
 {
-  "startedAt": "2026-11-06T14:16:15.928Z",
+  "startedAt": "2026-11-06T23:08:14.336Z",
   "status": "catalogue_processed",
   "core": [
-    {
-      "date": "2026-11-06",
-      "screened": 6,
-      "status": "partial"
-    },
     {
       "date": "2026-11-07",
       "screened": 23,
@@ -16,17 +11,14 @@
       "date": "2026-11-08",
       "screened": 19,
       "status": "partial"
+    },
+    {
+      "date": "2026-11-09",
+      "screened": 0,
+      "status": "partial"
     }
   ],
   "batches": [
-    {
-      "date": "2026-11-06",
-      "cursor": 0,
-      "nextCursor": null,
-      "records": 0,
-      "rateLimited": false,
-      "sourceFailures": false
-    },
     {
       "date": "2026-11-07",
       "cursor": 0,
@@ -42,9 +34,17 @@
       "records": 0,
       "rateLimited": false,
       "sourceFailures": false
+    },
+    {
+      "date": "2026-11-09",
+      "cursor": 0,
+      "nextCursor": null,
+      "records": 0,
+      "rateLimited": false,
+      "sourceFailures": false
     }
   ],
   "unfinished": [],
   "stopReason": null,
-  "finishedAt": "2026-11-06T14:16:20.040Z"
+  "finishedAt": "2026-11-06T23:08:21.433Z"
 }
