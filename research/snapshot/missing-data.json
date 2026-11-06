@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T14:32:51.271Z",
+  "generatedAt": "2026-11-06T23:26:49.675Z",
   "status": "partial",
   "records": [
     {
@@ -26,13 +26,13 @@
             "eventId": "ol-83228",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.166Z",
+            "attemptedAt": "2026-11-06T23:26:49.534Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
-                "retrievedAt": "2026-11-02T15:51:53.224Z",
+                "retrievedAt": "2026-11-06T23:08:17.004Z",
                 "cached": true
               }
             ]
@@ -366,62 +366,6 @@
       ]
     },
     {
-      "eventId": "ol-83234",
-      "match": "Hamburger SV — Borussia Mönchengladbach",
-      "sport": "Football",
-      "league": "1. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-06T19:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83234:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83234:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83234:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83234:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83234:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-83235",
       "match": "1. FC Köln — Bayer 04 Leverkusen",
       "sport": "Football",
@@ -501,13 +445,13 @@
             "eventId": "ol-83236",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.166Z",
+            "attemptedAt": "2026-11-06T23:26:49.534Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
-                "retrievedAt": "2026-11-02T15:51:53.224Z",
+                "retrievedAt": "2026-11-06T23:08:17.004Z",
                 "cached": true
               }
             ]
@@ -785,62 +729,6 @@
       ]
     },
     {
-      "eventId": "ol-83684",
-      "match": "Dynamo Dresden — SpVgg Greuther Fürth",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-06T17:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83684:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83684:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83684:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83684:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83684:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-83685",
       "match": "Holstein Kiel — DSC Arminia Bielefeld",
       "sport": "Football",
@@ -947,62 +835,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-83686:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-83687",
-      "match": "Eintracht Braunschweig — Energie Cottbus",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-06T17:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83687:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83687:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83687:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83687:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83687:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -1339,62 +1171,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-84869:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-84870",
-      "match": "Viktoria Köln — 1. FC Saarbrücken",
-      "sport": "Football",
-      "league": "3. Liga 2026/2027",
-      "start": "2026-11-06T18:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-84870:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-84870:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-84870:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-84870:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-84870:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -1984,13 +1760,13 @@
             "eventId": "ol-85451",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.165Z",
+            "attemptedAt": "2026-11-06T23:26:49.533Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
-                "retrievedAt": "2026-11-02T15:51:52.865Z",
+                "retrievedAt": "2026-11-06T23:08:16.729Z",
                 "cached": true
               }
             ]
@@ -2038,62 +1814,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-85451:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-85452",
-      "match": "FC Sevilla — Deportivo Alaves",
-      "sport": "Football",
-      "league": "LaLiga EA Sports 2026/2027",
-      "start": "2026-11-06T20:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-85452:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-85452:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-85452:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-85452:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-85452:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -2235,13 +1955,13 @@
             "eventId": "ol-86618",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.166Z",
+            "attemptedAt": "2026-11-06T23:26:49.534Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -2309,13 +2029,13 @@
             "eventId": "ol-86619",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.166Z",
+            "attemptedAt": "2026-11-06T23:26:49.534Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -2336,13 +2056,13 @@
             "eventId": "ol-86619",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.166Z",
+            "attemptedAt": "2026-11-06T23:26:49.535Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -2452,116 +2172,6 @@
       ]
     },
     {
-      "eventId": "ol-86621",
-      "match": "Everton FC — Coventry City",
-      "sport": "Football",
-      "league": "Premier League 2026/2027",
-      "start": "2026-11-06T20:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": false,
-      "gaps": [
-        {
-          "field": "history.home",
-          "actual": 8,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-86621:history.home",
-          "status": "cached_results",
-          "lastAttempt": {
-            "taskId": "ol-86621:history.home",
-            "eventId": "ol-86621",
-            "side": "home",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.166Z",
-            "status": "cached_results",
-            "usableResults": 8,
-            "sources": [
-              {
-                "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
-                "cached": true
-              }
-            ]
-          }
-        },
-        {
-          "field": "history.away",
-          "actual": 7,
-          "target": 10,
-          "minimum": 6,
-          "severity": "preferred",
-          "reason": "Preferred last-ten history incomplete",
-          "adapter": "cached-domestic-history",
-          "taskId": "ol-86621:history.away",
-          "status": "no_cached_alternative",
-          "lastAttempt": {
-            "taskId": "ol-86621:history.away",
-            "eventId": "ol-86621",
-            "side": "away",
-            "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.168Z",
-            "status": "no_cached_alternative",
-            "usableResults": 0,
-            "sources": [
-              {
-                "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
-                "cached": true
-              }
-            ]
-          }
-        },
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-86621:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-86621:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-86621:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-86621:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-86621:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-86622",
       "match": "Fulham FC — Newcastle United FC",
       "sport": "Football",
@@ -2585,13 +2195,13 @@
             "eventId": "ol-86622",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.167Z",
+            "attemptedAt": "2026-11-06T23:26:49.535Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -2612,13 +2222,13 @@
             "eventId": "ol-86622",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.167Z",
+            "attemptedAt": "2026-11-06T23:26:49.535Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -2695,13 +2305,13 @@
             "eventId": "ol-86623",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.166Z",
+            "attemptedAt": "2026-11-06T23:26:49.535Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -2778,13 +2388,13 @@
             "eventId": "ol-86624",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.167Z",
+            "attemptedAt": "2026-11-06T23:26:49.535Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -2805,13 +2415,13 @@
             "eventId": "ol-86624",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.167Z",
+            "attemptedAt": "2026-11-06T23:26:49.535Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -2944,13 +2554,13 @@
             "eventId": "ol-86626",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.168Z",
+            "attemptedAt": "2026-11-06T23:26:49.536Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -3027,13 +2637,13 @@
             "eventId": "ol-86627",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.167Z",
+            "attemptedAt": "2026-11-06T23:26:49.536Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -3054,13 +2664,13 @@
             "eventId": "ol-86627",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-06T14:32:51.167Z",
+            "attemptedAt": "2026-11-06T23:26:49.536Z",
             "status": "cached_results",
             "usableResults": 9,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-02T15:51:51.795Z",
+                "retrievedAt": "2026-11-06T23:08:16.408Z",
                 "cached": true
               }
             ]
@@ -3114,11 +2724,11 @@
       ]
     }
   ],
-  "fixtures": 48,
-  "withGaps": 48,
+  "fixtures": 42,
+  "withGaps": 42,
   "historyBlocking": 0,
-  "historyPreferredIncomplete": 11,
-  "automaticHistoryTasks": 16,
+  "historyPreferredIncomplete": 10,
+  "automaticHistoryTasks": 14,
   "publicationEligible": false,
   "note": "Successful collection is not data completeness. Unsupported adapters remain explicit gaps; cached or failed attempts are never reported as recovered data."
 }
