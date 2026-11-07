@@ -1,10 +1,10 @@
 {
-  "startedAt": "2026-11-07T13:00:02.553Z",
+  "startedAt": "2026-11-07T21:50:50.765Z",
   "status": "catalogue_processed",
   "core": [
     {
       "date": "2026-11-07",
-      "screened": 13,
+      "screened": 0,
       "status": "partial"
     },
     {
@@ -46,5 +46,5 @@
   ],
   "unfinished": [],
   "stopReason": null,
-  "finishedAt": "2026-11-07T13:00:06.118Z"
+  "finishedAt": "2026-11-07T21:50:54.447Z"
 }
