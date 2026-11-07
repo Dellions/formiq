@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-07T13:28:09.642683Z",
+  "at": "2026-11-07T22:14:26.071951Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -3002,7 +3002,7 @@
       "eventId": "ol-83231",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-07T13:28:09.669Z",
+      "attemptedAt": "2026-11-07T22:14:26.104Z",
       "status": "cached_results",
       "usableResults": 8,
       "sources": [
@@ -3018,7 +3018,7 @@
       "eventId": "ol-85451",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-07T13:28:09.670Z",
+      "attemptedAt": "2026-11-07T22:14:26.104Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -3034,7 +3034,7 @@
       "eventId": "ol-86619",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-07T13:28:09.671Z",
+      "attemptedAt": "2026-11-07T22:14:26.105Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -3050,7 +3050,7 @@
       "eventId": "ol-86619",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-07T13:28:09.671Z",
+      "attemptedAt": "2026-11-07T22:14:26.105Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -3066,7 +3066,7 @@
       "eventId": "ol-86623",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-07T13:28:09.672Z",
+      "attemptedAt": "2026-11-07T22:14:26.105Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -3082,7 +3082,7 @@
       "eventId": "ol-86627",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-07T13:28:09.672Z",
+      "attemptedAt": "2026-11-07T22:14:26.105Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -3098,7 +3098,7 @@
       "eventId": "ol-86627",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-07T13:28:09.672Z",
+      "attemptedAt": "2026-11-07T22:14:26.106Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
@@ -3379,11 +3379,6 @@
     },
     {
       "taskId": "ol-86619:history.away",
-      "status": "no_sample_improvement",
-      "candidateResults": 9
-    },
-    {
-      "taskId": "ol-86622:history.home",
       "status": "no_sample_improvement",
       "candidateResults": 9
     },
