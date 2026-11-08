@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-08T13:48:26.982097Z",
+  "at": "2026-11-08T22:24:27.168872Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -3344,31 +3344,6 @@
     },
     {
       "taskId": "ol-83231:history.away",
-      "status": "history_extended",
-      "results": 10
-    },
-    {
-      "taskId": "ol-86619:history.home",
-      "status": "no_sample_improvement",
-      "candidateResults": 9
-    },
-    {
-      "taskId": "ol-86619:history.away",
-      "status": "no_sample_improvement",
-      "candidateResults": 9
-    },
-    {
-      "taskId": "ol-86627:history.home",
-      "status": "no_sample_improvement",
-      "candidateResults": 9
-    },
-    {
-      "taskId": "ol-86627:history.away",
-      "status": "no_sample_improvement",
-      "candidateResults": 9
-    },
-    {
-      "taskId": "ol-83231:history.away",
       "status": "no_sample_improvement",
       "candidateResults": 10
     },
@@ -3393,9 +3368,7 @@
       "candidateResults": 9
     }
   ],
-  "completedRecordIds": [
-    "ol-83231"
-  ],
+  "completedRecordIds": [],
   "automaticRun": true,
   "frameworkExecution": "Partial deterministic history recovery; not complete nine-step research"
 }
