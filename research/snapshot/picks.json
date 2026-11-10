@@ -1,9 +1,9 @@
 {
   "version": "research-v5-horizon",
   "status": "partial",
-  "date": "2026-11-11",
-  "updated": "2026-11-09T16:19:10.007Z",
-  "startedAt": "2026-11-09T16:19:08.648Z",
+  "date": "2026-11-12",
+  "updated": "2026-11-10T01:30:48.546Z",
+  "startedAt": "2026-11-10T01:30:47.605Z",
   "screened": 0,
   "discovered": 0,
   "records": [
@@ -330025,7 +330025,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-      "retrievedAt": "2026-11-09T16:19:06.988Z"
+      "retrievedAt": "2026-11-10T01:30:46.770Z"
     },
     {
       "sport": "Football",
@@ -330033,7 +330033,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-      "retrievedAt": "2026-11-09T16:19:07.006Z"
+      "retrievedAt": "2026-11-10T01:30:46.773Z"
     },
     {
       "sport": "Football",
@@ -330041,7 +330041,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-      "retrievedAt": "2026-11-09T16:19:07.053Z"
+      "retrievedAt": "2026-11-10T01:30:46.845Z"
     },
     {
       "sport": "Football",
@@ -330049,7 +330049,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-      "retrievedAt": "2026-11-09T16:19:07.316Z"
+      "retrievedAt": "2026-11-10T01:30:47.152Z"
     },
     {
       "sport": "Football",
@@ -330057,7 +330057,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-      "retrievedAt": "2026-11-09T16:19:07.565Z"
+      "retrievedAt": "2026-11-10T01:30:47.155Z"
     },
     {
       "sport": "Football",
@@ -330065,7 +330065,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-      "retrievedAt": "2026-11-09T16:19:07.214Z"
+      "retrievedAt": "2026-11-10T01:30:46.981Z"
     },
     {
       "sport": "Football",
@@ -330073,7 +330073,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-      "retrievedAt": "2026-11-09T16:19:07.307Z"
+      "retrievedAt": "2026-11-10T01:30:47.037Z"
     },
     {
       "sport": "Football",
@@ -330081,7 +330081,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-      "retrievedAt": "2026-11-09T16:19:07.372Z"
+      "retrievedAt": "2026-11-10T01:30:47.122Z"
     }
   ],
   "sourceAudit": [
