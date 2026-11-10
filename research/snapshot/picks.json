@@ -1,9 +1,9 @@
 {
   "version": "research-v5-horizon",
   "status": "partial",
-  "date": "2026-11-12",
-  "updated": "2026-11-10T14:53:19.437Z",
-  "startedAt": "2026-11-10T14:53:18.404Z",
+  "date": "2026-11-13",
+  "updated": "2026-11-10T23:22:14.532Z",
+  "startedAt": "2026-11-10T23:22:12.754Z",
   "screened": 0,
   "discovered": 0,
   "records": [
@@ -330025,15 +330025,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-      "retrievedAt": "2026-11-10T14:53:17.417Z"
-    },
-    {
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "status": "connected",
-      "fixtures": 0,
-      "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-      "retrievedAt": "2026-11-10T14:53:17.421Z"
+      "retrievedAt": "2026-11-10T23:22:07.938Z"
     },
     {
       "sport": "Football",
@@ -330041,7 +330033,15 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-      "retrievedAt": "2026-11-10T14:53:17.444Z"
+      "retrievedAt": "2026-11-10T23:22:08.015Z"
+    },
+    {
+      "sport": "Football",
+      "league": "2. Fußball-Bundesliga 2026/2027",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
+      "retrievedAt": "2026-11-10T23:22:07.970Z"
     },
     {
       "sport": "Football",
@@ -330049,23 +330049,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-      "retrievedAt": "2026-11-10T14:53:17.733Z"
-    },
-    {
-      "sport": "Football",
-      "league": "Champions League 2026/2027",
-      "status": "connected",
-      "fixtures": 0,
-      "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-      "retrievedAt": "2026-11-10T14:53:17.889Z"
-    },
-    {
-      "sport": "Football",
-      "league": "Conference League 2026/27",
-      "status": "connected",
-      "fixtures": 0,
-      "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-      "retrievedAt": "2026-11-10T14:53:17.614Z"
+      "retrievedAt": "2026-11-10T23:22:08.231Z"
     },
     {
       "sport": "Football",
@@ -330073,7 +330057,23 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-      "retrievedAt": "2026-11-10T14:53:17.748Z"
+      "retrievedAt": "2026-11-10T23:22:08.218Z"
+    },
+    {
+      "sport": "Football",
+      "league": "Conference League 2026/27",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
+      "retrievedAt": "2026-11-10T23:22:08.165Z"
+    },
+    {
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+      "retrievedAt": "2026-11-10T23:22:08.310Z"
     },
     {
       "sport": "Football",
@@ -330081,7 +330081,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-      "retrievedAt": "2026-11-10T14:53:17.782Z"
+      "retrievedAt": "2026-11-10T23:22:08.304Z"
     }
   ],
   "sourceAudit": [
