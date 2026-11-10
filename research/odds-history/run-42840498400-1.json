@@ -1,0 +1,97 @@
+{
+  "startedAt": "2026-11-10T15:04:28.457190Z",
+  "bookmaker": "SportyBet Nigeria",
+  "status": "sample_collected",
+  "observations": [
+    {
+      "bookmakerEventId": "display:35249",
+      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
+      "observedAt": "2026-11-10T15:04:32.754763Z",
+      "home": "Armenia",
+      "away": "Cyprus",
+      "start": "2026-11-12T17:00:00Z",
+      "sportPath": "football",
+      "competitionSourceLabel": "International UEFA Nations League",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 2.34,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "draw",
+          "odds": 3.45,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 3.21,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 2.5,
+          "odds": 2.05,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 2.5,
+          "odds": 1.77,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.sportybet.com/ng/sport/football/",
+      "retrievedAt": "2026-11-10T15:04:32.308121Z"
+    }
+  ],
+  "fallback": {
+    "bookmaker": "Bet9ja",
+    "status": "not_verified"
+  },
+  "publicationEligible": false,
+  "sportCoverage": {
+    "football": 1
+  },
+  "finishedAt": "2026-11-10T15:04:32.762209Z",
+  "limitations": [
+    "Small visible-page sample; no complete fixture coverage",
+    "No independent price corroboration or exact rules verification",
+    "Cross-source event matching not approved",
+    "No calibrated model, EV or betting publication produced",
+    "Bet9ja backup adapter not yet implemented"
+  ]
+}
