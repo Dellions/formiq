@@ -1,9 +1,9 @@
 {
   "version": "research-v5-horizon",
   "status": "partial",
-  "date": "2026-11-15",
-  "updated": "2026-11-13T14:34:52.171Z",
-  "startedAt": "2026-11-13T14:34:50.363Z",
+  "date": "2026-11-16",
+  "updated": "2026-11-13T23:33:49.916Z",
+  "startedAt": "2026-11-13T23:33:48.540Z",
   "screened": 0,
   "discovered": 0,
   "records": [
@@ -330025,7 +330025,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-      "retrievedAt": "2026-11-13T14:34:48.872Z"
+      "retrievedAt": "2026-11-13T23:33:47.452Z"
     },
     {
       "sport": "Football",
@@ -330033,7 +330033,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-      "retrievedAt": "2026-11-13T14:34:48.901Z"
+      "retrievedAt": "2026-11-13T23:33:47.472Z"
     },
     {
       "sport": "Football",
@@ -330041,7 +330041,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-      "retrievedAt": "2026-11-13T14:34:49.008Z"
+      "retrievedAt": "2026-11-13T23:33:47.630Z"
     },
     {
       "sport": "Football",
@@ -330049,15 +330049,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-      "retrievedAt": "2026-11-13T14:34:49.325Z"
-    },
-    {
-      "sport": "Football",
-      "league": "Europa League 2026/27",
-      "status": "connected",
-      "fixtures": 0,
-      "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-      "retrievedAt": "2026-11-13T14:34:49.259Z"
+      "retrievedAt": "2026-11-13T23:33:47.846Z"
     },
     {
       "sport": "Football",
@@ -330065,7 +330057,15 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-      "retrievedAt": "2026-11-13T14:34:49.559Z"
+      "retrievedAt": "2026-11-13T23:33:47.901Z"
+    },
+    {
+      "sport": "Football",
+      "league": "Europa League 2026/27",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+      "retrievedAt": "2026-11-13T23:33:47.710Z"
     },
     {
       "sport": "Football",
@@ -330073,7 +330073,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-      "retrievedAt": "2026-11-13T14:34:49.209Z"
+      "retrievedAt": "2026-11-13T23:33:47.769Z"
     },
     {
       "sport": "Football",
@@ -330081,7 +330081,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-      "retrievedAt": "2026-11-13T14:34:49.406Z"
+      "retrievedAt": "2026-11-13T23:33:47.851Z"
     }
   ],
   "sourceAudit": [
