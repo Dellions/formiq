@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-19T00:42:19.627827Z",
+  "at": "2026-11-19T15:59:41.564461Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -3114,13 +3114,13 @@
       "eventId": "ol-83238",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-19T00:42:19.651Z",
+      "attemptedAt": "2026-11-19T15:59:41.596Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
         {
           "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
-          "retrievedAt": "2026-11-15T13:56:12.364Z",
+          "retrievedAt": "2026-11-19T15:44:23.481Z",
           "cached": true
         }
       ]
@@ -3130,13 +3130,13 @@
       "eventId": "ol-83244",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-19T00:42:19.652Z",
+      "attemptedAt": "2026-11-19T15:59:41.597Z",
       "status": "cached_results",
       "usableResults": 9,
       "sources": [
         {
           "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
-          "retrievedAt": "2026-11-15T13:56:12.364Z",
+          "retrievedAt": "2026-11-19T15:44:23.481Z",
           "cached": true
         }
       ]
@@ -3146,13 +3146,13 @@
       "eventId": "ol-83245",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-19T00:42:19.652Z",
+      "attemptedAt": "2026-11-19T15:59:41.597Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
         {
           "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
-          "retrievedAt": "2026-11-15T13:56:12.364Z",
+          "retrievedAt": "2026-11-19T15:44:23.481Z",
           "cached": true
         }
       ]
@@ -3419,6 +3419,11 @@
       "taskId": "ol-83244:history.home",
       "status": "history_extended",
       "results": 10
+    },
+    {
+      "taskId": "ol-83244:history.home",
+      "status": "no_sample_improvement",
+      "candidateResults": 10
     }
   ],
   "completedRecordIds": [
