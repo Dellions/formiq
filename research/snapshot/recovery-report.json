@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-18T15:55:36.201148Z",
+  "at": "2026-11-19T00:42:19.627827Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -3108,6 +3108,54 @@
           "cached": true
         }
       ]
+    },
+    {
+      "taskId": "ol-83238:history.away",
+      "eventId": "ol-83238",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-19T00:42:19.651Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-11-15T13:56:12.364Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-83244:history.home",
+      "eventId": "ol-83244",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-19T00:42:19.652Z",
+      "status": "cached_results",
+      "usableResults": 9,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-11-15T13:56:12.364Z",
+          "cached": true
+        }
+      ]
+    },
+    {
+      "taskId": "ol-83245:history.home",
+      "eventId": "ol-83245",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-19T00:42:19.652Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": [
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+          "retrievedAt": "2026-11-15T13:56:12.364Z",
+          "cached": true
+        }
+      ]
     }
   ],
   "publicationEligible": false,
@@ -3366,9 +3414,16 @@
       "taskId": "ol-86627:history.away",
       "status": "no_sample_improvement",
       "candidateResults": 9
+    },
+    {
+      "taskId": "ol-83244:history.home",
+      "status": "history_extended",
+      "results": 10
     }
   ],
-  "completedRecordIds": [],
+  "completedRecordIds": [
+    "ol-83244"
+  ],
   "automaticRun": true,
   "frameworkExecution": "Partial deterministic history recovery; not complete nine-step research"
 }
