@@ -1,6 +1,6 @@
 {
   "type": "PROSPECTIVE_EXPERIMENTAL_AUDIT",
-  "recorded": 236,
+  "recorded": 237,
   "resolved": 156,
   "calibrated": false,
   "publicationEligible": false,
@@ -1109,9 +1109,9 @@
     },
     {
       "key": "Football|Premier League 2026/2027|research-v5-horizon|total|under|full_match|regulation",
-      "recorded": 6,
+      "recorded": 7,
       "resolved": 5,
-      "pending": 1,
+      "pending": 2,
       "hitRate": 0.8,
       "brier": 0.1676760431550311,
       "logLoss": 0.5217285137384554,
@@ -1636,7 +1636,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-11-20T15:42:47.209Z",
+  "generatedAt": "2026-11-20T23:59:04.389Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -12791,6 +12791,46 @@
           "retrievedAt": "2026-10-21T12:21:31.885Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-86630",
+      "eventId": "ol-86630",
+      "match": "Brentford F.C. — Everton FC",
+      "sport": "Football",
+      "league": "Premier League 2026/2027",
+      "start": "2026-11-23T20:00:00Z",
+      "home": {
+        "id": 5967,
+        "name": "Brentford F.C."
+      },
+      "away": {
+        "id": 541,
+        "name": "Everton FC"
+      },
+      "recordedAt": "2026-11-20T23:59:04.374Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "under",
+      "line": 3.5,
+      "probability": 0.7932203940957044,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+          "retrievedAt": "2026-11-20T23:59:00.080Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
         }
       ],
       "classification": "FORWARD_EXPERIMENTAL_FORECAST",
