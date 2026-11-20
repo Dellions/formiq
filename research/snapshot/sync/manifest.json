@@ -1,6 +1,6 @@
 {
-  "snapshotUpdated": "2026-11-19T15:59:41.624Z",
-  "generatedAt": "2026-11-19T15:59:42.333Z",
+  "snapshotUpdated": "2026-11-20T00:36:53.944Z",
+  "generatedAt": "2026-11-20T00:36:54.528Z",
   "files": [
     {
       "path": "research/snapshot/sync/batch-0.json",
@@ -549,7 +549,7 @@
     },
     {
       "path": "research/snapshot/sync/batch-42.json",
-      "bytes": 167917,
+      "bytes": 163564,
       "recordIds": [
         "ol-84878",
         "ol-83244",
@@ -557,6 +557,38 @@
         "ol-86636",
         "ol-83691",
         "ol-85463"
+      ]
+    },
+    {
+      "path": "research/snapshot/sync/batch-43.json",
+      "bytes": 163247,
+      "recordIds": [
+        "ol-83698",
+        "ol-83702",
+        "ol-83706",
+        "ol-84880",
+        "ol-85457",
+        "ol-86633"
+      ]
+    },
+    {
+      "path": "research/snapshot/sync/batch-44.json",
+      "bytes": 163450,
+      "recordIds": [
+        "ol-83240",
+        "ol-85461",
+        "ol-84881",
+        "ol-83243",
+        "ol-86634",
+        "ol-85460"
+      ]
+    },
+    {
+      "path": "research/snapshot/sync/batch-45.json",
+      "bytes": 54550,
+      "recordIds": [
+        "ol-84877",
+        "ol-85458"
       ]
     }
   ],
