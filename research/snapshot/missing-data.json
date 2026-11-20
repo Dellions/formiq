@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T00:51:36.072Z",
+  "generatedAt": "2026-11-20T15:42:46.634Z",
   "status": "partial",
   "records": [
     {
@@ -82,7 +82,7 @@
             "eventId": "ol-83238",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-20T00:51:35.890Z",
+            "attemptedAt": "2026-11-20T15:42:46.525Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
@@ -501,7 +501,7 @@
             "eventId": "ol-83245",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-20T00:51:35.891Z",
+            "attemptedAt": "2026-11-20T15:42:46.526Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
