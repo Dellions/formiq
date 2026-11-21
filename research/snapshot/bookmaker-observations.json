@@ -1,80 +1,12 @@
 {
-  "startedAt": "2026-11-21T00:04:13.898497Z",
+  "startedAt": "2026-11-21T14:49:07.705491Z",
   "bookmaker": "SportyBet Nigeria",
   "status": "sample_collected",
   "observations": [
     {
-      "bookmakerEventId": "display:35910",
-      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T00:04:18.866377Z",
-      "home": "Man City",
-      "away": "Fulham",
-      "start": "2026-11-21T12:30:00Z",
-      "sportPath": "football",
-      "competitionSourceLabel": "England Premier League",
-      "mappingVerified": false,
-      "quotes": [
-        {
-          "type": "win",
-          "side": "home",
-          "odds": 1.4,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "win",
-          "side": "draw",
-          "odds": 5.81,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "win",
-          "side": "away",
-          "odds": 7.4,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "total",
-          "side": "over",
-          "line": 3.5,
-          "odds": 2.05,
-          "marketLabel": "Over/Under",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        },
-        {
-          "type": "total",
-          "side": "under",
-          "line": 3.5,
-          "odds": 1.83,
-          "marketLabel": "Over/Under",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED"
-        }
-      ],
-      "classification": "RESEARCH_ONLY",
-      "calibrated": false,
-      "displayedTimezoneMinutes": 0
-    },
-    {
       "bookmakerEventId": "display:13232",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T00:04:18.866377Z",
+      "observedAt": "2026-11-21T14:49:11.780741Z",
       "home": "Aston Villa",
       "away": "Sunderland AFC",
       "start": "2026-11-21T15:00:00Z",
@@ -85,7 +17,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.81,
+          "odds": 1.79,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -95,7 +27,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 4.0,
+          "odds": 4.08,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -105,7 +37,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 4.62,
+          "odds": 4.61,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -120,7 +52,7 @@
     {
       "bookmakerEventId": "display:13265",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T00:04:18.866377Z",
+      "observedAt": "2026-11-21T14:49:11.780741Z",
       "home": "Bournemouth",
       "away": "Nottingham Forest",
       "start": "2026-11-21T15:00:00Z",
@@ -131,7 +63,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.98,
+          "odds": 2.13,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -141,7 +73,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.7,
+          "odds": 3.49,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -151,7 +83,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 4.09,
+          "odds": 3.79,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -162,7 +94,7 @@
           "type": "total",
           "side": "over",
           "line": 2.5,
-          "odds": 1.88,
+          "odds": 2.05,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
@@ -173,7 +105,7 @@
           "type": "total",
           "side": "under",
           "line": 2.5,
-          "odds": 1.97,
+          "odds": 1.82,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
@@ -188,7 +120,7 @@
     {
       "bookmakerEventId": "display:36862",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T00:04:18.866377Z",
+      "observedAt": "2026-11-21T14:49:11.780741Z",
       "home": "Chelsea",
       "away": "Leeds United",
       "start": "2026-11-21T15:00:00Z",
@@ -199,7 +131,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 2.05,
+          "odds": 2.0,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -209,7 +141,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.72,
+          "odds": 3.75,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -219,7 +151,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 3.81,
+          "odds": 3.94,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -256,7 +188,7 @@
     {
       "bookmakerEventId": "display:40430",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T00:04:18.866377Z",
+      "observedAt": "2026-11-21T14:49:11.780741Z",
       "home": "Coventry City",
       "away": "Crystal Palace",
       "start": "2026-11-21T15:00:00Z",
@@ -267,7 +199,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 2.62,
+          "odds": 2.58,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -277,7 +209,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.58,
+          "odds": 3.6,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -287,7 +219,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 2.79,
+          "odds": 2.82,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -302,7 +234,7 @@
     {
       "bookmakerEventId": "display:39201",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T00:04:18.866377Z",
+      "observedAt": "2026-11-21T14:49:11.780741Z",
       "home": "Tottenham",
       "away": "Ipswich Town",
       "start": "2026-11-21T15:00:00Z",
@@ -313,7 +245,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.59,
+          "odds": 1.54,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -323,7 +255,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 4.65,
+          "odds": 4.91,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -333,8 +265,76 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 5.67,
+          "odds": 6.0,
           "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0
+    },
+    {
+      "bookmakerEventId": "display:13505",
+      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
+      "observedAt": "2026-11-21T14:49:11.780741Z",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "start": "2026-11-21T17:30:00Z",
+      "sportPath": "football",
+      "competitionSourceLabel": "England Premier League",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 6.16,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "draw",
+          "odds": 4.35,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 1.59,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 2.5,
+          "odds": 1.79,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED"
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 2.5,
+          "odds": 2.1,
+          "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
           "rulesVerified": false,
@@ -349,7 +349,7 @@
   "pages": [
     {
       "url": "https://www.sportybet.com/ng/sport/football/",
-      "retrievedAt": "2026-11-21T00:04:18.400451Z"
+      "retrievedAt": "2026-11-21T14:49:11.411201Z"
     }
   ],
   "fallback": {
@@ -360,7 +360,7 @@
   "sportCoverage": {
     "football": 6
   },
-  "finishedAt": "2026-11-21T00:04:18.867828Z",
+  "finishedAt": "2026-11-21T14:49:11.781755Z",
   "limitations": [
     "Small visible-page sample; no complete fixture coverage",
     "No independent price corroboration or exact rules verification",
