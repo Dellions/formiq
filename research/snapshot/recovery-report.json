@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-22T14:50:12.500062Z",
+  "at": "2026-11-22T23:46:31.773554Z",
   "status": "partial",
   "networkRequests": 0,
   "requestBudget": 8,
@@ -3162,7 +3162,7 @@
       "eventId": "ol-87461",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-22T14:50:12.538Z",
+      "attemptedAt": "2026-11-22T23:46:31.797Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": []
@@ -3172,7 +3172,7 @@
       "eventId": "ol-87463",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-22T14:50:12.539Z",
+      "attemptedAt": "2026-11-22T23:46:31.797Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": [
@@ -3188,7 +3188,7 @@
       "eventId": "ol-87466",
       "side": "home",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-22T14:50:12.539Z",
+      "attemptedAt": "2026-11-22T23:46:31.797Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": []
@@ -3198,7 +3198,87 @@
       "eventId": "ol-87468",
       "side": "away",
       "adapter": "cached-domestic-history",
-      "attemptedAt": "2026-11-22T14:50:12.539Z",
+      "attemptedAt": "2026-11-22T23:46:31.797Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87469:history.home",
+      "eventId": "ol-87469",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-22T23:46:31.796Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87472:history.home",
+      "eventId": "ol-87472",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-22T23:46:31.796Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87472:history.away",
+      "eventId": "ol-87472",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-22T23:46:31.796Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87473:history.home",
+      "eventId": "ol-87473",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-22T23:46:31.796Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87473:history.away",
+      "eventId": "ol-87473",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-22T23:46:31.797Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87477:history.home",
+      "eventId": "ol-87477",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-22T23:46:31.797Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87477:history.away",
+      "eventId": "ol-87477",
+      "side": "away",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-22T23:46:31.797Z",
+      "status": "no_cached_alternative",
+      "usableResults": 0,
+      "sources": []
+    },
+    {
+      "taskId": "ol-87470:history.home",
+      "eventId": "ol-87470",
+      "side": "home",
+      "adapter": "cached-domestic-history",
+      "attemptedAt": "2026-11-22T23:46:31.797Z",
       "status": "no_cached_alternative",
       "usableResults": 0,
       "sources": []
