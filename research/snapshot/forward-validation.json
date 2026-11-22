@@ -1,18 +1,18 @@
 {
   "type": "PROSPECTIVE_EXPERIMENTAL_AUDIT",
-  "recorded": 242,
-  "resolved": 159,
+  "recorded": 247,
+  "resolved": 163,
   "calibrated": false,
   "publicationEligible": false,
   "groups": [
     {
       "key": "Football|1. Fußball-Bundesliga 2026/2027|research-v5-horizon|total|over|full_match|regulation",
       "recorded": 34,
-      "resolved": 29,
-      "pending": 5,
-      "hitRate": 0.7931034482758621,
-      "brier": 0.15545162057655357,
-      "logLoss": 0.4737221654327009,
+      "resolved": 30,
+      "pending": 4,
+      "hitRate": 0.8,
+      "brier": 0.1505667218419283,
+      "logLoss": 0.4612353722477749,
       "bins": [
         {
           "range": [
@@ -55,9 +55,9 @@
             0.8,
             1
           ],
-          "n": 25,
-          "predicted": 0.8699414689723868,
-          "observed": 0.84
+          "n": 26,
+          "predicted": 0.8713143163853165,
+          "observed": 0.8461538461538461
         }
       ],
       "reviewThresholdReached": false,
@@ -124,11 +124,11 @@
     {
       "key": "Football|1. Fußball-Bundesliga 2026/2027|research-v5-horizon|total|under|full_match|regulation",
       "recorded": 1,
-      "resolved": 0,
-      "pending": 1,
-      "hitRate": null,
-      "brier": null,
-      "logLoss": null,
+      "resolved": 1,
+      "pending": 0,
+      "hitRate": 1,
+      "brier": 0.023099169131284184,
+      "logLoss": 0.16485590298107844,
       "bins": [
         {
           "range": [
@@ -171,9 +171,9 @@
             0.8,
             1
           ],
-          "n": 0,
-          "predicted": null,
-          "observed": null
+          "n": 1,
+          "predicted": 0.8480158918462717,
+          "observed": 1
         }
       ],
       "reviewThresholdReached": false,
@@ -1225,12 +1225,12 @@
     },
     {
       "key": "Football|Champions League 2026/2027|research-v5-horizon|total|over|full_match|regulation",
-      "recorded": 17,
-      "resolved": 10,
-      "pending": 7,
-      "hitRate": 0.8,
-      "brier": 0.15810834742903443,
-      "logLoss": 0.5016138088928088,
+      "recorded": 21,
+      "resolved": 12,
+      "pending": 9,
+      "hitRate": 0.8333333333333334,
+      "brier": 0.13361805492430928,
+      "logLoss": 0.4361642005760218,
       "bins": [
         {
           "range": [
@@ -1273,9 +1273,9 @@
             0.8,
             1
           ],
-          "n": 7,
-          "predicted": 0.8943997571404596,
-          "observed": 0.8571428571428571
+          "n": 9,
+          "predicted": 0.8950068147692869,
+          "observed": 0.8888888888888888
         }
       ],
       "reviewThresholdReached": false,
@@ -1283,9 +1283,9 @@
     },
     {
       "key": "Football|Champions League 2026/2027|research-v5-horizon|double_chance|1X|full_match|regulation",
-      "recorded": 1,
+      "recorded": 2,
       "resolved": 1,
-      "pending": 0,
+      "pending": 1,
       "hitRate": 0,
       "brier": 0.7546030176946689,
       "logLoss": 2.030109750243253,
@@ -1694,7 +1694,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-11-22T14:50:13.446Z",
+  "generatedAt": "2026-11-22T23:36:58.937Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -13169,6 +13169,272 @@
       "odds": null,
       "estimatedEV": null,
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87470",
+      "eventId": "ol-87470",
+      "match": "Slavia Prag — Villarreal CF",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-25T17:45:00Z",
+      "home": {
+        "id": 4578,
+        "name": "Slavia Prag"
+      },
+      "away": {
+        "id": 382,
+        "name": "Villarreal CF"
+      },
+      "recordedAt": "2026-11-22T23:36:58.911Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.7891697919899043,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 8,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-22T23:36:55.758Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+          "retrievedAt": "2026-11-22T23:36:56.472Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+          "retrievedAt": "2026-11-19T15:44:23.163Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87471",
+      "eventId": "ol-87471",
+      "match": "Inter Mailand — VfB Stuttgart",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-25T20:00:00Z",
+      "home": {
+        "id": 733,
+        "name": "Inter Mailand"
+      },
+      "away": {
+        "id": 16,
+        "name": "VfB Stuttgart"
+      },
+      "recordedAt": "2026-11-22T23:36:58.911Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.7555425487969093,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-22T23:36:55.758Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+          "retrievedAt": "2026-11-22T23:36:55.342Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+          "retrievedAt": "2026-11-22T23:36:56.472Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87474",
+      "eventId": "ol-87474",
+      "match": "FC Brügge — FC Liverpool",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-25T20:00:00Z",
+      "home": {
+        "id": 1210,
+        "name": "FC Brügge"
+      },
+      "away": {
+        "id": 370,
+        "name": "FC Liverpool"
+      },
+      "recordedAt": "2026-11-22T23:36:58.912Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8961771174099266,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-22T23:36:55.758Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+          "retrievedAt": "2026-11-22T23:36:55.810Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+          "retrievedAt": "2026-11-22T23:36:56.472Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87475",
+      "eventId": "ol-87475",
+      "match": "Lille OSC — FC Bayern München",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-25T20:00:00Z",
+      "home": {
+        "id": 1204,
+        "name": "Lille OSC"
+      },
+      "away": {
+        "id": 40,
+        "name": "FC Bayern München"
+      },
+      "recordedAt": "2026-11-22T23:36:58.912Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8145988239752562,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-22T23:36:55.758Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+          "retrievedAt": "2026-11-22T23:36:55.342Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+          "retrievedAt": "2026-11-22T23:36:56.472Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        },
+        {
+          "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv",
+          "retrievedAt": "2026-11-19T15:44:24.142Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 5760
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-87476",
+      "eventId": "ol-87476",
+      "match": "Sporting CP — Manchester United FC",
+      "sport": "Football",
+      "league": "Champions League 2026/2027",
+      "start": "2026-11-25T20:00:00Z",
+      "home": {
+        "id": 1205,
+        "name": "Sporting CP"
+      },
+      "away": {
+        "id": 2556,
+        "name": "Manchester United FC"
+      },
+      "recordedAt": "2026-11-22T23:36:58.912Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "double_chance",
+      "side": "1X",
+      "line": null,
+      "probability": 0.7988037792903228,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
+          "retrievedAt": "2026-11-22T23:36:55.758Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+          "retrievedAt": "2026-11-22T23:36:55.810Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
+          "retrievedAt": "2026-11-22T23:36:56.472Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     }
   ],
   "outcomes": [
@@ -15076,6 +15342,54 @@
       "scoredAt": "2026-11-05T23:38:23.389Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/uecl2026/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83237",
+      "home": 1,
+      "away": 1,
+      "outcome": 1,
+      "scoredAt": "2026-11-22T23:36:58.912Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl1/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83244",
+      "home": 0,
+      "away": 0,
+      "outcome": 1,
+      "scoredAt": "2026-11-22T23:36:58.916Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl1/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-87444",
+      "home": 0,
+      "away": 3,
+      "outcome": 1,
+      "scoredAt": "2026-11-22T23:36:58.931Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/ucl/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-87455",
+      "home": 1,
+      "away": 2,
+      "outcome": 1,
+      "scoredAt": "2026-11-22T23:36:58.932Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/ucl/2026"
       ],
       "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
       "bettingSettlement": false
