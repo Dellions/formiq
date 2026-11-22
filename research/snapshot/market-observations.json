@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T23:33:10.115Z",
-  "observedAt": "2026-11-21T23:29:42.686903Z",
+  "generatedAt": "2026-11-22T14:45:55.791Z",
+  "observedAt": "2026-11-22T14:45:50.805957Z",
   "status": "research_only",
   "publicationEligible": false,
   "fixtureCount": 6,
@@ -9,92 +9,9 @@
   "unmatched": 4,
   "rows": [
     {
-      "bookmakerEventId": "display:13754",
-      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T23:29:45.544662Z",
-      "home": "Hull City",
-      "away": "Brighton",
-      "start": "2026-11-22T14:00:00Z",
-      "sportPath": "football",
-      "competitionSourceLabel": "England Premier League",
-      "mappingVerified": false,
-      "quotes": [
-        {
-          "type": "win",
-          "side": "home",
-          "odds": 6.35,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "No exact team, competition and kickoff match; review required",
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        },
-        {
-          "type": "win",
-          "side": "draw",
-          "odds": 4.73,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "No exact team, competition and kickoff match; review required",
-            "Unsupported market or line",
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        },
-        {
-          "type": "win",
-          "side": "away",
-          "odds": 1.54,
-          "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "No exact team, competition and kickoff match; review required",
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        }
-      ],
-      "classification": "RESEARCH_ONLY",
-      "calibrated": false,
-      "displayedTimezoneMinutes": 0,
-      "eventId": null,
-      "mappingStatus": "unmatched",
-      "candidateCount": 0,
-      "aliasRegistryVersion": "scoped-sports-v2",
-      "researchFixture": null,
-      "reasons": [
-        "No exact team, competition and kickoff match; review required"
-      ],
-      "publicationEligible": false
-    },
-    {
       "bookmakerEventId": "display:26743",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T23:29:45.544662Z",
+      "observedAt": "2026-11-22T14:45:55.477081Z",
       "home": "Liverpool",
       "away": "Man Utd",
       "start": "2026-11-22T16:30:00Z",
@@ -105,7 +22,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 1.77,
+          "odds": 1.82,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -124,7 +41,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 4.33,
+          "odds": 4.24,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -144,7 +61,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 4.49,
+          "odds": 4.26,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -177,7 +94,7 @@
     {
       "bookmakerEventId": "display:14358",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T23:29:45.544662Z",
+      "observedAt": "2026-11-22T14:45:55.477081Z",
       "home": "Brentford",
       "away": "Everton",
       "start": "2026-11-23T20:00:00Z",
@@ -188,7 +105,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 2.22,
+          "odds": 2.4,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -207,7 +124,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.64,
+          "odds": 3.59,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -227,7 +144,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 3.38,
+          "odds": 3.09,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -247,7 +164,7 @@
           "type": "total",
           "side": "over",
           "line": 2.5,
-          "odds": 1.78,
+          "odds": 1.8,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
@@ -267,7 +184,7 @@
           "type": "total",
           "side": "under",
           "line": 2.5,
-          "odds": 2.1,
+          "odds": 2.05,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
@@ -300,7 +217,7 @@
     {
       "bookmakerEventId": "display:37444",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T23:29:45.544662Z",
+      "observedAt": "2026-11-22T14:45:55.477081Z",
       "home": "Bodoe/Glimt",
       "away": "LASK Linz",
       "start": "2026-11-24T17:45:00Z",
@@ -330,7 +247,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 5.11,
+          "odds": 5.08,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -350,48 +267,8 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 5.19,
+          "odds": 5.2,
           "marketLabel": "1X2",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "No exact team, competition and kickoff match; review required",
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        },
-        {
-          "type": "total",
-          "side": "over",
-          "line": 3.5,
-          "odds": 1.73,
-          "marketLabel": "Over/Under",
-          "period": "full_match",
-          "settlement": "unverified",
-          "rulesVerified": false,
-          "classification": "SOURCE_OBSERVED",
-          "gaps": [
-            "No exact team, competition and kickoff match; review required",
-            "Exact settlement rules unverified",
-            "Independent price and identity verification required",
-            "Calibrated model required"
-          ],
-          "usableForBetting": false,
-          "probability": null,
-          "estimatedEV": null
-        },
-        {
-          "type": "total",
-          "side": "under",
-          "line": 3.5,
-          "odds": 2.1,
-          "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
           "rulesVerified": false,
@@ -423,7 +300,7 @@
     {
       "bookmakerEventId": "display:45152",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T23:29:45.544662Z",
+      "observedAt": "2026-11-22T14:45:55.477081Z",
       "home": "Galatasaray Istanbul",
       "away": "Aston Villa",
       "start": "2026-11-24T17:45:00Z",
@@ -434,7 +311,7 @@
         {
           "type": "win",
           "side": "home",
-          "odds": 2.67,
+          "odds": 2.71,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -452,7 +329,7 @@
         {
           "type": "win",
           "side": "draw",
-          "odds": 3.98,
+          "odds": 3.86,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -471,7 +348,7 @@
         {
           "type": "win",
           "side": "away",
-          "odds": 2.47,
+          "odds": 2.49,
           "marketLabel": "1X2",
           "period": "full_match",
           "settlement": "unverified",
@@ -490,7 +367,7 @@
           "type": "total",
           "side": "over",
           "line": 3.5,
-          "odds": 2,
+          "odds": 1.92,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
@@ -509,7 +386,7 @@
           "type": "total",
           "side": "under",
           "line": 3.5,
-          "odds": 1.8,
+          "odds": 1.89,
           "marketLabel": "Over/Under",
           "period": "full_match",
           "settlement": "unverified",
@@ -541,19 +418,19 @@
         "sources": [
           {
             "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-            "retrievedAt": "2026-11-21T23:15:43.064Z",
+            "retrievedAt": "2026-11-22T14:34:44.634Z",
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 15
           },
           {
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "retrievedAt": "2026-11-21T23:15:43.004Z",
+            "retrievedAt": "2026-11-22T14:34:44.566Z",
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 15
           },
           {
             "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
-            "retrievedAt": "2026-11-21T23:15:44.063Z",
+            "retrievedAt": "2026-11-21T23:15:44.181Z",
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 1440
           }
@@ -565,7 +442,7 @@
     {
       "bookmakerEventId": "display:48945",
       "sourceURL": "https://www.sportybet.com/ng/sport/football/",
-      "observedAt": "2026-11-21T23:29:45.544662Z",
+      "observedAt": "2026-11-22T14:45:55.477081Z",
       "home": "Arsenal",
       "away": "Borussia Dortmund",
       "start": "2026-11-24T20:00:00Z",
@@ -645,25 +522,148 @@
         "sources": [
           {
             "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-            "retrievedAt": "2026-11-21T23:15:43.064Z",
+            "retrievedAt": "2026-11-22T14:34:44.634Z",
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 15
           },
           {
             "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-            "retrievedAt": "2026-11-21T23:15:42.536Z",
+            "retrievedAt": "2026-11-22T14:34:44.031Z",
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 15
           },
           {
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "retrievedAt": "2026-11-21T23:15:43.004Z",
+            "retrievedAt": "2026-11-22T14:34:44.566Z",
             "classification": "SOURCE_REPORTED",
             "cacheMaxAgeMinutes": 15
           }
         ]
       },
       "reasons": [],
+      "publicationEligible": false
+    },
+    {
+      "bookmakerEventId": "display:48124",
+      "sourceURL": "https://www.sportybet.com/ng/sport/football/",
+      "observedAt": "2026-11-22T14:45:55.477081Z",
+      "home": "Como 1907",
+      "away": "AEK Athens",
+      "start": "2026-11-24T20:00:00Z",
+      "sportPath": "football",
+      "competitionSourceLabel": "International Clubs UEFA Champions League",
+      "mappingVerified": false,
+      "quotes": [
+        {
+          "type": "win",
+          "side": "home",
+          "odds": 1.32,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED",
+          "gaps": [
+            "No exact team, competition and kickoff match; review required",
+            "Exact settlement rules unverified",
+            "Independent price and identity verification required",
+            "Calibrated model required"
+          ],
+          "usableForBetting": false,
+          "probability": null,
+          "estimatedEV": null
+        },
+        {
+          "type": "win",
+          "side": "draw",
+          "odds": 6.32,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED",
+          "gaps": [
+            "No exact team, competition and kickoff match; review required",
+            "Unsupported market or line",
+            "Exact settlement rules unverified",
+            "Independent price and identity verification required",
+            "Calibrated model required"
+          ],
+          "usableForBetting": false,
+          "probability": null,
+          "estimatedEV": null
+        },
+        {
+          "type": "win",
+          "side": "away",
+          "odds": 8.69,
+          "marketLabel": "1X2",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED",
+          "gaps": [
+            "No exact team, competition and kickoff match; review required",
+            "Exact settlement rules unverified",
+            "Independent price and identity verification required",
+            "Calibrated model required"
+          ],
+          "usableForBetting": false,
+          "probability": null,
+          "estimatedEV": null
+        },
+        {
+          "type": "total",
+          "side": "over",
+          "line": 3.5,
+          "odds": 1.89,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED",
+          "gaps": [
+            "No exact team, competition and kickoff match; review required",
+            "Exact settlement rules unverified",
+            "Independent price and identity verification required",
+            "Calibrated model required"
+          ],
+          "usableForBetting": false,
+          "probability": null,
+          "estimatedEV": null
+        },
+        {
+          "type": "total",
+          "side": "under",
+          "line": 3.5,
+          "odds": 1.92,
+          "marketLabel": "Over/Under",
+          "period": "full_match",
+          "settlement": "unverified",
+          "rulesVerified": false,
+          "classification": "SOURCE_OBSERVED",
+          "gaps": [
+            "No exact team, competition and kickoff match; review required",
+            "Exact settlement rules unverified",
+            "Independent price and identity verification required",
+            "Calibrated model required"
+          ],
+          "usableForBetting": false,
+          "probability": null,
+          "estimatedEV": null
+        }
+      ],
+      "classification": "RESEARCH_ONLY",
+      "calibrated": false,
+      "displayedTimezoneMinutes": 0,
+      "eventId": null,
+      "mappingStatus": "unmatched",
+      "candidateCount": 0,
+      "aliasRegistryVersion": "scoped-sports-v2",
+      "researchFixture": null,
+      "reasons": [
+        "No exact team, competition and kickoff match; review required"
+      ],
       "publicationEligible": false
     }
   ],
