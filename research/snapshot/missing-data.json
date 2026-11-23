@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T23:46:31.816Z",
+  "generatedAt": "2026-11-23T18:41:09.788Z",
   "status": "partial",
   "records": [
     {
@@ -129,7 +129,7 @@
             "eventId": "ol-87461",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.797Z",
+            "attemptedAt": "2026-11-23T18:41:09.758Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -262,13 +262,13 @@
             "eventId": "ol-87463",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.797Z",
+            "attemptedAt": "2026-11-23T18:41:09.758Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": [
               {
                 "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-                "retrievedAt": "2026-11-19T15:44:22.775Z",
+                "retrievedAt": "2026-11-23T18:07:55.759Z",
                 "cached": true
               }
             ]
@@ -448,7 +448,7 @@
             "eventId": "ol-87466",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.797Z",
+            "attemptedAt": "2026-11-23T18:41:09.758Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -581,7 +581,7 @@
             "eventId": "ol-87468",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.797Z",
+            "attemptedAt": "2026-11-23T18:41:09.758Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -658,7 +658,7 @@
             "eventId": "ol-87469",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.796Z",
+            "attemptedAt": "2026-11-23T18:41:09.758Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -735,7 +735,7 @@
             "eventId": "ol-87470",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.797Z",
+            "attemptedAt": "2026-11-23T18:41:09.759Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -868,7 +868,7 @@
             "eventId": "ol-87472",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.796Z",
+            "attemptedAt": "2026-11-23T18:41:09.758Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -889,7 +889,7 @@
             "eventId": "ol-87472",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.796Z",
+            "attemptedAt": "2026-11-23T18:41:09.758Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -966,7 +966,7 @@
             "eventId": "ol-87473",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.796Z",
+            "attemptedAt": "2026-11-23T18:41:09.758Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -987,7 +987,7 @@
             "eventId": "ol-87473",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.797Z",
+            "attemptedAt": "2026-11-23T18:41:09.758Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1232,7 +1232,7 @@
             "eventId": "ol-87477",
             "side": "home",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.797Z",
+            "attemptedAt": "2026-11-23T18:41:09.759Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
@@ -1253,7 +1253,7 @@
             "eventId": "ol-87477",
             "side": "away",
             "adapter": "cached-domestic-history",
-            "attemptedAt": "2026-11-22T23:46:31.797Z",
+            "attemptedAt": "2026-11-23T18:41:09.759Z",
             "status": "no_cached_alternative",
             "usableResults": 0,
             "sources": []
