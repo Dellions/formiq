@@ -2,8 +2,8 @@
   "version": "research-v5-horizon",
   "status": "partial",
   "date": "2026-11-26",
-  "updated": "2026-11-24T03:57:40.931Z",
-  "startedAt": "2026-11-24T03:57:39.027Z",
+  "updated": "2026-11-24T17:44:29.208Z",
+  "startedAt": "2026-11-24T17:44:26.997Z",
   "screened": 36,
   "discovered": 36,
   "records": [
@@ -333995,19 +333995,19 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-24T03:57:37.883Z",
+          "retrievedAt": "2026-11-24T17:44:25.982Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
-          "retrievedAt": "2026-11-24T03:57:38.231Z",
+          "retrievedAt": "2026-11-24T03:57:38.359Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         }
@@ -334394,7 +334394,7 @@
       "id": "ol-87460",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.396Z",
+      "completedAt": "2026-11-24T17:44:26.162Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -335471,7 +335471,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:38.396Z"
+        "createdAt": "2026-11-24T17:44:26.162Z"
       },
       "generatedByScan": true
     },
@@ -335495,13 +335495,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
-          "retrievedAt": "2026-11-24T03:57:38.335Z",
+          "retrievedAt": "2026-11-24T03:57:38.359Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         }
@@ -335798,7 +335798,7 @@
       "id": "ol-87461",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.396Z",
+      "completedAt": "2026-11-24T17:44:26.163Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -336381,13 +336381,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
-          "retrievedAt": "2026-11-24T03:57:38.355Z",
+          "retrievedAt": "2026-11-24T03:57:38.359Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -336811,7 +336811,7 @@
       "id": "ol-87462",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.396Z",
+      "completedAt": "2026-11-24T17:44:26.163Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -337923,7 +337923,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:38.396Z"
+        "createdAt": "2026-11-24T17:44:26.163Z"
       },
       "generatedByScan": true
     },
@@ -337947,13 +337947,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-24T03:57:37.883Z",
+          "retrievedAt": "2026-11-24T17:44:25.982Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -338256,7 +338256,7 @@
       "id": "ol-87463",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.396Z",
+      "completedAt": "2026-11-24T17:44:26.163Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -338839,19 +338839,19 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-24T03:57:37.467Z",
+          "retrievedAt": "2026-11-24T17:44:25.739Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-24T03:57:37.883Z",
+          "retrievedAt": "2026-11-24T17:44:25.982Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -339238,7 +339238,7 @@
       "id": "ol-87464",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.400Z",
+      "completedAt": "2026-11-24T17:44:26.166Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -340315,7 +340315,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:38.400Z"
+        "createdAt": "2026-11-24T17:44:26.166Z"
       },
       "generatedByScan": true
     },
@@ -340339,13 +340339,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
-          "retrievedAt": "2026-11-24T03:57:38.231Z",
+          "retrievedAt": "2026-11-24T03:57:38.359Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -340805,7 +340805,7 @@
       "id": "ol-87465",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.400Z",
+      "completedAt": "2026-11-24T17:44:26.166Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -341941,7 +341941,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:38.400Z"
+        "createdAt": "2026-11-24T17:44:26.166Z"
       },
       "generatedByScan": true
     },
@@ -341965,13 +341965,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
-          "retrievedAt": "2026-11-24T03:57:38.231Z",
+          "retrievedAt": "2026-11-24T03:57:38.359Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -342305,7 +342305,7 @@
       "id": "ol-87466",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.400Z",
+      "completedAt": "2026-11-24T17:44:26.166Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -342917,19 +342917,19 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-24T03:57:37.467Z",
+          "retrievedAt": "2026-11-24T17:44:25.739Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
-          "retrievedAt": "2026-11-24T03:57:38.231Z",
+          "retrievedAt": "2026-11-24T03:57:38.359Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -343353,7 +343353,7 @@
       "id": "ol-87467",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.400Z",
+      "completedAt": "2026-11-24T17:44:26.166Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -344459,7 +344459,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:38.400Z"
+        "createdAt": "2026-11-24T17:44:26.166Z"
       },
       "generatedByScan": true
     },
@@ -344483,13 +344483,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2025",
-          "retrievedAt": "2026-11-24T03:57:38.231Z",
+          "retrievedAt": "2026-11-24T03:57:38.359Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -344823,7 +344823,7 @@
       "id": "ol-87468",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.402Z",
+      "completedAt": "2026-11-24T17:44:26.168Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -345435,7 +345435,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -345738,7 +345738,7 @@
       "id": "ol-87469",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.775Z",
+      "completedAt": "2026-11-24T17:44:26.650Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -346321,7 +346321,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -346721,7 +346721,7 @@
       "id": "ol-87470",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.776Z",
+      "completedAt": "2026-11-24T17:44:26.650Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -347797,7 +347797,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:38.776Z"
+        "createdAt": "2026-11-24T17:44:26.650Z"
       },
       "generatedByScan": true
     },
@@ -347821,13 +347821,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-24T03:57:37.467Z",
+          "retrievedAt": "2026-11-24T17:44:25.739Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -348220,7 +348220,7 @@
       "id": "ol-87471",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.776Z",
+      "completedAt": "2026-11-24T17:44:26.650Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -349297,7 +349297,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:38.776Z"
+        "createdAt": "2026-11-24T17:44:26.650Z"
       },
       "generatedByScan": true
     },
@@ -349321,7 +349321,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -349534,7 +349534,7 @@
       "id": "ol-87472",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.776Z",
+      "completedAt": "2026-11-24T17:44:26.650Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -350026,7 +350026,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -350239,7 +350239,7 @@
       "id": "ol-87473",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.777Z",
+      "completedAt": "2026-11-24T17:44:26.652Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -350731,13 +350731,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-24T03:57:37.883Z",
+          "retrievedAt": "2026-11-24T17:44:25.982Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -351130,7 +351130,7 @@
       "id": "ol-87474",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.777Z",
+      "completedAt": "2026-11-24T17:44:26.653Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -352207,7 +352207,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:38.777Z"
+        "createdAt": "2026-11-24T17:44:26.653Z"
       },
       "generatedByScan": true
     },
@@ -352231,13 +352231,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-24T03:57:37.467Z",
+          "retrievedAt": "2026-11-24T17:44:25.739Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -352667,7 +352667,7 @@
       "id": "ol-87475",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.778Z",
+      "completedAt": "2026-11-24T17:44:26.653Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -353773,7 +353773,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:38.778Z"
+        "createdAt": "2026-11-24T17:44:26.653Z"
       },
       "generatedByScan": true
     },
@@ -353797,13 +353797,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-24T03:57:37.883Z",
+          "retrievedAt": "2026-11-24T17:44:25.982Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -354196,7 +354196,7 @@
       "id": "ol-87476",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.778Z",
+      "completedAt": "2026-11-24T17:44:26.653Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -355272,7 +355272,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": false,
-        "createdAt": "2026-11-24T03:57:38.778Z"
+        "createdAt": "2026-11-24T17:44:26.653Z"
       },
       "generatedByScan": true
     },
@@ -355296,7 +355296,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-24T03:57:38.024Z",
+          "retrievedAt": "2026-11-24T17:44:26.076Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -355509,7 +355509,7 @@
       "id": "ol-87477",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:38.779Z",
+      "completedAt": "2026-11-24T17:44:26.655Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -360565,13 +360565,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-24T03:57:37.467Z",
+          "retrievedAt": "2026-11-24T17:44:25.739Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -360874,7 +360874,7 @@
       "id": "ol-87750",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.456Z",
+      "completedAt": "2026-11-24T17:44:27.155Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -362963,13 +362963,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-24T03:57:37.467Z",
+          "retrievedAt": "2026-11-24T17:44:25.739Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -363272,7 +363272,7 @@
       "id": "ol-87754",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.461Z",
+      "completedAt": "2026-11-24T17:44:27.164Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -392865,7 +392865,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -393205,7 +393205,7 @@
       "id": "ol-87838",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.456Z",
+      "completedAt": "2026-11-24T17:44:27.155Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -393817,7 +393817,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -394030,7 +394030,7 @@
       "id": "ol-87839",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.456Z",
+      "completedAt": "2026-11-24T17:44:27.155Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -394522,7 +394522,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -394862,7 +394862,7 @@
       "id": "ol-87840",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.458Z",
+      "completedAt": "2026-11-24T17:44:27.157Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -395474,7 +395474,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -395814,7 +395814,7 @@
       "id": "ol-87841",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.458Z",
+      "completedAt": "2026-11-24T17:44:27.157Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -396426,7 +396426,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -396766,7 +396766,7 @@
       "id": "ol-87842",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.458Z",
+      "completedAt": "2026-11-24T17:44:27.158Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -397378,7 +397378,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -397591,7 +397591,7 @@
       "id": "ol-87843",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.458Z",
+      "completedAt": "2026-11-24T17:44:27.158Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -398083,13 +398083,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-24T03:57:37.883Z",
+          "retrievedAt": "2026-11-24T17:44:25.982Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -398519,7 +398519,7 @@
       "id": "ol-87844",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.459Z",
+      "completedAt": "2026-11-24T17:44:27.159Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -399625,7 +399625,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:39.459Z"
+        "createdAt": "2026-11-24T17:44:27.159Z"
       },
       "generatedByScan": true
     },
@@ -399649,7 +399649,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -399989,7 +399989,7 @@
       "id": "ol-87845",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.461Z",
+      "completedAt": "2026-11-24T17:44:27.164Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -400601,13 +400601,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-24T03:57:37.883Z",
+          "retrievedAt": "2026-11-24T17:44:25.982Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -400910,7 +400910,7 @@
       "id": "ol-87846",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.462Z",
+      "completedAt": "2026-11-24T17:44:27.166Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -401493,7 +401493,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -401706,7 +401706,7 @@
       "id": "ol-87847",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.462Z",
+      "completedAt": "2026-11-24T17:44:27.166Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -402198,7 +402198,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -402538,7 +402538,7 @@
       "id": "ol-87848",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.462Z",
+      "completedAt": "2026-11-24T17:44:27.166Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -403150,7 +403150,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -403616,7 +403616,7 @@
       "id": "ol-87849",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.462Z",
+      "completedAt": "2026-11-24T17:44:27.167Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -404752,7 +404752,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:39.462Z"
+        "createdAt": "2026-11-24T17:44:27.167Z"
       },
       "generatedByScan": true
     },
@@ -404776,7 +404776,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -405242,7 +405242,7 @@
       "id": "ol-87850",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.463Z",
+      "completedAt": "2026-11-24T17:44:27.168Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -406378,7 +406378,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:39.463Z"
+        "createdAt": "2026-11-24T17:44:27.168Z"
       },
       "generatedByScan": true
     },
@@ -406402,7 +406402,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -406742,7 +406742,7 @@
       "id": "ol-87851",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.463Z",
+      "completedAt": "2026-11-24T17:44:27.169Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -407354,7 +407354,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -407694,7 +407694,7 @@
       "id": "ol-87852",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.463Z",
+      "completedAt": "2026-11-24T17:44:27.169Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -408306,7 +408306,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.764Z",
+          "retrievedAt": "2026-11-24T17:44:25.969Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -408646,7 +408646,7 @@
       "id": "ol-87853",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.463Z",
+      "completedAt": "2026-11-24T17:44:27.169Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -436479,13 +436479,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         }
@@ -436662,7 +436662,7 @@
       "id": "ol-88333",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.456Z",
+      "completedAt": "2026-11-24T17:44:27.155Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -437122,7 +437122,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -437447,7 +437447,7 @@
       "id": "ol-88334",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.459Z",
+      "completedAt": "2026-11-24T17:44:27.160Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -438043,9 +438043,15 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
+        },
+        {
+          "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 1440
         },
         {
           "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
@@ -438358,12 +438364,11 @@
         "meanTotal": 2.7222222222222223,
         "scope": "Current season same competition; source-reported completed scores"
       },
-      "fallbackError": "Unexpected end of JSON input",
       "scope": "Available OpenLigaDB competition results and Football-Data.co.uk domestic full-time scores, exact normalized team-name mapping; last 10 when available, minimum 6 for a forecast. Current-season-only domestic fallback; incomplete competition coverage.",
       "id": "ol-88335",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.459Z",
+      "completedAt": "2026-11-24T17:44:27.160Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -438959,7 +438964,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
@@ -439284,7 +439289,7 @@
       "id": "ol-88336",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.459Z",
+      "completedAt": "2026-11-24T17:44:27.160Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -439880,13 +439885,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         }
@@ -440063,7 +440068,7 @@
       "id": "ol-88337",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.460Z",
+      "completedAt": "2026-11-24T17:44:27.162Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -440523,13 +440528,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         }
@@ -440706,7 +440711,7 @@
       "id": "ol-88338",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.460Z",
+      "completedAt": "2026-11-24T17:44:27.162Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -441166,13 +441171,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -441632,7 +441637,7 @@
       "id": "ol-88339",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.460Z",
+      "completedAt": "2026-11-24T17:44:27.162Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -442768,7 +442773,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:39.460Z"
+        "createdAt": "2026-11-24T17:44:27.162Z"
       },
       "generatedByScan": true
     },
@@ -442792,13 +442797,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         }
@@ -442975,7 +442980,7 @@
       "id": "ol-88340",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.460Z",
+      "completedAt": "2026-11-24T17:44:27.162Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -443435,13 +443440,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         }
@@ -443618,7 +443623,7 @@
       "id": "ol-88341",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.461Z",
+      "completedAt": "2026-11-24T17:44:27.164Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -444078,13 +444083,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         }
@@ -444261,7 +444266,7 @@
       "id": "ol-88342",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.461Z",
+      "completedAt": "2026-11-24T17:44:27.164Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -444721,13 +444726,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -445046,7 +445051,7 @@
       "id": "ol-88343",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.464Z",
+      "completedAt": "2026-11-24T17:44:27.170Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -445642,13 +445647,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -445967,7 +445972,7 @@
       "id": "ol-88344",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.464Z",
+      "completedAt": "2026-11-24T17:44:27.171Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -446563,13 +446568,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -446888,7 +446893,7 @@
       "id": "ol-88345",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.464Z",
+      "completedAt": "2026-11-24T17:44:27.171Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -447484,13 +447489,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         }
@@ -447667,7 +447672,7 @@
       "id": "ol-88346",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.464Z",
+      "completedAt": "2026-11-24T17:44:27.171Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -448127,13 +448132,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -448452,7 +448457,7 @@
       "id": "ol-88347",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.465Z",
+      "completedAt": "2026-11-24T17:44:27.173Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -449048,13 +449053,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -449373,7 +449378,7 @@
       "id": "ol-88348",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.465Z",
+      "completedAt": "2026-11-24T17:44:27.173Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -449969,13 +449974,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -450294,7 +450299,7 @@
       "id": "ol-88349",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.465Z",
+      "completedAt": "2026-11-24T17:44:27.173Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -450890,19 +450895,19 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-24T03:57:37.642Z",
+          "retrievedAt": "2026-11-24T17:44:25.900Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-24T03:57:37.467Z",
+          "retrievedAt": "2026-11-24T17:44:25.739Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2025",
-          "retrievedAt": "2026-11-24T03:57:39.255Z",
+          "retrievedAt": "2026-11-24T03:57:39.390Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 1440
         },
@@ -451326,7 +451331,7 @@
       "id": "ol-88350",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-24T03:57:39.465Z",
+      "completedAt": "2026-11-24T17:44:27.174Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -452432,7 +452437,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-24T03:57:39.465Z"
+        "createdAt": "2026-11-24T17:44:27.174Z"
       },
       "generatedByScan": true
     },
@@ -456293,7 +456298,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:38.396Z"
+      "createdAt": "2026-11-24T17:44:26.162Z"
     },
     {
       "eventId": "ol-87462",
@@ -456313,7 +456318,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:38.396Z"
+      "createdAt": "2026-11-24T17:44:26.163Z"
     },
     {
       "eventId": "ol-87464",
@@ -456333,7 +456338,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:38.400Z"
+      "createdAt": "2026-11-24T17:44:26.166Z"
     },
     {
       "eventId": "ol-87465",
@@ -456353,7 +456358,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:38.400Z"
+      "createdAt": "2026-11-24T17:44:26.166Z"
     },
     {
       "eventId": "ol-87467",
@@ -456373,7 +456378,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:38.400Z"
+      "createdAt": "2026-11-24T17:44:26.166Z"
     },
     {
       "eventId": "ol-87470",
@@ -456393,7 +456398,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:38.776Z"
+      "createdAt": "2026-11-24T17:44:26.650Z"
     },
     {
       "eventId": "ol-87471",
@@ -456413,7 +456418,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:38.776Z"
+      "createdAt": "2026-11-24T17:44:26.650Z"
     },
     {
       "eventId": "ol-87474",
@@ -456433,7 +456438,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:38.777Z"
+      "createdAt": "2026-11-24T17:44:26.653Z"
     },
     {
       "eventId": "ol-87475",
@@ -456453,7 +456458,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:38.778Z"
+      "createdAt": "2026-11-24T17:44:26.653Z"
     },
     {
       "eventId": "ol-87476",
@@ -456472,7 +456477,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": false,
-      "createdAt": "2026-11-24T03:57:38.778Z"
+      "createdAt": "2026-11-24T17:44:26.653Z"
     },
     {
       "eventId": "ol-87844",
@@ -456492,7 +456497,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:39.459Z"
+      "createdAt": "2026-11-24T17:44:27.159Z"
     },
     {
       "eventId": "ol-87849",
@@ -456512,7 +456517,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:39.462Z"
+      "createdAt": "2026-11-24T17:44:27.167Z"
     },
     {
       "eventId": "ol-87850",
@@ -456532,7 +456537,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:39.463Z"
+      "createdAt": "2026-11-24T17:44:27.168Z"
     },
     {
       "eventId": "ol-88339",
@@ -456552,7 +456557,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:39.460Z"
+      "createdAt": "2026-11-24T17:44:27.162Z"
     },
     {
       "eventId": "ol-88350",
@@ -456572,7 +456577,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-24T03:57:39.465Z"
+      "createdAt": "2026-11-24T17:44:27.174Z"
     }
   ],
   "picks": [],
@@ -456606,15 +456611,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-      "retrievedAt": "2026-11-24T03:57:37.335Z"
-    },
-    {
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "status": "connected",
-      "fixtures": 0,
-      "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-      "retrievedAt": "2026-11-24T03:57:37.471Z"
+      "retrievedAt": "2026-11-24T17:44:25.635Z"
     },
     {
       "sport": "Football",
@@ -456622,7 +456619,15 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-      "retrievedAt": "2026-11-24T03:57:37.467Z"
+      "retrievedAt": "2026-11-24T17:44:25.739Z"
+    },
+    {
+      "sport": "Football",
+      "league": "2. Fußball-Bundesliga 2026/2027",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
+      "retrievedAt": "2026-11-24T17:44:25.773Z"
     },
     {
       "sport": "Football",
@@ -456630,7 +456635,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-      "retrievedAt": "2026-11-24T03:57:37.883Z"
+      "retrievedAt": "2026-11-24T17:44:25.982Z"
     },
     {
       "sport": "Football",
@@ -456638,7 +456643,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-      "retrievedAt": "2026-11-24T03:57:38.024Z"
+      "retrievedAt": "2026-11-24T17:44:26.076Z"
     },
     {
       "sport": "Football",
@@ -456646,7 +456651,7 @@
       "status": "connected",
       "fixtures": 18,
       "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-      "retrievedAt": "2026-11-24T03:57:37.764Z"
+      "retrievedAt": "2026-11-24T17:44:25.969Z"
     },
     {
       "sport": "Football",
@@ -456654,7 +456659,7 @@
       "status": "connected",
       "fixtures": 18,
       "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-      "retrievedAt": "2026-11-24T03:57:37.642Z"
+      "retrievedAt": "2026-11-24T17:44:25.900Z"
     },
     {
       "sport": "Football",
@@ -456662,7 +456667,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-      "retrievedAt": "2026-11-24T03:57:37.797Z"
+      "retrievedAt": "2026-11-24T17:44:26.060Z"
     }
   ],
   "sourceAudit": [
