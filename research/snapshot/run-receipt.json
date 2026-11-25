@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-25T02:28:23.853Z",
+  "startedAt": "2026-11-25T17:13:45.573Z",
   "status": "catalogue_processed",
   "core": [
     {
@@ -46,5 +46,5 @@
   ],
   "unfinished": [],
   "stopReason": null,
-  "finishedAt": "2026-11-25T02:28:27.888Z"
+  "finishedAt": "2026-11-25T17:13:49.350Z"
 }
