@@ -1752,7 +1752,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-11-25T02:28:29.600Z",
+  "generatedAt": "2026-11-25T02:39:10.929Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -3555,6 +3555,46 @@
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     },
     {
+      "id": "ol-83253",
+      "eventId": "ol-83253",
+      "match": "SV Werder Bremen — Borussia Mönchengladbach",
+      "sport": "Football",
+      "league": "1. Fußball-Bundesliga 2026/2027",
+      "start": "2026-11-27T19:30:00Z",
+      "home": {
+        "id": 134,
+        "name": "SV Werder Bremen"
+      },
+      "away": {
+        "id": 87,
+        "name": "Borussia Mönchengladbach"
+      },
+      "recordedAt": "2026-11-25T02:28:29.535Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8900416581199341,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+          "retrievedAt": "2026-11-25T02:28:24.444Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
       "id": "ol-83645",
       "eventId": "ol-83645",
       "match": "1. FC Heidenheim 1846 — Energie Cottbus",
@@ -5091,6 +5131,86 @@
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
           "retrievedAt": "2026-11-20T00:36:51.038Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-83707",
+      "eventId": "ol-83707",
+      "match": "1. FC Heidenheim 1846 — 1. FC Nürnberg",
+      "sport": "Football",
+      "league": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-11-27T17:30:00Z",
+      "home": {
+        "id": 199,
+        "name": "1. FC Heidenheim 1846"
+      },
+      "away": {
+        "id": 79,
+        "name": "1. FC Nürnberg"
+      },
+      "recordedAt": "2026-11-25T02:28:29.536Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8133690834870491,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
+          "retrievedAt": "2026-11-25T02:28:24.482Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-83709",
+      "eventId": "ol-83709",
+      "match": "VfL Bochum — SV Darmstadt 98",
+      "sport": "Football",
+      "league": "2. Fußball-Bundesliga 2026/2027",
+      "start": "2026-11-27T17:30:00Z",
+      "home": {
+        "id": 129,
+        "name": "VfL Bochum"
+      },
+      "away": {
+        "id": 118,
+        "name": "SV Darmstadt 98"
+      },
+      "recordedAt": "2026-11-25T02:28:29.536Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "double_chance",
+      "side": "1X",
+      "line": null,
+      "probability": 0.7744144416748318,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
+          "retrievedAt": "2026-11-25T02:28:24.482Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -7311,6 +7431,46 @@
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
           "retrievedAt": "2026-11-19T00:22:34.787Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
+      "id": "ol-84888",
+      "eventId": "ol-84888",
+      "match": "Hansa Rostock — TSV Havelse",
+      "sport": "Football",
+      "league": "3. Liga 2026/2027",
+      "start": "2026-11-27T18:00:00Z",
+      "home": {
+        "id": 102,
+        "name": "Hansa Rostock"
+      },
+      "away": {
+        "id": 126,
+        "name": "TSV Havelse"
+      },
+      "recordedAt": "2026-11-25T02:28:29.536Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "over",
+      "line": 1.5,
+      "probability": 0.8337864024525181,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
+          "retrievedAt": "2026-11-25T02:28:24.782Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -11189,6 +11349,46 @@
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     },
     {
+      "id": "ol-86647",
+      "eventId": "ol-86647",
+      "match": "Nottingham Forest — Chelsea FC",
+      "sport": "Football",
+      "league": "Premier League 2026/2027",
+      "start": "2026-11-27T20:00:00Z",
+      "home": {
+        "id": 8793,
+        "name": "Nottingham Forest"
+      },
+      "away": {
+        "id": 364,
+        "name": "Chelsea FC"
+      },
+      "recordedAt": "2026-11-25T02:28:29.536Z",
+      "modelVersion": "research-v5-horizon",
+      "type": "total",
+      "side": "under",
+      "line": 3.5,
+      "probability": 0.7387186504065553,
+      "period": "full_match",
+      "settlement": "regulation",
+      "homeSample": 10,
+      "awaySample": 10,
+      "sources": [
+        {
+          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+          "retrievedAt": "2026-11-25T02:28:24.698Z",
+          "classification": "SOURCE_REPORTED",
+          "cacheMaxAgeMinutes": 15
+        }
+      ],
+      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
+      "calibrated": false,
+      "publicationEligible": false,
+      "odds": null,
+      "estimatedEV": null,
+      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
+    },
+    {
       "id": "ol-87433",
       "eventId": "ol-87433",
       "match": "Como 1907 — Manchester United FC",
@@ -13783,206 +13983,6 @@
       "odds": null,
       "estimatedEV": null,
       "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-83253",
-      "eventId": "ol-83253",
-      "match": "SV Werder Bremen — Borussia Mönchengladbach",
-      "sport": "Football",
-      "league": "1. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-27T19:30:00Z",
-      "home": {
-        "id": 134,
-        "name": "SV Werder Bremen"
-      },
-      "away": {
-        "id": 87,
-        "name": "Borussia Mönchengladbach"
-      },
-      "recordedAt": "2026-11-25T02:28:29.535Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.8900416581199341,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-25T02:28:24.444Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-83707",
-      "eventId": "ol-83707",
-      "match": "1. FC Heidenheim 1846 — 1. FC Nürnberg",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-27T17:30:00Z",
-      "home": {
-        "id": 199,
-        "name": "1. FC Heidenheim 1846"
-      },
-      "away": {
-        "id": 79,
-        "name": "1. FC Nürnberg"
-      },
-      "recordedAt": "2026-11-25T02:28:29.536Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.8133690834870491,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-25T02:28:24.482Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-83709",
-      "eventId": "ol-83709",
-      "match": "VfL Bochum — SV Darmstadt 98",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-27T17:30:00Z",
-      "home": {
-        "id": 129,
-        "name": "VfL Bochum"
-      },
-      "away": {
-        "id": 118,
-        "name": "SV Darmstadt 98"
-      },
-      "recordedAt": "2026-11-25T02:28:29.536Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "double_chance",
-      "side": "1X",
-      "line": null,
-      "probability": 0.7744144416748318,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-25T02:28:24.482Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-84888",
-      "eventId": "ol-84888",
-      "match": "Hansa Rostock — TSV Havelse",
-      "sport": "Football",
-      "league": "3. Liga 2026/2027",
-      "start": "2026-11-27T18:00:00Z",
-      "home": {
-        "id": 102,
-        "name": "Hansa Rostock"
-      },
-      "away": {
-        "id": 126,
-        "name": "TSV Havelse"
-      },
-      "recordedAt": "2026-11-25T02:28:29.536Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "probability": 0.8337864024525181,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-25T02:28:24.782Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
-    },
-    {
-      "id": "ol-86647",
-      "eventId": "ol-86647",
-      "match": "Nottingham Forest — Chelsea FC",
-      "sport": "Football",
-      "league": "Premier League 2026/2027",
-      "start": "2026-11-27T20:00:00Z",
-      "home": {
-        "id": 8793,
-        "name": "Nottingham Forest"
-      },
-      "away": {
-        "id": 364,
-        "name": "Chelsea FC"
-      },
-      "recordedAt": "2026-11-25T02:28:29.536Z",
-      "modelVersion": "research-v5-horizon",
-      "type": "total",
-      "side": "under",
-      "line": 3.5,
-      "probability": 0.7387186504065553,
-      "period": "full_match",
-      "settlement": "regulation",
-      "homeSample": 10,
-      "awaySample": 10,
-      "sources": [
-        {
-          "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-25T02:28:24.698Z",
-          "classification": "SOURCE_REPORTED",
-          "cacheMaxAgeMinutes": 15
-        }
-      ],
-      "classification": "FORWARD_EXPERIMENTAL_FORECAST",
-      "calibrated": false,
-      "publicationEligible": false,
-      "odds": null,
-      "estimatedEV": null,
-      "note": "First recorded forecast per fixture; descriptive source-final scoring only, never bookmaker settlement."
     }
   ],
   "outcomes": [
@@ -14371,6 +14371,18 @@
       "bettingSettlement": false
     },
     {
+      "eventId": "ol-83243",
+      "home": 4,
+      "away": 0,
+      "outcome": 1,
+      "scoredAt": "2026-11-25T02:28:29.539Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl1/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
       "eventId": "ol-83244",
       "home": 0,
       "away": 0,
@@ -14712,6 +14724,42 @@
       "away": 1,
       "outcome": 1,
       "scoredAt": "2026-11-20T00:36:54.671Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl2/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83691",
+      "home": 2,
+      "away": 0,
+      "outcome": 1,
+      "scoredAt": "2026-11-25T02:28:29.543Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl2/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83697",
+      "home": 3,
+      "away": 1,
+      "outcome": 1,
+      "scoredAt": "2026-11-25T02:28:29.551Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl2/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-83699",
+      "home": 1,
+      "away": 2,
+      "outcome": 1,
+      "scoredAt": "2026-11-25T02:28:29.555Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/bl2/2026"
       ],
@@ -15072,6 +15120,30 @@
       "away": 1,
       "outcome": 0,
       "scoredAt": "2026-11-19T00:22:37.952Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl3/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-84877",
+      "home": 2,
+      "away": 0,
+      "outcome": 1,
+      "scoredAt": "2026-11-25T02:28:29.563Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/bl3/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-84883",
+      "home": 1,
+      "away": 6,
+      "outcome": 1,
+      "scoredAt": "2026-11-25T02:28:29.567Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/bl3/2026"
       ],
@@ -15974,78 +16046,6 @@
       "scoredAt": "2026-11-05T23:38:23.389Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/uecl2026/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83243",
-      "home": 4,
-      "away": 0,
-      "outcome": 1,
-      "scoredAt": "2026-11-25T02:28:29.539Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl1/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83691",
-      "home": 2,
-      "away": 0,
-      "outcome": 1,
-      "scoredAt": "2026-11-25T02:28:29.543Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl2/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83697",
-      "home": 3,
-      "away": 1,
-      "outcome": 1,
-      "scoredAt": "2026-11-25T02:28:29.551Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl2/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-83699",
-      "home": 1,
-      "away": 2,
-      "outcome": 1,
-      "scoredAt": "2026-11-25T02:28:29.555Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl2/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-84877",
-      "home": 2,
-      "away": 0,
-      "outcome": 1,
-      "scoredAt": "2026-11-25T02:28:29.563Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl3/2026"
-      ],
-      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
-      "bettingSettlement": false
-    },
-    {
-      "eventId": "ol-84883",
-      "home": 1,
-      "away": 6,
-      "outcome": 1,
-      "scoredAt": "2026-11-25T02:28:29.567Z",
-      "sources": [
-        "https://api.openligadb.de/getmatchdata/bl3/2026"
       ],
       "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
       "bettingSettlement": false
