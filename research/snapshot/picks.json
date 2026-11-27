@@ -2,8 +2,8 @@
   "version": "research-v5-horizon",
   "status": "partial",
   "date": "2026-11-29",
-  "updated": "2026-11-27T01:43:33.078Z",
-  "startedAt": "2026-11-27T01:43:30.915Z",
+  "updated": "2026-11-27T16:39:40.087Z",
+  "startedAt": "2026-11-27T16:39:37.939Z",
   "screened": 15,
   "discovered": 15,
   "records": [
@@ -53676,19 +53676,19 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T01:43:28.960Z",
+          "retrievedAt": "2026-11-27T16:39:36.486Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-27T01:43:29.201Z",
+          "retrievedAt": "2026-11-27T16:39:36.745Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.402Z",
+          "retrievedAt": "2026-11-27T16:39:37.005Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -53848,6 +53848,21 @@
         ],
         "away": [
           {
+            "id": "87750",
+            "date": "2026-11-26T17:45:00Z",
+            "gf": 2,
+            "ga": 0,
+            "total": 2,
+            "venue": "away",
+            "opponent": "Dinamo Zagreb",
+            "opponentId": 1208,
+            "result": "W",
+            "competition": "Europa League 2026/27",
+            "season": 2026,
+            "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+            "scoreScope": "regulation"
+          },
+          {
             "id": "83238",
             "date": "2026-11-21T14:30:00Z",
             "gf": 4,
@@ -53981,21 +53996,6 @@
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
             "scoreScope": "regulation"
-          },
-          {
-            "id": "83185",
-            "date": "2026-09-20T13:30:00Z",
-            "gf": 2,
-            "ga": 0,
-            "total": 2,
-            "venue": "home",
-            "opponent": "RB Leipzig",
-            "opponentId": 1635,
-            "result": "W",
-            "competition": "1. Fußball-Bundesliga 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-            "scoreScope": "regulation"
           }
         ]
       },
@@ -54075,7 +54075,7 @@
       "id": "ol-83246",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.039Z",
+      "completedAt": "2026-11-27T16:39:38.065Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -54144,7 +54144,7 @@
             "gf": 2.2,
             "ga": 1.3,
             "total": 3.5,
-            "form": "WWLLL",
+            "form": "WWWLL",
             "wins": 0.7,
             "over15": 0.9,
             "over25": 0.7,
@@ -54169,8 +54169,8 @@
             },
             "draws": 0,
             "losses": 0.3,
-            "from": "2026-09-20T13:30:00Z",
-            "to": "2026-11-21T14:30:00Z"
+            "from": "2026-10-10T13:30:00Z",
+            "to": "2026-11-26T17:45:00Z"
           },
           "season": {
             "home": {
@@ -54283,15 +54283,15 @@
             "to": "2026-11-07T14:30:00Z"
           },
           "away": {
-            "sample": 5,
-            "gf": 2.4,
-            "ga": 1.4,
-            "total": 3.8,
-            "form": "WLWWW",
-            "wins": 0.8,
+            "sample": 6,
+            "gf": 2.3333333333333335,
+            "ga": 1.1666666666666667,
+            "total": 3.5,
+            "form": "WWLWW",
+            "wins": 0.8333333333333334,
             "over15": 1,
-            "over25": 0.8,
-            "btts": 0.4,
+            "over25": 0.6666666666666666,
+            "btts": 0.3333333333333333,
             "availableMetrics": {
               "shots": {
                 "mean": null,
@@ -54311,9 +54311,9 @@
               }
             },
             "draws": 0,
-            "losses": 0.2,
+            "losses": 0.16666666666666666,
             "from": "2026-10-10T13:30:00Z",
-            "to": "2026-11-08T14:30:00Z"
+            "to": "2026-11-26T17:45:00Z"
           },
           "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies."
         },
@@ -54475,6 +54475,21 @@
           ],
           "away": [
             {
+              "id": "87750",
+              "date": "2026-11-26T17:45:00Z",
+              "gf": 2,
+              "ga": 0,
+              "total": 2,
+              "venue": "away",
+              "opponent": "Dinamo Zagreb",
+              "opponentId": 1208,
+              "result": "W",
+              "competition": "Europa League 2026/27",
+              "season": 2026,
+              "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+              "scoreScope": "regulation"
+            },
+            {
               "id": "83238",
               "date": "2026-11-21T14:30:00Z",
               "gf": 4,
@@ -54608,21 +54623,6 @@
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
               "scoreScope": "regulation"
-            },
-            {
-              "id": "83185",
-              "date": "2026-09-20T13:30:00Z",
-              "gf": 2,
-              "ga": 0,
-              "total": 2,
-              "venue": "home",
-              "opponent": "RB Leipzig",
-              "opponentId": 1635,
-              "result": "W",
-              "competition": "1. Fußball-Bundesliga 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-              "scoreScope": "regulation"
             }
           ],
           "samples": {
@@ -54648,8 +54648,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.8006649472136638,
-              "fairOdds": 1.2489618828450375,
+              "probability": 0.7926784354432064,
+              "fairOdds": 1.2615456095268631,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54662,8 +54662,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.19933505278633623,
-              "fairOdds": 5.016679134060192,
+              "probability": 0.20732156455679362,
+              "fairOdds": 4.823424915482249,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54676,8 +54676,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5765298082774775,
-              "fairOdds": 1.7345156931048238,
+              "probability": 0.564660463774004,
+              "fairOdds": 1.7709757706716889,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54690,8 +54690,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.42347019172252254,
-              "fairOdds": 2.361441299876065,
+              "probability": 0.43533953622599597,
+              "fairOdds": 2.2970576223540475,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54704,8 +54704,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.3524880589825148,
-              "fairOdds": 2.8369755358141227,
+              "probability": 0.3407278140972082,
+              "fairOdds": 2.9348939494405473,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54718,8 +54718,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6475119410174852,
-              "fairOdds": 1.5443730634969035,
+              "probability": 0.6592721859027918,
+              "fairOdds": 1.516824190953276,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54731,8 +54731,8 @@
               "side": "home",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.33387719952062056,
-              "fairOdds": 2.9951131776467386,
+              "probability": 0.3260899475133677,
+              "fairOdds": 3.066638538310066,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54744,8 +54744,8 @@
               "side": "away",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.42445812442541403,
-              "fairOdds": 2.3559450095429155,
+              "probability": 0.4302447368091924,
+              "fairOdds": 2.32425853112408,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54757,8 +54757,8 @@
               "side": "1X",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5755418755745864,
-              "fairOdds": 1.7374930347190813,
+              "probability": 0.5697552631908073,
+              "fairOdds": 1.7551395565873107,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54770,8 +54770,8 @@
               "side": "X2",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6661228004793799,
-              "fairOdds": 1.5012246980291668,
+              "probability": 0.673910052486632,
+              "fairOdds": 1.483877553555022,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54783,8 +54783,8 @@
               "side": "yes",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6009334954041593,
-              "fairOdds": 1.6640776519329274,
+              "probability": 0.5909407650068513,
+              "fairOdds": 1.69221698555253,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54796,8 +54796,8 @@
               "side": "no",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.3990665045958407,
-              "fairOdds": 2.5058479939647196,
+              "probability": 0.40905923499314867,
+              "fairOdds": 2.444633721609412,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -54827,7 +54827,7 @@
           "status": "partial",
           "restDays": {
             "home": 4.9375,
-            "away": 8.166666666666666
+            "away": 3.03125
           },
           "homeLast5": [
             "1–1",
@@ -54837,11 +54837,11 @@
             "2–2"
           ],
           "awayLast5": [
+            "2–0",
             "4–0",
             "2–1",
             "0–1",
-            "2–4",
-            "0–3"
+            "2–4"
           ],
           "missing": [
             "Travel",
@@ -54855,9 +54855,9 @@
           "status": "exploratory",
           "projection": {
             "classification": "MODELLED",
-            "home": 1.39625,
-            "away": 1.6025,
-            "total": 2.9987500000000002,
+            "home": 1.3554166666666667,
+            "away": 1.5908333333333335,
+            "total": 2.94625,
             "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
             "calibrated": false,
             "range": null,
@@ -54883,76 +54883,76 @@
               "type": "total",
               "side": "over",
               "line": 1.5,
-              "probability": 0.8006649472136638
+              "probability": 0.7926784354432064
             },
             {
               "type": "total",
               "side": "under",
               "line": 1.5,
-              "probability": 0.19933505278633623
+              "probability": 0.20732156455679362
             },
             {
               "type": "total",
               "side": "under",
               "line": 2.5,
-              "probability": 0.42347019172252254
+              "probability": 0.43533953622599597
             },
             {
               "type": "total",
               "side": "over",
               "line": 3.5,
-              "probability": 0.3524880589825148
+              "probability": 0.3407278140972082
             },
             {
               "type": "total",
               "side": "under",
               "line": 3.5,
-              "probability": 0.6475119410174852
+              "probability": 0.6592721859027918
             },
             {
               "type": "win",
               "side": "home",
               "line": null,
-              "probability": 0.33387719952062056
+              "probability": 0.3260899475133677
             },
             {
               "type": "win",
               "side": "away",
               "line": null,
-              "probability": 0.42445812442541403
+              "probability": 0.4302447368091924
             },
             {
               "type": "double_chance",
               "side": "1X",
               "line": null,
-              "probability": 0.5755418755745864
+              "probability": 0.5697552631908073
             },
             {
               "type": "double_chance",
               "side": "X2",
               "line": null,
-              "probability": 0.6661228004793799
+              "probability": 0.673910052486632
             },
             {
               "type": "btts",
               "side": "yes",
               "line": null,
-              "probability": 0.6009334954041593
+              "probability": 0.5909407650068513
             },
             {
               "type": "btts",
               "side": "no",
               "line": null,
-              "probability": 0.3990665045958407
+              "probability": 0.40905923499314867
             }
           ]
         }
       ],
       "projection": {
         "classification": "MODELLED",
-        "home": 1.39625,
-        "away": 1.6025,
-        "total": 2.9987500000000002,
+        "home": 1.3554166666666667,
+        "away": 1.5908333333333335,
+        "total": 2.94625,
         "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
         "calibrated": false,
         "range": null,
@@ -54965,8 +54965,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.8006649472136638,
-          "fairOdds": 1.2489618828450375,
+          "probability": 0.7926784354432064,
+          "fairOdds": 1.2615456095268631,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -54979,8 +54979,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.19933505278633623,
-          "fairOdds": 5.016679134060192,
+          "probability": 0.20732156455679362,
+          "fairOdds": 4.823424915482249,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -54993,8 +54993,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5765298082774775,
-          "fairOdds": 1.7345156931048238,
+          "probability": 0.564660463774004,
+          "fairOdds": 1.7709757706716889,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55007,8 +55007,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.42347019172252254,
-          "fairOdds": 2.361441299876065,
+          "probability": 0.43533953622599597,
+          "fairOdds": 2.2970576223540475,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55021,8 +55021,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.3524880589825148,
-          "fairOdds": 2.8369755358141227,
+          "probability": 0.3407278140972082,
+          "fairOdds": 2.9348939494405473,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55035,8 +55035,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6475119410174852,
-          "fairOdds": 1.5443730634969035,
+          "probability": 0.6592721859027918,
+          "fairOdds": 1.516824190953276,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55048,8 +55048,8 @@
           "side": "home",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.33387719952062056,
-          "fairOdds": 2.9951131776467386,
+          "probability": 0.3260899475133677,
+          "fairOdds": 3.066638538310066,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55061,8 +55061,8 @@
           "side": "away",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.42445812442541403,
-          "fairOdds": 2.3559450095429155,
+          "probability": 0.4302447368091924,
+          "fairOdds": 2.32425853112408,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55074,8 +55074,8 @@
           "side": "1X",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5755418755745864,
-          "fairOdds": 1.7374930347190813,
+          "probability": 0.5697552631908073,
+          "fairOdds": 1.7551395565873107,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55087,8 +55087,8 @@
           "side": "X2",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6661228004793799,
-          "fairOdds": 1.5012246980291668,
+          "probability": 0.673910052486632,
+          "fairOdds": 1.483877553555022,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55100,8 +55100,8 @@
           "side": "yes",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6009334954041593,
-          "fairOdds": 1.6640776519329274,
+          "probability": 0.5909407650068513,
+          "fairOdds": 1.69221698555253,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55113,8 +55113,8 @@
           "side": "no",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.3990665045958407,
-          "fairOdds": 2.5058479939647196,
+          "probability": 0.40905923499314867,
+          "fairOdds": 2.444633721609412,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -55141,8 +55141,8 @@
         "line": 1.5,
         "period": "full_match",
         "settlement": "regulation",
-        "probability": 0.8006649472136638,
-        "fairOdds": 1.2489618828450375,
+        "probability": 0.7926784354432064,
+        "fairOdds": 1.2615456095268631,
         "odds": null,
         "estimatedEV": null,
         "calibrated": false,
@@ -55152,7 +55152,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.039Z"
+        "createdAt": "2026-11-27T16:39:38.065Z"
       },
       "generatedByScan": true
     },
@@ -55176,13 +55176,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T01:43:28.960Z",
+          "retrievedAt": "2026-11-27T16:39:36.486Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.402Z",
+          "retrievedAt": "2026-11-27T16:39:37.005Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -55569,7 +55569,7 @@
       "id": "ol-83247",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.087Z",
+      "completedAt": "2026-11-27T16:39:37.556Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -56646,7 +56646,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:30.087Z"
+        "createdAt": "2026-11-27T16:39:37.556Z"
       },
       "generatedByScan": true
     },
@@ -56670,19 +56670,34 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T01:43:28.960Z",
+          "retrievedAt": "2026-11-27T16:39:36.486Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-27T01:43:29.201Z",
+          "retrievedAt": "2026-11-27T16:39:36.745Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
       ],
       "history": {
         "home": [
+          {
+            "id": "87754",
+            "date": "2026-11-26T20:00:00Z",
+            "gf": 3,
+            "ga": 1,
+            "total": 4,
+            "venue": "home",
+            "opponent": "SK Puntigamer Sturm Graz",
+            "opponentId": 2491,
+            "result": "W",
+            "competition": "Europa League 2026/27",
+            "season": 2026,
+            "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+            "scoreScope": "regulation"
+          },
           {
             "id": "83239",
             "date": "2026-11-21T14:30:00Z",
@@ -56812,21 +56827,6 @@
             "venue": "home",
             "opponent": "Hamburger SV",
             "opponentId": 100,
-            "result": "L",
-            "competition": "1. Fußball-Bundesliga 2026/2027",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "83191",
-            "date": "2026-09-20T17:30:00Z",
-            "gf": 1,
-            "ga": 3,
-            "total": 4,
-            "venue": "away",
-            "opponent": "SC Paderborn 07",
-            "opponentId": 31,
             "result": "L",
             "competition": "1. Fußball-Bundesliga 2026/2027",
             "season": 2026,
@@ -57063,7 +57063,7 @@
       "id": "ol-83248",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.038Z",
+      "completedAt": "2026-11-27T16:39:38.063Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -57096,11 +57096,11 @@
           "classification": "CALCULATED",
           "home": {
             "sample": 10,
-            "gf": 1.6,
-            "ga": 1.5,
+            "gf": 1.8,
+            "ga": 1.3,
             "total": 3.1,
-            "form": "LWDLW",
-            "wins": 0.4,
+            "form": "WLWDL",
+            "wins": 0.5,
             "over15": 0.9,
             "over25": 0.7,
             "btts": 0.6,
@@ -57123,9 +57123,9 @@
               }
             },
             "draws": 0.1,
-            "losses": 0.5,
-            "from": "2026-09-20T17:30:00Z",
-            "to": "2026-11-21T14:30:00Z"
+            "losses": 0.4,
+            "from": "2026-10-10T13:30:00Z",
+            "to": "2026-11-26T20:00:00Z"
           },
           "away": {
             "sample": 10,
@@ -57238,15 +57238,15 @@
           "title": "Home / away and form",
           "status": "calculated",
           "home": {
-            "sample": 5,
-            "gf": 2.4,
-            "ga": 1.4,
-            "total": 3.8,
-            "form": "WWWLL",
-            "wins": 0.6,
+            "sample": 6,
+            "gf": 2.5,
+            "ga": 1.3333333333333333,
+            "total": 3.8333333333333335,
+            "form": "WWWWL",
+            "wins": 0.6666666666666666,
             "over15": 1,
             "over25": 1,
-            "btts": 0.6,
+            "btts": 0.6666666666666666,
             "availableMetrics": {
               "shots": {
                 "mean": null,
@@ -57266,9 +57266,9 @@
               }
             },
             "draws": 0,
-            "losses": 0.4,
+            "losses": 0.3333333333333333,
             "from": "2026-10-10T13:30:00Z",
-            "to": "2026-11-08T18:30:00Z"
+            "to": "2026-11-26T20:00:00Z"
           },
           "away": {
             "sample": 4,
@@ -57310,6 +57310,21 @@
           "title": "Recent results",
           "status": "calculated",
           "home": [
+            {
+              "id": "87754",
+              "date": "2026-11-26T20:00:00Z",
+              "gf": 3,
+              "ga": 1,
+              "total": 4,
+              "venue": "home",
+              "opponent": "SK Puntigamer Sturm Graz",
+              "opponentId": 2491,
+              "result": "W",
+              "competition": "Europa League 2026/27",
+              "season": 2026,
+              "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+              "scoreScope": "regulation"
+            },
             {
               "id": "83239",
               "date": "2026-11-21T14:30:00Z",
@@ -57439,21 +57454,6 @@
               "venue": "home",
               "opponent": "Hamburger SV",
               "opponentId": 100,
-              "result": "L",
-              "competition": "1. Fußball-Bundesliga 2026/2027",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "83191",
-              "date": "2026-09-20T17:30:00Z",
-              "gf": 1,
-              "ga": 3,
-              "total": 4,
-              "venue": "away",
-              "opponent": "SC Paderborn 07",
-              "opponentId": 31,
               "result": "L",
               "competition": "1. Fußball-Bundesliga 2026/2027",
               "season": 2026,
@@ -57636,8 +57636,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.9189766558312897,
-              "fairOdds": 1.0881669231253954,
+              "probability": 0.9193567202054541,
+              "fairOdds": 1.0877170721899156,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57650,8 +57650,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.08102334416871027,
-              "fairOdds": 12.342122017547897,
+              "probability": 0.08064327979454589,
+              "fairOdds": 12.400289305540282,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57664,8 +57664,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7834010822521521,
-              "fairOdds": 1.276485344040068,
+              "probability": 0.7841907447603698,
+              "fairOdds": 1.275199951901468,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57678,8 +57678,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.2165989177478479,
-              "fairOdds": 4.616828239022611,
+              "probability": 0.21580925523963024,
+              "fairOdds": 4.633721565322211,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57692,8 +57692,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5957418924896958,
-              "fairOdds": 1.6785792851008818,
+              "probability": 0.5968356843517668,
+              "fairOdds": 1.6755030341158583,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57706,8 +57706,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.4042581075103042,
-              "fairOdds": 2.473667148344108,
+              "probability": 0.4031643156482332,
+              "fairOdds": 2.4803782507192795,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57719,8 +57719,8 @@
               "side": "home",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.44267309061020343,
-              "fairOdds": 2.2590033621007963,
+              "probability": 0.47363296153656276,
+              "fairOdds": 2.1113395418169256,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57732,8 +57732,8 @@
               "side": "away",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.35562113649203436,
-              "fairOdds": 2.811981340210354,
+              "probability": 0.3268844785755051,
+              "fairOdds": 3.059184713687823,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57745,8 +57745,8 @@
               "side": "1X",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6443788635079652,
-              "fairOdds": 1.5518820629156762,
+              "probability": 0.6731155214244946,
+              "fairOdds": 1.4856290906555376,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57758,8 +57758,8 @@
               "side": "X2",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5573269093897962,
-              "fairOdds": 1.794279054450961,
+              "probability": 0.5263670384634369,
+              "fairOdds": 1.8998150091601207,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57771,8 +57771,8 @@
               "side": "yes",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7632656566916222,
-              "fairOdds": 1.3101598260486444,
+              "probability": 0.7608157725723769,
+              "fairOdds": 1.3143786394161137,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57784,8 +57784,8 @@
               "side": "no",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.23673434330837784,
-              "fairOdds": 4.224144186369139,
+              "probability": 0.23918422742762313,
+              "fairOdds": 4.1808776889462695,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -57814,15 +57814,15 @@
           "title": "Patterns and fatigue",
           "status": "partial",
           "restDays": {
-            "home": 8.083333333333334,
+            "home": 2.8541666666666665,
             "away": 7.083333333333333
           },
           "homeLast5": [
+            "3–1",
             "0–1",
             "2–1",
             "1–1",
-            "0–2",
-            "3–0"
+            "0–2"
           ],
           "awayLast5": [
             "3–1",
@@ -57843,9 +57843,9 @@
           "status": "exploratory",
           "projection": {
             "classification": "MODELLED",
-            "home": 2.19125,
-            "away": 1.9612499999999997,
-            "total": 4.1525,
+            "home": 2.27375,
+            "away": 1.884583333333333,
+            "total": 4.158333333333333,
             "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
             "calibrated": false,
             "range": null,
@@ -57871,76 +57871,76 @@
               "type": "total",
               "side": "over",
               "line": 1.5,
-              "probability": 0.9189766558312897
+              "probability": 0.9193567202054541
             },
             {
               "type": "total",
               "side": "under",
               "line": 1.5,
-              "probability": 0.08102334416871027
+              "probability": 0.08064327979454589
             },
             {
               "type": "total",
               "side": "under",
               "line": 2.5,
-              "probability": 0.2165989177478479
+              "probability": 0.21580925523963024
             },
             {
               "type": "total",
               "side": "over",
               "line": 3.5,
-              "probability": 0.5957418924896958
+              "probability": 0.5968356843517668
             },
             {
               "type": "total",
               "side": "under",
               "line": 3.5,
-              "probability": 0.4042581075103042
+              "probability": 0.4031643156482332
             },
             {
               "type": "win",
               "side": "home",
               "line": null,
-              "probability": 0.44267309061020343
+              "probability": 0.47363296153656276
             },
             {
               "type": "win",
               "side": "away",
               "line": null,
-              "probability": 0.35562113649203436
+              "probability": 0.3268844785755051
             },
             {
               "type": "double_chance",
               "side": "1X",
               "line": null,
-              "probability": 0.6443788635079652
+              "probability": 0.6731155214244946
             },
             {
               "type": "double_chance",
               "side": "X2",
               "line": null,
-              "probability": 0.5573269093897962
+              "probability": 0.5263670384634369
             },
             {
               "type": "btts",
               "side": "yes",
               "line": null,
-              "probability": 0.7632656566916222
+              "probability": 0.7608157725723769
             },
             {
               "type": "btts",
               "side": "no",
               "line": null,
-              "probability": 0.23673434330837784
+              "probability": 0.23918422742762313
             }
           ]
         }
       ],
       "projection": {
         "classification": "MODELLED",
-        "home": 2.19125,
-        "away": 1.9612499999999997,
-        "total": 4.1525,
+        "home": 2.27375,
+        "away": 1.884583333333333,
+        "total": 4.158333333333333,
         "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
         "calibrated": false,
         "range": null,
@@ -57953,8 +57953,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.9189766558312897,
-          "fairOdds": 1.0881669231253954,
+          "probability": 0.9193567202054541,
+          "fairOdds": 1.0877170721899156,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -57967,8 +57967,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.08102334416871027,
-          "fairOdds": 12.342122017547897,
+          "probability": 0.08064327979454589,
+          "fairOdds": 12.400289305540282,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -57981,8 +57981,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7834010822521521,
-          "fairOdds": 1.276485344040068,
+          "probability": 0.7841907447603698,
+          "fairOdds": 1.275199951901468,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -57995,8 +57995,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.2165989177478479,
-          "fairOdds": 4.616828239022611,
+          "probability": 0.21580925523963024,
+          "fairOdds": 4.633721565322211,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -58009,8 +58009,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5957418924896958,
-          "fairOdds": 1.6785792851008818,
+          "probability": 0.5968356843517668,
+          "fairOdds": 1.6755030341158583,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -58023,8 +58023,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.4042581075103042,
-          "fairOdds": 2.473667148344108,
+          "probability": 0.4031643156482332,
+          "fairOdds": 2.4803782507192795,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -58036,8 +58036,8 @@
           "side": "home",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.44267309061020343,
-          "fairOdds": 2.2590033621007963,
+          "probability": 0.47363296153656276,
+          "fairOdds": 2.1113395418169256,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -58049,8 +58049,8 @@
           "side": "away",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.35562113649203436,
-          "fairOdds": 2.811981340210354,
+          "probability": 0.3268844785755051,
+          "fairOdds": 3.059184713687823,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -58062,8 +58062,8 @@
           "side": "1X",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6443788635079652,
-          "fairOdds": 1.5518820629156762,
+          "probability": 0.6731155214244946,
+          "fairOdds": 1.4856290906555376,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -58075,8 +58075,8 @@
           "side": "X2",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5573269093897962,
-          "fairOdds": 1.794279054450961,
+          "probability": 0.5263670384634369,
+          "fairOdds": 1.8998150091601207,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -58088,8 +58088,8 @@
           "side": "yes",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7632656566916222,
-          "fairOdds": 1.3101598260486444,
+          "probability": 0.7608157725723769,
+          "fairOdds": 1.3143786394161137,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -58101,8 +58101,8 @@
           "side": "no",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.23673434330837784,
-          "fairOdds": 4.224144186369139,
+          "probability": 0.23918422742762313,
+          "fairOdds": 4.1808776889462695,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -58129,8 +58129,8 @@
         "line": 1.5,
         "period": "full_match",
         "settlement": "regulation",
-        "probability": 0.9189766558312897,
-        "fairOdds": 1.0881669231253954,
+        "probability": 0.9193567202054541,
+        "fairOdds": 1.0877170721899156,
         "odds": null,
         "estimatedEV": null,
         "calibrated": false,
@@ -58140,7 +58140,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.038Z"
+        "createdAt": "2026-11-27T16:39:38.063Z"
       },
       "generatedByScan": true
     },
@@ -58164,19 +58164,19 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T01:43:28.960Z",
+          "retrievedAt": "2026-11-27T16:39:36.486Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-27T01:43:29.263Z",
+          "retrievedAt": "2026-11-27T16:39:36.632Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.402Z",
+          "retrievedAt": "2026-11-27T16:39:37.005Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -58563,7 +58563,7 @@
       "id": "ol-83249",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.037Z",
+      "completedAt": "2026-11-27T16:39:38.062Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -59640,7 +59640,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.037Z"
+        "createdAt": "2026-11-27T16:39:38.062Z"
       },
       "generatedByScan": true
     },
@@ -59664,7 +59664,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T01:43:28.960Z",
+          "retrievedAt": "2026-11-27T16:39:36.486Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -60051,7 +60051,7 @@
       "id": "ol-83250",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.031Z",
+      "completedAt": "2026-11-27T16:39:37.552Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -61128,7 +61128,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:30.031Z"
+        "createdAt": "2026-11-27T16:39:37.552Z"
       },
       "generatedByScan": true
     },
@@ -61152,13 +61152,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T01:43:28.960Z",
+          "retrievedAt": "2026-11-27T16:39:36.486Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.402Z",
+          "retrievedAt": "2026-11-27T16:39:37.005Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -61545,7 +61545,7 @@
       "id": "ol-83251",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.031Z",
+      "completedAt": "2026-11-27T16:39:37.552Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -62622,7 +62622,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:30.031Z"
+        "createdAt": "2026-11-27T16:39:37.552Z"
       },
       "generatedByScan": true
     },
@@ -62646,7 +62646,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T01:43:28.960Z",
+          "retrievedAt": "2026-11-27T16:39:36.486Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -63033,7 +63033,7 @@
       "id": "ol-83252",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.031Z",
+      "completedAt": "2026-11-27T16:39:37.552Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -64110,7 +64110,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:30.031Z"
+        "createdAt": "2026-11-27T16:39:37.552Z"
       },
       "generatedByScan": true
     },
@@ -64134,7 +64134,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T01:43:28.960Z",
+          "retrievedAt": "2026-11-27T16:39:36.486Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -64521,7 +64521,7 @@
       "id": "ol-83253",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.437Z",
+      "completedAt": "2026-11-27T16:39:37.042Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -65598,7 +65598,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.437Z"
+        "createdAt": "2026-11-27T16:39:37.042Z"
       },
       "generatedByScan": true
     },
@@ -65622,7 +65622,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T01:43:28.960Z",
+          "retrievedAt": "2026-11-27T16:39:36.486Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -66009,7 +66009,7 @@
       "id": "ol-83254",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.031Z",
+      "completedAt": "2026-11-27T16:39:37.553Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -67086,7 +67086,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:30.031Z"
+        "createdAt": "2026-11-27T16:39:37.553Z"
       },
       "generatedByScan": true
     },
@@ -120372,7 +120372,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T01:43:29.127Z",
+          "retrievedAt": "2026-11-27T16:39:36.467Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -120759,7 +120759,7 @@
       "id": "ol-83707",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.436Z",
+      "completedAt": "2026-11-27T16:39:37.041Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -121836,7 +121836,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.436Z"
+        "createdAt": "2026-11-27T16:39:37.041Z"
       },
       "generatedByScan": true
     },
@@ -121860,7 +121860,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T01:43:29.127Z",
+          "retrievedAt": "2026-11-27T16:39:36.467Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -122247,7 +122247,7 @@
       "id": "ol-83708",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.981Z",
+      "completedAt": "2026-11-27T16:39:37.546Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -123324,7 +123324,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.981Z"
+        "createdAt": "2026-11-27T16:39:37.546Z"
       },
       "generatedByScan": true
     },
@@ -123348,7 +123348,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T01:43:29.127Z",
+          "retrievedAt": "2026-11-27T16:39:36.467Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -123735,7 +123735,7 @@
       "id": "ol-83709",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.436Z",
+      "completedAt": "2026-11-27T16:39:37.041Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -124811,7 +124811,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": false,
-        "createdAt": "2026-11-27T01:43:29.437Z"
+        "createdAt": "2026-11-27T16:39:37.042Z"
       },
       "generatedByScan": true
     },
@@ -124835,7 +124835,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T01:43:29.127Z",
+          "retrievedAt": "2026-11-27T16:39:36.467Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -125222,7 +125222,7 @@
       "id": "ol-83710",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.981Z",
+      "completedAt": "2026-11-27T16:39:37.546Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -126299,7 +126299,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.981Z"
+        "createdAt": "2026-11-27T16:39:37.546Z"
       },
       "generatedByScan": true
     },
@@ -126323,7 +126323,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T01:43:29.127Z",
+          "retrievedAt": "2026-11-27T16:39:36.467Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -126710,7 +126710,7 @@
       "id": "ol-83712",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.981Z",
+      "completedAt": "2026-11-27T16:39:37.546Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -127787,7 +127787,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.981Z"
+        "createdAt": "2026-11-27T16:39:37.546Z"
       },
       "generatedByScan": true
     },
@@ -127811,7 +127811,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T01:43:29.127Z",
+          "retrievedAt": "2026-11-27T16:39:36.467Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -128198,7 +128198,7 @@
       "id": "ol-83715",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.033Z",
+      "completedAt": "2026-11-27T16:39:38.056Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -129275,7 +129275,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.033Z"
+        "createdAt": "2026-11-27T16:39:38.056Z"
       },
       "generatedByScan": true
     },
@@ -129299,7 +129299,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T01:43:29.127Z",
+          "retrievedAt": "2026-11-27T16:39:36.467Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -129686,7 +129686,7 @@
       "id": "ol-83717",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.033Z",
+      "completedAt": "2026-11-27T16:39:38.057Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -130763,7 +130763,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.033Z"
+        "createdAt": "2026-11-27T16:39:38.057Z"
       },
       "generatedByScan": true
     },
@@ -130787,7 +130787,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T01:43:29.127Z",
+          "retrievedAt": "2026-11-27T16:39:36.467Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -131174,7 +131174,7 @@
       "id": "ol-83719",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.033Z",
+      "completedAt": "2026-11-27T16:39:38.057Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -132251,7 +132251,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.033Z"
+        "createdAt": "2026-11-27T16:39:38.057Z"
       },
       "generatedByScan": true
     },
@@ -132275,7 +132275,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T01:43:29.127Z",
+          "retrievedAt": "2026-11-27T16:39:36.467Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -132662,7 +132662,7 @@
       "id": "ol-83722",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.089Z",
+      "completedAt": "2026-11-27T16:39:37.559Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -133739,7 +133739,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:30.089Z"
+        "createdAt": "2026-11-27T16:39:37.559Z"
       },
       "generatedByScan": true
     },
@@ -211146,7 +211146,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -211533,7 +211533,7 @@
       "id": "ol-84885",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.981Z",
+      "completedAt": "2026-11-27T16:39:37.546Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -212610,7 +212610,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.981Z"
+        "createdAt": "2026-11-27T16:39:37.546Z"
       },
       "generatedByScan": true
     },
@@ -212634,7 +212634,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -213021,7 +213021,7 @@
       "id": "ol-84886",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.988Z",
+      "completedAt": "2026-11-27T16:39:37.549Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -214104,7 +214104,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.988Z"
+        "createdAt": "2026-11-27T16:39:37.549Z"
       },
       "generatedByScan": true
     },
@@ -214128,7 +214128,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -214515,7 +214515,7 @@
       "id": "ol-84887",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.989Z",
+      "completedAt": "2026-11-27T16:39:37.549Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -215592,7 +215592,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.989Z"
+        "createdAt": "2026-11-27T16:39:37.549Z"
       },
       "generatedByScan": true
     },
@@ -215616,7 +215616,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -216003,7 +216003,7 @@
       "id": "ol-84888",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.437Z",
+      "completedAt": "2026-11-27T16:39:37.042Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -217080,7 +217080,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.437Z"
+        "createdAt": "2026-11-27T16:39:37.042Z"
       },
       "generatedByScan": true
     },
@@ -217104,7 +217104,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -217491,7 +217491,7 @@
       "id": "ol-84889",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.037Z",
+      "completedAt": "2026-11-27T16:39:38.062Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -218568,7 +218568,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.037Z"
+        "createdAt": "2026-11-27T16:39:38.062Z"
       },
       "generatedByScan": true
     },
@@ -218592,7 +218592,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -218979,7 +218979,7 @@
       "id": "ol-84890",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.989Z",
+      "completedAt": "2026-11-27T16:39:37.550Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -220056,7 +220056,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.989Z"
+        "createdAt": "2026-11-27T16:39:37.550Z"
       },
       "generatedByScan": true
     },
@@ -220080,7 +220080,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -220467,7 +220467,7 @@
       "id": "ol-84891",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.035Z",
+      "completedAt": "2026-11-27T16:39:38.059Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -221544,7 +221544,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.035Z"
+        "createdAt": "2026-11-27T16:39:38.059Z"
       },
       "generatedByScan": true
     },
@@ -221568,7 +221568,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -221955,7 +221955,7 @@
       "id": "ol-84892",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.039Z",
+      "completedAt": "2026-11-27T16:39:38.065Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -223032,7 +223032,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.039Z"
+        "createdAt": "2026-11-27T16:39:38.065Z"
       },
       "generatedByScan": true
     },
@@ -223056,7 +223056,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -223443,7 +223443,7 @@
       "id": "ol-84893",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.989Z",
+      "completedAt": "2026-11-27T16:39:37.550Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -224520,7 +224520,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.989Z"
+        "createdAt": "2026-11-27T16:39:37.550Z"
       },
       "generatedByScan": true
     },
@@ -224544,7 +224544,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T01:43:29.333Z",
+          "retrievedAt": "2026-11-27T16:39:36.775Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -224931,7 +224931,7 @@
       "id": "ol-84894",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.084Z",
+      "completedAt": "2026-11-27T16:39:37.556Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -226014,7 +226014,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:30.084Z"
+        "createdAt": "2026-11-27T16:39:37.556Z"
       },
       "generatedByScan": true
     },
@@ -343013,13 +343013,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.402Z",
+          "retrievedAt": "2026-11-27T16:39:37.005Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -343406,7 +343406,7 @@
       "id": "ol-86639",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.039Z",
+      "completedAt": "2026-11-27T16:39:38.065Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -344483,7 +344483,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.039Z"
+        "createdAt": "2026-11-27T16:39:38.065Z"
       },
       "generatedByScan": true
     },
@@ -344507,7 +344507,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -344894,7 +344894,7 @@
       "id": "ol-86640",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.035Z",
+      "completedAt": "2026-11-27T16:39:38.059Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -345970,7 +345970,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": false,
-        "createdAt": "2026-11-27T01:43:31.035Z"
+        "createdAt": "2026-11-27T16:39:38.059Z"
       },
       "generatedByScan": true
     },
@@ -345994,19 +345994,34 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-27T01:43:29.201Z",
+          "retrievedAt": "2026-11-27T16:39:36.745Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
       ],
       "history": {
         "home": [
+          {
+            "id": "87846",
+            "date": "2026-11-26T20:00:00Z",
+            "gf": 2,
+            "ga": 1,
+            "total": 3,
+            "venue": "home",
+            "opponent": "Real Sociedad",
+            "opponentId": 1275,
+            "result": "W",
+            "competition": "Europa League 2026/27",
+            "season": 2026,
+            "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+            "scoreScope": "regulation"
+          },
           {
             "id": "86620",
             "date": "2026-11-08T14:00:00Z",
@@ -346140,21 +346155,6 @@
             "competition": "Premier League 2026/2027",
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-            "scoreScope": "regulation"
-          },
-          {
-            "id": "87772",
-            "date": "2026-09-17T19:00:00Z",
-            "gf": 4,
-            "ga": 0,
-            "total": 4,
-            "venue": "home",
-            "opponent": "Lech Poznan",
-            "opponentId": 449,
-            "result": "W",
-            "competition": "Europa League 2026/27",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
             "scoreScope": "regulation"
           }
         ],
@@ -346387,7 +346387,7 @@
       "id": "ol-86641",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.035Z",
+      "completedAt": "2026-11-27T16:39:38.060Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -346420,14 +346420,14 @@
           "classification": "CALCULATED",
           "home": {
             "sample": 10,
-            "gf": 1.3,
-            "ga": 1.9,
-            "total": 3.2,
-            "form": "LDLLD",
+            "gf": 1.1,
+            "ga": 2,
+            "total": 3.1,
+            "form": "WLDLL",
             "wins": 0.2,
             "over15": 0.9,
             "over25": 0.6,
-            "btts": 0.5,
+            "btts": 0.6,
             "availableMetrics": {
               "shots": {
                 "mean": null,
@@ -346448,8 +346448,8 @@
             },
             "draws": 0.3,
             "losses": 0.5,
-            "from": "2026-09-17T19:00:00Z",
-            "to": "2026-11-08T14:00:00Z"
+            "from": "2026-09-20T13:00:00Z",
+            "to": "2026-11-26T20:00:00Z"
           },
           "away": {
             "sample": 10,
@@ -346563,14 +346563,14 @@
           "status": "calculated",
           "home": {
             "sample": 5,
-            "gf": 1.8,
-            "ga": 1.4,
-            "total": 3.2,
-            "form": "LDLWW",
+            "gf": 1.4,
+            "ga": 1.6,
+            "total": 3,
+            "form": "WLDLW",
             "wins": 0.4,
             "over15": 1,
             "over25": 0.6,
-            "btts": 0.6,
+            "btts": 0.8,
             "availableMetrics": {
               "shots": {
                 "mean": null,
@@ -346591,8 +346591,8 @@
             },
             "draws": 0.2,
             "losses": 0.4,
-            "from": "2026-09-17T19:00:00Z",
-            "to": "2026-11-08T14:00:00Z"
+            "from": "2026-10-11T13:00:00Z",
+            "to": "2026-11-26T20:00:00Z"
           },
           "away": {
             "sample": 5,
@@ -346634,6 +346634,21 @@
           "title": "Recent results",
           "status": "calculated",
           "home": [
+            {
+              "id": "87846",
+              "date": "2026-11-26T20:00:00Z",
+              "gf": 2,
+              "ga": 1,
+              "total": 3,
+              "venue": "home",
+              "opponent": "Real Sociedad",
+              "opponentId": 1275,
+              "result": "W",
+              "competition": "Europa League 2026/27",
+              "season": 2026,
+              "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+              "scoreScope": "regulation"
+            },
             {
               "id": "86620",
               "date": "2026-11-08T14:00:00Z",
@@ -346767,21 +346782,6 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "87772",
-              "date": "2026-09-17T19:00:00Z",
-              "gf": 4,
-              "ga": 0,
-              "total": 4,
-              "venue": "home",
-              "opponent": "Lech Poznan",
-              "opponentId": 449,
-              "result": "W",
-              "competition": "Europa League 2026/27",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
               "scoreScope": "regulation"
             }
           ],
@@ -346951,7 +346951,7 @@
           "step": 5,
           "title": "Scoring environment and independent screens",
           "status": "exploratory",
-          "homeAVGSC": 3.2,
+          "homeAVGSC": 3.1,
           "awayAVGSC": 2.2,
           "markets": [
             {
@@ -346960,8 +346960,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7449183693005691,
-              "fairOdds": 1.3424289710279749,
+              "probability": 0.7321319686861097,
+              "fairOdds": 1.3658739718668595,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -346974,8 +346974,8 @@
               "line": 1.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.2550816306994309,
-              "fairOdds": 3.920313655115076,
+              "probability": 0.26786803131389025,
+              "fairOdds": 3.7331815786117106,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -346988,8 +346988,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.4977632349766583,
-              "fairOdds": 2.0089872648929026,
+              "probability": 0.4809426314449683,
+              "fairOdds": 2.0792500697963696,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347002,8 +347002,8 @@
               "line": 2.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5022367650233417,
-              "fairOdds": 1.9910927865934398,
+              "probability": 0.5190573685550317,
+              "fairOdds": 1.9265693169597642,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347016,8 +347016,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.2782070906522509,
-              "fairOdds": 3.5944446910232237,
+              "probability": 0.26345453028367993,
+              "fairOdds": 3.795721405599782,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347030,8 +347030,8 @@
               "line": 3.5,
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.7217929093477491,
-              "fairOdds": 1.3854389355302115,
+              "probability": 0.7365454697163201,
+              "fairOdds": 1.357689431427973,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347043,8 +347043,8 @@
               "side": "home",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.35724018754169884,
-              "fairOdds": 2.7992371375722533,
+              "probability": 0.3090877546603692,
+              "fairOdds": 3.2353271358123417,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347056,8 +347056,8 @@
               "side": "away",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.3827310165200549,
-              "fairOdds": 2.6128010452155253,
+              "probability": 0.4294540085336903,
+              "fairOdds": 2.328538050941375,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347069,8 +347069,8 @@
               "side": "1X",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6172689834799449,
-              "fairOdds": 1.6200392807076627,
+              "probability": 0.5705459914663094,
+              "fairOdds": 1.752707082263411,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347082,8 +347082,8 @@
               "side": "X2",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.6427598124583009,
-              "fairOdds": 1.5557911067516765,
+              "probability": 0.6909122453396304,
+              "fairOdds": 1.447361812944033,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347095,8 +347095,8 @@
               "side": "yes",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.5417660415341133,
-              "fairOdds": 1.8458152105073073,
+              "probability": 0.5241846101795223,
+              "fairOdds": 1.9077248369758906,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347108,8 +347108,8 @@
               "side": "no",
               "period": "full_match",
               "settlement": "regulation",
-              "probability": 0.45823395846588666,
-              "fairOdds": 2.182291341627937,
+              "probability": 0.47581538982047766,
+              "fairOdds": 2.101655434846893,
               "odds": null,
               "estimatedEV": null,
               "calibrated": false,
@@ -347138,15 +347138,15 @@
           "title": "Patterns and fatigue",
           "status": "partial",
           "restDays": {
-            "home": 21.00347222222222,
+            "home": 2.7534722222222223,
             "away": 21.961805555555557
           },
           "homeLast5": [
+            "2–1",
             "1–3",
             "1–1",
             "0–2",
-            "0–2",
-            "2–2"
+            "0–2"
           ],
           "awayLast5": [
             "0–1",
@@ -347167,9 +347167,9 @@
           "status": "exploratory",
           "projection": {
             "classification": "MODELLED",
-            "home": 1.3050000000000002,
-            "away": 1.3599999999999999,
-            "total": 2.665,
+            "home": 1.17,
+            "away": 1.4275,
+            "total": 2.5975,
             "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
             "calibrated": false,
             "range": null,
@@ -347195,76 +347195,76 @@
               "type": "total",
               "side": "over",
               "line": 1.5,
-              "probability": 0.7449183693005691
+              "probability": 0.7321319686861097
             },
             {
               "type": "total",
               "side": "under",
               "line": 1.5,
-              "probability": 0.2550816306994309
+              "probability": 0.26786803131389025
             },
             {
               "type": "total",
               "side": "under",
               "line": 2.5,
-              "probability": 0.5022367650233417
+              "probability": 0.5190573685550317
             },
             {
               "type": "total",
               "side": "over",
               "line": 3.5,
-              "probability": 0.2782070906522509
+              "probability": 0.26345453028367993
             },
             {
               "type": "total",
               "side": "under",
               "line": 3.5,
-              "probability": 0.7217929093477491
+              "probability": 0.7365454697163201
             },
             {
               "type": "win",
               "side": "home",
               "line": null,
-              "probability": 0.35724018754169884
+              "probability": 0.3090877546603692
             },
             {
               "type": "win",
               "side": "away",
               "line": null,
-              "probability": 0.3827310165200549
+              "probability": 0.4294540085336903
             },
             {
               "type": "double_chance",
               "side": "1X",
               "line": null,
-              "probability": 0.6172689834799449
+              "probability": 0.5705459914663094
             },
             {
               "type": "double_chance",
               "side": "X2",
               "line": null,
-              "probability": 0.6427598124583009
+              "probability": 0.6909122453396304
             },
             {
               "type": "btts",
               "side": "yes",
               "line": null,
-              "probability": 0.5417660415341133
+              "probability": 0.5241846101795223
             },
             {
               "type": "btts",
               "side": "no",
               "line": null,
-              "probability": 0.45823395846588666
+              "probability": 0.47581538982047766
             }
           ]
         }
       ],
       "projection": {
         "classification": "MODELLED",
-        "home": 1.3050000000000002,
-        "away": 1.3599999999999999,
-        "total": 2.665,
+        "home": 1.17,
+        "away": 1.4275,
+        "total": 2.5975,
         "method": "Independent Poisson; 35% venue weighting where >=3 split results, no opponent adjustment",
         "calibrated": false,
         "range": null,
@@ -347277,8 +347277,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7449183693005691,
-          "fairOdds": 1.3424289710279749,
+          "probability": 0.7321319686861097,
+          "fairOdds": 1.3658739718668595,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347291,8 +347291,8 @@
           "line": 1.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.2550816306994309,
-          "fairOdds": 3.920313655115076,
+          "probability": 0.26786803131389025,
+          "fairOdds": 3.7331815786117106,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347305,8 +347305,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.4977632349766583,
-          "fairOdds": 2.0089872648929026,
+          "probability": 0.4809426314449683,
+          "fairOdds": 2.0792500697963696,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347319,8 +347319,8 @@
           "line": 2.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5022367650233417,
-          "fairOdds": 1.9910927865934398,
+          "probability": 0.5190573685550317,
+          "fairOdds": 1.9265693169597642,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347333,8 +347333,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.2782070906522509,
-          "fairOdds": 3.5944446910232237,
+          "probability": 0.26345453028367993,
+          "fairOdds": 3.795721405599782,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347347,8 +347347,8 @@
           "line": 3.5,
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.7217929093477491,
-          "fairOdds": 1.3854389355302115,
+          "probability": 0.7365454697163201,
+          "fairOdds": 1.357689431427973,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347360,8 +347360,8 @@
           "side": "home",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.35724018754169884,
-          "fairOdds": 2.7992371375722533,
+          "probability": 0.3090877546603692,
+          "fairOdds": 3.2353271358123417,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347373,8 +347373,8 @@
           "side": "away",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.3827310165200549,
-          "fairOdds": 2.6128010452155253,
+          "probability": 0.4294540085336903,
+          "fairOdds": 2.328538050941375,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347386,8 +347386,8 @@
           "side": "1X",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6172689834799449,
-          "fairOdds": 1.6200392807076627,
+          "probability": 0.5705459914663094,
+          "fairOdds": 1.752707082263411,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347399,8 +347399,8 @@
           "side": "X2",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.6427598124583009,
-          "fairOdds": 1.5557911067516765,
+          "probability": 0.6909122453396304,
+          "fairOdds": 1.447361812944033,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347412,8 +347412,8 @@
           "side": "yes",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.5417660415341133,
-          "fairOdds": 1.8458152105073073,
+          "probability": 0.5241846101795223,
+          "fairOdds": 1.9077248369758906,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347425,8 +347425,8 @@
           "side": "no",
           "period": "full_match",
           "settlement": "regulation",
-          "probability": 0.45823395846588666,
-          "fairOdds": 2.182291341627937,
+          "probability": 0.47581538982047766,
+          "fairOdds": 2.101655434846893,
           "odds": null,
           "estimatedEV": null,
           "calibrated": false,
@@ -347449,22 +347449,22 @@
       "settlementStatus": "not_published",
       "forecast": {
         "type": "total",
-        "side": "over",
-        "line": 1.5,
+        "side": "under",
+        "line": 3.5,
         "period": "full_match",
         "settlement": "regulation",
-        "probability": 0.7449183693005691,
-        "fairOdds": 1.3424289710279749,
+        "probability": 0.7365454697163201,
+        "fairOdds": 1.357689431427973,
         "odds": null,
         "estimatedEV": null,
         "calibrated": false,
         "verdict": "RESEARCH ONLY",
         "reason": "Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.",
-        "selection": "Over 1.5 goals",
+        "selection": "Under 3.5 goals",
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.035Z"
+        "createdAt": "2026-11-27T16:39:38.060Z"
       },
       "generatedByScan": true
     },
@@ -347488,13 +347488,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.402Z",
+          "retrievedAt": "2026-11-27T16:39:37.005Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -347881,7 +347881,7 @@
       "id": "ol-86642",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.033Z",
+      "completedAt": "2026-11-27T16:39:38.056Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -348958,7 +348958,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.033Z"
+        "createdAt": "2026-11-27T16:39:38.056Z"
       },
       "generatedByScan": true
     },
@@ -348982,13 +348982,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-27T01:43:29.201Z",
+          "retrievedAt": "2026-11-27T16:39:36.745Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -349148,6 +349148,21 @@
         ],
         "away": [
           {
+            "id": "87844",
+            "date": "2026-11-26T17:45:00Z",
+            "gf": 2,
+            "ga": 1,
+            "total": 3,
+            "venue": "away",
+            "opponent": "Celta Vigo",
+            "opponentId": 2175,
+            "result": "W",
+            "competition": "Europa League 2026/27",
+            "season": 2026,
+            "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+            "scoreScope": "regulation"
+          },
+          {
             "id": "86623",
             "date": "2026-11-08T14:00:00Z",
             "gf": 2,
@@ -349281,21 +349296,6 @@
             "season": 2026,
             "url": "https://api.openligadb.de/getmatchdata/pl/2026",
             "scoreScope": "regulation"
-          },
-          {
-            "id": "87776",
-            "date": "2026-09-17T19:00:00Z",
-            "gf": 2,
-            "ga": 1,
-            "total": 3,
-            "venue": "away",
-            "opponent": "Real Sociedad",
-            "opponentId": 1275,
-            "result": "W",
-            "competition": "Europa League 2026/27",
-            "season": 2026,
-            "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-            "scoreScope": "regulation"
           }
         ]
       },
@@ -349375,7 +349375,7 @@
       "id": "ol-86643",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.035Z",
+      "completedAt": "2026-11-27T16:39:38.060Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -349469,8 +349469,8 @@
             },
             "draws": 0,
             "losses": 0.2,
-            "from": "2026-09-17T19:00:00Z",
-            "to": "2026-11-08T14:00:00Z"
+            "from": "2026-09-20T13:00:00Z",
+            "to": "2026-11-26T17:45:00Z"
           },
           "season": {
             "home": {
@@ -349587,7 +349587,7 @@
             "gf": 2.2,
             "ga": 1.6,
             "total": 3.8,
-            "form": "WWWLW",
+            "form": "WWWWL",
             "wins": 0.8,
             "over15": 1,
             "over25": 1,
@@ -349612,8 +349612,8 @@
             },
             "draws": 0,
             "losses": 0.2,
-            "from": "2026-09-17T19:00:00Z",
-            "to": "2026-11-08T14:00:00Z"
+            "from": "2026-10-10T14:00:00Z",
+            "to": "2026-11-26T17:45:00Z"
           },
           "scope": "Completed matches across the configured OpenLigaDB competitions; current season plus same-competition previous-season fallback within 365 days. Coverage is incomplete. No friendlies."
         },
@@ -349775,6 +349775,21 @@
           ],
           "away": [
             {
+              "id": "87844",
+              "date": "2026-11-26T17:45:00Z",
+              "gf": 2,
+              "ga": 1,
+              "total": 3,
+              "venue": "away",
+              "opponent": "Celta Vigo",
+              "opponentId": 2175,
+              "result": "W",
+              "competition": "Europa League 2026/27",
+              "season": 2026,
+              "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+              "scoreScope": "regulation"
+            },
+            {
               "id": "86623",
               "date": "2026-11-08T14:00:00Z",
               "gf": 2,
@@ -349907,21 +349922,6 @@
               "competition": "Premier League 2026/2027",
               "season": 2026,
               "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-              "scoreScope": "regulation"
-            },
-            {
-              "id": "87776",
-              "date": "2026-09-17T19:00:00Z",
-              "gf": 2,
-              "ga": 1,
-              "total": 3,
-              "venue": "away",
-              "opponent": "Real Sociedad",
-              "opponentId": 1275,
-              "result": "W",
-              "competition": "Europa League 2026/27",
-              "season": 2026,
-              "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
               "scoreScope": "regulation"
             }
           ],
@@ -350127,7 +350127,7 @@
           "status": "partial",
           "restDays": {
             "home": 21.961805555555557,
-            "away": 21.00347222222222
+            "away": 2.8472222222222223
           },
           "homeLast5": [
             "1–1",
@@ -350138,9 +350138,9 @@
           ],
           "awayLast5": [
             "2–1",
+            "2–1",
             "3–1",
             "2–0",
-            "3–0",
             "3–0"
           ],
           "missing": [
@@ -350452,7 +350452,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.035Z"
+        "createdAt": "2026-11-27T16:39:38.060Z"
       },
       "generatedByScan": true
     },
@@ -350476,13 +350476,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.402Z",
+          "retrievedAt": "2026-11-27T16:39:37.005Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -350869,7 +350869,7 @@
       "id": "ol-86644",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.088Z",
+      "completedAt": "2026-11-27T16:39:37.558Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -351946,7 +351946,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:30.088Z"
+        "createdAt": "2026-11-27T16:39:37.558Z"
       },
       "generatedByScan": true
     },
@@ -351970,7 +351970,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -352357,7 +352357,7 @@
       "id": "ol-86645",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.082Z",
+      "completedAt": "2026-11-27T16:39:37.555Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -353433,7 +353433,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": false,
-        "createdAt": "2026-11-27T01:43:30.082Z"
+        "createdAt": "2026-11-27T16:39:37.555Z"
       },
       "generatedByScan": true
     },
@@ -353457,13 +353457,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.402Z",
+          "retrievedAt": "2026-11-27T16:39:37.005Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -353850,7 +353850,7 @@
       "id": "ol-86646",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:30.082Z",
+      "completedAt": "2026-11-27T16:39:37.556Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -354927,7 +354927,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:30.082Z"
+        "createdAt": "2026-11-27T16:39:37.556Z"
       },
       "generatedByScan": true
     },
@@ -354951,7 +354951,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -355338,7 +355338,7 @@
       "id": "ol-86647",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:29.441Z",
+      "completedAt": "2026-11-27T16:39:37.047Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -356415,7 +356415,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:29.441Z"
+        "createdAt": "2026-11-27T16:39:37.047Z"
       },
       "generatedByScan": true
     },
@@ -356439,7 +356439,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T01:43:29.354Z",
+          "retrievedAt": "2026-11-27T16:39:36.703Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -356826,7 +356826,7 @@
       "id": "ol-86648",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T01:43:31.037Z",
+      "completedAt": "2026-11-27T16:39:38.062Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -357903,7 +357903,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T01:43:31.037Z"
+        "createdAt": "2026-11-27T16:39:38.062Z"
       },
       "generatedByScan": true
     },
@@ -512301,8 +512301,8 @@
       "line": 1.5,
       "period": "full_match",
       "settlement": "regulation",
-      "probability": 0.8006649472136638,
-      "fairOdds": 1.2489618828450375,
+      "probability": 0.7926784354432064,
+      "fairOdds": 1.2615456095268631,
       "odds": null,
       "estimatedEV": null,
       "calibrated": false,
@@ -512312,7 +512312,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.039Z"
+      "createdAt": "2026-11-27T16:39:38.065Z"
     },
     {
       "eventId": "ol-83247",
@@ -512332,7 +512332,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:30.087Z"
+      "createdAt": "2026-11-27T16:39:37.556Z"
     },
     {
       "eventId": "ol-83248",
@@ -512341,8 +512341,8 @@
       "line": 1.5,
       "period": "full_match",
       "settlement": "regulation",
-      "probability": 0.9189766558312897,
-      "fairOdds": 1.0881669231253954,
+      "probability": 0.9193567202054541,
+      "fairOdds": 1.0877170721899156,
       "odds": null,
       "estimatedEV": null,
       "calibrated": false,
@@ -512352,7 +512352,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.038Z"
+      "createdAt": "2026-11-27T16:39:38.063Z"
     },
     {
       "eventId": "ol-83249",
@@ -512372,7 +512372,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.037Z"
+      "createdAt": "2026-11-27T16:39:38.062Z"
     },
     {
       "eventId": "ol-83250",
@@ -512392,7 +512392,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:30.031Z"
+      "createdAt": "2026-11-27T16:39:37.552Z"
     },
     {
       "eventId": "ol-83251",
@@ -512412,7 +512412,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:30.031Z"
+      "createdAt": "2026-11-27T16:39:37.552Z"
     },
     {
       "eventId": "ol-83252",
@@ -512432,7 +512432,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:30.031Z"
+      "createdAt": "2026-11-27T16:39:37.552Z"
     },
     {
       "eventId": "ol-83253",
@@ -512452,7 +512452,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.437Z"
+      "createdAt": "2026-11-27T16:39:37.042Z"
     },
     {
       "eventId": "ol-83254",
@@ -512472,7 +512472,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:30.031Z"
+      "createdAt": "2026-11-27T16:39:37.553Z"
     },
     {
       "eventId": "ol-83707",
@@ -512492,7 +512492,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.436Z"
+      "createdAt": "2026-11-27T16:39:37.041Z"
     },
     {
       "eventId": "ol-83708",
@@ -512512,7 +512512,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.981Z"
+      "createdAt": "2026-11-27T16:39:37.546Z"
     },
     {
       "eventId": "ol-83709",
@@ -512531,7 +512531,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": false,
-      "createdAt": "2026-11-27T01:43:29.437Z"
+      "createdAt": "2026-11-27T16:39:37.042Z"
     },
     {
       "eventId": "ol-83710",
@@ -512551,7 +512551,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.981Z"
+      "createdAt": "2026-11-27T16:39:37.546Z"
     },
     {
       "eventId": "ol-83712",
@@ -512571,7 +512571,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.981Z"
+      "createdAt": "2026-11-27T16:39:37.546Z"
     },
     {
       "eventId": "ol-83715",
@@ -512591,7 +512591,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.033Z"
+      "createdAt": "2026-11-27T16:39:38.056Z"
     },
     {
       "eventId": "ol-83717",
@@ -512611,7 +512611,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.033Z"
+      "createdAt": "2026-11-27T16:39:38.057Z"
     },
     {
       "eventId": "ol-83719",
@@ -512631,7 +512631,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.033Z"
+      "createdAt": "2026-11-27T16:39:38.057Z"
     },
     {
       "eventId": "ol-83722",
@@ -512651,7 +512651,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:30.089Z"
+      "createdAt": "2026-11-27T16:39:37.559Z"
     },
     {
       "eventId": "ol-84885",
@@ -512671,7 +512671,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.981Z"
+      "createdAt": "2026-11-27T16:39:37.546Z"
     },
     {
       "eventId": "ol-84886",
@@ -512691,7 +512691,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.988Z"
+      "createdAt": "2026-11-27T16:39:37.549Z"
     },
     {
       "eventId": "ol-84887",
@@ -512711,7 +512711,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.989Z"
+      "createdAt": "2026-11-27T16:39:37.549Z"
     },
     {
       "eventId": "ol-84888",
@@ -512731,7 +512731,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.437Z"
+      "createdAt": "2026-11-27T16:39:37.042Z"
     },
     {
       "eventId": "ol-84889",
@@ -512751,7 +512751,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.037Z"
+      "createdAt": "2026-11-27T16:39:38.062Z"
     },
     {
       "eventId": "ol-84890",
@@ -512771,7 +512771,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.989Z"
+      "createdAt": "2026-11-27T16:39:37.550Z"
     },
     {
       "eventId": "ol-84891",
@@ -512791,7 +512791,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.035Z"
+      "createdAt": "2026-11-27T16:39:38.059Z"
     },
     {
       "eventId": "ol-84892",
@@ -512811,7 +512811,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.039Z"
+      "createdAt": "2026-11-27T16:39:38.065Z"
     },
     {
       "eventId": "ol-84893",
@@ -512831,7 +512831,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.989Z"
+      "createdAt": "2026-11-27T16:39:37.550Z"
     },
     {
       "eventId": "ol-84894",
@@ -512851,7 +512851,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:30.084Z"
+      "createdAt": "2026-11-27T16:39:37.556Z"
     },
     {
       "eventId": "ol-86639",
@@ -512871,7 +512871,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.039Z"
+      "createdAt": "2026-11-27T16:39:38.065Z"
     },
     {
       "eventId": "ol-86640",
@@ -512890,27 +512890,27 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": false,
-      "createdAt": "2026-11-27T01:43:31.035Z"
+      "createdAt": "2026-11-27T16:39:38.059Z"
     },
     {
       "eventId": "ol-86641",
       "type": "total",
-      "side": "over",
-      "line": 1.5,
+      "side": "under",
+      "line": 3.5,
       "period": "full_match",
       "settlement": "regulation",
-      "probability": 0.7449183693005691,
-      "fairOdds": 1.3424289710279749,
+      "probability": 0.7365454697163201,
+      "fairOdds": 1.357689431427973,
       "odds": null,
       "estimatedEV": null,
       "calibrated": false,
       "verdict": "RESEARCH ONLY",
       "reason": "Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.",
-      "selection": "Over 1.5 goals",
+      "selection": "Under 3.5 goals",
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.035Z"
+      "createdAt": "2026-11-27T16:39:38.060Z"
     },
     {
       "eventId": "ol-86642",
@@ -512930,7 +512930,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.033Z"
+      "createdAt": "2026-11-27T16:39:38.056Z"
     },
     {
       "eventId": "ol-86643",
@@ -512950,7 +512950,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.035Z"
+      "createdAt": "2026-11-27T16:39:38.060Z"
     },
     {
       "eventId": "ol-86644",
@@ -512970,7 +512970,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:30.088Z"
+      "createdAt": "2026-11-27T16:39:37.558Z"
     },
     {
       "eventId": "ol-86645",
@@ -512989,7 +512989,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": false,
-      "createdAt": "2026-11-27T01:43:30.082Z"
+      "createdAt": "2026-11-27T16:39:37.555Z"
     },
     {
       "eventId": "ol-86646",
@@ -513009,7 +513009,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:30.082Z"
+      "createdAt": "2026-11-27T16:39:37.556Z"
     },
     {
       "eventId": "ol-86647",
@@ -513029,7 +513029,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:29.441Z"
+      "createdAt": "2026-11-27T16:39:37.047Z"
     },
     {
       "eventId": "ol-86648",
@@ -513049,7 +513049,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T01:43:31.037Z"
+      "createdAt": "2026-11-27T16:39:38.062Z"
     }
   ],
   "picks": [],
@@ -513083,15 +513083,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-      "retrievedAt": "2026-11-27T01:43:28.843Z"
-    },
-    {
-      "sport": "Football",
-      "league": "1. Fußball-Bundesliga 2026/2027",
-      "status": "connected",
-      "fixtures": 3,
-      "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-      "retrievedAt": "2026-11-27T01:43:28.960Z"
+      "retrievedAt": "2026-11-27T16:39:36.354Z"
     },
     {
       "sport": "Football",
@@ -513099,7 +513091,15 @@
       "status": "connected",
       "fixtures": 3,
       "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-      "retrievedAt": "2026-11-27T01:43:29.127Z"
+      "retrievedAt": "2026-11-27T16:39:36.467Z"
+    },
+    {
+      "sport": "Football",
+      "league": "1. Fußball-Bundesliga 2026/2027",
+      "status": "connected",
+      "fixtures": 3,
+      "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+      "retrievedAt": "2026-11-27T16:39:36.486Z"
     },
     {
       "sport": "Football",
@@ -513107,15 +513107,7 @@
       "status": "connected",
       "fixtures": 6,
       "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-      "retrievedAt": "2026-11-27T01:43:29.354Z"
-    },
-    {
-      "sport": "Football",
-      "league": "Conference League 2026/27",
-      "status": "connected",
-      "fixtures": 0,
-      "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-      "retrievedAt": "2026-11-27T01:43:29.263Z"
+      "retrievedAt": "2026-11-27T16:39:36.703Z"
     },
     {
       "sport": "Football",
@@ -513123,7 +513115,15 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-      "retrievedAt": "2026-11-27T01:43:29.201Z"
+      "retrievedAt": "2026-11-27T16:39:36.745Z"
+    },
+    {
+      "sport": "Football",
+      "league": "Conference League 2026/27",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
+      "retrievedAt": "2026-11-27T16:39:36.632Z"
     },
     {
       "sport": "Football",
@@ -513131,7 +513131,7 @@
       "status": "connected",
       "fixtures": 3,
       "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-      "retrievedAt": "2026-11-27T01:43:29.333Z"
+      "retrievedAt": "2026-11-27T16:39:36.775Z"
     },
     {
       "sport": "Football",
@@ -513139,7 +513139,7 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-      "retrievedAt": "2026-11-27T01:43:29.402Z"
+      "retrievedAt": "2026-11-27T16:39:37.005Z"
     }
   ],
   "sourceAudit": [

@@ -1,7 +1,7 @@
 {
   "type": "PROSPECTIVE_EXPERIMENTAL_AUDIT",
   "recorded": 290,
-  "resolved": 195,
+  "resolved": 196,
   "calibrated": false,
   "publicationEligible": false,
   "groups": [
@@ -1516,11 +1516,11 @@
     {
       "key": "Football|Europa League 2026/27|research-v5-horizon|total|under|full_match|regulation",
       "recorded": 2,
-      "resolved": 0,
-      "pending": 2,
-      "hitRate": null,
-      "brier": null,
-      "logLoss": null,
+      "resolved": 1,
+      "pending": 1,
+      "hitRate": 1,
+      "brier": 0.06685831697303284,
+      "logLoss": 0.29917419145261137,
       "bins": [
         {
           "range": [
@@ -1554,9 +1554,9 @@
             0.6000000000000001,
             0.8
           ],
-          "n": 0,
-          "predicted": null,
-          "observed": null
+          "n": 1,
+          "predicted": 0.7414302473740735,
+          "observed": 1
         },
         {
           "range": [
@@ -1752,7 +1752,7 @@
     "No ROI or accumulator performance without historical verified prices",
     "First forecast per fixture is frozen; later revisions do not replace it"
   ],
-  "generatedAt": "2026-11-27T01:54:01.921Z",
+  "generatedAt": "2026-11-27T16:39:41.017Z",
   "forecasts": [
     {
       "id": "ol-83210",
@@ -17720,6 +17720,18 @@
       "scoredAt": "2026-11-27T01:43:33.937Z",
       "sources": [
         "https://api.openligadb.de/getmatchdata/uecl2026/2026"
+      ],
+      "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
+      "bettingSettlement": false
+    },
+    {
+      "eventId": "ol-87844",
+      "home": 1,
+      "away": 2,
+      "outcome": 1,
+      "scoredAt": "2026-11-27T16:39:41.012Z",
+      "sources": [
+        "https://api.openligadb.de/getmatchdata/uel2026/2026"
       ],
       "classification": "SOURCE_FINAL_RESEARCH_OUTCOME",
       "bettingSettlement": false
