@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T16:55:50.729Z",
+  "generatedAt": "2026-11-28T01:36:49.289Z",
   "status": "partial",
   "records": [
     {
@@ -395,62 +395,6 @@
       ]
     },
     {
-      "eventId": "ol-83253",
-      "match": "SV Werder Bremen — Borussia Mönchengladbach",
-      "sport": "Football",
-      "league": "1. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-27T19:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83253:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83253:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83253:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83253:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83253:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-83254",
       "match": "SC Paderborn 07 — FC Schalke 04",
       "sport": "Football",
@@ -507,62 +451,6 @@
       ]
     },
     {
-      "eventId": "ol-83707",
-      "match": "1. FC Heidenheim 1846 — 1. FC Nürnberg",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-27T17:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83707:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83707:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83707:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83707:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83707:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-83708",
       "match": "Hertha BSC — Karlsruher SC",
       "sport": "Football",
@@ -613,62 +501,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-83708:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-83709",
-      "match": "VfL Bochum — SV Darmstadt 98",
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "start": "2026-11-27T17:30:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-83709:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-83709:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-83709:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83709:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-83709:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -1173,62 +1005,6 @@
           "reason": "Verified sport-specific input missing",
           "adapter": null,
           "taskId": "ol-84887:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
-      "eventId": "ol-84888",
-      "match": "Hansa Rostock — TSV Havelse",
-      "sport": "Football",
-      "league": "3. Liga 2026/2027",
-      "start": "2026-11-27T18:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-84888:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-84888:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-84888:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-84888:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-84888:advanced.playerAvailability",
           "status": "no_supported_adapter",
           "lastAttempt": null
         }
@@ -2001,62 +1777,6 @@
       ]
     },
     {
-      "eventId": "ol-86647",
-      "match": "Nottingham Forest — Chelsea FC",
-      "sport": "Football",
-      "league": "Premier League 2026/2027",
-      "start": "2026-11-27T20:00:00Z",
-      "minimumHistoryReady": true,
-      "preferredHistoryReady": true,
-      "gaps": [
-        {
-          "field": "freshPrices",
-          "severity": "blocking",
-          "reason": "No fresh fixture-linked price",
-          "adapter": null,
-          "taskId": "ol-86647:freshPrices",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "exactRules",
-          "severity": "blocking",
-          "reason": "Independent exact market/rule verification missing",
-          "adapter": null,
-          "taskId": "ol-86647:exactRules",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "fixtureConfirmation",
-          "severity": "blocking",
-          "reason": "Independent fixture confirmation missing",
-          "adapter": null,
-          "taskId": "ol-86647:fixtureConfirmation",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.opponentStrength",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-86647:advanced.opponentStrength",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        },
-        {
-          "field": "advanced.playerAvailability",
-          "severity": "research",
-          "reason": "Verified sport-specific input missing",
-          "adapter": null,
-          "taskId": "ol-86647:advanced.playerAvailability",
-          "status": "no_supported_adapter",
-          "lastAttempt": null
-        }
-      ]
-    },
-    {
       "eventId": "ol-86648",
       "match": "Sunderland — Tottenham Hotspur FC",
       "sport": "Football",
@@ -2113,8 +1833,8 @@
       ]
     }
   ],
-  "fixtures": 38,
-  "withGaps": 38,
+  "fixtures": 33,
+  "withGaps": 33,
   "historyBlocking": 0,
   "historyPreferredIncomplete": 0,
   "automaticHistoryTasks": 0,
