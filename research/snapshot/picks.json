@@ -1,11 +1,11 @@
 {
   "version": "research-v5-horizon",
   "status": "partial",
-  "date": "2026-11-29",
-  "updated": "2026-11-27T16:39:40.087Z",
-  "startedAt": "2026-11-27T16:39:37.939Z",
-  "screened": 15,
-  "discovered": 15,
+  "date": "2026-11-30",
+  "updated": "2026-11-28T01:27:20.047Z",
+  "startedAt": "2026-11-28T01:27:17.963Z",
+  "screened": 0,
+  "discovered": 0,
   "records": [
     {
       "eventId": "ol-83210",
@@ -53676,19 +53676,19 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T16:39:36.486Z",
+          "retrievedAt": "2026-11-28T01:27:11.055Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-27T16:39:36.745Z",
+          "retrievedAt": "2026-11-28T01:27:11.378Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T16:39:37.005Z",
+          "retrievedAt": "2026-11-28T01:27:11.648Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -54068,14 +54068,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 90,
-        "meanTotal": 3.388888888888889,
+        "matches": 91,
+        "meanTotal": 3.4175824175824174,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83246",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.065Z",
+      "completedAt": "2026-11-28T01:27:17.610Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -54806,8 +54806,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 90,
-            "meanTotal": 3.388888888888889,
+            "matches": 91,
+            "meanTotal": 3.4175824175824174,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -55152,7 +55152,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.065Z"
+        "createdAt": "2026-11-28T01:27:17.610Z"
       },
       "generatedByScan": true
     },
@@ -55176,13 +55176,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T16:39:36.486Z",
+          "retrievedAt": "2026-11-28T01:27:11.055Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T16:39:37.005Z",
+          "retrievedAt": "2026-11-28T01:27:11.648Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -55562,14 +55562,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 90,
-        "meanTotal": 3.388888888888889,
+        "matches": 91,
+        "meanTotal": 3.4175824175824174,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83247",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.556Z",
+      "completedAt": "2026-11-28T01:27:17.066Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -56300,8 +56300,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 90,
-            "meanTotal": 3.388888888888889,
+            "matches": 91,
+            "meanTotal": 3.4175824175824174,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -56646,7 +56646,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.556Z"
+        "createdAt": "2026-11-28T01:27:17.066Z"
       },
       "generatedByScan": true
     },
@@ -56670,13 +56670,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T16:39:36.486Z",
+          "retrievedAt": "2026-11-28T01:27:11.055Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-27T16:39:36.745Z",
+          "retrievedAt": "2026-11-28T01:27:11.378Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -57056,14 +57056,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 90,
-        "meanTotal": 3.388888888888889,
+        "matches": 91,
+        "meanTotal": 3.4175824175824174,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83248",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.063Z",
+      "completedAt": "2026-11-28T01:27:17.607Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -57794,8 +57794,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 90,
-            "meanTotal": 3.388888888888889,
+            "matches": 91,
+            "meanTotal": 3.4175824175824174,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -58140,7 +58140,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.063Z"
+        "createdAt": "2026-11-28T01:27:17.607Z"
       },
       "generatedByScan": true
     },
@@ -58164,19 +58164,19 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T16:39:36.486Z",
+          "retrievedAt": "2026-11-28T01:27:11.055Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-          "retrievedAt": "2026-11-27T16:39:36.632Z",
+          "retrievedAt": "2026-11-28T01:27:11.526Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T16:39:37.005Z",
+          "retrievedAt": "2026-11-28T01:27:11.648Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -58556,14 +58556,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 90,
-        "meanTotal": 3.388888888888889,
+        "matches": 91,
+        "meanTotal": 3.4175824175824174,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83249",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.062Z",
+      "completedAt": "2026-11-28T01:27:17.607Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -59294,8 +59294,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 90,
-            "meanTotal": 3.388888888888889,
+            "matches": 91,
+            "meanTotal": 3.4175824175824174,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -59640,7 +59640,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.062Z"
+        "createdAt": "2026-11-28T01:27:17.607Z"
       },
       "generatedByScan": true
     },
@@ -59664,7 +59664,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T16:39:36.486Z",
+          "retrievedAt": "2026-11-28T01:27:11.055Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -60044,14 +60044,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 90,
-        "meanTotal": 3.388888888888889,
+        "matches": 91,
+        "meanTotal": 3.4175824175824174,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83250",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.552Z",
+      "completedAt": "2026-11-28T01:27:17.061Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -60782,8 +60782,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 90,
-            "meanTotal": 3.388888888888889,
+            "matches": 91,
+            "meanTotal": 3.4175824175824174,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -61128,7 +61128,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.552Z"
+        "createdAt": "2026-11-28T01:27:17.062Z"
       },
       "generatedByScan": true
     },
@@ -61152,13 +61152,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T16:39:36.486Z",
+          "retrievedAt": "2026-11-28T01:27:11.055Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T16:39:37.005Z",
+          "retrievedAt": "2026-11-28T01:27:11.648Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -61538,14 +61538,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 90,
-        "meanTotal": 3.388888888888889,
+        "matches": 91,
+        "meanTotal": 3.4175824175824174,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83251",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.552Z",
+      "completedAt": "2026-11-28T01:27:17.062Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -62276,8 +62276,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 90,
-            "meanTotal": 3.388888888888889,
+            "matches": 91,
+            "meanTotal": 3.4175824175824174,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -62622,7 +62622,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.552Z"
+        "createdAt": "2026-11-28T01:27:17.062Z"
       },
       "generatedByScan": true
     },
@@ -62646,7 +62646,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T16:39:36.486Z",
+          "retrievedAt": "2026-11-28T01:27:11.055Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -63026,14 +63026,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 90,
-        "meanTotal": 3.388888888888889,
+        "matches": 91,
+        "meanTotal": 3.4175824175824174,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83252",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.552Z",
+      "completedAt": "2026-11-28T01:27:17.063Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -63764,8 +63764,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 90,
-            "meanTotal": 3.388888888888889,
+            "matches": 91,
+            "meanTotal": 3.4175824175824174,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -64110,7 +64110,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.552Z"
+        "createdAt": "2026-11-28T01:27:17.063Z"
       },
       "generatedByScan": true
     },
@@ -65622,7 +65622,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-          "retrievedAt": "2026-11-27T16:39:36.486Z",
+          "retrievedAt": "2026-11-28T01:27:11.055Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -66002,14 +66002,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 90,
-        "meanTotal": 3.388888888888889,
+        "matches": 91,
+        "meanTotal": 3.4175824175824174,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83254",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.553Z",
+      "completedAt": "2026-11-28T01:27:17.063Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -66740,8 +66740,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 90,
-            "meanTotal": 3.388888888888889,
+            "matches": 91,
+            "meanTotal": 3.4175824175824174,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -67086,7 +67086,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.553Z"
+        "createdAt": "2026-11-28T01:27:17.063Z"
       },
       "generatedByScan": true
     },
@@ -121860,7 +121860,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T16:39:36.467Z",
+          "retrievedAt": "2026-11-28T01:27:11.350Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -122240,14 +122240,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 108,
-        "meanTotal": 2.9814814814814814,
+        "matches": 110,
+        "meanTotal": 2.981818181818182,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83708",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.546Z",
+      "completedAt": "2026-11-28T01:27:17.055Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -122978,8 +122978,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 108,
-            "meanTotal": 2.9814814814814814,
+            "matches": 110,
+            "meanTotal": 2.981818181818182,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -123324,7 +123324,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.546Z"
+        "createdAt": "2026-11-28T01:27:17.055Z"
       },
       "generatedByScan": true
     },
@@ -124835,7 +124835,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T16:39:36.467Z",
+          "retrievedAt": "2026-11-28T01:27:11.350Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -125215,14 +125215,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 108,
-        "meanTotal": 2.9814814814814814,
+        "matches": 110,
+        "meanTotal": 2.981818181818182,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83710",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.546Z",
+      "completedAt": "2026-11-28T01:27:17.055Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -125953,8 +125953,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 108,
-            "meanTotal": 2.9814814814814814,
+            "matches": 110,
+            "meanTotal": 2.981818181818182,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -126299,7 +126299,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.546Z"
+        "createdAt": "2026-11-28T01:27:17.055Z"
       },
       "generatedByScan": true
     },
@@ -126323,7 +126323,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T16:39:36.467Z",
+          "retrievedAt": "2026-11-28T01:27:11.350Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -126703,14 +126703,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 108,
-        "meanTotal": 2.9814814814814814,
+        "matches": 110,
+        "meanTotal": 2.981818181818182,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83712",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.546Z",
+      "completedAt": "2026-11-28T01:27:17.055Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -127441,8 +127441,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 108,
-            "meanTotal": 2.9814814814814814,
+            "matches": 110,
+            "meanTotal": 2.981818181818182,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -127787,7 +127787,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.546Z"
+        "createdAt": "2026-11-28T01:27:17.055Z"
       },
       "generatedByScan": true
     },
@@ -127811,7 +127811,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T16:39:36.467Z",
+          "retrievedAt": "2026-11-28T01:27:11.350Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -128191,14 +128191,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 108,
-        "meanTotal": 2.9814814814814814,
+        "matches": 110,
+        "meanTotal": 2.981818181818182,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83715",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.056Z",
+      "completedAt": "2026-11-28T01:27:17.601Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -128929,8 +128929,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 108,
-            "meanTotal": 2.9814814814814814,
+            "matches": 110,
+            "meanTotal": 2.981818181818182,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -129275,7 +129275,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.056Z"
+        "createdAt": "2026-11-28T01:27:17.601Z"
       },
       "generatedByScan": true
     },
@@ -129299,7 +129299,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T16:39:36.467Z",
+          "retrievedAt": "2026-11-28T01:27:11.350Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -129679,14 +129679,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 108,
-        "meanTotal": 2.9814814814814814,
+        "matches": 110,
+        "meanTotal": 2.981818181818182,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83717",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.057Z",
+      "completedAt": "2026-11-28T01:27:17.601Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -130417,8 +130417,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 108,
-            "meanTotal": 2.9814814814814814,
+            "matches": 110,
+            "meanTotal": 2.981818181818182,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -130763,7 +130763,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.057Z"
+        "createdAt": "2026-11-28T01:27:17.601Z"
       },
       "generatedByScan": true
     },
@@ -130787,7 +130787,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T16:39:36.467Z",
+          "retrievedAt": "2026-11-28T01:27:11.350Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -131167,14 +131167,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 108,
-        "meanTotal": 2.9814814814814814,
+        "matches": 110,
+        "meanTotal": 2.981818181818182,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83719",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.057Z",
+      "completedAt": "2026-11-28T01:27:17.601Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -131905,8 +131905,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 108,
-            "meanTotal": 2.9814814814814814,
+            "matches": 110,
+            "meanTotal": 2.981818181818182,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -132251,7 +132251,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.057Z"
+        "createdAt": "2026-11-28T01:27:17.601Z"
       },
       "generatedByScan": true
     },
@@ -132275,7 +132275,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-          "retrievedAt": "2026-11-27T16:39:36.467Z",
+          "retrievedAt": "2026-11-28T01:27:11.350Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -132655,14 +132655,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 108,
-        "meanTotal": 2.9814814814814814,
+        "matches": 110,
+        "meanTotal": 2.981818181818182,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-83722",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.559Z",
+      "completedAt": "2026-11-28T01:27:17.068Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -133393,8 +133393,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 108,
-            "meanTotal": 2.9814814814814814,
+            "matches": 110,
+            "meanTotal": 2.981818181818182,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -133739,7 +133739,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.559Z"
+        "createdAt": "2026-11-28T01:27:17.068Z"
       },
       "generatedByScan": true
     },
@@ -211146,7 +211146,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T16:39:36.775Z",
+          "retrievedAt": "2026-11-28T01:27:11.559Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -211526,14 +211526,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 140,
-        "meanTotal": 3.2928571428571427,
+        "matches": 141,
+        "meanTotal": 3.2836879432624113,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-84885",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.546Z",
+      "completedAt": "2026-11-28T01:27:17.055Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -212264,8 +212264,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 140,
-            "meanTotal": 3.2928571428571427,
+            "matches": 141,
+            "meanTotal": 3.2836879432624113,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -212610,7 +212610,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.546Z"
+        "createdAt": "2026-11-28T01:27:17.055Z"
       },
       "generatedByScan": true
     },
@@ -212634,7 +212634,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T16:39:36.775Z",
+          "retrievedAt": "2026-11-28T01:27:11.559Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -213014,14 +213014,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 140,
-        "meanTotal": 3.2928571428571427,
+        "matches": 141,
+        "meanTotal": 3.2836879432624113,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-84886",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.549Z",
+      "completedAt": "2026-11-28T01:27:17.059Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -213752,8 +213752,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 140,
-            "meanTotal": 3.2928571428571427,
+            "matches": 141,
+            "meanTotal": 3.2836879432624113,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -214104,7 +214104,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.549Z"
+        "createdAt": "2026-11-28T01:27:17.059Z"
       },
       "generatedByScan": true
     },
@@ -214128,7 +214128,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T16:39:36.775Z",
+          "retrievedAt": "2026-11-28T01:27:11.559Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -214508,14 +214508,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 140,
-        "meanTotal": 3.2928571428571427,
+        "matches": 141,
+        "meanTotal": 3.2836879432624113,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-84887",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.549Z",
+      "completedAt": "2026-11-28T01:27:17.059Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -215246,8 +215246,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 140,
-            "meanTotal": 3.2928571428571427,
+            "matches": 141,
+            "meanTotal": 3.2836879432624113,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -215592,7 +215592,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.549Z"
+        "createdAt": "2026-11-28T01:27:17.059Z"
       },
       "generatedByScan": true
     },
@@ -217104,7 +217104,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T16:39:36.775Z",
+          "retrievedAt": "2026-11-28T01:27:11.559Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -217484,14 +217484,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 140,
-        "meanTotal": 3.2928571428571427,
+        "matches": 141,
+        "meanTotal": 3.2836879432624113,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-84889",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.062Z",
+      "completedAt": "2026-11-28T01:27:17.607Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -218222,8 +218222,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 140,
-            "meanTotal": 3.2928571428571427,
+            "matches": 141,
+            "meanTotal": 3.2836879432624113,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -218568,7 +218568,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.062Z"
+        "createdAt": "2026-11-28T01:27:17.607Z"
       },
       "generatedByScan": true
     },
@@ -218592,7 +218592,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T16:39:36.775Z",
+          "retrievedAt": "2026-11-28T01:27:11.559Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -218972,14 +218972,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 140,
-        "meanTotal": 3.2928571428571427,
+        "matches": 141,
+        "meanTotal": 3.2836879432624113,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-84890",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.550Z",
+      "completedAt": "2026-11-28T01:27:17.059Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -219710,8 +219710,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 140,
-            "meanTotal": 3.2928571428571427,
+            "matches": 141,
+            "meanTotal": 3.2836879432624113,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -220056,7 +220056,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.550Z"
+        "createdAt": "2026-11-28T01:27:17.059Z"
       },
       "generatedByScan": true
     },
@@ -220080,7 +220080,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T16:39:36.775Z",
+          "retrievedAt": "2026-11-28T01:27:11.559Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -220460,14 +220460,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 140,
-        "meanTotal": 3.2928571428571427,
+        "matches": 141,
+        "meanTotal": 3.2836879432624113,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-84891",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.059Z",
+      "completedAt": "2026-11-28T01:27:17.603Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -221198,8 +221198,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 140,
-            "meanTotal": 3.2928571428571427,
+            "matches": 141,
+            "meanTotal": 3.2836879432624113,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -221544,7 +221544,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.059Z"
+        "createdAt": "2026-11-28T01:27:17.603Z"
       },
       "generatedByScan": true
     },
@@ -221568,7 +221568,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T16:39:36.775Z",
+          "retrievedAt": "2026-11-28T01:27:11.559Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -221948,14 +221948,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 140,
-        "meanTotal": 3.2928571428571427,
+        "matches": 141,
+        "meanTotal": 3.2836879432624113,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-84892",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.065Z",
+      "completedAt": "2026-11-28T01:27:17.610Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -222686,8 +222686,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 140,
-            "meanTotal": 3.2928571428571427,
+            "matches": 141,
+            "meanTotal": 3.2836879432624113,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -223032,7 +223032,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.065Z"
+        "createdAt": "2026-11-28T01:27:17.610Z"
       },
       "generatedByScan": true
     },
@@ -223056,7 +223056,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T16:39:36.775Z",
+          "retrievedAt": "2026-11-28T01:27:11.559Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -223436,14 +223436,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 140,
-        "meanTotal": 3.2928571428571427,
+        "matches": 141,
+        "meanTotal": 3.2836879432624113,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-84893",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.550Z",
+      "completedAt": "2026-11-28T01:27:17.060Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -224174,8 +224174,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 140,
-            "meanTotal": 3.2928571428571427,
+            "matches": 141,
+            "meanTotal": 3.2836879432624113,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -224520,7 +224520,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.550Z"
+        "createdAt": "2026-11-28T01:27:17.060Z"
       },
       "generatedByScan": true
     },
@@ -224544,7 +224544,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-          "retrievedAt": "2026-11-27T16:39:36.775Z",
+          "retrievedAt": "2026-11-28T01:27:11.559Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -224924,14 +224924,14 @@
         }
       },
       "leagueEnvironment": {
-        "matches": 140,
-        "meanTotal": 3.2928571428571427,
+        "matches": 141,
+        "meanTotal": 3.2836879432624113,
         "scope": "Current season same competition; source-reported completed scores"
       },
       "id": "ol-84894",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.556Z",
+      "completedAt": "2026-11-28T01:27:17.066Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -225662,8 +225662,8 @@
             }
           ],
           "leagueEnvironment": {
-            "matches": 140,
-            "meanTotal": 3.2928571428571427,
+            "matches": 141,
+            "meanTotal": 3.2836879432624113,
             "scope": "Current season same competition; source-reported completed scores"
           },
           "missing": []
@@ -226014,7 +226014,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.556Z"
+        "createdAt": "2026-11-28T01:27:17.066Z"
       },
       "generatedByScan": true
     },
@@ -343013,13 +343013,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T16:39:36.703Z",
+          "retrievedAt": "2026-11-28T01:27:11.674Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T16:39:37.005Z",
+          "retrievedAt": "2026-11-28T01:27:11.648Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -343406,7 +343406,7 @@
       "id": "ol-86639",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.065Z",
+      "completedAt": "2026-11-28T01:27:17.609Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -344483,7 +344483,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.065Z"
+        "createdAt": "2026-11-28T01:27:17.609Z"
       },
       "generatedByScan": true
     },
@@ -344507,7 +344507,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T16:39:36.703Z",
+          "retrievedAt": "2026-11-28T01:27:11.674Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -344894,7 +344894,7 @@
       "id": "ol-86640",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.059Z",
+      "completedAt": "2026-11-28T01:27:17.604Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -345970,7 +345970,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": false,
-        "createdAt": "2026-11-27T16:39:38.059Z"
+        "createdAt": "2026-11-28T01:27:17.604Z"
       },
       "generatedByScan": true
     },
@@ -345994,13 +345994,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T16:39:36.703Z",
+          "retrievedAt": "2026-11-28T01:27:11.674Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-27T16:39:36.745Z",
+          "retrievedAt": "2026-11-28T01:27:11.378Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -346387,7 +346387,7 @@
       "id": "ol-86641",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.060Z",
+      "completedAt": "2026-11-28T01:27:17.604Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -347464,7 +347464,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.060Z"
+        "createdAt": "2026-11-28T01:27:17.604Z"
       },
       "generatedByScan": true
     },
@@ -347488,13 +347488,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T16:39:36.703Z",
+          "retrievedAt": "2026-11-28T01:27:11.674Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T16:39:37.005Z",
+          "retrievedAt": "2026-11-28T01:27:11.648Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -347881,7 +347881,7 @@
       "id": "ol-86642",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.056Z",
+      "completedAt": "2026-11-28T01:27:17.600Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -348958,7 +348958,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.056Z"
+        "createdAt": "2026-11-28T01:27:17.600Z"
       },
       "generatedByScan": true
     },
@@ -348982,13 +348982,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T16:39:36.703Z",
+          "retrievedAt": "2026-11-28T01:27:11.674Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-          "retrievedAt": "2026-11-27T16:39:36.745Z",
+          "retrievedAt": "2026-11-28T01:27:11.378Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -349375,7 +349375,7 @@
       "id": "ol-86643",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.060Z",
+      "completedAt": "2026-11-28T01:27:17.604Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -350452,7 +350452,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.060Z"
+        "createdAt": "2026-11-28T01:27:17.604Z"
       },
       "generatedByScan": true
     },
@@ -350476,13 +350476,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T16:39:36.703Z",
+          "retrievedAt": "2026-11-28T01:27:11.674Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T16:39:37.005Z",
+          "retrievedAt": "2026-11-28T01:27:11.648Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -350869,7 +350869,7 @@
       "id": "ol-86644",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.558Z",
+      "completedAt": "2026-11-28T01:27:17.068Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -351946,7 +351946,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.558Z"
+        "createdAt": "2026-11-28T01:27:17.068Z"
       },
       "generatedByScan": true
     },
@@ -351970,7 +351970,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T16:39:36.703Z",
+          "retrievedAt": "2026-11-28T01:27:11.674Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -352357,7 +352357,7 @@
       "id": "ol-86645",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.555Z",
+      "completedAt": "2026-11-28T01:27:17.065Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -353433,7 +353433,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": false,
-        "createdAt": "2026-11-27T16:39:37.555Z"
+        "createdAt": "2026-11-28T01:27:17.065Z"
       },
       "generatedByScan": true
     },
@@ -353457,13 +353457,13 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T16:39:36.703Z",
+          "retrievedAt": "2026-11-28T01:27:11.674Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         },
         {
           "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-          "retrievedAt": "2026-11-27T16:39:37.005Z",
+          "retrievedAt": "2026-11-28T01:27:11.648Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -353850,7 +353850,7 @@
       "id": "ol-86646",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:37.556Z",
+      "completedAt": "2026-11-28T01:27:17.065Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -354927,7 +354927,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:37.556Z"
+        "createdAt": "2026-11-28T01:27:17.065Z"
       },
       "generatedByScan": true
     },
@@ -356439,7 +356439,7 @@
       "sources": [
         {
           "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-          "retrievedAt": "2026-11-27T16:39:36.703Z",
+          "retrievedAt": "2026-11-28T01:27:11.674Z",
           "classification": "SOURCE_REPORTED",
           "cacheMaxAgeMinutes": 15
         }
@@ -356826,7 +356826,7 @@
       "id": "ol-86648",
       "frameworkVersion": "V2.0",
       "pipelineVersion": "research-v5-horizon",
-      "completedAt": "2026-11-27T16:39:38.062Z",
+      "completedAt": "2026-11-28T01:27:17.606Z",
       "researchStatus": "partial",
       "evidenceQuality": "Limited • source reported",
       "classification": {
@@ -357903,7 +357903,7 @@
         "modelVersion": "research-v5-horizon",
         "classification": "EXPERIMENTAL_FORECAST",
         "referenceLineOnly": true,
-        "createdAt": "2026-11-27T16:39:38.062Z"
+        "createdAt": "2026-11-28T01:27:17.607Z"
       },
       "generatedByScan": true
     },
@@ -512312,7 +512312,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.065Z"
+      "createdAt": "2026-11-28T01:27:17.610Z"
     },
     {
       "eventId": "ol-83247",
@@ -512332,7 +512332,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.556Z"
+      "createdAt": "2026-11-28T01:27:17.066Z"
     },
     {
       "eventId": "ol-83248",
@@ -512352,7 +512352,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.063Z"
+      "createdAt": "2026-11-28T01:27:17.607Z"
     },
     {
       "eventId": "ol-83249",
@@ -512372,7 +512372,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.062Z"
+      "createdAt": "2026-11-28T01:27:17.607Z"
     },
     {
       "eventId": "ol-83250",
@@ -512392,7 +512392,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.552Z"
+      "createdAt": "2026-11-28T01:27:17.062Z"
     },
     {
       "eventId": "ol-83251",
@@ -512412,7 +512412,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.552Z"
+      "createdAt": "2026-11-28T01:27:17.062Z"
     },
     {
       "eventId": "ol-83252",
@@ -512432,27 +512432,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.552Z"
-    },
-    {
-      "eventId": "ol-83253",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "period": "full_match",
-      "settlement": "regulation",
-      "probability": 0.8900416581199341,
-      "fairOdds": 1.1235429160836525,
-      "odds": null,
-      "estimatedEV": null,
-      "calibrated": false,
-      "verdict": "RESEARCH ONLY",
-      "reason": "Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.",
-      "selection": "Over 1.5 goals",
-      "modelVersion": "research-v5-horizon",
-      "classification": "EXPERIMENTAL_FORECAST",
-      "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.042Z"
+      "createdAt": "2026-11-28T01:27:17.063Z"
     },
     {
       "eventId": "ol-83254",
@@ -512472,27 +512452,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.553Z"
-    },
-    {
-      "eventId": "ol-83707",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "period": "full_match",
-      "settlement": "regulation",
-      "probability": 0.8133690834870491,
-      "fairOdds": 1.229454155932302,
-      "odds": null,
-      "estimatedEV": null,
-      "calibrated": false,
-      "verdict": "RESEARCH ONLY",
-      "reason": "Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.",
-      "selection": "Over 1.5 goals",
-      "modelVersion": "research-v5-horizon",
-      "classification": "EXPERIMENTAL_FORECAST",
-      "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.041Z"
+      "createdAt": "2026-11-28T01:27:17.063Z"
     },
     {
       "eventId": "ol-83708",
@@ -512512,26 +512472,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.546Z"
-    },
-    {
-      "eventId": "ol-83709",
-      "type": "double_chance",
-      "side": "1X",
-      "period": "full_match",
-      "settlement": "regulation",
-      "probability": 0.7744144416748318,
-      "fairOdds": 1.2912982328135472,
-      "odds": null,
-      "estimatedEV": null,
-      "calibrated": false,
-      "verdict": "RESEARCH ONLY",
-      "reason": "Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.",
-      "selection": "Double chance 1X",
-      "modelVersion": "research-v5-horizon",
-      "classification": "EXPERIMENTAL_FORECAST",
-      "referenceLineOnly": false,
-      "createdAt": "2026-11-27T16:39:37.042Z"
+      "createdAt": "2026-11-28T01:27:17.055Z"
     },
     {
       "eventId": "ol-83710",
@@ -512551,7 +512492,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.546Z"
+      "createdAt": "2026-11-28T01:27:17.055Z"
     },
     {
       "eventId": "ol-83712",
@@ -512571,7 +512512,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.546Z"
+      "createdAt": "2026-11-28T01:27:17.055Z"
     },
     {
       "eventId": "ol-83715",
@@ -512591,7 +512532,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.056Z"
+      "createdAt": "2026-11-28T01:27:17.601Z"
     },
     {
       "eventId": "ol-83717",
@@ -512611,7 +512552,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.057Z"
+      "createdAt": "2026-11-28T01:27:17.601Z"
     },
     {
       "eventId": "ol-83719",
@@ -512631,7 +512572,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.057Z"
+      "createdAt": "2026-11-28T01:27:17.601Z"
     },
     {
       "eventId": "ol-83722",
@@ -512651,7 +512592,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.559Z"
+      "createdAt": "2026-11-28T01:27:17.068Z"
     },
     {
       "eventId": "ol-84885",
@@ -512671,7 +512612,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.546Z"
+      "createdAt": "2026-11-28T01:27:17.055Z"
     },
     {
       "eventId": "ol-84886",
@@ -512691,7 +512632,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.549Z"
+      "createdAt": "2026-11-28T01:27:17.059Z"
     },
     {
       "eventId": "ol-84887",
@@ -512711,27 +512652,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.549Z"
-    },
-    {
-      "eventId": "ol-84888",
-      "type": "total",
-      "side": "over",
-      "line": 1.5,
-      "period": "full_match",
-      "settlement": "regulation",
-      "probability": 0.8337864024525181,
-      "fairOdds": 1.1993479349850003,
-      "odds": null,
-      "estimatedEV": null,
-      "calibrated": false,
-      "verdict": "RESEARCH ONLY",
-      "reason": "Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.",
-      "selection": "Over 1.5 goals",
-      "modelVersion": "research-v5-horizon",
-      "classification": "EXPERIMENTAL_FORECAST",
-      "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.042Z"
+      "createdAt": "2026-11-28T01:27:17.059Z"
     },
     {
       "eventId": "ol-84889",
@@ -512751,7 +512672,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.062Z"
+      "createdAt": "2026-11-28T01:27:17.607Z"
     },
     {
       "eventId": "ol-84890",
@@ -512771,7 +512692,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.550Z"
+      "createdAt": "2026-11-28T01:27:17.059Z"
     },
     {
       "eventId": "ol-84891",
@@ -512791,7 +512712,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.059Z"
+      "createdAt": "2026-11-28T01:27:17.603Z"
     },
     {
       "eventId": "ol-84892",
@@ -512811,7 +512732,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.065Z"
+      "createdAt": "2026-11-28T01:27:17.610Z"
     },
     {
       "eventId": "ol-84893",
@@ -512831,7 +512752,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.550Z"
+      "createdAt": "2026-11-28T01:27:17.060Z"
     },
     {
       "eventId": "ol-84894",
@@ -512851,7 +512772,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.556Z"
+      "createdAt": "2026-11-28T01:27:17.066Z"
     },
     {
       "eventId": "ol-86639",
@@ -512871,7 +512792,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.065Z"
+      "createdAt": "2026-11-28T01:27:17.609Z"
     },
     {
       "eventId": "ol-86640",
@@ -512890,7 +512811,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": false,
-      "createdAt": "2026-11-27T16:39:38.059Z"
+      "createdAt": "2026-11-28T01:27:17.604Z"
     },
     {
       "eventId": "ol-86641",
@@ -512910,7 +512831,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.060Z"
+      "createdAt": "2026-11-28T01:27:17.604Z"
     },
     {
       "eventId": "ol-86642",
@@ -512930,7 +512851,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.056Z"
+      "createdAt": "2026-11-28T01:27:17.600Z"
     },
     {
       "eventId": "ol-86643",
@@ -512950,7 +512871,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.060Z"
+      "createdAt": "2026-11-28T01:27:17.604Z"
     },
     {
       "eventId": "ol-86644",
@@ -512970,7 +512891,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.558Z"
+      "createdAt": "2026-11-28T01:27:17.068Z"
     },
     {
       "eventId": "ol-86645",
@@ -512989,7 +512910,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": false,
-      "createdAt": "2026-11-27T16:39:37.555Z"
+      "createdAt": "2026-11-28T01:27:17.065Z"
     },
     {
       "eventId": "ol-86646",
@@ -513009,27 +512930,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.556Z"
-    },
-    {
-      "eventId": "ol-86647",
-      "type": "total",
-      "side": "under",
-      "line": 3.5,
-      "period": "full_match",
-      "settlement": "regulation",
-      "probability": 0.7387186504065553,
-      "fairOdds": 1.353695347274159,
-      "odds": null,
-      "estimatedEV": null,
-      "calibrated": false,
-      "verdict": "RESEARCH ONLY",
-      "reason": "Score-history baseline, not a calibrated betting recommendation. Reference lines are not verified bookmaker offers.",
-      "selection": "Under 3.5 goals",
-      "modelVersion": "research-v5-horizon",
-      "classification": "EXPERIMENTAL_FORECAST",
-      "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:37.047Z"
+      "createdAt": "2026-11-28T01:27:17.065Z"
     },
     {
       "eventId": "ol-86648",
@@ -513049,7 +512950,7 @@
       "modelVersion": "research-v5-horizon",
       "classification": "EXPERIMENTAL_FORECAST",
       "referenceLineOnly": true,
-      "createdAt": "2026-11-27T16:39:38.062Z"
+      "createdAt": "2026-11-28T01:27:17.607Z"
     }
   ],
   "picks": [],
@@ -513083,39 +512984,31 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/la1/2026",
-      "retrievedAt": "2026-11-27T16:39:36.354Z"
-    },
-    {
-      "sport": "Football",
-      "league": "2. Fußball-Bundesliga 2026/2027",
-      "status": "connected",
-      "fixtures": 3,
-      "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
-      "retrievedAt": "2026-11-27T16:39:36.467Z"
+      "retrievedAt": "2026-11-28T01:27:10.899Z"
     },
     {
       "sport": "Football",
       "league": "1. Fußball-Bundesliga 2026/2027",
       "status": "connected",
-      "fixtures": 3,
+      "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
-      "retrievedAt": "2026-11-27T16:39:36.486Z"
+      "retrievedAt": "2026-11-28T01:27:11.055Z"
+    },
+    {
+      "sport": "Football",
+      "league": "2. Fußball-Bundesliga 2026/2027",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/bl2/2026",
+      "retrievedAt": "2026-11-28T01:27:11.350Z"
     },
     {
       "sport": "Football",
       "league": "Premier League 2026/2027",
       "status": "connected",
-      "fixtures": 6,
-      "url": "https://api.openligadb.de/getmatchdata/pl/2026",
-      "retrievedAt": "2026-11-27T16:39:36.703Z"
-    },
-    {
-      "sport": "Football",
-      "league": "Europa League 2026/27",
-      "status": "connected",
       "fixtures": 0,
-      "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
-      "retrievedAt": "2026-11-27T16:39:36.745Z"
+      "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+      "retrievedAt": "2026-11-28T01:27:11.674Z"
     },
     {
       "sport": "Football",
@@ -513123,15 +513016,15 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/uecl2026/2026",
-      "retrievedAt": "2026-11-27T16:39:36.632Z"
+      "retrievedAt": "2026-11-28T01:27:11.526Z"
     },
     {
       "sport": "Football",
-      "league": "3. Liga 2026/2027",
+      "league": "Europa League 2026/27",
       "status": "connected",
-      "fixtures": 3,
-      "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
-      "retrievedAt": "2026-11-27T16:39:36.775Z"
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/uel2026/2026",
+      "retrievedAt": "2026-11-28T01:27:11.378Z"
     },
     {
       "sport": "Football",
@@ -513139,7 +513032,15 @@
       "status": "connected",
       "fixtures": 0,
       "url": "https://api.openligadb.de/getmatchdata/ucl/2026",
-      "retrievedAt": "2026-11-27T16:39:37.005Z"
+      "retrievedAt": "2026-11-28T01:27:11.648Z"
+    },
+    {
+      "sport": "Football",
+      "league": "3. Liga 2026/2027",
+      "status": "connected",
+      "fixtures": 0,
+      "url": "https://api.openligadb.de/getmatchdata/bl3/2026",
+      "retrievedAt": "2026-11-28T01:27:11.559Z"
     }
   ],
   "sourceAudit": [
@@ -513188,7 +513089,7 @@
     }
   ],
   "frameworkExecution": "Partial deterministic implementation. No hosted AI engine; advanced research not executed.",
-  "message": "38 upcoming saved fixtures · 38 experimental forecasts · no guaranteed outcomes.",
+  "message": "33 upcoming saved fixtures · 33 experimental forecasts · no guaranteed outcomes.",
   "activeSports": [
     "Football"
   ],
